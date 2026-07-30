@@ -1,0 +1,11 @@
+{
+ "probed_hosts_total": 38420,
+ "kept_servers": 8870,
+ "tier_A": 7977,
+ "tier_B": 893,
+ "oauth_confirmed": 6048,
+ "with_dcr": 4125,
+ "public_no_auth": 1232,
+ "bearer_or_apikey": 706,
+ "with_doc_citation": 489
+}

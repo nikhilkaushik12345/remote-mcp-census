@@ -1,0 +1,7204 @@
+{
+ "confirmed": [
+  {
+   "domain": "0x.org",
+   "name": "0X",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.0x.org/mcp"
+   ],
+   "server": "fern-docs-mcp-server",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "1inch.com",
+   "name": "1Inch",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.1inch.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://api.1inch.com",
+   "auth_note": "",
+   "doc": "https://api.1inch.com/mcp/protocol`"
+  },
+  {
+   "domain": "1password.com",
+   "name": "1Password",
+   "tier": "live",
+   "endpoints": [
+    "https://www.1password.dev/mcp",
+    "https://www.1password.dev/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "8x8.studio",
+   "name": "8x8",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.8x8.studio/mcp",
+    "https://mcp.8x8.studio/sse",
+    "https://mcp.8x8.studio/",
+    "https://mcp.8x8.studio/v1/mcp",
+    "https://mcp.8x8.studio/api/mcp",
+    "https://mcp.8x8.studio/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:*",
+    "mcp:agents:*",
+    "mcp:tools:*",
+    "mcp:read"
+   ],
+   "issuer": "https://mcp.8x8.studio",
+   "auth_note": "",
+   "doc": "https://docs.8x8.com/8x8WebHelp/8x8-ai-studio/Content/AI-studio/set-up-tools.htm"
+  },
+  {
+   "domain": "acronis.com",
+   "name": "Acronis",
+   "tier": "prm",
+   "endpoints": [
+    "https://partner.acronis.com/mcp",
+    "https://partner.acronis.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:read",
+    "mcp:write"
+   ],
+   "issuer": "https://partner.acronis.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "adobe.com",
+   "name": "Adobe",
+   "tier": "prm",
+   "endpoints": [
+    "https://cx-coworker-gateway.adobe.io/mcp",
+    "https://cx-coworker-gateway.adobe.io/mcp/",
+    "https://targetmcp.adobe.io/mcp",
+    "https://targetmcp.adobe.io/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email"
+   ],
+   "issuer": "https://cx-coworker-gateway.adobe.io",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "adobe.io",
+   "name": "Adobe",
+   "tier": "prm",
+   "endpoints": [
+    "https://cx-coworker-gateway.adobe.io/mcp",
+    "https://rtcdp-mcp.adobe.io/mcp",
+    "https://targetmcp.adobe.io/mcp",
+    "https://ajo-mcp.adobe.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email"
+   ],
+   "issuer": "https://cx-coworker-gateway.adobe.io",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "adobeaemcloud.com",
+   "name": "Adobeaemcloud",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.adobeaemcloud.com/mcp",
+    "https://mcp.adobeaemcloud.com/sse",
+    "https://mcp.adobeaemcloud.com/v1/mcp",
+    "https://mcp.adobeaemcloud.com/api/mcp",
+    "https://mcp.adobeaemcloud.com/mcp/",
+    "https://mcp.adobeaemcloud.com/v1/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://mcp.adobeaemcloud.com/adobe/mcp/`"
+  },
+  {
+   "domain": "affirm.com",
+   "name": "Affirm",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.affirm.com/mcp"
+   ],
+   "server": "Affirm-Home",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "afterpay.com",
+   "name": "Afterpay",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.afterpay.com/mcp"
+   ],
+   "server": "fern-docs-mcp-server",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "aikido.dev",
+   "name": "Aikido",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://apidocs.aikido.dev/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "airtable.com",
+   "name": "Airtable",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.airtable.com/mcp",
+    "https://mcp.airtable.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "data.records:read",
+    "data.records:write",
+    "schema.bases:read",
+    "schema.bases:write",
+    "data.recordComments:read",
+    "data.recordComments:write"
+   ],
+   "issuer": "https://airtable.com/oauth2/v1",
+   "auth_note": "",
+   "doc": "https://support.airtable.com/docs/using-the-airtable-mcp-server"
+  },
+  {
+   "domain": "aiven.io",
+   "name": "Aiven",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.aiven.live/mcp",
+    "https://mcp.aiven.live/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "projects",
+    "services",
+    "accounts:read"
+   ],
+   "issuer": "https://api.aiven.io",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "alasco.de",
+   "name": "Alasco",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.alasco.de/mcp",
+    "https://mcp.alasco.de/sse",
+    "https://mcp.alasco.de/",
+    "https://mcp.alasco.de/v1/mcp",
+    "https://mcp.alasco.de/api/mcp",
+    "https://mcp.alasco.de/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read",
+    "modify"
+   ],
+   "issuer": "https://mcp.alasco.de",
+   "auth_note": "",
+   "doc": "https://developer.alasco.de/mcp.html"
+  },
+  {
+   "domain": "allbridge.io",
+   "name": "Allbridge",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.allbridge.io/mcp",
+    "https://mcp.allbridge.io/",
+    "https://mcp.allbridge.io/mcp/"
+   ],
+   "server": "allbridge-mcp",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "allbridge.mcp"
+   ],
+   "issuer": "https://mcp.allbridge.io",
+   "auth_note": "",
+   "doc": "https://docs-core.allbridge.io/ai/allbridge-mcp/http-and-auth"
+  },
+  {
+   "domain": "amazon.com",
+   "name": "Amazon Web Services",
+   "tier": "live",
+   "endpoints": [
+    "https://developer.amazon.com/mcp"
+   ],
+   "server": "DevPortalSearchMCPServer",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html"
+  },
+  {
+   "domain": "amazonaws.com",
+   "name": "Amazon Web Services",
+   "tier": "live",
+   "endpoints": [
+    "https://aws-mcp.us-east-1.api.aws/mcp",
+    "https://aws-mcp.eu-central-1.api.aws/mcp"
+   ],
+   "server": "AWSMCP",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "https://us-east-1.oauth.signin.aws/",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "amply.finance",
+   "name": "Amply",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.amply.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "android.com",
+   "name": "Android",
+   "tier": "live",
+   "endpoints": [
+    "https://androidmanagement.googleapis.com/mcp"
+   ],
+   "server": "StatelessServer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "https://www.googleapis.com/auth/androidmanagement"
+   ],
+   "issuer": "https://accounts.google.com/",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "anduril.com",
+   "name": "Anduril",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developer.anduril.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 406)",
+   "doc": null
+  },
+  {
+   "domain": "ankr.com",
+   "name": "Ankr",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.ankr.com/mcp",
+    "https://mcp.ankr.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:tools"
+   ],
+   "issuer": "https://mcp.ankr.com",
+   "auth_note": "",
+   "doc": "https://www.ankr.com/docs/advanced-api/overview/"
+  },
+  {
+   "domain": "anome.xyz",
+   "name": "Anome",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.anome.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "arc.network",
+   "name": "Arc",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.arc.network/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 405)",
+   "doc": null
+  },
+  {
+   "domain": "arkadiko.finance",
+   "name": "Arkadiko",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.arkadiko.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "arkoselabs.com",
+   "name": "Arkoselabs",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.arkoselabs.com/mcp",
+    "https://mcp.arkoselabs.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:portal:read",
+    "mcp:portal:write",
+    "offline_access"
+   ],
+   "issuer": "https://mcp.arkoselabs.com",
+   "auth_note": "",
+   "doc": "https://developer.arkoselabs.com/docs/arkose-labs-api-guide"
+  },
+  {
+   "domain": "arubanetworks.com",
+   "name": "Arubanetworks",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developer.arubanetworks.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "asana.com",
+   "name": "Asana",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.asana.com/mcp",
+    "https://mcp.asana.com/sse",
+    "https://mcp.asana.com/mcp/",
+    "https://mcp.asana.com/mcp/sse",
+    "https://mcp.asana.com/mcp/server",
+    "https://mcp.asana.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "default"
+   ],
+   "issuer": "https://mcp.asana.com",
+   "auth_note": "",
+   "doc": "https://developers.asana.com/docs/using-asanas-mcp-server"
+  },
+  {
+   "domain": "aspidanet.com",
+   "name": "Aspidanet",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.aspidanet.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "asterdex.com",
+   "name": "Asterdex",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.asterdex.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "ati.su",
+   "name": "Ati",
+   "tier": "live",
+   "endpoints": [
+    "https://api.ati.su/gw/panda-mcp/public/v1/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "atlassian.com",
+   "name": "Atlassian",
+   "tier": "documented",
+   "endpoints": [
+    "https://mcp.atlassian.com/v1/mcp",
+    "https://mcp.atlassian.com/v1/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/"
+  },
+  {
+   "domain": "atlassian.net",
+   "name": "Atlassian",
+   "tier": "documented",
+   "endpoints": [
+    "https://mcp.atlassian.com/v1/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  },
+  {
+   "domain": "auth0.com",
+   "name": "Auth0",
+   "tier": "live",
+   "endpoints": [
+    "https://auth0.com/docs/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "auto.finance",
+   "name": "Auto",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.auto.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "avax.network",
+   "name": "Avax",
+   "tier": "live",
+   "endpoints": [
+    "https://build.avax.network/api/mcp"
+   ],
+   "server": "avalanche-mcp",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "backstage.io",
+   "name": "Backstage",
+   "tier": "live",
+   "endpoints": [
+    "https://demo.backstage.io/api/mcp-actions/v1"
+   ],
+   "server": "My Backstage Demo",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid"
+   ],
+   "issuer": "https://demo.backstage.io/api/auth",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "base.org",
+   "name": "Base",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.base.org/mcp",
+    "https://mcp.base.org/",
+    "https://mcp.base.org/mcp/",
+    "https://mcp.base.org/mcp/sse",
+    "https://mcp.base.org/mcp/server",
+    "https://mcp.base.org/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://mcp.base.org`"
+  },
+  {
+   "domain": "basin.exchange",
+   "name": "Basin",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.basin.exchange/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bean.money",
+   "name": "Bean",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.bean.money/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "beefy.finance",
+   "name": "Beefy",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.beefy.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "benqi.fi",
+   "name": "Benqi",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.benqi.fi/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "berachain.com",
+   "name": "Berachain",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.berachain.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "billflow.io",
+   "name": "Billflow",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.billflow.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bionic.ai",
+   "name": "Bionic",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.bionic.ai/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "bitbucket.org",
+   "name": "Bitbucket",
+   "tier": "documented",
+   "endpoints": [
+    "https://mcp.atlassian.com/v1/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  },
+  {
+   "domain": "bitgo.com",
+   "name": "Bitgo",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.bitgo.com/mcp"
+   ],
+   "server": "bitgo-developer-portal",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bitkan.com",
+   "name": "Bitkan",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.bitkan.com/mcp"
+   ],
+   "server": "bitkan-mcp",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bitkubnft.com",
+   "name": "Bitkubnft",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.bitkubnft.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bitoasis.net",
+   "name": "Bitoasis",
+   "tier": "protected",
+   "endpoints": [
+    "https://support.bitoasis.net/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "bitpanda.com",
+   "name": "Bitpanda",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.bitpanda.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://mcp.fusion.bitpanda.com`"
+  },
+  {
+   "domain": "bitrise.io",
+   "name": "Bitrise",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.bitrise.io/mcp",
+    "https://mcp.bitrise.io/sse",
+    "https://mcp.bitrise.io/",
+    "https://mcp.bitrise.io/v1/mcp",
+    "https://mcp.bitrise.io/api/mcp",
+    "https://mcp.bitrise.io/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "email",
+    "offline_access",
+    "openid",
+    "profile"
+   ],
+   "issuer": "https://oauth.bitrise.io",
+   "auth_note": "",
+   "doc": "https://docs.bitrise.io/en/bitrise-platform/ai/bitrise-mcp"
+  },
+  {
+   "domain": "bitso.com",
+   "name": "Bitso",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.bitso.com/mcp"
+   ],
+   "server": "Bitso",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "blockchain.com",
+   "name": "Blockchain",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.blockchain.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "blockpi.io",
+   "name": "Blockpi",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.blockpi.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bluehost.com",
+   "name": "Bluehost",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.bluehost.com/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "domains:read",
+    "hosting:read"
+   ],
+   "issuer": "https://oauth.bluehost.com",
+   "auth_note": "",
+   "doc": "https://www.bluehost.com/help/article/remote-database-connection-setup"
+  },
+  {
+   "domain": "bokundemo.com",
+   "name": "Bokundemo",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://mcp.bokundemo.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "bokuntest.com",
+   "name": "Bokuntest",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://mcp.bokuntest.com/mcp",
+    "https://api.bokuntest.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "booking.com",
+   "name": "Booking",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.booking.com/mcp",
+    "https://api-docs.booking.com/mcp"
+   ],
+   "server": "MCP server",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email",
+    "offline_access"
+   ],
+   "issuer": "https://developers.booking.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "box.com",
+   "name": "Box",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.box.com/mcp",
+    "https://mcp.box.com/sse",
+    "https://mcp.box.com/",
+    "https://api.box.com/mcp",
+    "https://mcp.box.com/v1/mcp",
+    "https://mcp.box.com/api/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://api.box.com/",
+   "auth_note": "",
+   "doc": "https://developer.box.com/guides/box-mcp/setup"
+  },
+  {
+   "domain": "bridge.xyz",
+   "name": "Bridge",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.bridge.xyz/mcp",
+    "https://mcp.bridge.xyz/sse",
+    "https://mcp.bridge.xyz/",
+    "https://mcp.bridge.xyz/v1/mcp",
+    "https://mcp.bridge.xyz/api/mcp",
+    "https://mcp.bridge.xyz/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://www.bridgetown.builders/docs/getting-started/connect-mcp-client"
+  },
+  {
+   "domain": "bugcrowd.com",
+   "name": "Bugcrowd",
+   "tier": "authwall",
+   "endpoints": [
+    "https://stream.bugcrowd.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "bykea.store",
+   "name": "Bykea",
+   "tier": "live",
+   "endpoints": [
+    "https://bykea.store/api/mcp"
+   ],
+   "server": "storefront-renderer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/81469407525",
+   "auth_note": "",
+   "doc": "https://bykea.store/policies/terms-of-service"
+  },
+  {
+   "domain": "byreal.io",
+   "name": "Byreal",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.byreal.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "caldera.xyz",
+   "name": "Caldera",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.caldera.xyz/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "callroute.com",
+   "name": "Callroute",
+   "tier": "prm",
+   "endpoints": [
+    "https://callroute.com/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://callroute.com/"
+  },
+  {
+   "domain": "canva-apps.cn",
+   "name": "Canva Apps",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.canva.cn/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "profile:read",
+    "design:meta:read",
+    "design:content:write",
+    "design:content:read",
+    "folder:read",
+    "folder:write"
+   ],
+   "issuer": "https://mcp.canva.cn",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "canva-apps.com",
+   "name": "Canva Apps",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.canva.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "profile:read",
+    "design:meta:read",
+    "design:content:write",
+    "design:content:read",
+    "folder:read",
+    "folder:write"
+   ],
+   "issuer": "https://mcp.canva.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "canva.cn",
+   "name": "Canva (China)",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.canva.cn/mcp",
+    "https://mcp.canva.cn/v1/mcp",
+    "https://mcp.canva.cn/mcp/",
+    "https://mcp.canva.cn/mcp/sse",
+    "https://mcp.canva.cn/mcp/server",
+    "https://mcp.canva.cn/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "profile:read",
+    "design:meta:read",
+    "design:content:write",
+    "design:content:read",
+    "folder:read",
+    "folder:write"
+   ],
+   "issuer": "https://mcp.canva.cn",
+   "auth_note": "",
+   "doc": "https://www.canva.dev/docs/mcp/"
+  },
+  {
+   "domain": "canva.com",
+   "name": "Canva",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.canva.com/mcp",
+    "https://mcp.canva.com/v1/mcp",
+    "https://mcp.canva.com/mcp/",
+    "https://mcp.canva.com/mcp/sse",
+    "https://mcp.canva.com/mcp/server",
+    "https://mcp.canva.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "profile:read",
+    "design:meta:read",
+    "design:content:write",
+    "design:content:read",
+    "folder:read",
+    "folder:write"
+   ],
+   "issuer": "https://mcp.canva.com",
+   "auth_note": "",
+   "doc": "https://www.canva.dev/docs/mcp/"
+  },
+  {
+   "domain": "cash.app",
+   "name": "Cash",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.cash.app/mcp"
+   ],
+   "server": "fern-docs-mcp-server",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "celo.org",
+   "name": "Celo",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.celo.org/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "chime.com",
+   "name": "Chime",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developer.chime.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "circle.com",
+   "name": "Circle",
+   "tier": "live",
+   "endpoints": [
+    "https://api.circle.com/v1/codegen/mcp"
+   ],
+   "server": "Circle AI Codegen MCP Server V2",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "citrea.xyz",
+   "name": "Citrea",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.citrea.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "classdojo.com",
+   "name": "Classdojo",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.classdojo.com/mcp",
+    "https://mcp.classdojo.com/sse",
+    "https://mcp.classdojo.com/mcp/",
+    "https://mcp.classdojo.com/mcp/sse",
+    "https://mcp.classdojo.com/messages",
+    "https://mcp.classdojo.com/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.classdojo.com",
+   "auth_note": "",
+   "doc": "https://mcp.classdojo.com/"
+  },
+  {
+   "domain": "clearme.com",
+   "name": "Clearme",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.clearme.com/mcp"
+   ],
+   "server": "CLEAR1",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "cleartrip.com",
+   "name": "Cleartrip",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.cleartrip.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.cleartrip.com/",
+   "auth_note": "",
+   "doc": "https://saasdoc.cleartrip.com/reference/api-mechanism"
+  },
+  {
+   "domain": "cloudflare.com",
+   "name": "Cloudflare",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.mcp.cloudflare.com/mcp",
+    "https://mcp.cloudflare.com/mcp",
+    "https://bindings.mcp.cloudflare.com/mcp",
+    "https://observability.mcp.cloudflare.com/mcp"
+   ],
+   "server": "docs-ai-search",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://mcp.cloudflare.com/mcp"
+  },
+  {
+   "domain": "cloudinary.com",
+   "name": "Cloudinary",
+   "tier": "prm",
+   "endpoints": [
+    "https://asset-management.mcp.cloudinary.com/mcp",
+    "https://analysis.mcp.cloudinary.com/sse",
+    "https://environment-config.mcp.cloudinary.com/mcp",
+    "https://mediaflows.mcp.cloudinary.com/v2/mcp",
+    "https://structured-metadata.mcp.cloudinary.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email",
+    "offline_access",
+    "asset_management",
+    "upload"
+   ],
+   "issuer": "https://asset-management.mcp.cloudinary.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "cm.com",
+   "name": "Cm",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.cm.com/mcp",
+    "https://api.cm.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://knowledgecenter.cm.com/knowledge-center/halo/halo-integrations/mcp"
+  },
+  {
+   "domain": "cmtelecom.com",
+   "name": "CM.com",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.cmtelecom.com/mcp",
+    "https://api.cmtelecom.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "coda.io",
+   "name": "Coda",
+   "tier": "protected",
+   "endpoints": [
+    "https://coda.io/apis/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:all"
+   ],
+   "issuer": "https://coda.io",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "coin98.com",
+   "name": "Coin98",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.coin98.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "coinbase.com",
+   "name": "Coinbase",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.cdp.coinbase.com/mcp",
+    "https://docs.cdp.coinbase.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "coindesk.com",
+   "name": "Coindesk",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.coindesk.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.coindesk.com",
+   "auth_note": "",
+   "doc": "https://mcp.coindesk.com/"
+  },
+  {
+   "domain": "coinex.com",
+   "name": "Coinex",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.coinex.com/mcp"
+   ],
+   "server": "coinex-mcp-server",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://mcp.coinex.com/mcp`"
+  },
+  {
+   "domain": "coingecko.com",
+   "name": "Coingecko",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.coingecko.com/mcp",
+    "https://mcp.coingecko.com/sse",
+    "https://docs.coingecko.com/mcp",
+    "https://mcp.api.coingecko.com/mcp",
+    "https://mcp.pro-api.coingecko.com/mcp",
+    "https://mcp.pro-api.coingecko.com/mcp&quot"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "coinmarketcap.com",
+   "name": "Coinmarketcap",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.coinmarketcap.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp"
+   ],
+   "issuer": "https://mcp.coinmarketcap.com",
+   "auth_note": "",
+   "doc": "https://coinmarketcap.com/api/documentation/ai-agent-hub/mcp"
+  },
+  {
+   "domain": "core.app",
+   "name": "Core",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.core.app/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://docs.getcore.me/mcp/configuration"
+  },
+  {
+   "domain": "cronos.org",
+   "name": "Cronos",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.cronos.org/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "cronosid.xyz",
+   "name": "Cronosid",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.cronosid.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "crypto.com",
+   "name": "Crypto",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.crypto.com/market-data/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "cube.exchange",
+   "name": "Cube",
+   "tier": "prm",
+   "endpoints": [
+    "https://cube.exchange/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [
+    "mcp.cube"
+   ],
+   "issuer": "https://id.cube.exchange",
+   "auth_note": "",
+   "doc": "https://docs.cube.dev/docs/integrations/mcp-server"
+  },
+  {
+   "domain": "cybersource.com",
+   "name": "Cybersource",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://shop-hardware.cybersource.com/api/ucp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/18758157",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "dana.id",
+   "name": "Dana",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.dana.id/mcp",
+    "https://mcp.dana.id/sse",
+    "https://mcp.dana.id/",
+    "https://mcp.dana.id/v1/mcp",
+    "https://mcp.dana.id/api/mcp",
+    "https://mcp.dana.id/mcp/"
+   ],
+   "server": "openaidanaapp",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read:user",
+    "user:email"
+   ],
+   "issuer": "https://mcp.dana.id",
+   "auth_note": "",
+   "doc": "https://dashboard.dana.id/api-docs-v2/guide/integration-mcp"
+  },
+  {
+   "domain": "databricks.com",
+   "name": "Databricks",
+   "tier": "documented",
+   "endpoints": [
+    "https://api.databricks.com/api/2.0/mcp/functions"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://docs.databricks.com/aws/en/agents/mcp/managed-mcp"
+  },
+  {
+   "domain": "datacamp.com",
+   "name": "Datacamp",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.datacamp.com/mcp",
+    "https://mcp.datacamp.com/v1/mcp",
+    "https://mcp.datacamp.com/mcp/"
+   ],
+   "server": "datacamp-mcp-server",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://www.datacamp.com/courses/introduction-to-model-context-protocol-mcp"
+  },
+  {
+   "domain": "datadome.co",
+   "name": "Datadome",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.datadome.co/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid"
+   ],
+   "issuer": "https://mcp.datadome.co/",
+   "auth_note": "",
+   "doc": "https://docs.datadome.co/docs/mcp-servers-protection"
+  },
+  {
+   "domain": "decathlon.com",
+   "name": "Decathlon",
+   "tier": "live",
+   "endpoints": [
+    "https://decathlon.com/api/mcp"
+   ],
+   "server": "storefront-renderer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/13306287",
+   "auth_note": "",
+   "doc": "https://www.decathlon.com/api/ucp/mcp`"
+  },
+  {
+   "domain": "decentraland.org",
+   "name": "Decentraland",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.decentraland.org/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "defisaver.com",
+   "name": "Defisaver",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.defisaver.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "deribit.com",
+   "name": "Deribit",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.deribit.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "deriv.com",
+   "name": "Deriv",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp-api.deriv.com/mcp"
+   ],
+   "server": "MCP Server on Cloud Run",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "desyn.io",
+   "name": "Desyn",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.desyn.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "digitalocean.com",
+   "name": "Digitalocean",
+   "tier": "protected",
+   "endpoints": [
+    "https://apps.mcp.digitalocean.com/mcp",
+    "https://droplets.mcp.digitalocean.com/mcp",
+    "https://docs.mcp.digitalocean.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://cloud.digitalocean.com",
+   "auth_note": "",
+   "doc": "https://docs.digitalocean.com/reference/mcp/configure-mcp/"
+  },
+  {
+   "domain": "district.in",
+   "name": "District",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp-server.district.in/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  },
+  {
+   "domain": "do-ai.run",
+   "name": "Do Ai",
+   "tier": "authwall",
+   "endpoints": [
+    "https://kbaas.do-ai.run/v1/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "docsend.com",
+   "name": "Docsend",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.docsend.com/mcp",
+    "https://docsend.com/mcp",
+    "https://api.docsend.com/mcp",
+    "https://mcp.docsend.com/mcp/",
+    "https://api.docsend.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "documents:read",
+    "spaces:read",
+    "spaces:write",
+    "analytics:read",
+    "contacts:read"
+   ],
+   "issuer": "https://docsend.com",
+   "auth_note": "",
+   "doc": "https://docsend2pdf.com/mcp-docs"
+  },
+  {
+   "domain": "doordash.com",
+   "name": "Doordash",
+   "tier": "authwall",
+   "endpoints": [
+    "https://openapi.doordash.com/mcp/consumer"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "mcp:consumer:write"
+   ],
+   "issuer": "https://identity.doordash.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "doppler.com",
+   "name": "Doppler",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.doppler.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "dropbox.com",
+   "name": "Dropbox",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.dropbox.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "account_info.read",
+    "file_requests.read",
+    "file_requests.write",
+    "files.content.read",
+    "files.content.write",
+    "files.metadata.read"
+   ],
+   "issuer": "https://www.dropbox.com",
+   "auth_note": "",
+   "doc": "https://help.dropbox.com/integrations/connect-dropbox-mcp-server"
+  },
+  {
+   "domain": "ean.com",
+   "name": "Expedia (EAN)",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.ean.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "demand-solutions.demand-api-wrappers-prod.all"
+   ],
+   "issuer": "https://api.expediagroup.com/identity/oauth2/v3/oauth2",
+   "auth_note": "",
+   "doc": "https://www.ean-search.org/mcp"
+  },
+  {
+   "domain": "ecwid.com",
+   "name": "Ecwid",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.ecwid.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "elastic.co",
+   "name": "Elastic",
+   "tier": "protected",
+   "endpoints": [
+    "https://learn.elastic.co/v1/mcp",
+    "https://learn.elastic.co/mcp/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": false,
+   "scopes": [
+    "api"
+   ],
+   "issuer": "https://elastic.docebosaas.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "epam.com",
+   "name": "Epam",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.epam.com/mcp/",
+    "https://mcp.epam.com/mcp/sse",
+    "https://mcp.epam.com/mcp/server",
+    "https://mcp.epam.com/mcp/mcp",
+    "https://mcp.epam.com/api/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.epam.com",
+   "auth_note": "",
+   "doc": "https://epam-a74ef051.mintlify.app/integrations/mcp/create-and-use-remote-mcp"
+  },
+  {
+   "domain": "ethena.fi",
+   "name": "Ethena",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.ethena.fi/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "etherscan.io",
+   "name": "Etherscan",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.etherscan.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "etoro.com",
+   "name": "Etoro",
+   "tier": "live",
+   "endpoints": [
+    "https://api-portal.etoro.com/mcp",
+    "https://mcp.public-api.etoro.com"
+   ],
+   "server": "eToro.Public.Api.Mcp",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "etsy.com",
+   "name": "Etsy",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.api.etsycloud.com/mcp",
+    "https://mcp.api.etsycloud.com/mcp/"
+   ],
+   "server": "etsy-openapi-mcp",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "evernote.com",
+   "name": "Evernote",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.evernote.com/mcp",
+    "https://mcp.evernote.com/sse",
+    "https://mcp.evernote.com/",
+    "https://mcp.evernote.com/v1/mcp",
+    "https://mcp.evernote.com/api/mcp",
+    "https://mcp.evernote.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read",
+    "create",
+    "write",
+    "delete"
+   ],
+   "issuer": "https://accounts.evernote.com",
+   "auth_note": "",
+   "doc": "https://dev.evernote.com/mcp"
+  },
+  {
+   "domain": "expedia.com",
+   "name": "Expedia",
+   "tier": "documented",
+   "endpoints": [
+    "https://www.expedia.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "facebook.com",
+   "name": "Facebook",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.facebook.com/ads"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "ads_management",
+    "ads_read",
+    "catalog_management",
+    "business_management",
+    "pages_show_list",
+    "instagram_basic"
+   ],
+   "issuer": "https://mcp.facebook.com/ads",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "faraday.ai",
+   "name": "Faraday",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.faraday.ai/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.faraday.ai",
+   "auth_note": "",
+   "doc": "https://faraday.ai/docs/features/mcp"
+  },
+  {
+   "domain": "ferroprotocol.com",
+   "name": "Ferroprotocol",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.ferroprotocol.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "fidentity.ch",
+   "name": "Fidentity",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.fidentity.ch/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "figma.com",
+   "name": "Figma",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.figma.com/mcp",
+    "https://api.figma.com/mcp",
+    "https://mcp.figma.com/mcp/",
+    "https://mcp.figma.com/mcp/sse",
+    "https://mcp.figma.com/mcp/server",
+    "https://mcp.figma.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:connect"
+   ],
+   "issuer": "https://api.figma.com",
+   "auth_note": "",
+   "doc": "https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+  },
+  {
+   "domain": "files.com",
+   "name": "Files",
+   "tier": "protected",
+   "endpoints": [
+    "https://mysite.files.com/api/ai/mcp/v1/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mysite.files.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "fin.ai",
+   "name": "Fin",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.intercom.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  },
+  {
+   "domain": "fireblocks.io",
+   "name": "Fireblocks",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.fireblocks.io/mcp",
+    "https://mcp.fireblocks.io/mcp/",
+    "https://mcp.fireblocks.io/mcp/sse",
+    "https://mcp.fireblocks.io/mcp/server",
+    "https://mcp.fireblocks.io/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://developers.fireblocks.com/mcp"
+  },
+  {
+   "domain": "fivetran.com",
+   "name": "Fivetran",
+   "tier": "protected",
+   "endpoints": [
+    "https://learn.fivetran.com/v1/mcp",
+    "https://learn.fivetran.com/mcp/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": false,
+   "scopes": [
+    "api"
+   ],
+   "issuer": "https://hvr-software.docebosaas.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "flourish.studio",
+   "name": "Flourish",
+   "tier": "protected",
+   "endpoints": [
+    "https://flourish-mcp-server.prd.k8s.flourishsoftware.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://flourish-mcp-server.prd.k8s.flourishsoftware.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "folks.finance",
+   "name": "Folks",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.folks.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "frame.io",
+   "name": "Frame",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.frame.io/mcp",
+    "https://mcp.frame.io/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "AdobeID"
+   ],
+   "issuer": "https://mcp.frame.io",
+   "auth_note": "",
+   "doc": "https://next.developer.frame.io/_mcp/server"
+  },
+  {
+   "domain": "frankencoin.com",
+   "name": "Frankencoin",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.frankencoin.com/mcp",
+    "https://mcp.frankencoin.com/messages"
+   ],
+   "server": "frankencoin",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://mcp.frankencoin.com/mcp`"
+  },
+  {
+   "domain": "freshdesk.com",
+   "name": "Freshdesk",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.freshdesk.com/mcp",
+    "https://mcp.freshdesk.com/mcp/",
+    "https://mcp.freshdesk.com/mcp/sse",
+    "https://mcp.freshdesk.com/mcp/server",
+    "https://mcp.freshdesk.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk-eap-"
+  },
+  {
+   "domain": "freshservice.com",
+   "name": "Freshservice",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.freshservice.com/mcp",
+    "https://mcp.freshservice.com/mcp/",
+    "https://mcp.freshservice.com/mcp/sse",
+    "https://mcp.freshservice.com/mcp/server",
+    "https://mcp.freshservice.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://support.freshservice.com/support/solutions/articles/50000012678-model-context-protocol-mcp-integration-in-freshservice-eap-"
+  },
+  {
+   "domain": "front.com",
+   "name": "Front",
+   "tier": "live",
+   "endpoints": [
+    "https://dev.frontapp.com/mcp",
+    "https://mcp.frontapp.com/mcp"
+   ],
+   "server": "Front Platform",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "frontapp.com",
+   "name": "Front",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.frontapp.com/mcp",
+    "https://mcp.frontapp.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "feature:mcp"
+   ],
+   "issuer": "https://app.frontapp.com",
+   "auth_note": "",
+   "doc": "https://dev.frontapp.com/docs/mcp-server"
+  },
+  {
+   "domain": "frontegg.com",
+   "name": "Frontegg",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.frontegg.com/mcp",
+    "https://mcp.frontegg.com/sse",
+    "https://mcp.frontegg.com/",
+    "https://mcp.frontegg.com/v1/mcp",
+    "https://mcp.frontegg.com/mcp/",
+    "https://mcp.frontegg.com/v1/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://developers.frontegg.com/agen-for-saas/configuration/hosting-mcp-gateway"
+  },
+  {
+   "domain": "fulcrom.finance",
+   "name": "Fulcrom",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.fulcrom.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "gate.com",
+   "name": "Gate",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.gate.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "getmoneytree.com",
+   "name": "Moneytree",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.getmoneytree.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "accounts_read",
+    "transactions_read",
+    "investment_accounts_read",
+    "investment_transactions_read",
+    "points_read"
+   ],
+   "issuer": "https://myaccount.getmoneytree.com",
+   "auth_note": "",
+   "doc": "https://docs.link.getmoneytree.com/docs/api-domain"
+  },
+  {
+   "domain": "gitlab.com",
+   "name": "Gitlab",
+   "tier": "prm",
+   "endpoints": [
+    "https://gitlab.com/api/v4/mcp",
+    "https://gitlab.com/api/v4/orbit/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp"
+   ],
+   "issuer": "https://gitlab.com",
+   "auth_note": "",
+   "doc": "https://docs.gitlab.com/user/model_context_protocol/mcp_server/"
+  },
+  {
+   "domain": "glean.com",
+   "name": "Glean",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.glean.com/mcp",
+    "https://developers.glean.com/api/mcp"
+   ],
+   "server": "glean-developer-docs",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "globalticket.com",
+   "name": "Globalticket",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.globalticket.com/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "gmgn.ai",
+   "name": "Gmgn",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.gmgn.ai/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "gobob.xyz",
+   "name": "Gobob",
+   "tier": "prm",
+   "endpoints": [
+    "https://gobob.xyz/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": false,
+   "scopes": [
+    "api:read"
+   ],
+   "issuer": "https://gobob.xyz",
+   "auth_note": "",
+   "doc": "https://docs.gobob.xyz/docs/reference/"
+  },
+  {
+   "domain": "gocardless-staging.io",
+   "name": "GoCardless (staging)",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.gocardless-staging.io/mcp",
+    "https://mcp.gocardless-staging.io/",
+    "https://mcp.gocardless-staging.io/mcp/",
+    "https://mcp.gocardless-staging.io/mcp/sse",
+    "https://mcp.gocardless-staging.io/mcp/server",
+    "https://mcp.gocardless-staging.io/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.gocardless-staging.io",
+   "auth_note": "",
+   "doc": "https://mcp.gocardless-staging.io/"
+  },
+  {
+   "domain": "gocardless.com",
+   "name": "Gocardless",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.gocardless.com/mcp",
+    "https://mcp.gocardless.com/",
+    "https://mcp.gocardless.com/mcp/",
+    "https://mcp.gocardless.com/mcp/sse",
+    "https://mcp.gocardless.com/mcp/server",
+    "https://mcp.gocardless.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.gocardless.com",
+   "auth_note": "",
+   "doc": "https://developer.gocardless.com/developer-tools/mcp/"
+  },
+  {
+   "domain": "google.com",
+   "name": "Google Cloud",
+   "tier": "live",
+   "endpoints": [
+    "https://agentregistry.googleapis.com/mcp"
+   ],
+   "server": "StatelessServer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "https://www.googleapis.com/auth/agentregistry.read-write"
+   ],
+   "issuer": "https://accounts.google.com/",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "googleapis.com",
+   "name": "Google Cloud",
+   "tier": "live",
+   "endpoints": [
+    "https://bigquery.googleapis.com/mcp",
+    "https://run.googleapis.com/mcp",
+    "https://compute.googleapis.com/mcp"
+   ],
+   "server": "StatelessServer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "https://www.googleapis.com/auth/bigquery"
+   ],
+   "issuer": "https://accounts.google.com/",
+   "auth_note": "",
+   "doc": "https://aiplatform.googleapis.com/mcp/generate`"
+  },
+  {
+   "domain": "gouv.fr",
+   "name": "Gouv",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.data.gouv.fr/mcp"
+   ],
+   "server": "data.gouv.fr MCP server",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "granite.world",
+   "name": "Granite",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.granite.world/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "greenhouse.io",
+   "name": "Greenhouse",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.us.greenhouse.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "greenhouse:mcp_client"
+   ],
+   "issuer": "https://mcp.us.greenhouse.io",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "h2.finance",
+   "name": "H2",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.h2.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "hacken.io",
+   "name": "Hacken",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.hackenproof.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "hackerone.com",
+   "name": "Hackerone",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://hackerone.com/mcp",
+    "https://api.hackerone.com/mcp",
+    "https://api.hackerone.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://docs.hackerone.com/en/articles/16069077-hackerone-mcp-server-setup-tool-reference"
+  },
+  {
+   "domain": "harvest.finance",
+   "name": "Harvest",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.harvest.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "hellosign.com",
+   "name": "Hellosign",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.hellosign.com/mcp"
+   ],
+   "server": "fern-docs-mcp-server",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "here.com",
+   "name": "Here",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.here.com/mcp"
+   ],
+   "server": "HERE Technologies Documentation | HERE Docs",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "hermetica.fi",
+   "name": "Hermetica",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.hermetica.fi/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "hh.ru",
+   "name": "Hh",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.hh.ru/mcp",
+    "https://mcp.hh.ru/sse",
+    "https://mcp.hh.ru/",
+    "https://mcp.hh.ru/v1/mcp",
+    "https://mcp.hh.ru/api/mcp",
+    "https://mcp.hh.ru/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://hh.ru/"
+  },
+  {
+   "domain": "hibachi.xyz",
+   "name": "Hibachi",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.hibachi.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "hope.money",
+   "name": "Hope",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.hope.money/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "hostinger.com",
+   "name": "Hostinger",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.hostinger.com/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:use"
+   ],
+   "issuer": "https://auth.hostinger.com",
+   "auth_note": "",
+   "doc": "https://www.hostinger.com/support/11079316-hostinger-api-mcp-server/"
+  },
+  {
+   "domain": "hubspot.com",
+   "name": "Hubspot",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.hubspot.com/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.hubspot.com",
+   "auth_note": "",
+   "doc": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server"
+  },
+  {
+   "domain": "hubspotpagebuilder.com",
+   "name": "Hubspotpagebuilder",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.hubspotpagebuilder.com/mcp",
+    "https://mcp.hubspotpagebuilder.com/sse",
+    "https://mcp.hubspotpagebuilder.com/",
+    "https://mcp.hubspotpagebuilder.com/v1/mcp",
+    "https://mcp.hubspotpagebuilder.com/api/mcp",
+    "https://mcp.hubspotpagebuilder.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "hubspotpagebuilder.eu",
+   "name": "Hubspotpagebuilder",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.hubspotpagebuilder.eu/mcp",
+    "https://mcp.hubspotpagebuilder.eu/sse",
+    "https://mcp.hubspotpagebuilder.eu/",
+    "https://mcp.hubspotpagebuilder.eu/v1/mcp",
+    "https://mcp.hubspotpagebuilder.eu/api/mcp",
+    "https://mcp.hubspotpagebuilder.eu/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "hyperlane.xyz",
+   "name": "Hyperlane",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.hyperlane.xyz/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "ic0.app",
+   "name": "Ic0",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.ic0.app/mcp",
+    "https://mcp.ic0.app/sse",
+    "https://mcp.ic0.app/",
+    "https://mcp.ic0.app/v1/mcp",
+    "https://mcp.ic0.app/api/mcp",
+    "https://mcp.ic0.app/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 400)",
+   "doc": null
+  },
+  {
+   "domain": "immutable.com",
+   "name": "Immutable",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.immutable.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "indeed.com",
+   "name": "Indeed",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.indeed.com/claude/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "job_seeker.company.details.read",
+    "job_seeker.jobs.search",
+    "job_seeker.profile.read",
+    "offline_access"
+   ],
+   "issuer": "https://secure.indeed.com/",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "infinifi.xyz",
+   "name": "Infinifi",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.infinifi.xyz/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "instacart.com",
+   "name": "Instacart",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.instacart.com/mcp",
+    "https://mcp.instacart.com/mcp/"
+   ],
+   "server": "InstacartRecipeServer",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://docs.instacart.com/developer_platform_api/guide/tutorials/mcp"
+  },
+  {
+   "domain": "instacart.tools",
+   "name": "Instacart",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.dev.instacart.tools/mcp"
+   ],
+   "server": "InstacartRecipeServer",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "intercom.com",
+   "name": "Intercom",
+   "tier": "documented",
+   "endpoints": [
+    "https://mcp.eu.intercom.com/mcp",
+    "https://mcp.intercom.com/mcp",
+    "https://mcp.intercom.com/sse",
+    "https://mcp.intercom.com/mcp/",
+    "https://mcp.intercom.com/mcp/sse",
+    "https://mcp.intercom.com/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://developers.intercom.com/docs/guides/mcp"
+  },
+  {
+   "domain": "internetcomputer.org",
+   "name": "Internet Computer / DFINITY",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.internetcomputer.org/mcp",
+    "https://mcp.internetcomputer.org/mcp/",
+    "https://mcp.internetcomputer.org/mcp/sse",
+    "https://mcp.internetcomputer.org/mcp/server",
+    "https://mcp.internetcomputer.org/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.internetcomputer.org/mcp",
+   "auth_note": "",
+   "doc": "https://docs.internetcomputer.org/"
+  },
+  {
+   "domain": "jora.com",
+   "name": "Jora",
+   "tier": "prm",
+   "endpoints": [
+    "https://api.jora.com/.well-known/oauth-protected-resource/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 404)",
+   "doc": null
+  },
+  {
+   "domain": "kartaview.org",
+   "name": "Kartaview",
+   "tier": "prm",
+   "endpoints": [
+    "https://store.kartaview.org/api/ucp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/83238912303",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "keeper.io",
+   "name": "Keeper",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.keeper.io/~gitbook/mcp",
+    "https://docs.keeper.io/~gitbook/mcp/"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "kiln.fi",
+   "name": "Kiln",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.api.kiln.fi/mcp"
+   ],
+   "server": "Kiln API Docs",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "kiwi.com",
+   "name": "Kiwi",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.kiwi.com/",
+    "https://mcp.kiwi.com"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "klaviyo.com",
+   "name": "Klaviyo",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.klaviyo.com/mcp",
+    "https://mcp.klaviyo.com/mcp/",
+    "https://mcp.klaviyo.com/mcp/sse",
+    "https://mcp.klaviyo.com/mcp/server",
+    "https://mcp.klaviyo.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.klaviyo.com",
+   "auth_note": "",
+   "doc": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server"
+  },
+  {
+   "domain": "komoju.com",
+   "name": "Komoju",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://doc.komoju.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": "https://shop.komoju.com/api/ucp/mcp`"
+  },
+  {
+   "domain": "konghq.com",
+   "name": "Konghq",
+   "tier": "authwall",
+   "endpoints": [
+    "https://au.mcp.konghq.com/",
+    "https://eu.mcp.konghq.com/",
+    "https://in.mcp.konghq.com/",
+    "https://us.mcp.konghq.com/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "krisp.ai",
+   "name": "Krisp",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.krisp.ai/mcp",
+    "https://mcp.krisp.ai/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [
+    "user::me::read",
+    "user::meetings:metadata::read",
+    "user::meetings:metadata::write",
+    "user::meetings:notes::read",
+    "user::meetings:transcripts::read",
+    "user::meetings::list"
+   ],
+   "issuer": "https://mcp.krisp.ai",
+   "auth_note": "",
+   "doc": "https://help.krisp.ai/hc/en-us/articles/25396920405148-Krisp-MCP"
+  },
+  {
+   "domain": "kronor.io",
+   "name": "Kronor",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.kronor.io/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp",
+    "offline_access"
+   ],
+   "issuer": "https://mcp.kronor.io",
+   "auth_note": "",
+   "doc": "https://docs.kronor.io/getting_started"
+  },
+  {
+   "domain": "kubchain.com",
+   "name": "Kubchain",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.kubchain.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "langfuse.com",
+   "name": "Langfuse",
+   "tier": "live",
+   "endpoints": [
+    "https://langfuse.com/api/mcp",
+    "https://langfuse.com/api/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "larksuite.com",
+   "name": "Larksuite",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.larksuite.com/mcp",
+    "https://mcp.larksuite.com/mcp/",
+    "https://mcp.larksuite.com/mcp/sse",
+    "https://mcp.larksuite.com/mcp/server",
+    "https://mcp.larksuite.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp-tool:common:fetch-file-v2",
+    "mcp-tool:common:get-user",
+    "mcp-tool:common:search-user",
+    "mcp-tool:docs:search-doc",
+    "mcp-tool:docs:create-doc",
+    "mcp-tool:docs:fetch-doc"
+   ],
+   "issuer": "https://accounts.larksuite.com/mcp",
+   "auth_note": "",
+   "doc": "https://open.larksuite.com/document/mcp_open_tools/call-feishu-mcp-server-in-remote-mode"
+  },
+  {
+   "domain": "lightspark.com",
+   "name": "Lightspark",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.lightspark.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "logitechclub.com",
+   "name": "Logitech (store)",
+   "tier": "live",
+   "endpoints": [
+    "https://logitechclub.com/api/mcp"
+   ],
+   "server": "storefront-renderer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/56775999639",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "magic.link",
+   "name": "Magic",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.magic.link/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "magiceden.io",
+   "name": "Magiceden",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.magiceden.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "mantle.xyz",
+   "name": "Mantle",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.mantle.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "mapbox.com",
+   "name": "Mapbox",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.mapbox.com/mcp",
+    "https://mcp.mapbox.com/",
+    "https://mcp.mapbox.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "styles:tiles",
+    "styles:read",
+    "fonts:read",
+    "datasets:read",
+    "tokens:read"
+   ],
+   "issuer": "https://mcp.mapbox.com",
+   "auth_note": "",
+   "doc": "https://docs.mapbox.com/api/guides/mcp-server/"
+  },
+  {
+   "domain": "marsecosystem.com",
+   "name": "Marsecosystem",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.marsecosystem.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "mastercard.com",
+   "name": "Mastercard",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcdevelop.mcp.mastercard.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcdevelop.mcp.mastercard.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "matomo.org",
+   "name": "Matomo",
+   "tier": "prm",
+   "endpoints": [
+    "https://partners.matomo.org/mcp",
+    "https://partners.matomo.org/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:read",
+    "mcp:write"
+   ],
+   "issuer": "https://partners.matomo.org",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "mediamarkt.es",
+   "name": "Mediamarkt",
+   "tier": "prm",
+   "endpoints": [
+    "https://canarias.mediamarkt.es/api/ucp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/28537028668",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "meesho.com",
+   "name": "Meesho",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.meesho.com/mcp",
+    "https://mcp.meesho.com/sse",
+    "https://mcp.meesho.com/",
+    "https://mcp.meesho.com/v1/mcp",
+    "https://mcp.meesho.com/api/mcp",
+    "https://mcp.meesho.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 400)",
+   "doc": null
+  },
+  {
+   "domain": "mementoblockchain.com",
+   "name": "Mementoblockchain",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.mementoblockchain.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "meraki.com",
+   "name": "Meraki",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.meraki.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "mercadolibre.com",
+   "name": "Mercadolibre",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.mercadolibre.com/mcp",
+    "https://mcp.mercadolibre.com/sse",
+    "https://mcp.mercadolibre.com/mcp/",
+    "https://mcp.mercadolibre.com/mcp/sse",
+    "https://mcp.mercadolibre.com/messages",
+    "https://mcp.mercadolibre.com/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read",
+    "write",
+    "offline_access"
+   ],
+   "issuer": "https://mcp.mercadolibre.com/mcp",
+   "auth_note": "",
+   "doc": "https://developers.mercadolibre.com.uy/mcp-server"
+  },
+  {
+   "domain": "mercadopago.cl",
+   "name": "Mercadopago",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.mercadopago.com/mcp",
+    "https://mcp.mercadopago.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "offline_access",
+    "write",
+    "read"
+   ],
+   "issuer": "https://mcp.mercadopago.com/mcp",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "mercadopago.com",
+   "name": "Mercadopago",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.mercadopago.com/mcp",
+    "https://mcp.mercadopago.com/sse",
+    "https://mcp.mercadopago.com/mcp/",
+    "https://mcp.mercadopago.com/mcp/sse",
+    "https://mcp.mercadopago.com/messages",
+    "https://mcp.mercadopago.com/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "offline_access",
+    "write",
+    "read"
+   ],
+   "issuer": "https://mcp.mercadopago.com/mcp",
+   "auth_note": "",
+   "doc": "https://www.mercadopago.com.ar/developers/en/docs/mcp-server/connection"
+  },
+  {
+   "domain": "metronome.com",
+   "name": "Metronome",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.metronome.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "microsoft.com",
+   "name": "Microsoft",
+   "tier": "live",
+   "endpoints": [
+    "https://learn.microsoft.com/api/mcp",
+    "https://learn.microsoft.com/api/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "midtrans.com",
+   "name": "Midtrans",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.midtrans.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "mindnetwork.xyz",
+   "name": "Mindnetwork",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.mindnetwork.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "moderntreasury.com",
+   "name": "Moderntreasury",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.moderntreasury.com/mcp"
+   ],
+   "server": "Modern Treasury",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "moengage.com",
+   "name": "Moengage",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.moengage.com/mcp",
+    "https://mcp.moengage.com/sse",
+    "https://mcp.moengage.com/",
+    "https://mcp.moengage.com/v1/mcp",
+    "https://mcp.moengage.com/api/mcp",
+    "https://mcp.moengage.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "profile",
+    "offline_access",
+    "campaigns:read"
+   ],
+   "issuer": "https://moeauth.moengage.com",
+   "auth_note": "",
+   "doc": "https://moengage.com/docs/user-guide/ai-and-intelligence/merlin-ai/moengage-mcp-server"
+  },
+  {
+   "domain": "monad.xyz",
+   "name": "Monad",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.monad.xyz/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "monday.trade",
+   "name": "Monday",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.monday.trade/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "mongodb.com",
+   "name": "Mongodb",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.mongodb.com/mcp",
+    "https://mcp.mongodb.com/sse",
+    "https://mcp.mongodb.com/",
+    "https://mcp.mongodb.com/v1/mcp",
+    "https://mcp.mongodb.com/api/mcp",
+    "https://mcp.mongodb.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://authorize.mongodb.com",
+   "auth_note": "",
+   "doc": "https://www.mongodb.com/products/tools/mcp-server"
+  },
+  {
+   "domain": "moonlander.trade",
+   "name": "Moonlander",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.moonlander.trade/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "moonpay.com",
+   "name": "Moonpay",
+   "tier": "live",
+   "endpoints": [
+    "https://dev.moonpay.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "moonpaycloud.com",
+   "name": "Moonpaycloud",
+   "tier": "live",
+   "endpoints": [
+    "https://dev.moonpay.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "morpho.org",
+   "name": "Morpho",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.morpho.org/mcp",
+    "https://mcp.morpho.org/",
+    "https://mcp.morpho.org/mcp/",
+    "https://mcp.morpho.org"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "mozilla.org",
+   "name": "Mozilla",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.mdn.mozilla.net",
+    "https://mcp.mdn.mozilla.net/mcp",
+    "https://mcp.mdn.mozilla.net/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "multipli.fi",
+   "name": "Multipli",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.multipli.fi/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "mux.network",
+   "name": "Mux",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.mux.network/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "myfitnesspal.com",
+   "name": "Myfitnesspal",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.myfitnesspal.com/mcp",
+    "https://mcp.myfitnesspal.com/sse",
+    "https://mcp.myfitnesspal.com/",
+    "https://mcp.myfitnesspal.com/v1/mcp",
+    "https://mcp.myfitnesspal.com/api/mcp",
+    "https://mcp.myfitnesspal.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "myshopify.com",
+   "name": "Shopify",
+   "tier": "prm",
+   "endpoints": [
+    "https://your-store.myshopify.com/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/4707582008",
+   "auth_note": "",
+   "doc": "https://{shop}.myshopify.com/api/mcp"
+  },
+  {
+   "domain": "nado.xyz",
+   "name": "Nado",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.nado.xyz/~gitbook/mcp",
+    "https://docs.nado.xyz/~gitbook/mcp/"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "navan.com",
+   "name": "Navan",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.navan.com/mcp",
+    "https://mcp.navan.com/mcp/",
+    "https://mcp.navan.com/sse",
+    "https://mcp.navan.com/v1/mcp",
+    "https://mcp.navan.com/api/mcp",
+    "https://mcp.navan.com/v1/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "offline_access",
+    "name",
+    "given_name",
+    "family_name"
+   ],
+   "issuer": "https://login.navan.com",
+   "auth_note": "",
+   "doc": "https://navan.com/blog/navan-anywhere-gemini-travel-expense-ai"
+  },
+  {
+   "domain": "naviprotocol.io",
+   "name": "Naviprotocol",
+   "tier": "live",
+   "endpoints": [
+    "https://open-api.naviprotocol.io/api/mcp"
+   ],
+   "server": "navi-protocol",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "neon.tech",
+   "name": "Neon",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.neon.tech/mcp",
+    "https://mcp.neon.tech/sse",
+    "https://mcp.neon.tech/api/mcp",
+    "https://mcp.neon.tech/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read",
+    "write",
+    "*"
+   ],
+   "issuer": "https://mcp.neon.tech",
+   "auth_note": "",
+   "doc": "https://neon.com/docs/ai/neon-mcp-server"
+  },
+  {
+   "domain": "netlify.app",
+   "name": "Netlify",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.netlify.app/mcp",
+    "https://mcp.netlify.app/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [
+    "offline_access",
+    "read",
+    "write",
+    "claudeai"
+   ],
+   "issuer": "http://localhost:8888/",
+   "auth_note": "",
+   "doc": "https://netlify-mcp.netlify.app/mcp"
+  },
+  {
+   "domain": "netlify.com",
+   "name": "Netlify",
+   "tier": "protected",
+   "endpoints": [
+    "https://netlify-mcp.netlify.app/mcp",
+    "https://netlify-mcp.netlify.app/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "offline_access",
+    "read",
+    "write",
+    "claudeai"
+   ],
+   "issuer": "https://netlify-mcp.netlify.app/",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "newegg.com",
+   "name": "Newegg",
+   "tier": "live",
+   "endpoints": [
+    "https://apis.newegg.com/ex-mcp/endpoint/ext-pc-builder",
+    "https://apis.newegg.com/ex-mcp/endpoint/product-search",
+    "https://apis.newegg.com/ex-mcp/endpoint/pcbuilder",
+    "https://apis.newegg.com/ex-mcp/endpoint/website-www-tool"
+   ],
+   "server": "mcp-server-executor",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "newrelic.com",
+   "name": "Newrelic",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.newrelic.com/mcp",
+    "https://mcp.newrelic.com/mcp/",
+    "https://mcp.newrelic.com/mcp/sse",
+    "https://mcp.newrelic.com/mcp/server",
+    "https://mcp.newrelic.com/mcp/mcp",
+    "https://mcp.eu.newrelic.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email"
+   ],
+   "issuer": "https://mcp.newrelic.com",
+   "auth_note": "",
+   "doc": "https://docs.newrelic.com/docs/agentic-ai/mcp/setup/"
+  },
+  {
+   "domain": "notion.so",
+   "name": "Notion",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.notion.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "default"
+   ],
+   "issuer": "https://mcp.notion.com",
+   "auth_note": "",
+   "doc": "https://developers.notion.com/guides/mcp/build-mcp-client"
+  },
+  {
+   "domain": "npmjs.com",
+   "name": "Npmjs",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.npmjs.com/mcp",
+    "https://mcp.npmjs.com/mcp/",
+    "https://mcp.npmjs.com/mcp/sse",
+    "https://mcp.npmjs.com/mcp/server",
+    "https://mcp.npmjs.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://www.npmjs.com/package/mcp-server-npms"
+  },
+  {
+   "domain": "npmjs.org",
+   "name": "Npmjs",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.npmjs.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "octopus.com",
+   "name": "Octopus",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://shop.octopus.com/api/ucp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/20703901",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "olympusdao.finance",
+   "name": "Olympusdao",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.olympusdao.finance/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "onetrust.com",
+   "name": "Onetrust",
+   "tier": "live",
+   "endpoints": [
+    "https://developer.onetrust.com/mcp"
+   ],
+   "server": "OneTrust Developer Portal",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "openai.com",
+   "name": "Openai",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.openai.com/mcp"
+   ],
+   "server": "openai-docs-mcp",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "opensea.io",
+   "name": "Opensea",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.opensea.io/mcp"
+   ],
+   "server": "OpenSea Data API",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "urn:zitadel:iam:org:project:role:read:eligibility",
+    "urn:zitadel:iam:org:project:role:read:favorites",
+    "urn:zitadel:iam:org:project:role:read:social",
+    "urn:zitadel:iam:org:project:role:read:tools",
+    "urn:zitadel:iam:org:project:role:write:favorites",
+    "urn:zitadel:iam:org:project:role:write:social"
+   ],
+   "issuer": "https://auth.opensea.io",
+   "auth_note": "",
+   "doc": "https://docs.opensea.io/reference/mcp"
+  },
+  {
+   "domain": "opsgenie.com",
+   "name": "Opsgenie",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.opsgenie.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "optimism.io",
+   "name": "Optimism",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.optimism.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "optimizely.com",
+   "name": "Optimizely",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.optimizely.com/mcp",
+    "https://mcp.optimizely.com/mcp/",
+    "https://exp.mcp.opal.optimizely.com/mcp",
+    "https://analytics.mcp.opal.optimizely.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [
+    "mcp:query",
+    "mcp:manage",
+    "mcp:implement"
+   ],
+   "issuer": "https://event-watch.optimizely.com",
+   "auth_note": "",
+   "doc": "https://support.optimizely.com/hc/en-us/articles/45321466744205-Install-Optimizely-Experimentation-MCP-server"
+  },
+  {
+   "domain": "orderly.network",
+   "name": "Orderly",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.orderly.network/"
+   ],
+   "server": "orderly-network-mcp",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://mcp.orderly.network`**"
+  },
+  {
+   "domain": "originprotocol.com",
+   "name": "Originprotocol",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.originprotocol.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "ort-one-pingone.com",
+   "name": "Ort One Pingone",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.ort-one-pingone.com/mcp",
+    "https://mcp.ort-one-pingone.com/sse",
+    "https://mcp.ort-one-pingone.com/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "ostium.com",
+   "name": "Ostium",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.ostium.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "otherside.xyz",
+   "name": "Otherside",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.otherside.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "paddle.com",
+   "name": "Paddle",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.paddle.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://developer.paddle.com/sdks/ai/paddle-mcp/"
+  },
+  {
+   "domain": "pancakeswap.finance",
+   "name": "Pancakeswap",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.pancakeswap.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "pantheon.io",
+   "name": "Pantheon",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://swag.pantheon.io/api/ucp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/76856197341",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "parallel.best",
+   "name": "Parallel",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.parallel.best/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "pareto.credit",
+   "name": "Pareto",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.pareto.credit/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "paypal.com",
+   "name": "Paypal",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.paypal.com/mcp",
+    "https://mcp.paypal.com/sse",
+    "https://mcp.paypal.com/mcp/",
+    "https://mcp.paypal.com/mcp/sse",
+    "https://mcp.paypal.com/mcp/server",
+    "https://mcp.paypal.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.paypal.com",
+   "auth_note": "",
+   "doc": "https://docs.paypal.ai/developer/tools/ai/mcp-quickstart"
+  },
+  {
+   "domain": "paze.com",
+   "name": "Paze",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developer.paze.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "personio.de",
+   "name": "Personio",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.personio.de/mcp",
+    "https://mcp.personio.de/sse",
+    "https://mcp.personio.de/",
+    "https://mcp.personio.de/v1/mcp",
+    "https://mcp.personio.de/api/mcp",
+    "https://mcp.personio.de/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:access"
+   ],
+   "issuer": "https://mcp.app.personio.com/",
+   "auth_note": "",
+   "doc": "https://developer.personio.de/llms.txt"
+  },
+  {
+   "domain": "phantom.com",
+   "name": "Phantom",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.phantom.com/mcp",
+    "https://docs.phantom.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "pinelabs.com",
+   "name": "Pinelabs",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.pinelabs.com/mcp",
+    "https://mcp.pinelabs.com/mcp/",
+    "https://mcp.pinelabs.com/mcp/sse",
+    "https://mcp.pinelabs.com/mcp/server",
+    "https://mcp.pinelabs.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://www.pinelabs.com/docs/online-payments/ai/mcp-server/setup-guide-api-execution"
+  },
+  {
+   "domain": "pinepg.in",
+   "name": "Pinepg",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.pinelabs.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  },
+  {
+   "domain": "pionex.com",
+   "name": "Pionex",
+   "tier": "live",
+   "endpoints": [
+    "https://www.pionex.com/docs/~gitbook/mcp",
+    "https://www.pionex.com/docs/~gitbook/mcp/"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "pismo.io",
+   "name": "Pismo",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developers.pismo.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "plaid.com",
+   "name": "Plaid",
+   "tier": "documented",
+   "endpoints": [
+    "https://api.dashboard.plaid.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://plaid.com/docs/resources/mcp/"
+  },
+  {
+   "domain": "plume.org",
+   "name": "Plume",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.plume.org/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "polygon.technology",
+   "name": "Polygon",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.polygon.technology/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "polymarket.com",
+   "name": "Polymarket",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.polymarket.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "priceline.com",
+   "name": "Priceline",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.priceline.com/mcp",
+    "https://mcp.priceline.com/sse",
+    "https://mcp.priceline.com/",
+    "https://mcp.priceline.com/v1/mcp",
+    "https://mcp.priceline.com/api/mcp",
+    "https://mcp.priceline.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://docs.pricelinepartnersolutions.com/private-label"
+  },
+  {
+   "domain": "privy.io",
+   "name": "Privy",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.privy.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "prowly.com",
+   "name": "Prowly",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.prowly.com/",
+    "https://mcp.prowly.com/mcp/sse",
+    "https://mcp.prowly.com/mcp/server",
+    "https://mcp.prowly.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://prowly.com/terms-of-service/"
+  },
+  {
+   "domain": "pullrequest.com",
+   "name": "Pullrequest",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.pullrequest.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "pyth.network",
+   "name": "Pyth",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.pyth.network/mcp"
+   ],
+   "server": "@pyth-network/mcp-server",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://docs.pyth.network/price-feeds/pro/mcp"
+  },
+  {
+   "domain": "quizlet.com",
+   "name": "Quizlet",
+   "tier": "prm",
+   "endpoints": [
+    "https://quizlet.com/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "write_set"
+   ],
+   "issuer": "https://quizlet.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "rapyd.org",
+   "name": "Rapyd",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.rapyd.org/mcp",
+    "https://mcp.rapyd.org/sse",
+    "https://mcp.rapyd.org/mcp/",
+    "https://mcp.rapyd.org/mcp/sse",
+    "https://mcp.rapyd.org/messages",
+    "https://mcp.rapyd.org/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.rapyd.org",
+   "auth_note": "",
+   "doc": "https://mcp.rapyd.org/"
+  },
+  {
+   "domain": "razorpay.com",
+   "name": "Razorpay",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.razorpay.com/mcp",
+    "https://mcp.razorpay.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": "https://razorpay.com/docs/mcp-server/remote/"
+  },
+  {
+   "domain": "realm.io",
+   "name": "Realm",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.realm.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "reclaim.ai",
+   "name": "Reclaim",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.reclaim.ai/mcp",
+    "https://mcp.reclaim.ai/sse",
+    "https://mcp.reclaim.ai/",
+    "https://mcp.reclaim.ai/v1/mcp",
+    "https://mcp.reclaim.ai/api/mcp",
+    "https://mcp.reclaim.ai/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read",
+    "write",
+    "mcp"
+   ],
+   "issuer": "https://mcp.reclaim.ai",
+   "auth_note": "",
+   "doc": "https://mcp.reclaim.ai"
+  },
+  {
+   "domain": "recordedfuture.com",
+   "name": "Recordedfuture",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.recordedfuture.com/mcp",
+    "https://mcp.recordedfuture.com/mcp/",
+    "https://mcp.recordedfuture.com/mcp/sse",
+    "https://mcp.recordedfuture.com/mcp/server",
+    "https://mcp.recordedfuture.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "profile",
+    "offline_access"
+   ],
+   "issuer": "https://mcp.recordedfuture.com",
+   "auth_note": "",
+   "doc": "https://www.recordedfuture.com/platform/ai"
+  },
+  {
+   "domain": "redelcom.cl",
+   "name": "Redelcom",
+   "tier": "live",
+   "endpoints": [
+    "https://redelcom.cl/api/mcp"
+   ],
+   "server": "storefront-renderer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shopify.com/authentication/51424100527",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "redoxengine.com",
+   "name": "Redox",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.redoxengine.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "platform_access"
+   ],
+   "issuer": "https://api.redoxengine.com",
+   "auth_note": "",
+   "doc": "https://docs.redoxengine.com/how-to-use-redox/access-the-redox-mcp-server/"
+  },
+  {
+   "domain": "remitly.com",
+   "name": "Remitly",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.remitly.com/mcp",
+    "https://mcp.remitly.com/sse",
+    "https://mcp.remitly.com/",
+    "https://mcp.remitly.com/v1/mcp",
+    "https://mcp.remitly.com/api/mcp",
+    "https://mcp.remitly.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": "https://www.remitly.com/"
+  },
+  {
+   "domain": "requirementyogi.com",
+   "name": "Requirementyogi",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.requirementyogi.com/api/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "ripio.com",
+   "name": "Ripio",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.ripio.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://api.ripio.com/",
+   "auth_note": "",
+   "doc": "https://apidocs.ripio.com/static/api/overview"
+  },
+  {
+   "domain": "robinhood.com",
+   "name": "Robinhood",
+   "tier": "prm",
+   "endpoints": [
+    "https://agent.robinhood.com/mcp/trading",
+    "https://banking-agent.robinhood.com/mcp/banking"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "internal"
+   ],
+   "issuer": "https://agent.robinhood.com/mcp/trading",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "rogo.ai",
+   "name": "Rogo",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.rogo.ai/mcp"
+   ],
+   "server": "fern-docs-mcp-server",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "royco.org",
+   "name": "Royco",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.royco.org/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "s-cloud.fi",
+   "name": "S Group",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.s-cloud.fi/mcp",
+    "https://mcp.s-cloud.fi/sse",
+    "https://mcp.s-cloud.fi/",
+    "https://mcp.s-cloud.fi/v1/mcp",
+    "https://mcp.s-cloud.fi/api/mcp",
+    "https://mcp.s-cloud.fi/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "https://mcp.s-cloud.fi/access"
+   ],
+   "issuer": "https://mcp.s-cloud.fi",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "salesforce.com",
+   "name": "Salesforce",
+   "tier": "documented",
+   "endpoints": [
+    "https://api.salesforce.com/platform/mcp/v1/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "mcp_api",
+    "refresh_token"
+   ],
+   "issuer": "https://api.salesforce.com:443/platform/mcp/v1/mcp",
+   "auth_note": "",
+   "doc": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html"
+  },
+  {
+   "domain": "securitytrails.com",
+   "name": "Securitytrails",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.securitytrails.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "seitrace.com",
+   "name": "Seitrace",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.seitrace.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "semrush.com",
+   "name": "Semrush",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.semrush.com/v1/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [
+    "mcp.access"
+   ],
+   "issuer": "https://oauth.semrush.com",
+   "auth_note": "",
+   "doc": "https://developer.semrush.com/api/v4/introduction/semrush-mcp/"
+  },
+  {
+   "domain": "sharepoint.com",
+   "name": "Sharepoint",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.sharepoint.com/mcp",
+    "https://mcp.sharepoint.com/sse",
+    "https://mcp.sharepoint.com/",
+    "https://mcp.sharepoint.com/v1/mcp",
+    "https://mcp.sharepoint.com/api/mcp",
+    "https://mcp.sharepoint.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": false,
+   "scopes": [
+    "https://mcp.sharepoint.com/Sites.FullControl.All"
+   ],
+   "issuer": "https://login.microsoftonline.com/69ec38e5-e1fc-41d9-872f-562746431cde/v2.0",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "shop.app",
+   "name": "Shopify (Shop)",
+   "tier": "live",
+   "endpoints": [
+    "https://shop.app/mcp"
+   ],
+   "server": "shopify-mcp-server",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "agent:access"
+   ],
+   "issuer": "https://accounts.shop.app",
+   "auth_note": "",
+   "doc": "https://my.shop-mcp.app/docs/quickstart"
+  },
+  {
+   "domain": "slack.com",
+   "name": "Slack",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.slack.com/mcp",
+    "https://slack.com/mcp",
+    "https://api.slack.com/mcp",
+    "https://mcp.slack.com/mcp/",
+    "https://api.slack.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "search:read.public",
+    "search:read.private",
+    "search:read.mpim",
+    "search:read.im",
+    "search:read.files",
+    "search:read.users"
+   ],
+   "issuer": "https://mcp.slack.com",
+   "auth_note": "",
+   "doc": "https://docs.slack.dev/ai/slack-mcp-server"
+  },
+  {
+   "domain": "slackatwork.com",
+   "name": "Slackatwork",
+   "tier": "protected",
+   "endpoints": [
+    "https://slackatwork.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  },
+  {
+   "domain": "smtp2go.com",
+   "name": "Smtp2Go",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.smtp2go.com/mcp"
+   ],
+   "server": "SMTP2GO-API-Docs",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "snooguts.net",
+   "name": "Reddit",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.snooguts.net/mcp",
+    "https://mcp.snooguts.net/sse",
+    "https://mcp.snooguts.net/",
+    "https://mcp.snooguts.net/v1/mcp",
+    "https://mcp.snooguts.net/api/mcp",
+    "https://mcp.snooguts.net/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://snooflare.cloudflareaccess.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "solana.com",
+   "name": "Solana",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.solana.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "solscan.io",
+   "name": "Solscan",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.solscan.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "sophos.com",
+   "name": "Sophos",
+   "tier": "authwall",
+   "endpoints": [
+    "https://solam.ai.intelix.sophos.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "spot.cash",
+   "name": "Spot",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.spot.cash/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "spotify.com",
+   "name": "Spotify",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp-gateway-external-pilot.spotify.net/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "user-read-playback-state",
+    "user-library-read",
+    "user-follow-read",
+    "app-remote-control",
+    "user-modify-playback-state",
+    "user-library-modify"
+   ],
+   "issuer": "https://accounts.spotify.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "spotify.net",
+   "name": "Spotify",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp-gateway-external-pilot.spotify.net/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "user-read-playback-state",
+    "user-library-read",
+    "user-follow-read",
+    "app-remote-control",
+    "user-modify-playback-state",
+    "user-library-modify"
+   ],
+   "issuer": "https://accounts.spotify.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "squareup.com",
+   "name": "Square",
+   "tier": "protected",
+   "endpoints": [
+    "https://mcp.squareup.com/mcp",
+    "https://mcp.squareup.com/sse",
+    "https://mcp.squareup.com/mcp/",
+    "https://mcp.squareup.com/mcp/sse",
+    "https://mcp.squareup.com/mcp/server",
+    "https://mcp.squareup.com/mcp/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.squareup.com",
+   "auth_note": "",
+   "doc": "https://developer.squareup.com/docs/mcp"
+  },
+  {
+   "domain": "starknet.io",
+   "name": "Starknet",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.starknet.io/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "starkscan.co",
+   "name": "Starkscan",
+   "tier": "authwall",
+   "endpoints": [
+    "https://api.starkscan.co/mcp",
+    "https://starkscan.co/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": "https://starkscan.co/docs/ai/mcp-quickstart"
+  },
+  {
+   "domain": "statuspage.io",
+   "name": "Statuspage",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.statuspage.io/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 400)",
+   "doc": null
+  },
+  {
+   "domain": "stcelo.xyz",
+   "name": "Stcelo",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.stcelo.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "stripe.com",
+   "name": "Stripe",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.stripe.com/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp"
+   ],
+   "issuer": "https://access.stripe.com/mcp",
+   "auth_note": "",
+   "doc": "https://docs.stripe.com/mcp"
+  },
+  {
+   "domain": "sumer.money",
+   "name": "Sumer",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.sumer.money/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "superhuman.com",
+   "name": "Superhuman",
+   "tier": "prm",
+   "endpoints": [
+    "https://docs.superhuman.com/apis/mcp",
+    "https://mcp.mail.superhuman.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:all"
+   ],
+   "issuer": "https://id.superhuman.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "superposition.finance",
+   "name": "Superposition",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.superposition.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "synfutures.com",
+   "name": "Synfutures",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.synfutures.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "tac.build",
+   "name": "Tac",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.tac.build/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "tbank.ru",
+   "name": "Tbank",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.tbank.ru/mcp",
+    "https://mcp.tbank.ru/sse",
+    "https://mcp.tbank.ru/",
+    "https://mcp.tbank.ru/v1/mcp",
+    "https://mcp.tbank.ru/api/mcp",
+    "https://mcp.tbank.ru/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "thousandeyes.com",
+   "name": "Thousandeyes",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.thousandeyes.com/mcp",
+    "https://api.thousandeyes.com/v1/mcp",
+    "https://api.thousandeyes.com/api/mcp",
+    "https://api.thousandeyes.com/mcp/",
+    "https://api.thousandeyes.com/mcp/sse",
+    "https://api.thousandeyes.com/mcp/server"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:manage",
+    "offline_access"
+   ],
+   "issuer": "https://api.thousandeyes.com",
+   "auth_note": "",
+   "doc": "https://docs.thousandeyes.com/product-documentation/integration-guides/thousandeyes-mcp-server"
+  },
+  {
+   "domain": "threshold.network",
+   "name": "Threshold",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.threshold.network/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "tiktok.com",
+   "name": "Tiktok",
+   "tier": "protected",
+   "endpoints": [
+    "https://ads.tiktok.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:access"
+   ],
+   "issuer": "https://ads.tiktok.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "timeweb.cloud",
+   "name": "Timeweb",
+   "tier": "authwall",
+   "endpoints": [
+    "https://timeweb.cloud/api/v1/mcp",
+    "https://timeweb.cloud/api/v1/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "tokemak.xyz",
+   "name": "Tokemak",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.tokemak.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "toolsforhumanity.com",
+   "name": "Toolsforhumanity",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.toolsforhumanity.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "trello.services",
+   "name": "Trello (Atlassian)",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.trello.services/mcp",
+    "https://mcp.trello.services/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read:board:trello",
+    "read:organization:trello",
+    "read:member:trello",
+    "read:member.inbox:trello",
+    "write:member.inbox:trello",
+    "read:member.planner:trello"
+   ],
+   "issuer": "https://mcp.trello.services/mcp",
+   "auth_note": "",
+   "doc": "https://mcp.trello.com/v1`"
+  },
+  {
+   "domain": "trendyol.com",
+   "name": "Trendyol",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developers.trendyol.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "tripadvisor.com",
+   "name": "Tripadvisor",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.terra.tripadvisor.com/mcp"
+   ],
+   "server": "Tripadvisor Terra",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "truecaller.com",
+   "name": "Truecaller",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.truecaller.com/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "ts.finance",
+   "name": "Ts",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.ts.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "twilio.com",
+   "name": "Twilio",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.twilio.com/docs"
+   ],
+   "server": "twilio-docs-mcp",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "uber.com",
+   "name": "Uber",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.uber.com/claude/rides-3p/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "uberinternal.com",
+   "name": "Uberinternal",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.uberinternal.com/mcp",
+    "https://mcp.uberinternal.com/sse",
+    "https://mcp.uberinternal.com/",
+    "https://mcp.uberinternal.com/v1/mcp",
+    "https://mcp.uberinternal.com/api/mcp",
+    "https://mcp.uberinternal.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "udemy.com",
+   "name": "Udemy",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.udemy.com/mcp",
+    "https://api.udemy.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "course:read",
+    "mcp:read",
+    "mcp:write",
+    "lab:read",
+    "offline"
+   ],
+   "issuer": "https://api.udemy.com",
+   "auth_note": "",
+   "doc": "https://api.udemy.com/mcp"
+  },
+  {
+   "domain": "unbounce.com",
+   "name": "Unbounce",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.unbounce.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "unbounce"
+   ],
+   "issuer": "https://mcp.unbounce.com",
+   "auth_note": "",
+   "doc": "https://developer.unbounce.com/api_reference/"
+  },
+  {
+   "domain": "unreal-agents.com",
+   "name": "Unreal Agents",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.unreal-agents.com/mcp",
+    "https://mcp.unreal-agents.com/sse",
+    "https://mcp.unreal-agents.com/",
+    "https://mcp.unreal-agents.com/v1/mcp",
+    "https://mcp.unreal-agents.com/api/mcp",
+    "https://mcp.unreal-agents.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:*",
+    "mcp:agents:*",
+    "mcp:tools:*",
+    "mcp:read"
+   ],
+   "issuer": "https://mcp.unreal-agents.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "upwork.com",
+   "name": "Upwork",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.upwork.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.upwork.com",
+   "auth_note": "",
+   "doc": "https://api.upwork.com/mcp/sse`"
+  },
+  {
+   "domain": "urbancompany.com",
+   "name": "Urban Company",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.urbancompany.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [],
+   "issuer": "https://mcp.urbancompany.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "variational.io",
+   "name": "Variational",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.variational.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "varonis.com",
+   "name": "Varonis",
+   "tier": "protected",
+   "endpoints": [
+    "https://dev.varonis.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email",
+    "offline_access"
+   ],
+   "issuer": "https://dev.varonis.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "vendhq.com",
+   "name": "Vendhq",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.vendhq.com/api/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "veno.finance",
+   "name": "Veno",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.veno.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "vesper.finance",
+   "name": "Vesper",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.vesper.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "viator.com",
+   "name": "Viator",
+   "tier": "live",
+   "endpoints": [
+    "https://exp-app-mcp.prod.ep.viator.com/mcp"
+   ],
+   "server": "experiences-mcp",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "vimeo.com",
+   "name": "Vimeo",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.vimeo.com/mcp/sse",
+    "https://mcp.vimeo.com/mcp/server",
+    "https://mcp.vimeo.com/mcp",
+    "https://mcp.vimeo.com/sse",
+    "https://mcp.vimeo.com/v1/mcp",
+    "https://mcp.vimeo.com/api/mcp"
+   ],
+   "server": "VimeoMCP",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "public",
+    "private",
+    "stats",
+    "upload",
+    "edit",
+    "create"
+   ],
+   "issuer": "https://mcp.vimeo.com/",
+   "auth_note": "",
+   "doc": "https://developer.vimeo.com/api/mcp-server"
+  },
+  {
+   "domain": "visa.com",
+   "name": "Visa",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.visa.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 401)",
+   "doc": null
+  },
+  {
+   "domain": "vismaonline.com",
+   "name": "Vismaonline",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://developer.vismaonline.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "vistarmedia.com",
+   "name": "Vistarmedia",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.vistarmedia.com/mcp"
+   ],
+   "server": "MCP server",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email",
+    "offline_access"
+   ],
+   "issuer": "https://developers.vistarmedia.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "vvs.finance",
+   "name": "Vvs",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.vvs.finance/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "web3auth.io",
+   "name": "Web3Auth",
+   "tier": "live",
+   "endpoints": [
+    "https://mcp.web3auth.io/"
+   ],
+   "server": "web3auth-embedded-wallets",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://mcp.web3auth.io`"
+  },
+  {
+   "domain": "weebly.com",
+   "name": "Weebly",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.weebly.com/mcp",
+    "https://mcp.weebly.com/sse",
+    "https://mcp.weebly.com/v1/mcp",
+    "https://mcp.weebly.com/api/mcp",
+    "https://mcp.weebly.com/mcp/",
+    "https://mcp.weebly.com/v1/sse"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 403)",
+   "doc": null
+  },
+  {
+   "domain": "wellsfargo.com",
+   "name": "Wellsfargo",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.wellsfargo.com/mcp",
+    "https://mcp.wellsfargo.com/sse",
+    "https://mcp.wellsfargo.com/",
+    "https://mcp.wellsfargo.com/v1/mcp",
+    "https://mcp.wellsfargo.com/api/mcp",
+    "https://mcp.wellsfargo.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 400)",
+   "doc": null
+  },
+  {
+   "domain": "whitebit.com",
+   "name": "Whitebit",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.whitebit.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp:search"
+   ],
+   "issuer": "https://docs.whitebit.com/mcp/oauth",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "wise.com",
+   "name": "Wise",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.wise.com/mcp"
+   ],
+   "server": "MCP server",
+   "kind": "docs-platform server",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "profile",
+    "email",
+    "offline_access"
+   ],
+   "issuer": "https://docs.wise.com",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "withings.com",
+   "name": "Withings",
+   "tier": "prm",
+   "endpoints": [
+    "https://withings.com/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shop-account.withings.com",
+   "auth_note": "",
+   "doc": "https://withings-mcp.com"
+  },
+  {
+   "domain": "withings.net",
+   "name": "Withings",
+   "tier": "prm",
+   "endpoints": [
+    "https://withings.net/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://shop-account.withings.com",
+   "auth_note": "",
+   "doc": "https://withings-mcp.com/mcp`"
+  },
+  {
+   "domain": "workbox.dk",
+   "name": "Workbox",
+   "tier": "prm",
+   "endpoints": [
+    "https://mcp.workbox.dk/mcp",
+    "https://mcp.workbox.dk/",
+    "https://mcp.workbox.dk/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "dineropublicapi:read",
+    "dineropublicapi:write",
+    "offline_access"
+   ],
+   "issuer": "https://mcp.workbox.dk",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "world.org",
+   "name": "World",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.world.org/mcp",
+    "https://developer.world.org/api/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "worldcoin.org",
+   "name": "Worldcoin",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.worldcoin.org/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "auth unclear (HTTP 405)",
+   "doc": null
+  },
+  {
+   "domain": "wyze.com",
+   "name": "Wyze",
+   "tier": "live",
+   "endpoints": [
+    "https://wyze.com/api/mcp"
+   ],
+   "server": "storefront-renderer",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://account.wyze.com",
+   "auth_note": "",
+   "doc": "https://www.wyze.com/api/ucp/mcp`"
+  },
+  {
+   "domain": "wyzecam.com",
+   "name": "Wyze",
+   "tier": "prm",
+   "endpoints": [
+    "https://wyzecam.com/.well-known/oauth-protected-resource"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+   ],
+   "issuer": "https://account.wyze.com",
+   "auth_note": "",
+   "doc": "https://api.wyzecam.com`"
+  },
+  {
+   "domain": "x.com",
+   "name": "X",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.x.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": "https://x-preview.mintlify.app/tools/mcp"
+  },
+  {
+   "domain": "xadsacademy.com",
+   "name": "xAds Academy",
+   "tier": "prm",
+   "endpoints": [
+    "https://xadsacademy.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": false,
+   "pkce": false,
+   "scopes": [
+    "admin",
+    "ai_agent",
+    "openid"
+   ],
+   "issuer": "https://www.xadsacademy.com/oauth2",
+   "auth_note": "",
+   "doc": "https://www.xadsacademy.com/"
+  },
+  {
+   "domain": "xter.io",
+   "name": "Xter",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.xter.io/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "yelp.com",
+   "name": "Yelp",
+   "tier": "rpcerror",
+   "endpoints": [
+    "https://docs.developer.yelp.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "openid",
+    "offline_access",
+    "mcp:read",
+    "mcp:write",
+    "email",
+    "profile"
+   ],
+   "issuer": "https://dash.readme.com/oidc",
+   "auth_note": "",
+   "doc": "https://business.yelp.com/data/solutions/ai-agents/"
+  },
+  {
+   "domain": "ynab.com",
+   "name": "Ynab",
+   "tier": "protected",
+   "endpoints": [
+    "https://api.ynab.com/mcp",
+    "https://api.ynab.com/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "mcp"
+   ],
+   "issuer": "https://app.ynab.com",
+   "auth_note": "",
+   "doc": "https://mcpforynab.smirnovlabs.com/mcp`"
+  },
+  {
+   "domain": "yo.xyz",
+   "name": "Yo",
+   "tier": "live",
+   "endpoints": [
+    "https://docs.yo.xyz/~gitbook/mcp"
+   ],
+   "server": "mcp-typescript server on vercel",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "yoti.com",
+   "name": "Yoti",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.yoti.com/mcp"
+   ],
+   "server": "Yoti developer documentation MCP",
+   "kind": "docs-platform server",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "zendesk.com",
+   "name": "Zendesk",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp.zendesk.com/api/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": true,
+   "dcr": true,
+   "pkce": true,
+   "scopes": [
+    "read",
+    "write"
+   ],
+   "issuer": "https://mcp.zendesk.com/api/mcp/oauth",
+   "auth_note": "",
+   "doc": null
+  },
+  {
+   "domain": "zerion.io",
+   "name": "Zerion",
+   "tier": "live",
+   "endpoints": [
+    "https://developers.zerion.io/mcp",
+    "https://developers.zerion.io/mcp/"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "no auth required",
+   "doc": null
+  },
+  {
+   "domain": "zomato.com",
+   "name": "Zomato",
+   "tier": "authwall",
+   "endpoints": [
+    "https://mcp-server.zomato.com/mcp"
+   ],
+   "server": "",
+   "kind": "",
+   "oauth": false,
+   "dcr": null,
+   "pkce": false,
+   "scopes": [],
+   "issuer": "",
+   "auth_note": "static API key / bearer token",
+   "doc": null
+  }
+ ]
+}

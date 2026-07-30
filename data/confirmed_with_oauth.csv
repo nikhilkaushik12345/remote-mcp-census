@@ -1,0 +1,159 @@
+domain,organisation,endpoint,evidence,server_name,kind,open_dcr,pkce,issuer,scopes
+1inch.com,1Inch,https://api.1inch.com/mcp,protected,,,yes,yes,https://api.1inch.com,
+8x8.studio,8x8,https://mcp.8x8.studio/mcp,prm,,,yes,yes,https://mcp.8x8.studio,mcp:*; mcp:agents:*; mcp:tools:*; mcp:read
+acronis.com,Acronis,https://partner.acronis.com/mcp,prm,,,yes,yes,https://partner.acronis.com,mcp:read; mcp:write
+adobe.com,Adobe,https://cx-coworker-gateway.adobe.io/mcp,prm,,,yes,yes,https://cx-coworker-gateway.adobe.io,openid; profile; email
+adobe.io,Adobe,https://cx-coworker-gateway.adobe.io/mcp,prm,,,yes,yes,https://cx-coworker-gateway.adobe.io,openid; profile; email
+affirm.com,Affirm,https://docs.affirm.com/mcp,live,Affirm-Home,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+aikido.dev,Aikido,https://apidocs.aikido.dev/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+airtable.com,Airtable,https://mcp.airtable.com/mcp,prm,,,yes,yes,https://airtable.com/oauth2/v1,data.records:read; data.records:write; schema.bases:read; schema.bases:write; data.recordComments:read; data.recordComments:write
+aiven.io,Aiven,https://mcp.aiven.live/mcp,authwall,,,yes,yes,https://api.aiven.io,projects; services; accounts:read
+alasco.de,Alasco,https://mcp.alasco.de/mcp,prm,,,yes,yes,https://mcp.alasco.de,read; modify
+allbridge.io,Allbridge,https://mcp.allbridge.io/mcp,live,allbridge-mcp,,yes,yes,https://mcp.allbridge.io,allbridge.mcp
+amazonaws.com,Amazon Web Services,https://aws-mcp.us-east-1.api.aws/mcp,live,AWSMCP,,yes,no,https://us-east-1.oauth.signin.aws/,
+android.com,Android,https://androidmanagement.googleapis.com/mcp,live,StatelessServer,,no,yes,https://accounts.google.com/,https://www.googleapis.com/auth/androidmanagement
+ankr.com,Ankr,https://mcp.ankr.com/mcp,protected,,,yes,yes,https://mcp.ankr.com,mcp:tools
+arkoselabs.com,Arkoselabs,https://mcp.arkoselabs.com/mcp,prm,,,yes,yes,https://mcp.arkoselabs.com,mcp:portal:read; mcp:portal:write; offline_access
+arubanetworks.com,Arubanetworks,https://developer.arubanetworks.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+asana.com,Asana,https://mcp.asana.com/mcp,prm,,,yes,yes,https://mcp.asana.com,default
+backstage.io,Backstage,https://demo.backstage.io/api/mcp-actions/v1,live,My Backstage Demo,,yes,yes,https://demo.backstage.io/api/auth,openid
+bionic.ai,Bionic,https://docs.bionic.ai/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+bitrise.io,Bitrise,https://mcp.bitrise.io/mcp,prm,,,no,yes,https://oauth.bitrise.io,email; offline_access; openid; profile
+bitso.com,Bitso,https://docs.bitso.com/mcp,live,Bitso,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+bluehost.com,Bluehost,https://mcp.bluehost.com/.well-known/oauth-protected-resource,prm,,,yes,yes,https://oauth.bluehost.com,domains:read; hosting:read
+booking.com,Booking,https://developers.booking.com/mcp,live,MCP server,docs-platform server,yes,yes,https://developers.booking.com,openid; profile; email; offline_access
+box.com,Box,https://mcp.box.com/mcp,prm,,,no,yes,https://api.box.com/,
+bykea.store,Bykea,https://bykea.store/api/mcp,live,storefront-renderer,,no,yes,https://shopify.com/authentication/81469407525,openid; email; customer-account-api:full; customer-account-mcp-api:full
+canva.com,Canva,https://mcp.canva.com/mcp,prm,,,yes,yes,https://mcp.canva.com,profile:read; design:meta:read; design:content:write; design:content:read; folder:read; folder:write
+canva.cn,Canva (China),https://mcp.canva.cn/mcp,prm,,,yes,yes,https://mcp.canva.cn,profile:read; design:meta:read; design:content:write; design:content:read; folder:read; folder:write
+canva-apps.cn,Canva Apps,https://mcp.canva.cn/mcp,protected,,,yes,yes,https://mcp.canva.cn,profile:read; design:meta:read; design:content:write; design:content:read; folder:read; folder:write
+canva-apps.com,Canva Apps,https://mcp.canva.com/mcp,protected,,,yes,yes,https://mcp.canva.com,profile:read; design:meta:read; design:content:write; design:content:read; folder:read; folder:write
+chime.com,Chime,https://developer.chime.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+classdojo.com,Classdojo,https://mcp.classdojo.com/mcp,prm,,,yes,yes,https://mcp.classdojo.com,
+clearme.com,Clearme,https://docs.clearme.com/mcp,live,CLEAR1,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+cleartrip.com,Cleartrip,https://mcp.cleartrip.com/mcp,authwall,,,yes,yes,https://mcp.cleartrip.com/,
+cloudinary.com,Cloudinary,https://asset-management.mcp.cloudinary.com/mcp,prm,,,yes,yes,https://asset-management.mcp.cloudinary.com,openid; profile; email; offline_access; asset_management; upload
+coda.io,Coda,https://coda.io/apis/mcp,protected,,,yes,yes,https://coda.io,mcp:all
+coindesk.com,Coindesk,https://mcp.coindesk.com/mcp,prm,,,yes,yes,https://mcp.coindesk.com,
+coinmarketcap.com,Coinmarketcap,https://mcp.coinmarketcap.com/mcp,authwall,,,yes,yes,https://mcp.coinmarketcap.com,mcp
+cube.exchange,Cube,https://cube.exchange/.well-known/oauth-protected-resource,prm,,,no,no,https://id.cube.exchange,mcp.cube
+cybersource.com,Cybersource,https://shop-hardware.cybersource.com/api/ucp/mcp,rpcerror,,,no,yes,https://shopify.com/authentication/18758157,openid; email; customer-account-api:full; customer-account-mcp-api:full
+dana.id,Dana,https://mcp.dana.id/mcp,prm,openaidanaapp,,yes,yes,https://mcp.dana.id,read:user; user:email
+datadome.co,Datadome,https://mcp.datadome.co/mcp,authwall,,,yes,yes,https://mcp.datadome.co/,openid
+decathlon.com,Decathlon,https://decathlon.com/api/mcp,live,storefront-renderer,,no,yes,https://shopify.com/authentication/13306287,openid; email; customer-account-api:full; customer-account-mcp-api:full
+digitalocean.com,Digitalocean,https://apps.mcp.digitalocean.com/mcp,protected,,,yes,yes,https://cloud.digitalocean.com,
+docsend.com,Docsend,https://mcp.docsend.com/mcp,protected,,,yes,yes,https://docsend.com,documents:read; spaces:read; spaces:write; analytics:read; contacts:read
+doordash.com,Doordash,https://openapi.doordash.com/mcp/consumer,authwall,,,no,yes,https://identity.doordash.com,mcp:consumer:write
+doppler.com,Doppler,https://docs.doppler.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+dropbox.com,Dropbox,https://mcp.dropbox.com/mcp,protected,,,yes,yes,https://www.dropbox.com,account_info.read; file_requests.read; file_requests.write; files.content.read; files.content.write; files.metadata.read
+elastic.co,Elastic,https://learn.elastic.co/v1/mcp,protected,,,no,no,https://elastic.docebosaas.com,api
+epam.com,Epam,https://mcp.epam.com/mcp/,protected,,,yes,yes,https://mcp.epam.com,
+evernote.com,Evernote,https://mcp.evernote.com/mcp,prm,,,yes,yes,https://accounts.evernote.com,read; create; write; delete
+ean.com,Expedia (EAN),https://api.ean.com/mcp,protected,,,no,yes,https://api.expediagroup.com/identity/oauth2/v3/oauth2,demand-solutions.demand-api-wrappers-prod.all
+facebook.com,Facebook,https://mcp.facebook.com/ads,protected,,,yes,yes,https://mcp.facebook.com/ads,ads_management; ads_read; catalog_management; business_management; pages_show_list; instagram_basic
+faraday.ai,Faraday,https://mcp.faraday.ai/mcp,prm,,,yes,yes,https://mcp.faraday.ai,
+figma.com,Figma,https://mcp.figma.com/mcp,prm,,,yes,yes,https://api.figma.com,mcp:connect
+files.com,Files,https://mysite.files.com/api/ai/mcp/v1/,protected,,,no,yes,https://mysite.files.com,
+fivetran.com,Fivetran,https://learn.fivetran.com/v1/mcp,protected,,,no,no,https://hvr-software.docebosaas.com,api
+flourish.studio,Flourish,https://flourish-mcp-server.prd.k8s.flourishsoftware.com/mcp,protected,,,yes,yes,https://flourish-mcp-server.prd.k8s.flourishsoftware.com,
+frame.io,Frame,https://mcp.frame.io/mcp,protected,,,yes,yes,https://mcp.frame.io,openid; AdobeID
+front.com,Front,https://dev.frontapp.com/mcp,live,Front Platform,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+frontapp.com,Front,https://mcp.frontapp.com/mcp,prm,,,no,yes,https://app.frontapp.com,feature:mcp
+gitlab.com,Gitlab,https://gitlab.com/api/v4/mcp,prm,,,yes,yes,https://gitlab.com,mcp
+gobob.xyz,Gobob,https://gobob.xyz/.well-known/oauth-protected-resource,prm,,,no,no,https://gobob.xyz,api:read
+gocardless.com,Gocardless,https://mcp.gocardless.com/mcp,prm,,,yes,yes,https://mcp.gocardless.com,
+gocardless-staging.io,GoCardless (staging),https://mcp.gocardless-staging.io/mcp,prm,,,yes,yes,https://mcp.gocardless-staging.io,
+google.com,Google Cloud,https://agentregistry.googleapis.com/mcp,live,StatelessServer,,no,yes,https://accounts.google.com/,https://www.googleapis.com/auth/agentregistry.read-write
+googleapis.com,Google Cloud,https://bigquery.googleapis.com/mcp,live,StatelessServer,,no,yes,https://accounts.google.com/,https://www.googleapis.com/auth/bigquery
+greenhouse.io,Greenhouse,https://mcp.us.greenhouse.io/mcp,prm,,,yes,yes,https://mcp.us.greenhouse.io,greenhouse:mcp_client
+here.com,Here,https://docs.here.com/mcp,live,HERE Technologies Documentation | HERE Docs,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+hostinger.com,Hostinger,https://mcp.hostinger.com/,prm,,,yes,yes,https://auth.hostinger.com,mcp:use
+hubspot.com,Hubspot,https://mcp.hubspot.com/,prm,,,no,yes,https://mcp.hubspot.com,
+indeed.com,Indeed,https://mcp.indeed.com/claude/mcp,protected,,,yes,yes,https://secure.indeed.com/,job_seeker.company.details.read; job_seeker.jobs.search; job_seeker.profile.read; offline_access
+internetcomputer.org,Internet Computer / DFINITY,https://mcp.internetcomputer.org/mcp,prm,,,yes,yes,https://mcp.internetcomputer.org/mcp,
+kartaview.org,Kartaview,https://store.kartaview.org/api/ucp/mcp,prm,,,no,yes,https://shopify.com/authentication/83238912303,openid; email; customer-account-api:full; customer-account-mcp-api:full
+kiln.fi,Kiln,https://docs.api.kiln.fi/mcp,live,Kiln API Docs,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+klaviyo.com,Klaviyo,https://mcp.klaviyo.com/mcp,prm,,,yes,yes,https://mcp.klaviyo.com,
+komoju.com,Komoju,https://doc.komoju.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+krisp.ai,Krisp,https://mcp.krisp.ai/mcp,prm,,,no,no,https://mcp.krisp.ai,user::me::read; user::meetings:metadata::read; user::meetings:metadata::write; user::meetings:notes::read; user::meetings:transcripts::read; user::meetings::list
+kronor.io,Kronor,https://mcp.kronor.io/mcp/server,prm,,,yes,yes,https://mcp.kronor.io,mcp; offline_access
+larksuite.com,Larksuite,https://mcp.larksuite.com/mcp,protected,,,yes,yes,https://accounts.larksuite.com/mcp,mcp-tool:common:fetch-file-v2; mcp-tool:common:get-user; mcp-tool:common:search-user; mcp-tool:docs:search-doc; mcp-tool:docs:create-doc; mcp-tool:docs:fetch-doc
+logitechclub.com,Logitech (store),https://logitechclub.com/api/mcp,live,storefront-renderer,,no,yes,https://shopify.com/authentication/56775999639,openid; email; customer-account-api:full; customer-account-mcp-api:full
+magiceden.io,Magiceden,https://docs.magiceden.io/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+mapbox.com,Mapbox,https://mcp.mapbox.com/mcp,prm,,,yes,yes,https://mcp.mapbox.com,styles:tiles; styles:read; fonts:read; datasets:read; tokens:read
+mastercard.com,Mastercard,https://mcdevelop.mcp.mastercard.com/mcp,prm,,,yes,yes,https://mcdevelop.mcp.mastercard.com,
+matomo.org,Matomo,https://partners.matomo.org/mcp,prm,,,yes,yes,https://partners.matomo.org,mcp:read; mcp:write
+mediamarkt.es,Mediamarkt,https://canarias.mediamarkt.es/api/ucp/mcp,prm,,,no,yes,https://shopify.com/authentication/28537028668,openid; email; customer-account-api:full; customer-account-mcp-api:full
+mercadolibre.com,Mercadolibre,https://mcp.mercadolibre.com/mcp,prm,,,yes,yes,https://mcp.mercadolibre.com/mcp,read; write; offline_access
+mercadopago.cl,Mercadopago,https://mcp.mercadopago.com/mcp,prm,,,yes,yes,https://mcp.mercadopago.com/mcp,offline_access; write; read
+mercadopago.com,Mercadopago,https://mcp.mercadopago.com/mcp,prm,,,yes,yes,https://mcp.mercadopago.com/mcp,offline_access; write; read
+midtrans.com,Midtrans,https://docs.midtrans.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+moderntreasury.com,Moderntreasury,https://docs.moderntreasury.com/mcp,live,Modern Treasury,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+moengage.com,Moengage,https://mcp.moengage.com/mcp,prm,,,yes,yes,https://moeauth.moengage.com,openid; email; profile; offline_access; campaigns:read
+getmoneytree.com,Moneytree,https://mcp.getmoneytree.com/mcp,protected,,,no,yes,https://myaccount.getmoneytree.com,accounts_read; transactions_read; investment_accounts_read; investment_transactions_read; points_read
+mongodb.com,Mongodb,https://mcp.mongodb.com/mcp,prm,,,no,yes,https://authorize.mongodb.com,
+navan.com,Navan,https://mcp.navan.com/mcp,prm,,,yes,yes,https://login.navan.com,openid; profile; offline_access; name; given_name; family_name
+neon.tech,Neon,https://mcp.neon.tech/mcp,prm,,,yes,yes,https://mcp.neon.tech,read; write; *
+netlify.app,Netlify,https://mcp.netlify.app/mcp,prm,,,no,no,http://localhost:8888/,offline_access; read; write; claudeai
+netlify.com,Netlify,https://netlify-mcp.netlify.app/mcp,protected,,,yes,yes,https://netlify-mcp.netlify.app/,offline_access; read; write; claudeai
+newrelic.com,Newrelic,https://mcp.newrelic.com/mcp,prm,,,yes,yes,https://mcp.newrelic.com,openid; profile; email
+notion.so,Notion,https://mcp.notion.com/mcp,protected,,,yes,yes,https://mcp.notion.com,default
+octopus.com,Octopus,https://shop.octopus.com/api/ucp/mcp,rpcerror,,,no,yes,https://shopify.com/authentication/20703901,openid; email; customer-account-api:full; customer-account-mcp-api:full
+onetrust.com,Onetrust,https://developer.onetrust.com/mcp,live,OneTrust Developer Portal,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+opensea.io,Opensea,https://mcp.opensea.io/mcp,live,OpenSea Data API,,no,yes,https://auth.opensea.io,urn:zitadel:iam:org:project:role:read:eligibility; urn:zitadel:iam:org:project:role:read:favorites; urn:zitadel:iam:org:project:role:read:social; urn:zitadel:iam:org:project:role:read:tools; urn:zitadel:iam:org:project:role:write:favorites; urn:zitadel:iam:org:project:role:write:social
+opsgenie.com,Opsgenie,https://docs.opsgenie.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+optimizely.com,Optimizely,https://mcp.optimizely.com/mcp,prm,,,no,no,https://event-watch.optimizely.com,mcp:query; mcp:manage; mcp:implement
+pantheon.io,Pantheon,https://swag.pantheon.io/api/ucp/mcp,rpcerror,,,no,yes,https://shopify.com/authentication/76856197341,openid; email; customer-account-api:full; customer-account-mcp-api:full
+paypal.com,Paypal,https://mcp.paypal.com/mcp,prm,,,yes,yes,https://mcp.paypal.com,
+paze.com,Paze,https://developer.paze.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+personio.de,Personio,https://mcp.personio.de/mcp,prm,,,no,yes,https://mcp.app.personio.com/,openid; offline_access; mcp:access
+pismo.io,Pismo,https://developers.pismo.io/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+quizlet.com,Quizlet,https://quizlet.com/.well-known/oauth-protected-resource,prm,,,no,yes,https://quizlet.com,write_set
+rapyd.org,Rapyd,https://mcp.rapyd.org/mcp,prm,,,yes,yes,https://mcp.rapyd.org,
+reclaim.ai,Reclaim,https://mcp.reclaim.ai/mcp,prm,,,yes,yes,https://mcp.reclaim.ai,read; write; mcp
+recordedfuture.com,Recordedfuture,https://mcp.recordedfuture.com/mcp,prm,,,yes,yes,https://mcp.recordedfuture.com,openid; email; profile; offline_access
+snooguts.net,Reddit,https://mcp.snooguts.net/mcp,prm,,,yes,yes,https://snooflare.cloudflareaccess.com,
+redelcom.cl,Redelcom,https://redelcom.cl/api/mcp,live,storefront-renderer,,no,yes,https://shopify.com/authentication/51424100527,openid; email; customer-account-api:full; customer-account-mcp-api:full
+redoxengine.com,Redox,https://api.redoxengine.com/mcp,protected,,,yes,yes,https://api.redoxengine.com,openid; offline_access; platform_access
+requirementyogi.com,Requirementyogi,https://api.requirementyogi.com/api/mcp,protected,,,no,no,,
+ripio.com,Ripio,https://api.ripio.com/mcp,protected,,,no,yes,https://api.ripio.com/,
+robinhood.com,Robinhood,https://agent.robinhood.com/mcp/trading,prm,,,yes,yes,https://agent.robinhood.com/mcp/trading,internal
+s-cloud.fi,S Group,https://mcp.s-cloud.fi/mcp,prm,,,yes,yes,https://mcp.s-cloud.fi,https://mcp.s-cloud.fi/access
+salesforce.com,Salesforce,https://api.salesforce.com/platform/mcp/v1/mcp,documented,,,no,yes,https://api.salesforce.com:443/platform/mcp/v1/mcp,mcp_api; refresh_token
+securitytrails.com,Securitytrails,https://docs.securitytrails.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+semrush.com,Semrush,https://mcp.semrush.com/v1/mcp,prm,,,no,no,https://oauth.semrush.com,mcp.access
+sharepoint.com,Sharepoint,https://mcp.sharepoint.com/mcp,authwall,,,no,no,https://login.microsoftonline.com/69ec38e5-e1fc-41d9-872f-562746431cde/v2.0,https://mcp.sharepoint.com/Sites.FullControl.All
+myshopify.com,Shopify,https://your-store.myshopify.com/.well-known/oauth-protected-resource,prm,,,no,yes,https://shopify.com/authentication/4707582008,openid; email; customer-account-api:full; customer-account-mcp-api:full
+shop.app,Shopify (Shop),https://shop.app/mcp,live,shopify-mcp-server,,no,yes,https://accounts.shop.app,agent:access
+slack.com,Slack,https://mcp.slack.com/mcp,protected,,,no,yes,https://mcp.slack.com,search:read.public; search:read.private; search:read.mpim; search:read.im; search:read.files; search:read.users
+smtp2go.com,Smtp2Go,https://developers.smtp2go.com/mcp,live,SMTP2GO-API-Docs,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+spotify.com,Spotify,https://mcp-gateway-external-pilot.spotify.net/mcp,protected,,,no,yes,https://accounts.spotify.com,user-read-playback-state; user-library-read; user-follow-read; app-remote-control; user-modify-playback-state; user-library-modify
+spotify.net,Spotify,https://mcp-gateway-external-pilot.spotify.net/mcp,prm,,,no,yes,https://accounts.spotify.com,user-read-playback-state; user-library-read; user-follow-read; app-remote-control; user-modify-playback-state; user-library-modify
+squareup.com,Square,https://mcp.squareup.com/mcp,protected,,,yes,yes,https://mcp.squareup.com,
+stripe.com,Stripe,https://mcp.stripe.com/,prm,,,yes,yes,https://access.stripe.com/mcp,mcp
+superhuman.com,Superhuman,https://docs.superhuman.com/apis/mcp,prm,,,yes,yes,https://id.superhuman.com,mcp:all
+thousandeyes.com,Thousandeyes,https://api.thousandeyes.com/mcp,protected,,,yes,yes,https://api.thousandeyes.com,mcp:manage; offline_access
+tiktok.com,Tiktok,https://ads.tiktok.com/mcp,protected,,,yes,yes,https://ads.tiktok.com,mcp:access
+trello.services,Trello (Atlassian),https://mcp.trello.services/mcp,prm,,,yes,yes,https://mcp.trello.services/mcp,read:board:trello; read:organization:trello; read:member:trello; read:member.inbox:trello; write:member.inbox:trello; read:member.planner:trello
+trendyol.com,Trendyol,https://developers.trendyol.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+tripadvisor.com,Tripadvisor,https://docs.terra.tripadvisor.com/mcp,live,Tripadvisor Terra,docs-platform server,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+udemy.com,Udemy,https://api.udemy.com/mcp,protected,,,yes,yes,https://api.udemy.com,course:read; mcp:read; mcp:write; lab:read; offline
+unbounce.com,Unbounce,https://mcp.unbounce.com/mcp,prm,,,yes,yes,https://mcp.unbounce.com,unbounce
+unreal-agents.com,Unreal Agents,https://mcp.unreal-agents.com/mcp,prm,,,yes,yes,https://mcp.unreal-agents.com,mcp:*; mcp:agents:*; mcp:tools:*; mcp:read
+upwork.com,Upwork,https://mcp.upwork.com/mcp,prm,,,yes,yes,https://mcp.upwork.com,
+urbancompany.com,Urban Company,https://mcp.urbancompany.com/mcp,prm,,,yes,yes,https://mcp.urbancompany.com,
+varonis.com,Varonis,https://dev.varonis.com/mcp,protected,,,yes,yes,https://dev.varonis.com,openid; profile; email; offline_access
+vimeo.com,Vimeo,https://mcp.vimeo.com/mcp/sse,live,VimeoMCP,,yes,yes,https://mcp.vimeo.com/,public; private; stats; upload; edit; create
+vismaonline.com,Vismaonline,https://developer.vismaonline.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+vistarmedia.com,Vistarmedia,https://developers.vistarmedia.com/mcp,live,MCP server,docs-platform server,yes,yes,https://developers.vistarmedia.com,openid; profile; email; offline_access
+whitebit.com,Whitebit,https://docs.whitebit.com/mcp,live,,,yes,yes,https://docs.whitebit.com/mcp/oauth,mcp:search
+wise.com,Wise,https://docs.wise.com/mcp,live,MCP server,docs-platform server,yes,yes,https://docs.wise.com,openid; profile; email; offline_access
+withings.com,Withings,https://withings.com/.well-known/oauth-protected-resource,prm,,,no,yes,https://shop-account.withings.com,openid; email; customer-account-api:full; customer-account-mcp-api:full
+withings.net,Withings,https://withings.net/.well-known/oauth-protected-resource,prm,,,no,yes,https://shop-account.withings.com,openid; email; customer-account-api:full; customer-account-mcp-api:full
+workbox.dk,Workbox,https://mcp.workbox.dk/mcp,prm,,,yes,yes,https://mcp.workbox.dk,dineropublicapi:read; dineropublicapi:write; offline_access
+wyze.com,Wyze,https://wyze.com/api/mcp,live,storefront-renderer,,no,yes,https://account.wyze.com,openid; email; customer-account-api:full; customer-account-mcp-api:full
+wyzecam.com,Wyze,https://wyzecam.com/.well-known/oauth-protected-resource,prm,,,no,yes,https://account.wyze.com,openid; email; customer-account-api:full; customer-account-mcp-api:full
+xadsacademy.com,xAds Academy,https://xadsacademy.com/mcp,prm,,,no,no,https://www.xadsacademy.com/oauth2,admin; ai_agent; openid
+yelp.com,Yelp,https://docs.developer.yelp.com/mcp,rpcerror,,,yes,yes,https://dash.readme.com/oidc,openid; offline_access; mcp:read; mcp:write; email; profile
+ynab.com,Ynab,https://api.ynab.com/mcp,protected,,,yes,yes,https://app.ynab.com,mcp
+zendesk.com,Zendesk,https://mcp.zendesk.com/api/mcp,authwall,,,yes,yes,https://mcp.zendesk.com/api/mcp/oauth,read; write

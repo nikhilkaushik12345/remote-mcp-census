@@ -1,0 +1,366 @@
+domain,organisation,endpoint,evidence_tier,server_name,server_kind,oauth,open_dcr,pkce,oauth_issuer,scopes,auth_note,doc_url
+0x.org,0X,https://docs.0x.org/mcp,live,fern-docs-mcp-server,docs-platform server,no,,,,,no auth required,
+1inch.com,1Inch,https://api.1inch.com/mcp,protected,,,yes,yes,yes,https://api.1inch.com,,,https://api.1inch.com/mcp/protocol`
+1password.com,1Password,https://www.1password.dev/mcp,live,,,no,,,,,no auth required,
+8x8.studio,8x8,https://mcp.8x8.studio/mcp,prm,,,yes,yes,yes,https://mcp.8x8.studio,mcp:* mcp:agents:* mcp:tools:* mcp:read,,https://docs.8x8.com/8x8WebHelp/8x8-ai-studio/Content/AI-studio/set-up-tools.htm
+acronis.com,Acronis,https://partner.acronis.com/mcp,prm,,,yes,yes,yes,https://partner.acronis.com,mcp:read mcp:write,,
+adobe.com,Adobe,https://cx-coworker-gateway.adobe.io/mcp,prm,,,yes,yes,yes,https://cx-coworker-gateway.adobe.io,openid profile email,,
+adobe.io,Adobe,https://cx-coworker-gateway.adobe.io/mcp,prm,,,yes,yes,yes,https://cx-coworker-gateway.adobe.io,openid profile email,,
+adobeaemcloud.com,Adobeaemcloud,https://mcp.adobeaemcloud.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),https://mcp.adobeaemcloud.com/adobe/mcp/`
+affirm.com,Affirm,https://docs.affirm.com/mcp,live,Affirm-Home,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+afterpay.com,Afterpay,https://developers.afterpay.com/mcp,live,fern-docs-mcp-server,docs-platform server,no,,,,,no auth required,
+aikido.dev,Aikido,https://apidocs.aikido.dev/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+airtable.com,Airtable,https://mcp.airtable.com/mcp,prm,,,yes,yes,yes,https://airtable.com/oauth2/v1,data.records:read data.records:write schema.bases:read schema.bases:write data.recordComments:read data.recordComments:write,,https://support.airtable.com/docs/using-the-airtable-mcp-server
+aiven.io,Aiven,https://mcp.aiven.live/mcp,authwall,,,yes,yes,yes,https://api.aiven.io,projects services accounts:read,,
+alasco.de,Alasco,https://mcp.alasco.de/mcp,prm,,,yes,yes,yes,https://mcp.alasco.de,read modify,,https://developer.alasco.de/mcp.html
+allbridge.io,Allbridge,https://mcp.allbridge.io/mcp,live,allbridge-mcp,,yes,yes,yes,https://mcp.allbridge.io,allbridge.mcp,,https://docs-core.allbridge.io/ai/allbridge-mcp/http-and-auth
+amazon.com,Amazon Web Services,https://developer.amazon.com/mcp,live,DevPortalSearchMCPServer,docs-platform server,no,,,,,no auth required,https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html
+amazonaws.com,Amazon Web Services,https://aws-mcp.us-east-1.api.aws/mcp,live,AWSMCP,,yes,yes,,https://us-east-1.oauth.signin.aws/,,,
+amply.finance,Amply,https://docs.amply.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+android.com,Android,https://androidmanagement.googleapis.com/mcp,live,StatelessServer,,yes,,yes,https://accounts.google.com/,https://www.googleapis.com/auth/androidmanagement,,
+anduril.com,Anduril,https://developer.anduril.com/mcp,rpcerror,,,no,,,,,auth unclear (HTTP 406),
+ankr.com,Ankr,https://mcp.ankr.com/mcp,protected,,,yes,yes,yes,https://mcp.ankr.com,mcp:tools,,https://www.ankr.com/docs/advanced-api/overview/
+anome.xyz,Anome,https://docs.anome.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+arc.network,Arc,https://docs.arc.network/mcp,rpcerror,,,no,,,,,auth unclear (HTTP 405),
+arkadiko.finance,Arkadiko,https://docs.arkadiko.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+arkoselabs.com,Arkoselabs,https://mcp.arkoselabs.com/mcp,prm,,,yes,yes,yes,https://mcp.arkoselabs.com,mcp:portal:read mcp:portal:write offline_access,,https://developer.arkoselabs.com/docs/arkose-labs-api-guide
+arubanetworks.com,Arubanetworks,https://developer.arubanetworks.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+asana.com,Asana,https://mcp.asana.com/mcp,prm,,,yes,yes,yes,https://mcp.asana.com,default,,https://developers.asana.com/docs/using-asanas-mcp-server
+aspidanet.com,Aspidanet,https://docs.aspidanet.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+asterdex.com,Asterdex,https://docs.asterdex.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+ati.su,Ati,https://api.ati.su/gw/panda-mcp/public/v1/mcp,live,,,no,,,,,no auth required,
+atlassian.com,Atlassian,https://mcp.atlassian.com/v1/mcp,documented,,,no,,,,,static API key / bearer token,https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
+atlassian.net,Atlassian,https://mcp.atlassian.com/v1/mcp,documented,,,no,,,,,static API key / bearer token,
+auth0.com,Auth0,https://auth0.com/docs/mcp,live,,,no,,,,,no auth required,
+auto.finance,Auto,https://docs.auto.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+avax.network,Avax,https://build.avax.network/api/mcp,live,avalanche-mcp,,no,,,,,no auth required,
+backstage.io,Backstage,https://demo.backstage.io/api/mcp-actions/v1,live,My Backstage Demo,,yes,yes,yes,https://demo.backstage.io/api/auth,openid,,
+base.org,Base,https://mcp.base.org/mcp,authwall,,,no,,,,,static API key / bearer token,https://mcp.base.org`
+basin.exchange,Basin,https://docs.basin.exchange/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+bean.money,Bean,https://docs.bean.money/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+beefy.finance,Beefy,https://docs.beefy.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+benqi.fi,Benqi,https://docs.benqi.fi/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+berachain.com,Berachain,https://docs.berachain.com/mcp,live,,,no,,,,,no auth required,
+billflow.io,Billflow,https://docs.billflow.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+bionic.ai,Bionic,https://docs.bionic.ai/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+bitbucket.org,Bitbucket,https://mcp.atlassian.com/v1/mcp,documented,,,no,,,,,static API key / bearer token,
+bitgo.com,Bitgo,https://developers.bitgo.com/mcp,live,bitgo-developer-portal,docs-platform server,no,,,,,no auth required,
+bitkan.com,Bitkan,https://mcp.bitkan.com/mcp,live,bitkan-mcp,,no,,,,,no auth required,
+bitkubnft.com,Bitkubnft,https://docs.bitkubnft.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+bitoasis.net,Bitoasis,https://support.bitoasis.net/mcp,protected,,,no,,,,,auth unclear (HTTP 401),
+bitpanda.com,Bitpanda,https://mcp.bitpanda.com/mcp,authwall,,,no,,,,,static API key / bearer token,https://mcp.fusion.bitpanda.com`
+bitrise.io,Bitrise,https://mcp.bitrise.io/mcp,prm,,,yes,,yes,https://oauth.bitrise.io,email offline_access openid profile,,https://docs.bitrise.io/en/bitrise-platform/ai/bitrise-mcp
+bitso.com,Bitso,https://docs.bitso.com/mcp,live,Bitso,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+blockchain.com,Blockchain,https://docs.blockchain.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+blockpi.io,Blockpi,https://docs.blockpi.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+bluehost.com,Bluehost,https://mcp.bluehost.com/.well-known/oauth-protected-resource,prm,,,yes,yes,yes,https://oauth.bluehost.com,domains:read hosting:read,,https://www.bluehost.com/help/article/remote-database-connection-setup
+bokundemo.com,Bokundemo,https://mcp.bokundemo.com/mcp,rpcerror,,,no,,,,,no auth required,
+bokuntest.com,Bokuntest,https://mcp.bokuntest.com/mcp,rpcerror,,,no,,,,,no auth required,
+booking.com,Booking,https://developers.booking.com/mcp,live,MCP server,docs-platform server,yes,yes,yes,https://developers.booking.com,openid profile email offline_access,,
+box.com,Box,https://mcp.box.com/mcp,prm,,,yes,,yes,https://api.box.com/,,,https://developer.box.com/guides/box-mcp/setup
+bridge.xyz,Bridge,https://mcp.bridge.xyz/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),https://www.bridgetown.builders/docs/getting-started/connect-mcp-client
+bugcrowd.com,Bugcrowd,https://stream.bugcrowd.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+bykea.store,Bykea,https://bykea.store/api/mcp,live,storefront-renderer,,yes,,yes,https://shopify.com/authentication/81469407525,openid email customer-account-api:full customer-account-mcp-api:full,,https://bykea.store/policies/terms-of-service
+byreal.io,Byreal,https://docs.byreal.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+caldera.xyz,Caldera,https://docs.caldera.xyz/mcp,live,,,no,,,,,no auth required,
+callroute.com,Callroute,https://callroute.com/.well-known/oauth-protected-resource,prm,,,no,,,,,no auth required,https://callroute.com/
+canva-apps.cn,Canva Apps,https://mcp.canva.cn/mcp,protected,,,yes,yes,yes,https://mcp.canva.cn,profile:read design:meta:read design:content:write design:content:read folder:read folder:write,,
+canva-apps.com,Canva Apps,https://mcp.canva.com/mcp,protected,,,yes,yes,yes,https://mcp.canva.com,profile:read design:meta:read design:content:write design:content:read folder:read folder:write,,
+canva.cn,Canva (China),https://mcp.canva.cn/mcp,prm,,,yes,yes,yes,https://mcp.canva.cn,profile:read design:meta:read design:content:write design:content:read folder:read folder:write,,https://www.canva.dev/docs/mcp/
+canva.com,Canva,https://mcp.canva.com/mcp,prm,,,yes,yes,yes,https://mcp.canva.com,profile:read design:meta:read design:content:write design:content:read folder:read folder:write,,https://www.canva.dev/docs/mcp/
+cash.app,Cash,https://developers.cash.app/mcp,live,fern-docs-mcp-server,docs-platform server,no,,,,,no auth required,
+celo.org,Celo,https://docs.celo.org/mcp,live,,,no,,,,,no auth required,
+chime.com,Chime,https://developer.chime.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+circle.com,Circle,https://api.circle.com/v1/codegen/mcp,live,Circle AI Codegen MCP Server V2,,no,,,,,no auth required,
+citrea.xyz,Citrea,https://docs.citrea.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+classdojo.com,Classdojo,https://mcp.classdojo.com/mcp,prm,,,yes,yes,yes,https://mcp.classdojo.com,,,https://mcp.classdojo.com/
+clearme.com,Clearme,https://docs.clearme.com/mcp,live,CLEAR1,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+cleartrip.com,Cleartrip,https://mcp.cleartrip.com/mcp,authwall,,,yes,yes,yes,https://mcp.cleartrip.com/,,,https://saasdoc.cleartrip.com/reference/api-mechanism
+cloudflare.com,Cloudflare,https://docs.mcp.cloudflare.com/mcp,live,docs-ai-search,docs-platform server,no,,,,,no auth required,https://mcp.cloudflare.com/mcp
+cloudinary.com,Cloudinary,https://asset-management.mcp.cloudinary.com/mcp,prm,,,yes,yes,yes,https://asset-management.mcp.cloudinary.com,openid profile email offline_access asset_management upload,,
+cm.com,Cm,https://api.cm.com/mcp,protected,,,no,,,,,auth unclear (HTTP 401),https://knowledgecenter.cm.com/knowledge-center/halo/halo-integrations/mcp
+cmtelecom.com,CM.com,https://api.cmtelecom.com/mcp,protected,,,no,,,,,auth unclear (HTTP 401),
+coda.io,Coda,https://coda.io/apis/mcp,protected,,,yes,yes,yes,https://coda.io,mcp:all,,
+coin98.com,Coin98,https://docs.coin98.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+coinbase.com,Coinbase,https://docs.cdp.coinbase.com/mcp,live,,,no,,,,,no auth required,
+coindesk.com,Coindesk,https://mcp.coindesk.com/mcp,prm,,,yes,yes,yes,https://mcp.coindesk.com,,,https://mcp.coindesk.com/
+coinex.com,Coinex,https://mcp.coinex.com/mcp,live,coinex-mcp-server,,no,,,,,no auth required,https://mcp.coinex.com/mcp`
+coingecko.com,Coingecko,https://mcp.coingecko.com/mcp,live,,,no,,,,,no auth required,
+coinmarketcap.com,Coinmarketcap,https://mcp.coinmarketcap.com/mcp,authwall,,,yes,yes,yes,https://mcp.coinmarketcap.com,mcp,,https://coinmarketcap.com/api/documentation/ai-agent-hub/mcp
+core.app,Core,https://mcp.core.app/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),https://docs.getcore.me/mcp/configuration
+cronos.org,Cronos,https://docs.cronos.org/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+cronosid.xyz,Cronosid,https://docs.cronosid.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+crypto.com,Crypto,https://mcp.crypto.com/market-data/mcp,live,,,no,,,,,no auth required,
+cube.exchange,Cube,https://cube.exchange/.well-known/oauth-protected-resource,prm,,,yes,,,https://id.cube.exchange,mcp.cube,,https://docs.cube.dev/docs/integrations/mcp-server
+cybersource.com,Cybersource,https://shop-hardware.cybersource.com/api/ucp/mcp,rpcerror,,,yes,,yes,https://shopify.com/authentication/18758157,openid email customer-account-api:full customer-account-mcp-api:full,,
+dana.id,Dana,https://mcp.dana.id/mcp,prm,openaidanaapp,,yes,yes,yes,https://mcp.dana.id,read:user user:email,,https://dashboard.dana.id/api-docs-v2/guide/integration-mcp
+databricks.com,Databricks,https://api.databricks.com/api/2.0/mcp/functions,documented,,,no,,,,,auth unclear (HTTP 401),https://docs.databricks.com/aws/en/agents/mcp/managed-mcp
+datacamp.com,Datacamp,https://mcp.datacamp.com/mcp,live,datacamp-mcp-server,,no,,,,,no auth required,https://www.datacamp.com/courses/introduction-to-model-context-protocol-mcp
+datadome.co,Datadome,https://mcp.datadome.co/mcp,authwall,,,yes,yes,yes,https://mcp.datadome.co/,openid,,https://docs.datadome.co/docs/mcp-servers-protection
+decathlon.com,Decathlon,https://decathlon.com/api/mcp,live,storefront-renderer,,yes,,yes,https://shopify.com/authentication/13306287,openid email customer-account-api:full customer-account-mcp-api:full,,https://www.decathlon.com/api/ucp/mcp`
+decentraland.org,Decentraland,https://docs.decentraland.org/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+defisaver.com,Defisaver,https://docs.defisaver.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+deribit.com,Deribit,https://docs.deribit.com/mcp,live,,,no,,,,,no auth required,
+deriv.com,Deriv,https://mcp-api.deriv.com/mcp,live,MCP Server on Cloud Run,,no,,,,,no auth required,
+desyn.io,Desyn,https://docs.desyn.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+digitalocean.com,Digitalocean,https://apps.mcp.digitalocean.com/mcp,protected,,,yes,yes,yes,https://cloud.digitalocean.com,,,https://docs.digitalocean.com/reference/mcp/configure-mcp/
+district.in,District,https://mcp-server.district.in/mcp,authwall,,,no,,,,,static API key / bearer token,
+do-ai.run,Do Ai,https://kbaas.do-ai.run/v1/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+docsend.com,Docsend,https://mcp.docsend.com/mcp,protected,,,yes,yes,yes,https://docsend.com,documents:read spaces:read spaces:write analytics:read contacts:read,,https://docsend2pdf.com/mcp-docs
+doordash.com,Doordash,https://openapi.doordash.com/mcp/consumer,authwall,,,yes,,yes,https://identity.doordash.com,mcp:consumer:write,,
+doppler.com,Doppler,https://docs.doppler.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+dropbox.com,Dropbox,https://mcp.dropbox.com/mcp,protected,,,yes,yes,yes,https://www.dropbox.com,account_info.read file_requests.read file_requests.write files.content.read files.content.write files.metadata.read,,https://help.dropbox.com/integrations/connect-dropbox-mcp-server
+ean.com,Expedia (EAN),https://api.ean.com/mcp,protected,,,yes,,yes,https://api.expediagroup.com/identity/oauth2/v3/oauth2,demand-solutions.demand-api-wrappers-prod.all,,https://www.ean-search.org/mcp
+ecwid.com,Ecwid,https://docs.ecwid.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+elastic.co,Elastic,https://learn.elastic.co/v1/mcp,protected,,,yes,,,https://elastic.docebosaas.com,api,,
+epam.com,Epam,https://mcp.epam.com/mcp/,protected,,,yes,yes,yes,https://mcp.epam.com,,,https://epam-a74ef051.mintlify.app/integrations/mcp/create-and-use-remote-mcp
+ethena.fi,Ethena,https://docs.ethena.fi/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+etherscan.io,Etherscan,https://docs.etherscan.io/mcp,live,,,no,,,,,no auth required,
+etoro.com,Etoro,https://api-portal.etoro.com/mcp,live,eToro.Public.Api.Mcp,,no,,,,,no auth required,
+etsy.com,Etsy,https://mcp.api.etsycloud.com/mcp,live,etsy-openapi-mcp,,no,,,,,no auth required,
+evernote.com,Evernote,https://mcp.evernote.com/mcp,prm,,,yes,yes,yes,https://accounts.evernote.com,read create write delete,,https://dev.evernote.com/mcp
+expedia.com,Expedia,https://www.expedia.com/mcp,documented,,,no,,,,,auth unclear (HTTP 403),
+facebook.com,Facebook,https://mcp.facebook.com/ads,protected,,,yes,yes,yes,https://mcp.facebook.com/ads,ads_management ads_read catalog_management business_management pages_show_list instagram_basic,,
+faraday.ai,Faraday,https://mcp.faraday.ai/mcp,prm,,,yes,yes,yes,https://mcp.faraday.ai,,,https://faraday.ai/docs/features/mcp
+ferroprotocol.com,Ferroprotocol,https://docs.ferroprotocol.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+fidentity.ch,Fidentity,https://docs.fidentity.ch/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+figma.com,Figma,https://mcp.figma.com/mcp,prm,,,yes,yes,yes,https://api.figma.com,mcp:connect,,https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+files.com,Files,https://mysite.files.com/api/ai/mcp/v1/,protected,,,yes,,yes,https://mysite.files.com,,,
+fin.ai,Fin,https://mcp.intercom.com/mcp,authwall,,,no,,,,,static API key / bearer token,
+fireblocks.io,Fireblocks,https://mcp.fireblocks.io/mcp,authwall,,,no,,,,,static API key / bearer token,https://developers.fireblocks.com/mcp
+fivetran.com,Fivetran,https://learn.fivetran.com/v1/mcp,protected,,,yes,,,https://hvr-software.docebosaas.com,api,,
+flourish.studio,Flourish,https://flourish-mcp-server.prd.k8s.flourishsoftware.com/mcp,protected,,,yes,yes,yes,https://flourish-mcp-server.prd.k8s.flourishsoftware.com,,,
+folks.finance,Folks,https://docs.folks.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+frame.io,Frame,https://mcp.frame.io/mcp,protected,,,yes,yes,yes,https://mcp.frame.io,openid AdobeID,,https://next.developer.frame.io/_mcp/server
+frankencoin.com,Frankencoin,https://mcp.frankencoin.com/mcp,live,frankencoin,,no,,,,,no auth required,https://mcp.frankencoin.com/mcp`
+freshdesk.com,Freshdesk,https://mcp.freshdesk.com/mcp,protected,,,no,,,,,auth unclear (HTTP 401),https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk-eap-
+freshservice.com,Freshservice,https://mcp.freshservice.com/mcp,protected,,,no,,,,,auth unclear (HTTP 401),https://support.freshservice.com/support/solutions/articles/50000012678-model-context-protocol-mcp-integration-in-freshservice-eap-
+front.com,Front,https://dev.frontapp.com/mcp,live,Front Platform,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+frontapp.com,Front,https://mcp.frontapp.com/mcp,prm,,,yes,,yes,https://app.frontapp.com,feature:mcp,,https://dev.frontapp.com/docs/mcp-server
+frontegg.com,Frontegg,https://mcp.frontegg.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),https://developers.frontegg.com/agen-for-saas/configuration/hosting-mcp-gateway
+fulcrom.finance,Fulcrom,https://docs.fulcrom.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+gate.com,Gate,https://docs.gate.com/mcp,live,,,no,,,,,no auth required,
+getmoneytree.com,Moneytree,https://mcp.getmoneytree.com/mcp,protected,,,yes,,yes,https://myaccount.getmoneytree.com,accounts_read transactions_read investment_accounts_read investment_transactions_read points_read,,https://docs.link.getmoneytree.com/docs/api-domain
+gitlab.com,Gitlab,https://gitlab.com/api/v4/mcp,prm,,,yes,yes,yes,https://gitlab.com,mcp,,https://docs.gitlab.com/user/model_context_protocol/mcp_server/
+glean.com,Glean,https://developers.glean.com/mcp,live,glean-developer-docs,docs-platform server,no,,,,,no auth required,
+globalticket.com,Globalticket,https://mcp.globalticket.com/,authwall,,,no,,,,,auth unclear (HTTP 403),
+gmgn.ai,Gmgn,https://docs.gmgn.ai/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+gobob.xyz,Gobob,https://gobob.xyz/.well-known/oauth-protected-resource,prm,,,yes,,,https://gobob.xyz,api:read,,https://docs.gobob.xyz/docs/reference/
+gocardless-staging.io,GoCardless (staging),https://mcp.gocardless-staging.io/mcp,prm,,,yes,yes,yes,https://mcp.gocardless-staging.io,,,https://mcp.gocardless-staging.io/
+gocardless.com,Gocardless,https://mcp.gocardless.com/mcp,prm,,,yes,yes,yes,https://mcp.gocardless.com,,,https://developer.gocardless.com/developer-tools/mcp/
+google.com,Google Cloud,https://agentregistry.googleapis.com/mcp,live,StatelessServer,,yes,,yes,https://accounts.google.com/,https://www.googleapis.com/auth/agentregistry.read-write,,
+googleapis.com,Google Cloud,https://bigquery.googleapis.com/mcp,live,StatelessServer,,yes,,yes,https://accounts.google.com/,https://www.googleapis.com/auth/bigquery,,https://aiplatform.googleapis.com/mcp/generate`
+gouv.fr,Gouv,https://mcp.data.gouv.fr/mcp,live,data.gouv.fr MCP server,,no,,,,,no auth required,
+granite.world,Granite,https://docs.granite.world/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+greenhouse.io,Greenhouse,https://mcp.us.greenhouse.io/mcp,prm,,,yes,yes,yes,https://mcp.us.greenhouse.io,greenhouse:mcp_client,,
+h2.finance,H2,https://docs.h2.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+hacken.io,Hacken,https://mcp.hackenproof.com/mcp,live,,,no,,,,,no auth required,
+hackerone.com,Hackerone,https://hackerone.com/mcp,rpcerror,,,no,,,,,auth unclear (HTTP 401),https://docs.hackerone.com/en/articles/16069077-hackerone-mcp-server-setup-tool-reference
+harvest.finance,Harvest,https://docs.harvest.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+hellosign.com,Hellosign,https://developers.hellosign.com/mcp,live,fern-docs-mcp-server,docs-platform server,no,,,,,no auth required,
+here.com,Here,https://docs.here.com/mcp,live,HERE Technologies Documentation | HERE Docs,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+hermetica.fi,Hermetica,https://docs.hermetica.fi/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+hh.ru,Hh,https://mcp.hh.ru/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),https://hh.ru/
+hibachi.xyz,Hibachi,https://docs.hibachi.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+hope.money,Hope,https://docs.hope.money/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+hostinger.com,Hostinger,https://mcp.hostinger.com/,prm,,,yes,yes,yes,https://auth.hostinger.com,mcp:use,,https://www.hostinger.com/support/11079316-hostinger-api-mcp-server/
+hubspot.com,Hubspot,https://mcp.hubspot.com/,prm,,,yes,,yes,https://mcp.hubspot.com,,,https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server
+hubspotpagebuilder.com,Hubspotpagebuilder,https://mcp.hubspotpagebuilder.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+hubspotpagebuilder.eu,Hubspotpagebuilder,https://mcp.hubspotpagebuilder.eu/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+hyperlane.xyz,Hyperlane,https://docs.hyperlane.xyz/mcp,live,,,no,,,,,no auth required,
+ic0.app,Ic0,https://mcp.ic0.app/mcp,authwall,,,no,,,,,auth unclear (HTTP 400),
+immutable.com,Immutable,https://docs.immutable.com/mcp,live,,,no,,,,,no auth required,
+indeed.com,Indeed,https://mcp.indeed.com/claude/mcp,protected,,,yes,yes,yes,https://secure.indeed.com/,job_seeker.company.details.read job_seeker.jobs.search job_seeker.profile.read offline_access,,
+infinifi.xyz,Infinifi,https://docs.infinifi.xyz/mcp,live,,,no,,,,,no auth required,
+instacart.com,Instacart,https://mcp.instacart.com/mcp,live,InstacartRecipeServer,,no,,,,,no auth required,https://docs.instacart.com/developer_platform_api/guide/tutorials/mcp
+instacart.tools,Instacart,https://mcp.dev.instacart.tools/mcp,live,InstacartRecipeServer,,no,,,,,no auth required,
+intercom.com,Intercom,https://mcp.eu.intercom.com/mcp,documented,,,no,,,,,static API key / bearer token,https://developers.intercom.com/docs/guides/mcp
+internetcomputer.org,Internet Computer / DFINITY,https://mcp.internetcomputer.org/mcp,prm,,,yes,yes,yes,https://mcp.internetcomputer.org/mcp,,,https://docs.internetcomputer.org/
+jora.com,Jora,https://api.jora.com/.well-known/oauth-protected-resource/mcp,prm,,,no,,,,,auth unclear (HTTP 404),
+kartaview.org,Kartaview,https://store.kartaview.org/api/ucp/mcp,prm,,,yes,,yes,https://shopify.com/authentication/83238912303,openid email customer-account-api:full customer-account-mcp-api:full,,
+keeper.io,Keeper,https://docs.keeper.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+kiln.fi,Kiln,https://docs.api.kiln.fi/mcp,live,Kiln API Docs,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+kiwi.com,Kiwi,https://mcp.kiwi.com/,live,,,no,,,,,no auth required,
+klaviyo.com,Klaviyo,https://mcp.klaviyo.com/mcp,prm,,,yes,yes,yes,https://mcp.klaviyo.com,,,https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
+komoju.com,Komoju,https://doc.komoju.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,https://shop.komoju.com/api/ucp/mcp`
+konghq.com,Konghq,https://au.mcp.konghq.com/,authwall,,,no,,,,,auth unclear (HTTP 401),
+krisp.ai,Krisp,https://mcp.krisp.ai/mcp,prm,,,yes,,,https://mcp.krisp.ai,user::me::read user::meetings:metadata::read user::meetings:metadata::write user::meetings:notes::read user::meetings:transcripts::read user::meetings::list,,https://help.krisp.ai/hc/en-us/articles/25396920405148-Krisp-MCP
+kronor.io,Kronor,https://mcp.kronor.io/mcp/server,prm,,,yes,yes,yes,https://mcp.kronor.io,mcp offline_access,,https://docs.kronor.io/getting_started
+kubchain.com,Kubchain,https://docs.kubchain.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+langfuse.com,Langfuse,https://langfuse.com/api/mcp,live,,,no,,,,,no auth required,
+larksuite.com,Larksuite,https://mcp.larksuite.com/mcp,protected,,,yes,yes,yes,https://accounts.larksuite.com/mcp,mcp-tool:common:fetch-file-v2 mcp-tool:common:get-user mcp-tool:common:search-user mcp-tool:docs:search-doc mcp-tool:docs:create-doc mcp-tool:docs:fetch-doc,,https://open.larksuite.com/document/mcp_open_tools/call-feishu-mcp-server-in-remote-mode
+lightspark.com,Lightspark,https://docs.lightspark.com/mcp,live,,,no,,,,,no auth required,
+logitechclub.com,Logitech (store),https://logitechclub.com/api/mcp,live,storefront-renderer,,yes,,yes,https://shopify.com/authentication/56775999639,openid email customer-account-api:full customer-account-mcp-api:full,,
+magic.link,Magic,https://docs.magic.link/mcp,live,,,no,,,,,no auth required,
+magiceden.io,Magiceden,https://docs.magiceden.io/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+mantle.xyz,Mantle,https://docs.mantle.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+mapbox.com,Mapbox,https://mcp.mapbox.com/mcp,prm,,,yes,yes,yes,https://mcp.mapbox.com,styles:tiles styles:read fonts:read datasets:read tokens:read,,https://docs.mapbox.com/api/guides/mcp-server/
+marsecosystem.com,Marsecosystem,https://docs.marsecosystem.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+mastercard.com,Mastercard,https://mcdevelop.mcp.mastercard.com/mcp,prm,,,yes,yes,yes,https://mcdevelop.mcp.mastercard.com,,,
+matomo.org,Matomo,https://partners.matomo.org/mcp,prm,,,yes,yes,yes,https://partners.matomo.org,mcp:read mcp:write,,
+mediamarkt.es,Mediamarkt,https://canarias.mediamarkt.es/api/ucp/mcp,prm,,,yes,,yes,https://shopify.com/authentication/28537028668,openid email customer-account-api:full customer-account-mcp-api:full,,
+meesho.com,Meesho,https://mcp.meesho.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 400),
+mementoblockchain.com,Mementoblockchain,https://docs.mementoblockchain.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+meraki.com,Meraki,https://mcp.meraki.com/mcp,live,,,no,,,,,no auth required,
+mercadolibre.com,Mercadolibre,https://mcp.mercadolibre.com/mcp,prm,,,yes,yes,yes,https://mcp.mercadolibre.com/mcp,read write offline_access,,https://developers.mercadolibre.com.uy/mcp-server
+mercadopago.cl,Mercadopago,https://mcp.mercadopago.com/mcp,prm,,,yes,yes,yes,https://mcp.mercadopago.com/mcp,offline_access write read,,
+mercadopago.com,Mercadopago,https://mcp.mercadopago.com/mcp,prm,,,yes,yes,yes,https://mcp.mercadopago.com/mcp,offline_access write read,,https://www.mercadopago.com.ar/developers/en/docs/mcp-server/connection
+metronome.com,Metronome,https://docs.metronome.com/mcp,live,,,no,,,,,no auth required,
+microsoft.com,Microsoft,https://learn.microsoft.com/api/mcp,live,,,no,,,,,no auth required,
+midtrans.com,Midtrans,https://docs.midtrans.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+mindnetwork.xyz,Mindnetwork,https://docs.mindnetwork.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+moderntreasury.com,Moderntreasury,https://docs.moderntreasury.com/mcp,live,Modern Treasury,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+moengage.com,Moengage,https://mcp.moengage.com/mcp,prm,,,yes,yes,yes,https://moeauth.moengage.com,openid email profile offline_access campaigns:read,,https://moengage.com/docs/user-guide/ai-and-intelligence/merlin-ai/moengage-mcp-server
+monad.xyz,Monad,https://docs.monad.xyz/mcp,live,,,no,,,,,no auth required,
+monday.trade,Monday,https://docs.monday.trade/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+mongodb.com,Mongodb,https://mcp.mongodb.com/mcp,prm,,,yes,,yes,https://authorize.mongodb.com,,,https://www.mongodb.com/products/tools/mcp-server
+moonlander.trade,Moonlander,https://docs.moonlander.trade/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+moonpay.com,Moonpay,https://dev.moonpay.com/mcp,live,,,no,,,,,no auth required,
+moonpaycloud.com,Moonpaycloud,https://dev.moonpay.com/mcp,live,,,no,,,,,no auth required,
+morpho.org,Morpho,https://mcp.morpho.org/mcp,live,,,no,,,,,no auth required,
+mozilla.org,Mozilla,https://mcp.mdn.mozilla.net,live,,,no,,,,,no auth required,
+multipli.fi,Multipli,https://docs.multipli.fi/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+mux.network,Mux,https://docs.mux.network/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+myfitnesspal.com,Myfitnesspal,https://mcp.myfitnesspal.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+myshopify.com,Shopify,https://your-store.myshopify.com/.well-known/oauth-protected-resource,prm,,,yes,,yes,https://shopify.com/authentication/4707582008,openid email customer-account-api:full customer-account-mcp-api:full,,https://{shop}.myshopify.com/api/mcp
+nado.xyz,Nado,https://docs.nado.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+navan.com,Navan,https://mcp.navan.com/mcp,prm,,,yes,yes,yes,https://login.navan.com,openid profile offline_access name given_name family_name,,https://navan.com/blog/navan-anywhere-gemini-travel-expense-ai
+naviprotocol.io,Naviprotocol,https://open-api.naviprotocol.io/api/mcp,live,navi-protocol,,no,,,,,no auth required,
+neon.tech,Neon,https://mcp.neon.tech/mcp,prm,,,yes,yes,yes,https://mcp.neon.tech,read write *,,https://neon.com/docs/ai/neon-mcp-server
+netlify.app,Netlify,https://mcp.netlify.app/mcp,prm,,,yes,,,http://localhost:8888/,offline_access read write claudeai,,https://netlify-mcp.netlify.app/mcp
+netlify.com,Netlify,https://netlify-mcp.netlify.app/mcp,protected,,,yes,yes,yes,https://netlify-mcp.netlify.app/,offline_access read write claudeai,,
+newegg.com,Newegg,https://apis.newegg.com/ex-mcp/endpoint/ext-pc-builder,live,mcp-server-executor,,no,,,,,no auth required,
+newrelic.com,Newrelic,https://mcp.newrelic.com/mcp,prm,,,yes,yes,yes,https://mcp.newrelic.com,openid profile email,,https://docs.newrelic.com/docs/agentic-ai/mcp/setup/
+notion.so,Notion,https://mcp.notion.com/mcp,protected,,,yes,yes,yes,https://mcp.notion.com,default,,https://developers.notion.com/guides/mcp/build-mcp-client
+npmjs.com,Npmjs,https://mcp.npmjs.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),https://www.npmjs.com/package/mcp-server-npms
+npmjs.org,Npmjs,https://mcp.npmjs.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+octopus.com,Octopus,https://shop.octopus.com/api/ucp/mcp,rpcerror,,,yes,,yes,https://shopify.com/authentication/20703901,openid email customer-account-api:full customer-account-mcp-api:full,,
+olympusdao.finance,Olympusdao,https://mcp.olympusdao.finance/mcp,live,,,no,,,,,no auth required,
+onetrust.com,Onetrust,https://developer.onetrust.com/mcp,live,OneTrust Developer Portal,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+openai.com,Openai,https://developers.openai.com/mcp,live,openai-docs-mcp,docs-platform server,no,,,,,no auth required,
+opensea.io,Opensea,https://mcp.opensea.io/mcp,live,OpenSea Data API,,yes,,yes,https://auth.opensea.io,urn:zitadel:iam:org:project:role:read:eligibility urn:zitadel:iam:org:project:role:read:favorites urn:zitadel:iam:org:project:role:read:social urn:zitadel:iam:org:project:role:read:tools urn:zitadel:iam:org:project:role:write:favorites urn:zitadel:iam:org:project:role:write:social,,https://docs.opensea.io/reference/mcp
+opsgenie.com,Opsgenie,https://docs.opsgenie.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+optimism.io,Optimism,https://docs.optimism.io/mcp,live,,,no,,,,,no auth required,
+optimizely.com,Optimizely,https://mcp.optimizely.com/mcp,prm,,,yes,,,https://event-watch.optimizely.com,mcp:query mcp:manage mcp:implement,,https://support.optimizely.com/hc/en-us/articles/45321466744205-Install-Optimizely-Experimentation-MCP-server
+orderly.network,Orderly,https://mcp.orderly.network/,live,orderly-network-mcp,,no,,,,,no auth required,https://mcp.orderly.network`**
+originprotocol.com,Originprotocol,https://docs.originprotocol.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+ort-one-pingone.com,Ort One Pingone,https://mcp.ort-one-pingone.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+ostium.com,Ostium,https://docs.ostium.com/mcp,live,,,no,,,,,no auth required,
+otherside.xyz,Otherside,https://docs.otherside.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+paddle.com,Paddle,https://mcp.paddle.com/mcp,authwall,,,no,,,,,static API key / bearer token,https://developer.paddle.com/sdks/ai/paddle-mcp/
+pancakeswap.finance,Pancakeswap,https://docs.pancakeswap.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+pantheon.io,Pantheon,https://swag.pantheon.io/api/ucp/mcp,rpcerror,,,yes,,yes,https://shopify.com/authentication/76856197341,openid email customer-account-api:full customer-account-mcp-api:full,,
+parallel.best,Parallel,https://mcp.parallel.best/mcp,live,,,no,,,,,no auth required,
+pareto.credit,Pareto,https://docs.pareto.credit/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+paypal.com,Paypal,https://mcp.paypal.com/mcp,prm,,,yes,yes,yes,https://mcp.paypal.com,,,https://docs.paypal.ai/developer/tools/ai/mcp-quickstart
+paze.com,Paze,https://developer.paze.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+personio.de,Personio,https://mcp.personio.de/mcp,prm,,,yes,,yes,https://mcp.app.personio.com/,openid offline_access mcp:access,,https://developer.personio.de/llms.txt
+phantom.com,Phantom,https://docs.phantom.com/mcp,live,,,no,,,,,no auth required,
+pinelabs.com,Pinelabs,https://mcp.pinelabs.com/mcp,authwall,,,no,,,,,static API key / bearer token,https://www.pinelabs.com/docs/online-payments/ai/mcp-server/setup-guide-api-execution
+pinepg.in,Pinepg,https://mcp.pinelabs.com/mcp,authwall,,,no,,,,,static API key / bearer token,
+pionex.com,Pionex,https://www.pionex.com/docs/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+pismo.io,Pismo,https://developers.pismo.io/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+plaid.com,Plaid,https://api.dashboard.plaid.com/mcp/,documented,,,no,,,,,auth unclear (HTTP 401),https://plaid.com/docs/resources/mcp/
+plume.org,Plume,https://docs.plume.org/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+polygon.technology,Polygon,https://docs.polygon.technology/mcp,live,,,no,,,,,no auth required,
+polymarket.com,Polymarket,https://docs.polymarket.com/mcp,live,,,no,,,,,no auth required,
+priceline.com,Priceline,https://mcp.priceline.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),https://docs.pricelinepartnersolutions.com/private-label
+privy.io,Privy,https://docs.privy.io/mcp,live,,,no,,,,,no auth required,
+prowly.com,Prowly,https://mcp.prowly.com/,authwall,,,no,,,,,auth unclear (HTTP 403),https://prowly.com/terms-of-service/
+pullrequest.com,Pullrequest,https://docs.pullrequest.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+pyth.network,Pyth,https://mcp.pyth.network/mcp,live,@pyth-network/mcp-server,,no,,,,,no auth required,https://docs.pyth.network/price-feeds/pro/mcp
+quizlet.com,Quizlet,https://quizlet.com/.well-known/oauth-protected-resource,prm,,,yes,,yes,https://quizlet.com,write_set,,
+rapyd.org,Rapyd,https://mcp.rapyd.org/mcp,prm,,,yes,yes,yes,https://mcp.rapyd.org,,,https://mcp.rapyd.org/
+razorpay.com,Razorpay,https://mcp.razorpay.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),https://razorpay.com/docs/mcp-server/remote/
+realm.io,Realm,https://docs.realm.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+reclaim.ai,Reclaim,https://mcp.reclaim.ai/mcp,prm,,,yes,yes,yes,https://mcp.reclaim.ai,read write mcp,,https://mcp.reclaim.ai
+recordedfuture.com,Recordedfuture,https://mcp.recordedfuture.com/mcp,prm,,,yes,yes,yes,https://mcp.recordedfuture.com,openid email profile offline_access,,https://www.recordedfuture.com/platform/ai
+redelcom.cl,Redelcom,https://redelcom.cl/api/mcp,live,storefront-renderer,,yes,,yes,https://shopify.com/authentication/51424100527,openid email customer-account-api:full customer-account-mcp-api:full,,
+redoxengine.com,Redox,https://api.redoxengine.com/mcp,protected,,,yes,yes,yes,https://api.redoxengine.com,openid offline_access platform_access,,https://docs.redoxengine.com/how-to-use-redox/access-the-redox-mcp-server/
+remitly.com,Remitly,https://mcp.remitly.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),https://www.remitly.com/
+requirementyogi.com,Requirementyogi,https://api.requirementyogi.com/api/mcp,protected,,,yes,,,,,,
+ripio.com,Ripio,https://api.ripio.com/mcp,protected,,,yes,,yes,https://api.ripio.com/,,,https://apidocs.ripio.com/static/api/overview
+robinhood.com,Robinhood,https://agent.robinhood.com/mcp/trading,prm,,,yes,yes,yes,https://agent.robinhood.com/mcp/trading,internal,,
+rogo.ai,Rogo,https://docs.rogo.ai/mcp,live,fern-docs-mcp-server,docs-platform server,no,,,,,no auth required,
+royco.org,Royco,https://docs.royco.org/mcp,live,,,no,,,,,no auth required,
+s-cloud.fi,S Group,https://mcp.s-cloud.fi/mcp,prm,,,yes,yes,yes,https://mcp.s-cloud.fi,https://mcp.s-cloud.fi/access,,
+salesforce.com,Salesforce,https://api.salesforce.com/platform/mcp/v1/mcp,documented,,,yes,,yes,https://api.salesforce.com:443/platform/mcp/v1/mcp,mcp_api refresh_token,,https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html
+securitytrails.com,Securitytrails,https://docs.securitytrails.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+seitrace.com,Seitrace,https://docs.seitrace.com/mcp,live,,,no,,,,,no auth required,
+semrush.com,Semrush,https://mcp.semrush.com/v1/mcp,prm,,,yes,,,https://oauth.semrush.com,mcp.access,,https://developer.semrush.com/api/v4/introduction/semrush-mcp/
+sharepoint.com,Sharepoint,https://mcp.sharepoint.com/mcp,authwall,,,yes,,,https://login.microsoftonline.com/69ec38e5-e1fc-41d9-872f-562746431cde/v2.0,https://mcp.sharepoint.com/Sites.FullControl.All,,
+shop.app,Shopify (Shop),https://shop.app/mcp,live,shopify-mcp-server,,yes,,yes,https://accounts.shop.app,agent:access,,https://my.shop-mcp.app/docs/quickstart
+slack.com,Slack,https://mcp.slack.com/mcp,protected,,,yes,,yes,https://mcp.slack.com,search:read.public search:read.private search:read.mpim search:read.im search:read.files search:read.users,,https://docs.slack.dev/ai/slack-mcp-server
+slackatwork.com,Slackatwork,https://slackatwork.com/mcp,protected,,,no,,,,,static API key / bearer token,
+smtp2go.com,Smtp2Go,https://developers.smtp2go.com/mcp,live,SMTP2GO-API-Docs,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+snooguts.net,Reddit,https://mcp.snooguts.net/mcp,prm,,,yes,yes,yes,https://snooflare.cloudflareaccess.com,,,
+solana.com,Solana,https://mcp.solana.com/mcp,live,,,no,,,,,no auth required,
+solscan.io,Solscan,https://docs.solscan.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+sophos.com,Sophos,https://solam.ai.intelix.sophos.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+spot.cash,Spot,https://docs.spot.cash/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+spotify.com,Spotify,https://mcp-gateway-external-pilot.spotify.net/mcp,protected,,,yes,,yes,https://accounts.spotify.com,user-read-playback-state user-library-read user-follow-read app-remote-control user-modify-playback-state user-library-modify,,
+spotify.net,Spotify,https://mcp-gateway-external-pilot.spotify.net/mcp,prm,,,yes,,yes,https://accounts.spotify.com,user-read-playback-state user-library-read user-follow-read app-remote-control user-modify-playback-state user-library-modify,,
+squareup.com,Square,https://mcp.squareup.com/mcp,protected,,,yes,yes,yes,https://mcp.squareup.com,,,https://developer.squareup.com/docs/mcp
+starknet.io,Starknet,https://docs.starknet.io/mcp,live,,,no,,,,,no auth required,
+starkscan.co,Starkscan,https://api.starkscan.co/mcp,authwall,,,no,,,,,static API key / bearer token,https://starkscan.co/docs/ai/mcp-quickstart
+statuspage.io,Statuspage,https://mcp.statuspage.io/,authwall,,,no,,,,,auth unclear (HTTP 400),
+stcelo.xyz,Stcelo,https://docs.stcelo.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+stripe.com,Stripe,https://mcp.stripe.com/,prm,,,yes,yes,yes,https://access.stripe.com/mcp,mcp,,https://docs.stripe.com/mcp
+sumer.money,Sumer,https://docs.sumer.money/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+superhuman.com,Superhuman,https://docs.superhuman.com/apis/mcp,prm,,,yes,yes,yes,https://id.superhuman.com,mcp:all,,
+superposition.finance,Superposition,https://docs.superposition.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+synfutures.com,Synfutures,https://docs.synfutures.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+tac.build,Tac,https://docs.tac.build/mcp,live,,,no,,,,,no auth required,
+tbank.ru,Tbank,https://mcp.tbank.ru/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+thousandeyes.com,Thousandeyes,https://api.thousandeyes.com/mcp,protected,,,yes,yes,yes,https://api.thousandeyes.com,mcp:manage offline_access,,https://docs.thousandeyes.com/product-documentation/integration-guides/thousandeyes-mcp-server
+threshold.network,Threshold,https://docs.threshold.network/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+tiktok.com,Tiktok,https://ads.tiktok.com/mcp,protected,,,yes,yes,yes,https://ads.tiktok.com,mcp:access,,
+timeweb.cloud,Timeweb,https://timeweb.cloud/api/v1/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+tokemak.xyz,Tokemak,https://docs.tokemak.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+toolsforhumanity.com,Toolsforhumanity,https://docs.toolsforhumanity.com/mcp,live,,,no,,,,,no auth required,
+trello.services,Trello (Atlassian),https://mcp.trello.services/mcp,prm,,,yes,yes,yes,https://mcp.trello.services/mcp,read:board:trello read:organization:trello read:member:trello read:member.inbox:trello write:member.inbox:trello read:member.planner:trello,,https://mcp.trello.com/v1`
+trendyol.com,Trendyol,https://developers.trendyol.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+tripadvisor.com,Tripadvisor,https://docs.terra.tripadvisor.com/mcp,live,Tripadvisor Terra,docs-platform server,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+truecaller.com,Truecaller,https://docs.truecaller.com/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+ts.finance,Ts,https://docs.ts.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+twilio.com,Twilio,https://mcp.twilio.com/docs,live,twilio-docs-mcp,docs-platform server,no,,,,,no auth required,
+uber.com,Uber,https://mcp.uber.com/claude/rides-3p/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+uberinternal.com,Uberinternal,https://mcp.uberinternal.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+udemy.com,Udemy,https://api.udemy.com/mcp,protected,,,yes,yes,yes,https://api.udemy.com,course:read mcp:read mcp:write lab:read offline,,https://api.udemy.com/mcp
+unbounce.com,Unbounce,https://mcp.unbounce.com/mcp,prm,,,yes,yes,yes,https://mcp.unbounce.com,unbounce,,https://developer.unbounce.com/api_reference/
+unreal-agents.com,Unreal Agents,https://mcp.unreal-agents.com/mcp,prm,,,yes,yes,yes,https://mcp.unreal-agents.com,mcp:* mcp:agents:* mcp:tools:* mcp:read,,
+upwork.com,Upwork,https://mcp.upwork.com/mcp,prm,,,yes,yes,yes,https://mcp.upwork.com,,,https://api.upwork.com/mcp/sse`
+urbancompany.com,Urban Company,https://mcp.urbancompany.com/mcp,prm,,,yes,yes,yes,https://mcp.urbancompany.com,,,
+variational.io,Variational,https://docs.variational.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+varonis.com,Varonis,https://dev.varonis.com/mcp,protected,,,yes,yes,yes,https://dev.varonis.com,openid profile email offline_access,,
+vendhq.com,Vendhq,https://mcp.vendhq.com/api/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+veno.finance,Veno,https://docs.veno.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+vesper.finance,Vesper,https://docs.vesper.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+viator.com,Viator,https://exp-app-mcp.prod.ep.viator.com/mcp,live,experiences-mcp,,no,,,,,no auth required,
+vimeo.com,Vimeo,https://mcp.vimeo.com/mcp/sse,live,VimeoMCP,,yes,yes,yes,https://mcp.vimeo.com/,public private stats upload edit create,,https://developer.vimeo.com/api/mcp-server
+visa.com,Visa,https://mcp.visa.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 401),
+vismaonline.com,Vismaonline,https://developer.vismaonline.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,
+vistarmedia.com,Vistarmedia,https://developers.vistarmedia.com/mcp,live,MCP server,docs-platform server,yes,yes,yes,https://developers.vistarmedia.com,openid profile email offline_access,,
+vvs.finance,Vvs,https://docs.vvs.finance/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+web3auth.io,Web3Auth,https://mcp.web3auth.io/,live,web3auth-embedded-wallets,,no,,,,,no auth required,https://mcp.web3auth.io`
+weebly.com,Weebly,https://mcp.weebly.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 403),
+wellsfargo.com,Wellsfargo,https://mcp.wellsfargo.com/mcp,authwall,,,no,,,,,auth unclear (HTTP 400),
+whitebit.com,Whitebit,https://docs.whitebit.com/mcp,live,,,yes,yes,yes,https://docs.whitebit.com/mcp/oauth,mcp:search,,
+wise.com,Wise,https://docs.wise.com/mcp,live,MCP server,docs-platform server,yes,yes,yes,https://docs.wise.com,openid profile email offline_access,,
+withings.com,Withings,https://withings.com/.well-known/oauth-protected-resource,prm,,,yes,,yes,https://shop-account.withings.com,openid email customer-account-api:full customer-account-mcp-api:full,,https://withings-mcp.com
+withings.net,Withings,https://withings.net/.well-known/oauth-protected-resource,prm,,,yes,,yes,https://shop-account.withings.com,openid email customer-account-api:full customer-account-mcp-api:full,,https://withings-mcp.com/mcp`
+workbox.dk,Workbox,https://mcp.workbox.dk/mcp,prm,,,yes,yes,yes,https://mcp.workbox.dk,dineropublicapi:read dineropublicapi:write offline_access,,
+world.org,World,https://docs.world.org/mcp,live,,,no,,,,,no auth required,
+worldcoin.org,Worldcoin,https://docs.worldcoin.org/mcp,rpcerror,,,no,,,,,auth unclear (HTTP 405),
+wyze.com,Wyze,https://wyze.com/api/mcp,live,storefront-renderer,,yes,,yes,https://account.wyze.com,openid email customer-account-api:full customer-account-mcp-api:full,,https://www.wyze.com/api/ucp/mcp`
+wyzecam.com,Wyze,https://wyzecam.com/.well-known/oauth-protected-resource,prm,,,yes,,yes,https://account.wyze.com,openid email customer-account-api:full customer-account-mcp-api:full,,https://api.wyzecam.com`
+x.com,X,https://docs.x.com/mcp,live,,,no,,,,,no auth required,https://x-preview.mintlify.app/tools/mcp
+xadsacademy.com,xAds Academy,https://xadsacademy.com/mcp,prm,,,yes,,,https://www.xadsacademy.com/oauth2,admin ai_agent openid,,https://www.xadsacademy.com/
+xter.io,Xter,https://docs.xter.io/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+yelp.com,Yelp,https://docs.developer.yelp.com/mcp,rpcerror,,,yes,yes,yes,https://dash.readme.com/oidc,openid offline_access mcp:read mcp:write email profile,,https://business.yelp.com/data/solutions/ai-agents/
+ynab.com,Ynab,https://api.ynab.com/mcp,protected,,,yes,yes,yes,https://app.ynab.com,mcp,,https://mcpforynab.smirnovlabs.com/mcp`
+yo.xyz,Yo,https://docs.yo.xyz/~gitbook/mcp,live,mcp-typescript server on vercel,docs-platform server,no,,,,,no auth required,
+yoti.com,Yoti,https://developers.yoti.com/mcp,live,Yoti developer documentation MCP,docs-platform server,no,,,,,no auth required,
+zendesk.com,Zendesk,https://mcp.zendesk.com/api/mcp,authwall,,,yes,yes,yes,https://mcp.zendesk.com/api/mcp/oauth,read write,,
+zerion.io,Zerion,https://developers.zerion.io/mcp,live,,,no,,,,,no auth required,
+zomato.com,Zomato,https://mcp-server.zomato.com/mcp,authwall,,,no,,,,,static API key / bearer token,

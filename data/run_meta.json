@@ -1,0 +1,13 @@
+{
+ "generated": "2026-07-30 03:29 UTC",
+ "queries": 342,
+ "serp_result_urls": 2109,
+ "pages": 1594,
+ "urlscan_queries": 67,
+ "urlscan_rows": 15802,
+ "dns_hosts": 189530,
+ "dns_domains_scanned": 1000000,
+ "triaged": 198308,
+ "triage_candidates": 26977,
+ "probe_records": 37480
+}

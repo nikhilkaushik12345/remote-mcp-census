@@ -1,0 +1,6119 @@
+{
+ "0x.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.0x.org/mcp"
+   ]
+  }
+ },
+ "1inch.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://api.1inch.com/mcp"
+   ]
+  }
+ },
+ "1password.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://support.1password.com/mcp",
+    "https://support.1password.com/~gitbook/mcp",
+    "https://support.1password.com/api/mcp",
+    "https://support.1password.com/v1/mcp",
+    "https://support.1password.com/sse",
+    "https://support.1password.com/mcp/sse"
+   ],
+   "live": [
+    "https://www.1password.dev/mcp",
+    "https://www.1password.dev/mcp/"
+   ]
+  }
+ },
+ "3lateral.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://3lateral.com/mcp",
+    "https://3lateral.com/api/mcp"
+   ]
+  }
+ },
+ "8x8.studio": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://8x8.studio/api/mcp"
+   ],
+   "authwall": [
+    "https://mcp.8x8.studio/mcp",
+    "https://mcp.8x8.studio/sse",
+    "https://mcp.8x8.studio/",
+    "https://mcp.8x8.studio/v1/mcp",
+    "https://mcp.8x8.studio/api/mcp",
+    "https://mcp.8x8.studio/mcp/",
+    "https://mcp.8x8.studio/v1/sse",
+    "https://mcp.8x8.studio/mcp/sse",
+    "https://mcp.8x8.studio/messages",
+    "https://mcp.8x8.studio/mcp/server",
+    "https://mcp.8x8.studio/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.8x8.studio/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "acronis.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://partner.acronis.com/.well-known/oauth-protected-resource"
+   ],
+   "rpcerror": [
+    "https://partner.acronis.com/mcp",
+    "https://partner.acronis.com/mcp/"
+   ]
+  }
+ },
+ "adobe.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://targetmcp.adobe.io/mcp/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://cx-coworker-gateway.adobe.io/mcp",
+    "https://cx-coworker-gateway.adobe.io/mcp/",
+    "https://targetmcp.adobe.io/mcp",
+    "https://targetmcp.adobe.io/mcp/"
+   ]
+  }
+ },
+ "adobe.io": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://ajo-mcp.adobe.io/mcp"
+   ],
+   "prm": [
+    "https://ajo-mcp.adobe.io/.well-known/oauth-protected-resource",
+    "https://cx-coworker-gateway.adobe.io/.well-known/oauth-protected-resource",
+    "https://rtcdp-mcp.adobe.io/.well-known/oauth-protected-resource",
+    "https://targetmcp.adobe.io/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://cx-coworker-gateway.adobe.io/mcp",
+    "https://rtcdp-mcp.adobe.io/mcp",
+    "https://targetmcp.adobe.io/mcp"
+   ]
+  }
+ },
+ "adobeaemcloud.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.adobeaemcloud.com/mcp",
+    "https://api.adobeaemcloud.com/v1/mcp",
+    "https://api.adobeaemcloud.com/api/mcp",
+    "https://api.adobeaemcloud.com/mcp/",
+    "https://api.adobeaemcloud.com/sse",
+    "https://api.adobeaemcloud.com/v1/sse",
+    "https://api.adobeaemcloud.com/mcp/sse",
+    "https://api.adobeaemcloud.com/messages",
+    "https://api.adobeaemcloud.com/mcp/server",
+    "https://api.adobeaemcloud.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.adobeaemcloud.com/mcp",
+    "https://mcp.adobeaemcloud.com/sse",
+    "https://mcp.adobeaemcloud.com/v1/mcp",
+    "https://mcp.adobeaemcloud.com/api/mcp",
+    "https://mcp.adobeaemcloud.com/mcp/",
+    "https://mcp.adobeaemcloud.com/v1/sse",
+    "https://mcp.adobeaemcloud.com/mcp/sse",
+    "https://mcp.adobeaemcloud.com/messages",
+    "https://mcp.adobeaemcloud.com/mcp/server",
+    "https://mcp.adobeaemcloud.com/mcp/mcp"
+   ]
+  }
+ },
+ "adobestock.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.adobestock.com/mcp",
+    "https://api.adobestock.com/v1/mcp",
+    "https://api.adobestock.com/api/mcp",
+    "https://api.adobestock.com/mcp/",
+    "https://api.adobestock.com/sse",
+    "https://api.adobestock.com/v1/sse",
+    "https://api.adobestock.com/mcp/sse",
+    "https://api.adobestock.com/messages",
+    "https://api.adobestock.com/mcp/server",
+    "https://api.adobestock.com/mcp/mcp"
+   ]
+  }
+ },
+ "affirm.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.affirm.com/mcp"
+   ]
+  }
+ },
+ "afterpay.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.afterpay.com/mcp"
+   ]
+  }
+ },
+ "aikido.dev": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://apidocs.aikido.dev/mcp"
+   ]
+  }
+ },
+ "airtable.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.airtable.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.airtable.com/mcp",
+    "https://mcp.airtable.com/mcp/"
+   ]
+  }
+ },
+ "aiven.io": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.aiven.live/mcp",
+    "https://mcp.aiven.live/mcp/"
+   ]
+  }
+ },
+ "alasco.de": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.alasco.de/mcp",
+    "https://api.alasco.de/v1/mcp",
+    "https://api.alasco.de/api/mcp",
+    "https://api.alasco.de/mcp/",
+    "https://api.alasco.de/sse",
+    "https://api.alasco.de/v1/sse",
+    "https://api.alasco.de/mcp/sse",
+    "https://api.alasco.de/messages",
+    "https://api.alasco.de/mcp/server",
+    "https://api.alasco.de/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.alasco.de/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.alasco.de/mcp",
+    "https://mcp.alasco.de/sse",
+    "https://mcp.alasco.de/",
+    "https://mcp.alasco.de/v1/mcp",
+    "https://mcp.alasco.de/api/mcp",
+    "https://mcp.alasco.de/mcp/",
+    "https://mcp.alasco.de/v1/sse",
+    "https://mcp.alasco.de/mcp/sse",
+    "https://mcp.alasco.de/messages",
+    "https://mcp.alasco.de/mcp/server",
+    "https://mcp.alasco.de/mcp/mcp"
+   ]
+  }
+ },
+ "allbridge.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.allbridge.io/mcp",
+    "https://mcp.allbridge.io/",
+    "https://mcp.allbridge.io/mcp/"
+   ],
+   "prm": [
+    "https://mcp.allbridge.io/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "alphasec.trade": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://alphasec.trade/mcp",
+    "https://alphasec.trade/api/mcp"
+   ]
+  }
+ },
+ "amazon-tacticalplanner.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://amazon-tacticalplanner.com/api/mcp"
+   ]
+  }
+ },
+ "amazon.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://docs.amazon.com/api/mcp"
+   ],
+   "live": [
+    "https://developer.amazon.com/mcp"
+   ]
+  }
+ },
+ "amazonaws.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://aws-mcp.us-east-1.api.aws/mcp",
+    "https://aws-mcp.eu-central-1.api.aws/mcp"
+   ]
+  }
+ },
+ "amply.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.amply.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "android.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://androidmanagement.googleapis.com/mcp"
+   ]
+  }
+ },
+ "anduril.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://developer.anduril.com/mcp"
+   ]
+  }
+ },
+ "ankr.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.ankr.com/mcp",
+    "https://mcp.ankr.com/mcp/"
+   ]
+  }
+ },
+ "anome.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.anome.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "api-xperience.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.api-xperience.com/mcp",
+    "https://api.api-xperience.com/v1/mcp",
+    "https://api.api-xperience.com/api/mcp",
+    "https://api.api-xperience.com/mcp/",
+    "https://api.api-xperience.com/sse",
+    "https://api.api-xperience.com/v1/sse",
+    "https://api.api-xperience.com/mcp/sse",
+    "https://api.api-xperience.com/messages",
+    "https://api.api-xperience.com/mcp/server",
+    "https://api.api-xperience.com/mcp/mcp"
+   ]
+  }
+ },
+ "arc.network": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://docs.arc.network/mcp"
+   ]
+  }
+ },
+ "arkadiko.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.arkadiko.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "arkoselabs.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.arkoselabs.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.arkoselabs.com/mcp",
+    "https://mcp.arkoselabs.com/mcp/"
+   ]
+  }
+ },
+ "arubanetworks.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://developer.arubanetworks.com/mcp"
+   ]
+  }
+ },
+ "asana.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.asana.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.asana.com/mcp",
+    "https://mcp.asana.com/sse",
+    "https://mcp.asana.com/mcp/",
+    "https://mcp.asana.com/mcp/sse",
+    "https://mcp.asana.com/mcp/server",
+    "https://mcp.asana.com/mcp/mcp"
+   ]
+  }
+ },
+ "aspidanet.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.aspidanet.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "asterdex.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.asterdex.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "ati.su": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://api.ati.su/gw/panda-mcp/public/v1/mcp"
+   ]
+  }
+ },
+ "atlassian.com": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://mcp.atlassian.com/v1/mcp",
+    "https://mcp.atlassian.com/v1/sse"
+   ]
+  }
+ },
+ "atlassian.net": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://mcp.atlassian.com/v1/mcp"
+   ]
+  }
+ },
+ "atom-lens.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://atom-lens.com/api/mcp"
+   ]
+  }
+ },
+ "audible.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.audible.com/mcp",
+    "https://api.audible.com/v1/mcp",
+    "https://api.audible.com/api/mcp",
+    "https://api.audible.com/mcp/",
+    "https://api.audible.com/sse",
+    "https://api.audible.com/v1/sse",
+    "https://api.audible.com/mcp/sse",
+    "https://api.audible.com/messages",
+    "https://api.audible.com/mcp/server",
+    "https://api.audible.com/mcp/mcp",
+    "https://api.audible.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "auth0.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://auth0.com/docs/mcp"
+   ]
+  }
+ },
+ "auto.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.auto.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "avax.network": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://build.avax.network/api/mcp"
+   ]
+  }
+ },
+ "backstage.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://demo.backstage.io/api/mcp-actions/v1"
+   ]
+  }
+ },
+ "base.org": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.base.org/mcp",
+    "https://mcp.base.org/",
+    "https://mcp.base.org/mcp/",
+    "https://mcp.base.org/mcp/sse",
+    "https://mcp.base.org/mcp/server",
+    "https://mcp.base.org/mcp/mcp"
+   ]
+  }
+ },
+ "basin.exchange": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.basin.exchange/~gitbook/mcp"
+   ]
+  }
+ },
+ "bean.money": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.bean.money/~gitbook/mcp"
+   ]
+  }
+ },
+ "beefy.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.beefy.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "benqi.fi": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.benqi.fi/~gitbook/mcp"
+   ]
+  }
+ },
+ "berachain.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.berachain.com/mcp"
+   ]
+  }
+ },
+ "billflow.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.billflow.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "binance.us": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://binance.us/mcp",
+    "https://binance.us/api/mcp"
+   ]
+  }
+ },
+ "bingx.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bingx.com/api/mcp"
+   ]
+  }
+ },
+ "bionic.ai": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://docs.bionic.ai/mcp"
+   ]
+  }
+ },
+ "bitbucket.org": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://mcp.atlassian.com/v1/mcp"
+   ]
+  }
+ },
+ "bitdefender.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://businessinsights.bitdefender.com/~gitbook/mcp",
+    "https://businessinsights.bitdefender.com/mcp",
+    "https://businessinsights.bitdefender.com/api/mcp",
+    "https://businessinsights.bitdefender.com/mcp/mcp",
+    "https://businessinsights.bitdefender.com/v1/mcp"
+   ]
+  }
+ },
+ "bitdelta.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://bitdelta.com/mcp",
+    "https://bitdelta.com/api/mcp"
+   ]
+  }
+ },
+ "bitgo.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.bitgo.com/mcp"
+   ]
+  }
+ },
+ "bitkan.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.bitkan.com/mcp"
+   ]
+  }
+ },
+ "bitkubnft.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.bitkubnft.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "bitoasis.net": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://support.bitoasis.net/mcp"
+   ]
+  }
+ },
+ "bitpanda.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bitpanda.com/mcp",
+    "https://api.bitpanda.com/v1/mcp",
+    "https://api.bitpanda.com/api/mcp",
+    "https://api.bitpanda.com/mcp/",
+    "https://api.bitpanda.com/sse",
+    "https://api.bitpanda.com/v1/sse",
+    "https://api.bitpanda.com/mcp/sse",
+    "https://api.bitpanda.com/messages",
+    "https://api.bitpanda.com/mcp/server",
+    "https://api.bitpanda.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.bitpanda.com/mcp"
+   ]
+  }
+ },
+ "bitrise.io": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.bitrise.io/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.bitrise.io/mcp",
+    "https://mcp.bitrise.io/sse",
+    "https://mcp.bitrise.io/",
+    "https://mcp.bitrise.io/v1/mcp",
+    "https://mcp.bitrise.io/api/mcp",
+    "https://mcp.bitrise.io/mcp/",
+    "https://mcp.bitrise.io/v1/sse",
+    "https://mcp.bitrise.io/mcp/sse",
+    "https://mcp.bitrise.io/messages",
+    "https://mcp.bitrise.io/mcp/server",
+    "https://mcp.bitrise.io/mcp/mcp"
+   ]
+  }
+ },
+ "bitso.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.bitso.com/mcp"
+   ]
+  }
+ },
+ "blockchain.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.blockchain.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "blockpi.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.blockpi.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "bluehost.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.bluehost.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "bokundemo.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://mcp.bokundemo.com/mcp"
+   ]
+  }
+ },
+ "bokuntest.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://mcp.bokuntest.com/mcp",
+    "https://api.bokuntest.com/mcp"
+   ]
+  }
+ },
+ "bolsasymercados.es": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://bolsasymercados.es/mcp",
+    "https://bolsasymercados.es/api/mcp"
+   ]
+  }
+ },
+ "booking.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.booking.com/mcp"
+   ],
+   "protected": [
+    "https://api-docs.booking.com/mcp"
+   ]
+  }
+ },
+ "box.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.box.com/v1/mcp",
+    "https://api.box.com/api/mcp",
+    "https://api.box.com/sse",
+    "https://api.box.com/v1/sse",
+    "https://api.box.com/messages"
+   ],
+   "prm": [
+    "https://mcp.box.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.box.com/mcp",
+    "https://mcp.box.com/sse",
+    "https://mcp.box.com/",
+    "https://api.box.com/mcp",
+    "https://mcp.box.com/v1/mcp",
+    "https://mcp.box.com/api/mcp",
+    "https://mcp.box.com/mcp/",
+    "https://mcp.box.com/v1/sse",
+    "https://mcp.box.com/mcp/sse",
+    "https://mcp.box.com/messages",
+    "https://mcp.box.com/mcp/server",
+    "https://mcp.box.com/mcp/mcp",
+    "https://api.box.com/mcp/",
+    "https://api.box.com/mcp/sse",
+    "https://api.box.com/mcp/server",
+    "https://api.box.com/mcp/mcp"
+   ]
+  }
+ },
+ "bridge.xyz": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bridge.xyz/mcp",
+    "https://api.bridge.xyz/v1/mcp",
+    "https://api.bridge.xyz/api/mcp",
+    "https://api.bridge.xyz/mcp/",
+    "https://api.bridge.xyz/sse",
+    "https://api.bridge.xyz/v1/sse",
+    "https://api.bridge.xyz/mcp/sse",
+    "https://api.bridge.xyz/messages",
+    "https://api.bridge.xyz/mcp/server",
+    "https://api.bridge.xyz/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.bridge.xyz/mcp",
+    "https://mcp.bridge.xyz/sse",
+    "https://mcp.bridge.xyz/",
+    "https://mcp.bridge.xyz/v1/mcp",
+    "https://mcp.bridge.xyz/api/mcp",
+    "https://mcp.bridge.xyz/mcp/",
+    "https://mcp.bridge.xyz/v1/sse",
+    "https://mcp.bridge.xyz/mcp/sse",
+    "https://mcp.bridge.xyz/messages",
+    "https://mcp.bridge.xyz/mcp/server",
+    "https://mcp.bridge.xyz/mcp/mcp"
+   ]
+  }
+ },
+ "bugcrowd.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://stream.bugcrowd.com/mcp"
+   ]
+  }
+ },
+ "bybit-tr.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bybit-tr.com/mcp",
+    "https://api.bybit-tr.com/v1/mcp",
+    "https://api.bybit-tr.com/api/mcp",
+    "https://api.bybit-tr.com/mcp/",
+    "https://api.bybit-tr.com/sse",
+    "https://api.bybit-tr.com/v1/sse",
+    "https://api.bybit-tr.com/mcp/sse",
+    "https://api.bybit-tr.com/messages",
+    "https://api.bybit-tr.com/mcp/server",
+    "https://api.bybit-tr.com/mcp/mcp"
+   ]
+  }
+ },
+ "bybit.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bybit.com/mcp",
+    "https://api.bybit.com/v1/mcp",
+    "https://api.bybit.com/api/mcp",
+    "https://api.bybit.com/mcp/",
+    "https://api.bybit.com/sse",
+    "https://api.bybit.com/v1/sse",
+    "https://api.bybit.com/mcp/sse",
+    "https://api.bybit.com/messages",
+    "https://api.bybit.com/mcp/server",
+    "https://api.bybit.com/mcp/mcp"
+   ]
+  }
+ },
+ "bybit.eu": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bybit.eu/mcp",
+    "https://api.bybit.eu/v1/mcp",
+    "https://api.bybit.eu/api/mcp",
+    "https://api.bybit.eu/mcp/",
+    "https://api.bybit.eu/sse",
+    "https://api.bybit.eu/v1/sse",
+    "https://api.bybit.eu/mcp/sse",
+    "https://api.bybit.eu/messages",
+    "https://api.bybit.eu/mcp/server",
+    "https://api.bybit.eu/mcp/mcp"
+   ]
+  }
+ },
+ "bybit.tr": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.bybit.tr/mcp",
+    "https://api.bybit.tr/v1/mcp",
+    "https://api.bybit.tr/api/mcp",
+    "https://api.bybit.tr/mcp/",
+    "https://api.bybit.tr/sse",
+    "https://api.bybit.tr/v1/sse",
+    "https://api.bybit.tr/mcp/sse",
+    "https://api.bybit.tr/messages",
+    "https://api.bybit.tr/mcp/server",
+    "https://api.bybit.tr/mcp/mcp"
+   ]
+  }
+ },
+ "bykea.store": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://bykea.store/api/mcp"
+   ],
+   "prm": [
+    "https://bykea.store/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "byreal.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.byreal.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "caldera.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.caldera.xyz/mcp"
+   ]
+  }
+ },
+ "callroute.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://callroute.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "canva-apps.cn": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.canva.cn/mcp"
+   ]
+  }
+ },
+ "canva-apps.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.canva.com/mcp"
+   ]
+  }
+ },
+ "canva.cn": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.canva.cn/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.canva.cn/mcp",
+    "https://mcp.canva.cn/v1/mcp",
+    "https://mcp.canva.cn/mcp/",
+    "https://mcp.canva.cn/mcp/sse",
+    "https://mcp.canva.cn/mcp/server",
+    "https://mcp.canva.cn/mcp/mcp"
+   ]
+  }
+ },
+ "canva.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.canva.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.canva.com/mcp",
+    "https://mcp.canva.com/v1/mcp",
+    "https://mcp.canva.com/mcp/",
+    "https://mcp.canva.com/mcp/sse",
+    "https://mcp.canva.com/mcp/server",
+    "https://mcp.canva.com/mcp/mcp"
+   ]
+  }
+ },
+ "capitalone.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.capitalone.com/mcp",
+    "https://api.capitalone.com/v1/mcp",
+    "https://api.capitalone.com/api/mcp",
+    "https://api.capitalone.com/mcp/",
+    "https://api.capitalone.com/sse",
+    "https://api.capitalone.com/v1/sse",
+    "https://api.capitalone.com/mcp/sse",
+    "https://api.capitalone.com/messages",
+    "https://api.capitalone.com/mcp/server",
+    "https://api.capitalone.com/mcp/mcp"
+   ]
+  }
+ },
+ "capitaloneshopping.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.capitaloneshopping.com/mcp",
+    "https://capitaloneshopping.com/api/mcp",
+    "https://api.capitaloneshopping.com/v1/mcp",
+    "https://api.capitaloneshopping.com/api/mcp",
+    "https://api.capitaloneshopping.com/mcp/",
+    "https://api.capitaloneshopping.com/sse",
+    "https://api.capitaloneshopping.com/v1/sse",
+    "https://api.capitaloneshopping.com/mcp/sse",
+    "https://api.capitaloneshopping.com/messages",
+    "https://api.capitaloneshopping.com/mcp/server",
+    "https://api.capitaloneshopping.com/mcp/mcp"
+   ]
+  }
+ },
+ "cash.app": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.cash.app/mcp"
+   ]
+  }
+ },
+ "celo.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.celo.org/mcp"
+   ]
+  }
+ },
+ "chatspot.ai": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://chatspot.ai/mcp",
+    "https://chatspot.ai/api/mcp"
+   ]
+  }
+ },
+ "cheaptickets.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://cheaptickets.com/mcp"
+   ]
+  }
+ },
+ "chime.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://developer.chime.com/mcp"
+   ]
+  }
+ },
+ "chmfin.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://chmfin.com/mcp",
+    "https://chmfin.com/api/mcp"
+   ]
+  }
+ },
+ "circle.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://api.circle.com/v1/codegen/mcp"
+   ]
+  }
+ },
+ "citrea.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.citrea.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "classdojo.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.classdojo.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.classdojo.com/mcp",
+    "https://mcp.classdojo.com/sse",
+    "https://mcp.classdojo.com/mcp/",
+    "https://mcp.classdojo.com/mcp/sse",
+    "https://mcp.classdojo.com/messages",
+    "https://mcp.classdojo.com/mcp/server",
+    "https://mcp.classdojo.com/mcp/mcp"
+   ]
+  }
+ },
+ "clearme.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.clearme.com/mcp"
+   ]
+  }
+ },
+ "cleartrip.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.cleartrip.com/mcp"
+   ]
+  }
+ },
+ "cloudflare.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.mcp.cloudflare.com/mcp"
+   ],
+   "prm": [
+    "https://mcp.cloudflare.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.cloudflare.com/mcp",
+    "https://bindings.mcp.cloudflare.com/mcp",
+    "https://observability.mcp.cloudflare.com/mcp"
+   ]
+  }
+ },
+ "cloudinary.com": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://analysis.mcp.cloudinary.com/sse",
+    "https://environment-config.mcp.cloudinary.com/mcp",
+    "https://mediaflows.mcp.cloudinary.com/v2/mcp",
+    "https://structured-metadata.mcp.cloudinary.com/mcp"
+   ],
+   "prm": [
+    "https://analysis.mcp.cloudinary.com/.well-known/oauth-protected-resource",
+    "https://asset-management.mcp.cloudinary.com/.well-known/oauth-protected-resource",
+    "https://environment-config.mcp.cloudinary.com/.well-known/oauth-protected-resource",
+    "https://structured-metadata.mcp.cloudinary.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://asset-management.mcp.cloudinary.com/mcp"
+   ]
+  }
+ },
+ "cm.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.cm.com/v1/mcp",
+    "https://api.cm.com/api/mcp",
+    "https://api.cm.com/sse",
+    "https://api.cm.com/v1/sse",
+    "https://api.cm.com/messages"
+   ],
+   "protected": [
+    "https://api.cm.com/mcp",
+    "https://api.cm.com/mcp/"
+   ]
+  }
+ },
+ "cmtelecom.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.cmtelecom.com/v1/mcp",
+    "https://api.cmtelecom.com/api/mcp",
+    "https://api.cmtelecom.com/sse",
+    "https://api.cmtelecom.com/v1/sse",
+    "https://api.cmtelecom.com/messages"
+   ],
+   "protected": [
+    "https://api.cmtelecom.com/mcp",
+    "https://api.cmtelecom.com/mcp/"
+   ]
+  }
+ },
+ "cobo.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://docs.cobo.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "coda.io": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://coda.io/mcp",
+    "https://coda.io/api/mcp"
+   ],
+   "protected": [
+    "https://coda.io/apis/mcp"
+   ]
+  }
+ },
+ "coin98.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.coin98.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "coinbase.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.cdp.coinbase.com/mcp",
+    "https://docs.cdp.coinbase.com/mcp/"
+   ]
+  }
+ },
+ "coindesk.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.coindesk.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.coindesk.com/mcp"
+   ]
+  }
+ },
+ "coinex.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.coinex.com/mcp"
+   ]
+  }
+ },
+ "coingecko.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.coingecko.com/mcp",
+    "https://mcp.coingecko.com/sse",
+    "https://docs.coingecko.com/mcp",
+    "https://mcp.api.coingecko.com/mcp"
+   ],
+   "prm": [
+    "https://mcp.pro-api.coingecko.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.pro-api.coingecko.com/mcp",
+    "https://mcp.pro-api.coingecko.com/mcp&quot"
+   ]
+  }
+ },
+ "coinmarketcap.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.coinmarketcap.com/mcp"
+   ]
+  }
+ },
+ "comcast.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.comcast.com/mcp",
+    "https://api.comcast.com/v1/mcp",
+    "https://api.comcast.com/api/mcp",
+    "https://api.comcast.com/mcp/",
+    "https://api.comcast.com/sse",
+    "https://api.comcast.com/v1/sse",
+    "https://api.comcast.com/mcp/sse",
+    "https://api.comcast.com/messages",
+    "https://api.comcast.com/mcp/server",
+    "https://api.comcast.com/mcp/mcp"
+   ]
+  }
+ },
+ "core.app": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.core.app/mcp"
+   ]
+  }
+ },
+ "cronos.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.cronos.org/~gitbook/mcp"
+   ]
+  }
+ },
+ "cronosid.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.cronosid.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "crosskey.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.crosskey.io/mcp",
+    "https://crosskey.io/api/mcp",
+    "https://api.crosskey.io/v1/mcp",
+    "https://api.crosskey.io/api/mcp",
+    "https://api.crosskey.io/mcp/",
+    "https://api.crosskey.io/sse",
+    "https://api.crosskey.io/v1/sse",
+    "https://api.crosskey.io/mcp/sse",
+    "https://api.crosskey.io/messages",
+    "https://api.crosskey.io/mcp/server",
+    "https://api.crosskey.io/mcp/mcp"
+   ]
+  }
+ },
+ "cruiseshipcenters.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://cruiseshipcenters.com/mcp"
+   ]
+  }
+ },
+ "crypto.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.crypto.com/market-data/mcp"
+   ]
+  }
+ },
+ "cube.exchange": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://cube.exchange/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "cybersource.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://shop-hardware.cybersource.com/api/ucp/mcp"
+   ]
+  }
+ },
+ "dana.id": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.dana.id/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.dana.id/mcp",
+    "https://mcp.dana.id/sse",
+    "https://mcp.dana.id/",
+    "https://mcp.dana.id/v1/mcp",
+    "https://mcp.dana.id/api/mcp",
+    "https://mcp.dana.id/mcp/",
+    "https://mcp.dana.id/v1/sse",
+    "https://mcp.dana.id/mcp/sse",
+    "https://mcp.dana.id/messages",
+    "https://mcp.dana.id/mcp/server",
+    "https://mcp.dana.id/mcp/mcp"
+   ]
+  }
+ },
+ "databricks.com": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://api.databricks.com/api/2.0/mcp/functions"
+   ]
+  }
+ },
+ "datacamp.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.datacamp.com/mcp",
+    "https://mcp.datacamp.com/v1/mcp",
+    "https://mcp.datacamp.com/mcp/"
+   ]
+  }
+ },
+ "datadome.co": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.datadome.co/mcp"
+   ]
+  }
+ },
+ "decathlon.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://decathlon.com/api/mcp"
+   ],
+   "prm": [
+    "https://decathlon.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "decentraland.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.decentraland.org/~gitbook/mcp"
+   ]
+  }
+ },
+ "defisaver.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.defisaver.com/mcp",
+    "https://api.defisaver.com/v1/mcp",
+    "https://api.defisaver.com/api/mcp",
+    "https://api.defisaver.com/mcp/",
+    "https://api.defisaver.com/sse",
+    "https://api.defisaver.com/v1/sse",
+    "https://api.defisaver.com/mcp/sse",
+    "https://api.defisaver.com/messages",
+    "https://api.defisaver.com/mcp/server",
+    "https://api.defisaver.com/mcp/mcp"
+   ],
+   "live": [
+    "https://docs.defisaver.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "dell.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.dell.com/api/mcp",
+    "https://developer.dell.com/api/mcp"
+   ]
+  }
+ },
+ "demandforced3.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://demandforced3.com/mcp"
+   ]
+  }
+ },
+ "deribit.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.deribit.com/mcp"
+   ]
+  }
+ },
+ "deriv.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp-api.deriv.com/mcp"
+   ]
+  }
+ },
+ "designify.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://designify.com/api/mcp"
+   ]
+  }
+ },
+ "desyn.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.desyn.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "dextf.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.dextf.com/mcp",
+    "https://api.dextf.com/v1/mcp",
+    "https://api.dextf.com/api/mcp",
+    "https://api.dextf.com/mcp/",
+    "https://api.dextf.com/sse",
+    "https://api.dextf.com/v1/sse",
+    "https://api.dextf.com/mcp/sse",
+    "https://api.dextf.com/messages",
+    "https://api.dextf.com/mcp/server",
+    "https://api.dextf.com/mcp/mcp"
+   ]
+  }
+ },
+ "digitalocean.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://apps.mcp.digitalocean.com/mcp",
+    "https://droplets.mcp.digitalocean.com/mcp",
+    "https://docs.mcp.digitalocean.com/mcp"
+   ]
+  }
+ },
+ "district.in": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp-server.district.in/mcp"
+   ]
+  }
+ },
+ "do-ai.run": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://kbaas.do-ai.run/v1/mcp"
+   ]
+  }
+ },
+ "docsend.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.docsend.com/mcp",
+    "https://docsend.com/mcp",
+    "https://api.docsend.com/mcp",
+    "https://mcp.docsend.com/mcp/",
+    "https://api.docsend.com/mcp/"
+   ]
+  }
+ },
+ "doordash.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://openapi.doordash.com/mcp/consumer"
+   ]
+  }
+ },
+ "doppler.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://support.doppler.com/api/mcp"
+   ],
+   "rpcerror": [
+    "https://docs.doppler.com/mcp"
+   ]
+  }
+ },
+ "dropbox.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.dropbox.com/mcp"
+   ]
+  }
+ },
+ "dxi.eu": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://dxi.eu/mcp"
+   ]
+  }
+ },
+ "ean.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://api.ean.com/mcp"
+   ]
+  }
+ },
+ "ebookers.ch": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ebookers.ch/mcp"
+   ]
+  }
+ },
+ "ebookers.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ebookers.com/mcp"
+   ]
+  }
+ },
+ "ebookers.de": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ebookers.de/mcp"
+   ]
+  }
+ },
+ "ebookers.fi": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ebookers.fi/mcp"
+   ]
+  }
+ },
+ "ebookers.fr": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ebookers.fr/mcp"
+   ]
+  }
+ },
+ "ebookers.ie": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ebookers.ie/mcp"
+   ]
+  }
+ },
+ "ecwid.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.ecwid.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "elastic.co": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://support.elastic.co/api/mcp"
+   ],
+   "protected": [
+    "https://learn.elastic.co/v1/mcp",
+    "https://learn.elastic.co/mcp/sse"
+   ]
+  }
+ },
+ "elasticapm.co": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://elasticapm.co/mcp",
+    "https://elasticapm.co/api/mcp"
+   ]
+  }
+ },
+ "epam.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.epam.com/mcp",
+    "https://api.epam.com/v1/mcp",
+    "https://api.epam.com/api/mcp",
+    "https://api.epam.com/mcp/",
+    "https://api.epam.com/sse",
+    "https://api.epam.com/v1/sse",
+    "https://api.epam.com/mcp/sse",
+    "https://api.epam.com/messages",
+    "https://api.epam.com/mcp/server",
+    "https://api.epam.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.epam.com/api/mcp"
+   ],
+   "protected": [
+    "https://mcp.epam.com/mcp/",
+    "https://mcp.epam.com/mcp/sse",
+    "https://mcp.epam.com/mcp/server",
+    "https://mcp.epam.com/mcp/mcp"
+   ]
+  }
+ },
+ "epicgames.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://content-service.bfda.live.use1a.on.epicgames.com/api/mcp"
+   ]
+  }
+ },
+ "ethena.fi": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.ethena.fi/mcp",
+    "https://api.ethena.fi/v1/mcp",
+    "https://api.ethena.fi/api/mcp",
+    "https://api.ethena.fi/mcp/",
+    "https://api.ethena.fi/sse",
+    "https://api.ethena.fi/v1/sse",
+    "https://api.ethena.fi/mcp/sse",
+    "https://api.ethena.fi/messages",
+    "https://api.ethena.fi/mcp/server",
+    "https://api.ethena.fi/mcp/mcp"
+   ],
+   "live": [
+    "https://docs.ethena.fi/~gitbook/mcp"
+   ]
+  }
+ },
+ "etherscan.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.etherscan.io/mcp"
+   ]
+  }
+ },
+ "etoro.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://api-portal.etoro.com/mcp",
+    "https://mcp.public-api.etoro.com"
+   ]
+  }
+ },
+ "etsy.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.api.etsycloud.com/mcp",
+    "https://mcp.api.etsycloud.com/mcp/"
+   ]
+  }
+ },
+ "evernote.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.evernote.com/mcp",
+    "https://api.evernote.com/v1/mcp",
+    "https://api.evernote.com/api/mcp",
+    "https://api.evernote.com/mcp/",
+    "https://api.evernote.com/sse",
+    "https://api.evernote.com/v1/sse",
+    "https://api.evernote.com/mcp/sse",
+    "https://api.evernote.com/messages",
+    "https://api.evernote.com/mcp/server",
+    "https://api.evernote.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.evernote.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.evernote.com/mcp",
+    "https://mcp.evernote.com/sse",
+    "https://mcp.evernote.com/",
+    "https://mcp.evernote.com/v1/mcp",
+    "https://mcp.evernote.com/api/mcp",
+    "https://mcp.evernote.com/mcp/",
+    "https://mcp.evernote.com/v1/sse",
+    "https://mcp.evernote.com/mcp/sse",
+    "https://mcp.evernote.com/messages",
+    "https://mcp.evernote.com/mcp/server",
+    "https://mcp.evernote.com/mcp/mcp"
+   ]
+  }
+ },
+ "expedia.com": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://www.expedia.com/mcp"
+   ]
+  }
+ },
+ "expediacruises.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://expediacruises.com/mcp"
+   ]
+  }
+ },
+ "expediataap.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://expediataap.com/mcp",
+    "https://expediataap.com/api/mcp"
+   ]
+  }
+ },
+ "facebook.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.facebook.com/ads"
+   ]
+  }
+ },
+ "fanbox.cc": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.fanbox.cc/mcp",
+    "https://api.fanbox.cc/v1/mcp",
+    "https://api.fanbox.cc/api/mcp",
+    "https://api.fanbox.cc/mcp/",
+    "https://api.fanbox.cc/sse",
+    "https://api.fanbox.cc/v1/sse",
+    "https://api.fanbox.cc/mcp/sse",
+    "https://api.fanbox.cc/messages",
+    "https://api.fanbox.cc/mcp/server",
+    "https://api.fanbox.cc/mcp/mcp"
+   ]
+  }
+ },
+ "faraday.ai": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.faraday.ai/v1/mcp",
+    "https://api.faraday.ai/v1/sse"
+   ],
+   "prm": [
+    "https://mcp.faraday.ai/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.faraday.ai/mcp"
+   ]
+  }
+ },
+ "faraday.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.faraday.io/v1/mcp",
+    "https://api.faraday.io/v1/sse"
+   ]
+  }
+ },
+ "fareharbor.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.fareharbor.com/mcp",
+    "https://api.fareharbor.com/v1/mcp",
+    "https://api.fareharbor.com/api/mcp",
+    "https://api.fareharbor.com/mcp/",
+    "https://api.fareharbor.com/sse",
+    "https://api.fareharbor.com/v1/sse",
+    "https://api.fareharbor.com/mcp/sse",
+    "https://api.fareharbor.com/messages",
+    "https://api.fareharbor.com/mcp/server",
+    "https://api.fareharbor.com/mcp/mcp"
+   ]
+  }
+ },
+ "ferroprotocol.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.ferroprotocol.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "fidentity.ch": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.fidentity.ch/~gitbook/mcp"
+   ]
+  }
+ },
+ "figma.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.figma.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.figma.com/mcp",
+    "https://api.figma.com/mcp",
+    "https://mcp.figma.com/mcp/",
+    "https://mcp.figma.com/mcp/sse",
+    "https://mcp.figma.com/mcp/server",
+    "https://mcp.figma.com/mcp/mcp",
+    "https://api.figma.com/mcp/",
+    "https://api.figma.com/mcp/sse",
+    "https://api.figma.com/mcp/server",
+    "https://api.figma.com/mcp/mcp"
+   ]
+  }
+ },
+ "files.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mysite.files.com/api/ai/mcp/v1/"
+   ]
+  }
+ },
+ "fin.ai": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.intercom.com/mcp"
+   ]
+  }
+ },
+ "finicity.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.finicity.com/mcp",
+    "https://api.finicity.com/v1/mcp",
+    "https://api.finicity.com/api/mcp",
+    "https://api.finicity.com/mcp/",
+    "https://api.finicity.com/sse",
+    "https://api.finicity.com/v1/sse",
+    "https://api.finicity.com/mcp/sse",
+    "https://api.finicity.com/messages",
+    "https://api.finicity.com/mcp/server",
+    "https://api.finicity.com/mcp/mcp"
+   ]
+  }
+ },
+ "fireblocks.io": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.fireblocks.io/mcp",
+    "https://api.fireblocks.io/v1/mcp",
+    "https://api.fireblocks.io/api/mcp",
+    "https://api.fireblocks.io/mcp/",
+    "https://api.fireblocks.io/sse",
+    "https://api.fireblocks.io/v1/sse",
+    "https://api.fireblocks.io/mcp/sse",
+    "https://api.fireblocks.io/messages",
+    "https://api.fireblocks.io/mcp/server",
+    "https://api.fireblocks.io/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.fireblocks.io/mcp",
+    "https://mcp.fireblocks.io/mcp/",
+    "https://mcp.fireblocks.io/mcp/sse",
+    "https://mcp.fireblocks.io/mcp/server",
+    "https://mcp.fireblocks.io/mcp/mcp"
+   ]
+  }
+ },
+ "fivetran.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://support.fivetran.com/api/mcp"
+   ],
+   "protected": [
+    "https://learn.fivetran.com/v1/mcp",
+    "https://learn.fivetran.com/mcp/sse"
+   ]
+  }
+ },
+ "floqast.app": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.floqast.app/mcp",
+    "https://floqast.app/api/mcp",
+    "https://api.floqast.app/v1/mcp",
+    "https://api.floqast.app/api/mcp",
+    "https://api.floqast.app/mcp/",
+    "https://api.floqast.app/sse",
+    "https://api.floqast.app/v1/sse",
+    "https://api.floqast.app/mcp/sse",
+    "https://api.floqast.app/messages",
+    "https://api.floqast.app/mcp/server",
+    "https://api.floqast.app/mcp/mcp"
+   ]
+  }
+ },
+ "flourish-user-preview.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://flourish-user-preview.com/mcp",
+    "https://flourish-user-preview.com/api/mcp"
+   ]
+  }
+ },
+ "flourish-user-templates.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://flourish-user-templates.com/mcp",
+    "https://flourish-user-templates.com/api/mcp"
+   ]
+  }
+ },
+ "flourish.studio": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://helpcenter.flourish.studio/api/mcp"
+   ],
+   "protected": [
+    "https://flourish-mcp-server.prd.k8s.flourishsoftware.com/mcp"
+   ]
+  }
+ },
+ "folks.finance": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.folks.finance/mcp",
+    "https://api.folks.finance/v1/mcp",
+    "https://api.folks.finance/api/mcp",
+    "https://api.folks.finance/mcp/",
+    "https://api.folks.finance/sse",
+    "https://api.folks.finance/v1/sse",
+    "https://api.folks.finance/mcp/sse",
+    "https://api.folks.finance/messages",
+    "https://api.folks.finance/mcp/server",
+    "https://api.folks.finance/mcp/mcp"
+   ],
+   "live": [
+    "https://docs.folks.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "fortnite.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.fortnite.com/mcp",
+    "https://api.fortnite.com/v1/mcp",
+    "https://api.fortnite.com/api/mcp",
+    "https://api.fortnite.com/mcp/",
+    "https://api.fortnite.com/sse",
+    "https://api.fortnite.com/v1/sse",
+    "https://api.fortnite.com/mcp/sse",
+    "https://api.fortnite.com/messages",
+    "https://api.fortnite.com/mcp/server",
+    "https://api.fortnite.com/mcp/mcp"
+   ]
+  }
+ },
+ "fraedom.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.fraedom.com/mcp",
+    "https://api.fraedom.com/v1/mcp",
+    "https://api.fraedom.com/api/mcp",
+    "https://api.fraedom.com/mcp/",
+    "https://api.fraedom.com/sse",
+    "https://api.fraedom.com/v1/sse",
+    "https://api.fraedom.com/mcp/sse",
+    "https://api.fraedom.com/messages",
+    "https://api.fraedom.com/mcp/server",
+    "https://api.fraedom.com/mcp/mcp"
+   ]
+  }
+ },
+ "frame.io": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.frame.io/mcp",
+    "https://mcp.frame.io/mcp/"
+   ]
+  }
+ },
+ "frankencoin.com": {
+  "best": "live",
+  "evidence": {
+   "authwall": [
+    "https://mcp.frankencoin.com/messages"
+   ],
+   "live": [
+    "https://mcp.frankencoin.com/mcp"
+   ]
+  }
+ },
+ "freshdesk.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.freshdesk.com/mcp",
+    "https://mcp.freshdesk.com/mcp/",
+    "https://mcp.freshdesk.com/mcp/sse",
+    "https://mcp.freshdesk.com/mcp/server",
+    "https://mcp.freshdesk.com/mcp/mcp"
+   ]
+  }
+ },
+ "freshservice.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.freshservice.com/mcp",
+    "https://mcp.freshservice.com/mcp/",
+    "https://mcp.freshservice.com/mcp/sse",
+    "https://mcp.freshservice.com/mcp/server",
+    "https://mcp.freshservice.com/mcp/mcp"
+   ]
+  }
+ },
+ "front.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://dev.frontapp.com/mcp"
+   ],
+   "protected": [
+    "https://mcp.frontapp.com/mcp"
+   ]
+  }
+ },
+ "frontapp.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.frontapp.com/mcp",
+    "https://api.frontapp.com/v1/mcp",
+    "https://api.frontapp.com/api/mcp",
+    "https://api.frontapp.com/mcp/",
+    "https://api.frontapp.com/sse",
+    "https://api.frontapp.com/v1/sse",
+    "https://api.frontapp.com/mcp/sse",
+    "https://api.frontapp.com/messages",
+    "https://api.frontapp.com/mcp/server",
+    "https://api.frontapp.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.frontapp.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.frontapp.com/mcp",
+    "https://mcp.frontapp.com/mcp/"
+   ]
+  }
+ },
+ "frontegg.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.frontegg.com/mcp",
+    "https://api.frontegg.com/v1/mcp",
+    "https://api.frontegg.com/mcp/",
+    "https://api.frontegg.com/sse",
+    "https://api.frontegg.com/v1/sse",
+    "https://api.frontegg.com/mcp/sse",
+    "https://api.frontegg.com/messages",
+    "https://api.frontegg.com/mcp/server",
+    "https://api.frontegg.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.frontegg.com/mcp",
+    "https://mcp.frontegg.com/sse",
+    "https://mcp.frontegg.com/",
+    "https://mcp.frontegg.com/v1/mcp",
+    "https://mcp.frontegg.com/mcp/",
+    "https://mcp.frontegg.com/v1/sse",
+    "https://mcp.frontegg.com/mcp/sse",
+    "https://mcp.frontegg.com/messages",
+    "https://mcp.frontegg.com/mcp/server",
+    "https://mcp.frontegg.com/mcp/mcp"
+   ]
+  }
+ },
+ "fulcrom.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.fulcrom.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "furydocs.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://furydocs.io/mcp",
+    "https://furydocs.io/api/mcp"
+   ]
+  }
+ },
+ "gate.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.gate.com/mcp"
+   ]
+  }
+ },
+ "gearset.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.gearset.com/mcp",
+    "https://api.gearset.com/v1/mcp",
+    "https://api.gearset.com/api/mcp",
+    "https://api.gearset.com/mcp/",
+    "https://api.gearset.com/sse",
+    "https://api.gearset.com/v1/sse",
+    "https://api.gearset.com/mcp/sse",
+    "https://api.gearset.com/messages",
+    "https://api.gearset.com/mcp/server",
+    "https://api.gearset.com/mcp/mcp"
+   ]
+  }
+ },
+ "gethypr.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://gethypr.com/mcp",
+    "https://gethypr.com/api/mcp"
+   ]
+  }
+ },
+ "getmoneytree.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.getmoneytree.com/mcp"
+   ]
+  }
+ },
+ "gitlab.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://gitlab.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://gitlab.com/api/v4/mcp",
+    "https://gitlab.com/api/v4/orbit/mcp"
+   ]
+  }
+ },
+ "glean.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.glean.com/mcp",
+    "https://developers.glean.com/api/mcp"
+   ]
+  }
+ },
+ "globalticket.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.globalticket.com/"
+   ]
+  }
+ },
+ "gmgn.ai": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.gmgn.ai/~gitbook/mcp"
+   ]
+  }
+ },
+ "gobob.xyz": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://gobob.xyz/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "gocardless-staging.io": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.gocardless-staging.io/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.gocardless-staging.io/mcp",
+    "https://mcp.gocardless-staging.io/",
+    "https://mcp.gocardless-staging.io/mcp/",
+    "https://mcp.gocardless-staging.io/mcp/sse",
+    "https://mcp.gocardless-staging.io/mcp/server",
+    "https://mcp.gocardless-staging.io/mcp/mcp"
+   ]
+  }
+ },
+ "gocardless.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.gocardless.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.gocardless.com/mcp",
+    "https://mcp.gocardless.com/",
+    "https://mcp.gocardless.com/mcp/",
+    "https://mcp.gocardless.com/mcp/sse",
+    "https://mcp.gocardless.com/mcp/server",
+    "https://mcp.gocardless.com/mcp/mcp"
+   ]
+  }
+ },
+ "goodrx.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.goodrx.com/mcp",
+    "https://api.goodrx.com/v1/mcp",
+    "https://api.goodrx.com/api/mcp",
+    "https://api.goodrx.com/mcp/",
+    "https://api.goodrx.com/sse",
+    "https://api.goodrx.com/v1/sse",
+    "https://api.goodrx.com/mcp/sse",
+    "https://api.goodrx.com/messages",
+    "https://api.goodrx.com/mcp/server",
+    "https://api.goodrx.com/mcp/mcp"
+   ]
+  }
+ },
+ "google.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://agentregistry.googleapis.com/mcp"
+   ]
+  }
+ },
+ "googleapis.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://bigquery.googleapis.com/mcp",
+    "https://run.googleapis.com/mcp",
+    "https://compute.googleapis.com/mcp"
+   ]
+  }
+ },
+ "gopayapi.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://gopayapi.com/mcp",
+    "https://gopayapi.com/api/mcp"
+   ]
+  }
+ },
+ "gouv.fr": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.data.gouv.fr/mcp"
+   ]
+  }
+ },
+ "granite.world": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.granite.world/~gitbook/mcp"
+   ]
+  }
+ },
+ "grateful.me": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.grateful.me/mcp",
+    "https://api.grateful.me/v1/mcp",
+    "https://api.grateful.me/api/mcp",
+    "https://api.grateful.me/mcp/",
+    "https://api.grateful.me/sse",
+    "https://api.grateful.me/v1/sse",
+    "https://api.grateful.me/mcp/sse",
+    "https://api.grateful.me/messages",
+    "https://api.grateful.me/mcp/server",
+    "https://api.grateful.me/mcp/mcp"
+   ]
+  }
+ },
+ "greenhouse.io": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.us.greenhouse.io/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.us.greenhouse.io/mcp"
+   ]
+  }
+ },
+ "gx.games": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.gx.games/mcp",
+    "https://api.gx.games/v1/mcp",
+    "https://api.gx.games/api/mcp",
+    "https://api.gx.games/mcp/",
+    "https://api.gx.games/sse",
+    "https://api.gx.games/v1/sse",
+    "https://api.gx.games/mcp/sse",
+    "https://api.gx.games/messages",
+    "https://api.gx.games/mcp/server",
+    "https://api.gx.games/mcp/mcp"
+   ]
+  }
+ },
+ "gx.me": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.gx.me/mcp",
+    "https://api.gx.me/v1/mcp",
+    "https://api.gx.me/api/mcp",
+    "https://api.gx.me/mcp/",
+    "https://api.gx.me/sse",
+    "https://api.gx.me/v1/sse",
+    "https://api.gx.me/mcp/sse",
+    "https://api.gx.me/messages",
+    "https://api.gx.me/mcp/server",
+    "https://api.gx.me/mcp/mcp"
+   ]
+  }
+ },
+ "h2.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.h2.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "hacken.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.hackenproof.com/mcp"
+   ]
+  }
+ },
+ "hackerone.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://api.hackerone.com/v1/mcp",
+    "https://api.hackerone.com/v1/sse"
+   ],
+   "rpcerror": [
+    "https://hackerone.com/mcp",
+    "https://api.hackerone.com/mcp",
+    "https://api.hackerone.com/mcp/"
+   ]
+  }
+ },
+ "hacking-lab.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://hacking-lab.com/api/mcp",
+    "https://www.hacking-lab.com/api/mcp"
+   ]
+  }
+ },
+ "hacktoberfest.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://hacktoberfest.com/mcp",
+    "https://hacktoberfest.com/api/mcp"
+   ]
+  }
+ },
+ "harmonsgrocery.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.harmonsgrocery.com/mcp",
+    "https://api.harmonsgrocery.com/v1/mcp",
+    "https://api.harmonsgrocery.com/api/mcp",
+    "https://api.harmonsgrocery.com/mcp/",
+    "https://api.harmonsgrocery.com/sse",
+    "https://api.harmonsgrocery.com/v1/sse",
+    "https://api.harmonsgrocery.com/mcp/sse",
+    "https://api.harmonsgrocery.com/messages",
+    "https://api.harmonsgrocery.com/mcp/server",
+    "https://api.harmonsgrocery.com/mcp/mcp"
+   ]
+  }
+ },
+ "harvest.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.harvest.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "hellosign.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.hellosign.com/mcp"
+   ]
+  }
+ },
+ "here.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.here.com/mcp"
+   ]
+  }
+ },
+ "hermetica.fi": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.hermetica.fi/~gitbook/mcp"
+   ]
+  }
+ },
+ "hh.ru": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://hh.ru/api/mcp",
+    "https://hh.ru/mcp"
+   ],
+   "authwall": [
+    "https://mcp.hh.ru/mcp",
+    "https://mcp.hh.ru/sse",
+    "https://mcp.hh.ru/",
+    "https://mcp.hh.ru/v1/mcp",
+    "https://mcp.hh.ru/api/mcp",
+    "https://mcp.hh.ru/mcp/",
+    "https://mcp.hh.ru/v1/sse",
+    "https://mcp.hh.ru/mcp/sse",
+    "https://mcp.hh.ru/messages",
+    "https://mcp.hh.ru/mcp/server",
+    "https://mcp.hh.ru/mcp/mcp"
+   ]
+  }
+ },
+ "hibachi.xyz": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.hibachi.xyz/v1/mcp",
+    "https://api.hibachi.xyz/v1/sse"
+   ],
+   "live": [
+    "https://docs.hibachi.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "hope.money": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.hope.money/~gitbook/mcp"
+   ]
+  }
+ },
+ "hostinger.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.hostinger.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.hostinger.com/"
+   ]
+  }
+ },
+ "hotwire.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://hotwire.com/mcp",
+    "https://developer.hotwire.com/mcp",
+    "https://developer.hotwire.com/~gitbook/mcp",
+    "https://developer.hotwire.com/api/mcp",
+    "https://developer.hotwire.com/v1/mcp",
+    "https://developer.hotwire.com/sse",
+    "https://developer.hotwire.com/mcp/sse",
+    "https://www.hotwire.com/mcp"
+   ]
+  }
+ },
+ "hubspot.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.hubspot.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.hubspot.com/"
+   ]
+  }
+ },
+ "hubspot.net": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://hubspot.net/mcp",
+    "https://hubspot.net/api/mcp"
+   ]
+  }
+ },
+ "hubspotpagebuilder.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://hubspotpagebuilder.com/api/mcp",
+    "https://hubspotpagebuilder.com/mcp",
+    "https://api.hubspotpagebuilder.com/mcp",
+    "https://api.hubspotpagebuilder.com/v1/mcp",
+    "https://api.hubspotpagebuilder.com/api/mcp",
+    "https://api.hubspotpagebuilder.com/mcp/",
+    "https://api.hubspotpagebuilder.com/sse",
+    "https://api.hubspotpagebuilder.com/v1/sse",
+    "https://api.hubspotpagebuilder.com/mcp/sse",
+    "https://api.hubspotpagebuilder.com/messages",
+    "https://api.hubspotpagebuilder.com/mcp/server",
+    "https://api.hubspotpagebuilder.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.hubspotpagebuilder.com/mcp",
+    "https://mcp.hubspotpagebuilder.com/sse",
+    "https://mcp.hubspotpagebuilder.com/",
+    "https://mcp.hubspotpagebuilder.com/v1/mcp",
+    "https://mcp.hubspotpagebuilder.com/api/mcp",
+    "https://mcp.hubspotpagebuilder.com/mcp/",
+    "https://mcp.hubspotpagebuilder.com/v1/sse",
+    "https://mcp.hubspotpagebuilder.com/mcp/sse",
+    "https://mcp.hubspotpagebuilder.com/messages",
+    "https://mcp.hubspotpagebuilder.com/mcp/server",
+    "https://mcp.hubspotpagebuilder.com/mcp/mcp"
+   ]
+  }
+ },
+ "hubspotpagebuilder.eu": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.hubspotpagebuilder.eu/mcp",
+    "https://mcp.hubspotpagebuilder.eu/sse",
+    "https://mcp.hubspotpagebuilder.eu/",
+    "https://mcp.hubspotpagebuilder.eu/v1/mcp",
+    "https://mcp.hubspotpagebuilder.eu/api/mcp",
+    "https://mcp.hubspotpagebuilder.eu/mcp/",
+    "https://mcp.hubspotpagebuilder.eu/v1/sse",
+    "https://mcp.hubspotpagebuilder.eu/mcp/sse",
+    "https://mcp.hubspotpagebuilder.eu/messages",
+    "https://mcp.hubspotpagebuilder.eu/mcp/server",
+    "https://mcp.hubspotpagebuilder.eu/mcp/mcp"
+   ]
+  }
+ },
+ "hyperlane.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.hyperlane.xyz/mcp"
+   ]
+  }
+ },
+ "hypr.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://hypr.com/mcp",
+    "https://hypr.com/api/mcp"
+   ]
+  }
+ },
+ "ic0.app": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://ic0.app/api/mcp",
+    "https://ic0.app/mcp",
+    "https://api.ic0.app/mcp",
+    "https://api.ic0.app/v1/mcp",
+    "https://api.ic0.app/api/mcp",
+    "https://api.ic0.app/mcp/",
+    "https://api.ic0.app/sse",
+    "https://api.ic0.app/v1/sse",
+    "https://api.ic0.app/mcp/sse",
+    "https://api.ic0.app/messages",
+    "https://api.ic0.app/mcp/server",
+    "https://api.ic0.app/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.ic0.app/mcp",
+    "https://mcp.ic0.app/sse",
+    "https://mcp.ic0.app/",
+    "https://mcp.ic0.app/v1/mcp",
+    "https://mcp.ic0.app/api/mcp",
+    "https://mcp.ic0.app/mcp/",
+    "https://mcp.ic0.app/v1/sse",
+    "https://mcp.ic0.app/mcp/sse",
+    "https://mcp.ic0.app/messages",
+    "https://mcp.ic0.app/mcp/server",
+    "https://mcp.ic0.app/mcp/mcp"
+   ]
+  }
+ },
+ "immutable.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.immutable.com/mcp"
+   ]
+  }
+ },
+ "imperva.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.imperva.com/mcp",
+    "https://api.imperva.com/v1/mcp",
+    "https://api.imperva.com/api/mcp",
+    "https://api.imperva.com/mcp/",
+    "https://api.imperva.com/sse",
+    "https://api.imperva.com/v1/sse",
+    "https://api.imperva.com/mcp/sse",
+    "https://api.imperva.com/messages",
+    "https://api.imperva.com/mcp/server",
+    "https://api.imperva.com/mcp/mcp",
+    "https://api.imperva.com/~gitbook/mcp",
+    "https://management.service.imperva.com/mcp",
+    "https://management.service.imperva.com/api/mcp",
+    "https://management.service.imperva.com/v1/mcp"
+   ]
+  }
+ },
+ "indeed.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.indeed.com/claude/mcp"
+   ]
+  }
+ },
+ "infinifi.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.infinifi.xyz/mcp"
+   ]
+  }
+ },
+ "instacart.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.instacart.com/mcp",
+    "https://mcp.instacart.com/mcp/"
+   ]
+  }
+ },
+ "instacart.tools": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.dev.instacart.tools/mcp"
+   ]
+  }
+ },
+ "intercom.com": {
+  "best": "documented",
+  "evidence": {
+   "authwall": [
+    "https://mcp.intercom.com/mcp",
+    "https://mcp.intercom.com/sse",
+    "https://mcp.intercom.com/mcp/",
+    "https://mcp.intercom.com/mcp/sse",
+    "https://mcp.intercom.com/mcp/server",
+    "https://mcp.intercom.com/mcp/mcp"
+   ],
+   "documented": [
+    "https://mcp.eu.intercom.com/mcp"
+   ]
+  }
+ },
+ "internetcomputer.org": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.internetcomputer.org/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.internetcomputer.org/mcp",
+    "https://mcp.internetcomputer.org/mcp/",
+    "https://mcp.internetcomputer.org/mcp/sse",
+    "https://mcp.internetcomputer.org/mcp/server",
+    "https://mcp.internetcomputer.org/mcp/mcp"
+   ]
+  }
+ },
+ "jitsi.net": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.jitsi.net/mcp",
+    "https://api.jitsi.net/v1/mcp",
+    "https://api.jitsi.net/api/mcp",
+    "https://api.jitsi.net/mcp/",
+    "https://api.jitsi.net/sse",
+    "https://api.jitsi.net/v1/sse",
+    "https://api.jitsi.net/mcp/sse",
+    "https://api.jitsi.net/messages",
+    "https://api.jitsi.net/mcp/server",
+    "https://api.jitsi.net/mcp/mcp"
+   ]
+  }
+ },
+ "jora.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.jora.com/mcp",
+    "https://support.jora.com/api/mcp",
+    "https://au.jora.com/mcp",
+    "https://my.jora.com/mcp",
+    "https://nz.jora.com/mcp",
+    "https://id.jora.com/mcp"
+   ],
+   "prm": [
+    "https://api.jora.com/.well-known/oauth-protected-resource/mcp"
+   ]
+  }
+ },
+ "kartaview.org": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://store.kartaview.org/.well-known/oauth-protected-resource"
+   ],
+   "rpcerror": [
+    "https://store.kartaview.org/api/ucp/mcp"
+   ]
+  }
+ },
+ "keeper.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.keeper.io/~gitbook/mcp"
+   ],
+   "rpcerror": [
+    "https://docs.keeper.io/~gitbook/mcp/"
+   ]
+  }
+ },
+ "kiln.fi": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.api.kiln.fi/mcp"
+   ]
+  }
+ },
+ "kiwi.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.kiwi.com/",
+    "https://mcp.kiwi.com"
+   ]
+  }
+ },
+ "klaviyo.com": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.klaviyo.com/mcp",
+    "https://mcp.klaviyo.com/mcp/",
+    "https://mcp.klaviyo.com/mcp/sse",
+    "https://mcp.klaviyo.com/mcp/server",
+    "https://mcp.klaviyo.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.klaviyo.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "komoju.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://komoju.com/api/mcp",
+    "https://help.komoju.com/api/mcp"
+   ],
+   "rpcerror": [
+    "https://doc.komoju.com/mcp"
+   ]
+  }
+ },
+ "konghq.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://au.mcp.konghq.com/",
+    "https://eu.mcp.konghq.com/",
+    "https://in.mcp.konghq.com/",
+    "https://us.mcp.konghq.com/"
+   ]
+  }
+ },
+ "krisp.ai": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.krisp.ai/mcp",
+    "https://api.krisp.ai/v1/mcp",
+    "https://api.krisp.ai/api/mcp",
+    "https://api.krisp.ai/mcp/",
+    "https://api.krisp.ai/sse",
+    "https://api.krisp.ai/v1/sse",
+    "https://api.krisp.ai/mcp/sse",
+    "https://api.krisp.ai/messages",
+    "https://api.krisp.ai/mcp/server",
+    "https://api.krisp.ai/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.krisp.ai/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.krisp.ai/mcp",
+    "https://mcp.krisp.ai/mcp/"
+   ]
+  }
+ },
+ "kronor.io": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.kronor.io/mcp/server"
+   ],
+   "prm": [
+    "https://mcp.kronor.io/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "kubchain.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.kubchain.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "kuper.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.kuper.ru/mcp",
+    "https://api.kuper.ru/v1/mcp",
+    "https://api.kuper.ru/api/mcp",
+    "https://api.kuper.ru/mcp/",
+    "https://api.kuper.ru/sse",
+    "https://api.kuper.ru/v1/sse",
+    "https://api.kuper.ru/mcp/sse",
+    "https://api.kuper.ru/messages",
+    "https://api.kuper.ru/mcp/server",
+    "https://api.kuper.ru/mcp/mcp"
+   ]
+  }
+ },
+ "langfuse.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://cloud.langfuse.com/api/public/mcp",
+    "https://hipaa.cloud.langfuse.com/api/public/mcp",
+    "https://jp.cloud.langfuse.com/api/public/mcp",
+    "https://us.cloud.langfuse.com/api/public/mcp",
+    "https://cloud.langfuse.com/api/public/mcp/",
+    "https://us.cloud.langfuse.com/api/public/mcp/",
+    "https://jp.cloud.langfuse.com/api/public/mcp/",
+    "https://hipaa.cloud.langfuse.com/api/public/mcp/"
+   ],
+   "live": [
+    "https://langfuse.com/api/mcp",
+    "https://langfuse.com/api/mcp/"
+   ]
+  }
+ },
+ "larksuite.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.larksuite.com/mcp",
+    "https://mcp.larksuite.com/mcp/"
+   ],
+   "rpcerror": [
+    "https://mcp.larksuite.com/mcp/sse",
+    "https://mcp.larksuite.com/mcp/server",
+    "https://mcp.larksuite.com/mcp/mcp"
+   ]
+  }
+ },
+ "latitudefinancial.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://latitudefinancial.com/mcp",
+    "https://latitudefinancial.com/api/mcp"
+   ]
+  }
+ },
+ "lightspark.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://support.lightspark.com/api/mcp"
+   ],
+   "live": [
+    "https://docs.lightspark.com/mcp"
+   ]
+  }
+ },
+ "linkpop.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://linkpop.com/mcp",
+    "https://linkpop.com/api/mcp"
+   ]
+  }
+ },
+ "logitech.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.logitech.io/mcp",
+    "https://api.logitech.io/v1/mcp",
+    "https://api.logitech.io/api/mcp",
+    "https://api.logitech.io/mcp/",
+    "https://api.logitech.io/sse",
+    "https://api.logitech.io/v1/sse",
+    "https://api.logitech.io/mcp/sse",
+    "https://api.logitech.io/messages",
+    "https://api.logitech.io/mcp/server",
+    "https://api.logitech.io/mcp/mcp"
+   ]
+  }
+ },
+ "logitechclub.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://logitechclub.com/api/mcp"
+   ],
+   "prm": [
+    "https://logitechclub.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "longos.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://longos.com/api/mcp"
+   ]
+  }
+ },
+ "mafshoppingmalls.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.mafshoppingmalls.com/mcp",
+    "https://api.mafshoppingmalls.com/v1/mcp",
+    "https://api.mafshoppingmalls.com/api/mcp",
+    "https://api.mafshoppingmalls.com/mcp/",
+    "https://api.mafshoppingmalls.com/sse",
+    "https://api.mafshoppingmalls.com/v1/sse",
+    "https://api.mafshoppingmalls.com/mcp/sse",
+    "https://api.mafshoppingmalls.com/messages",
+    "https://api.mafshoppingmalls.com/mcp/server",
+    "https://api.mafshoppingmalls.com/mcp/mcp"
+   ]
+  }
+ },
+ "magic.link": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.magic.link/mcp"
+   ]
+  }
+ },
+ "magiceden.io": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://docs.magiceden.io/mcp"
+   ]
+  }
+ },
+ "mantle.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.mantle.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "mapbox.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.mapbox.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.mapbox.com/mcp",
+    "https://mcp.mapbox.com/",
+    "https://mcp.mapbox.com/mcp/"
+   ]
+  }
+ },
+ "marsecosystem.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.marsecosystem.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "mastercard.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcdevelop.mcp.mastercard.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcdevelop.mcp.mastercard.com/mcp"
+   ]
+  }
+ },
+ "matomo.org": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://partners.matomo.org/.well-known/oauth-protected-resource"
+   ],
+   "rpcerror": [
+    "https://partners.matomo.org/mcp",
+    "https://partners.matomo.org/mcp/"
+   ]
+  }
+ },
+ "mattermost.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://support.mattermost.com/api/mcp"
+   ]
+  }
+ },
+ "maventa.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://maventa.com/mcp",
+    "https://maventa.com/api/mcp"
+   ]
+  }
+ },
+ "mediamarkt.es": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://canarias.mediamarkt.es/.well-known/oauth-protected-resource"
+   ],
+   "rpcerror": [
+    "https://canarias.mediamarkt.es/api/ucp/mcp"
+   ]
+  }
+ },
+ "meesho.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.meesho.com/mcp",
+    "https://api.meesho.com/v1/mcp",
+    "https://api.meesho.com/api/mcp",
+    "https://api.meesho.com/mcp/",
+    "https://api.meesho.com/sse",
+    "https://api.meesho.com/v1/sse",
+    "https://api.meesho.com/mcp/sse",
+    "https://api.meesho.com/messages",
+    "https://api.meesho.com/mcp/server",
+    "https://api.meesho.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.meesho.com/mcp",
+    "https://mcp.meesho.com/sse",
+    "https://mcp.meesho.com/",
+    "https://mcp.meesho.com/v1/mcp",
+    "https://mcp.meesho.com/api/mcp",
+    "https://mcp.meesho.com/mcp/",
+    "https://mcp.meesho.com/v1/sse",
+    "https://mcp.meesho.com/mcp/sse",
+    "https://mcp.meesho.com/messages",
+    "https://mcp.meesho.com/mcp/server",
+    "https://mcp.meesho.com/mcp/mcp"
+   ]
+  }
+ },
+ "mementoblockchain.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.mementoblockchain.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "meraki.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.meraki.com/api/mcp"
+   ],
+   "live": [
+    "https://mcp.meraki.com/mcp"
+   ]
+  }
+ },
+ "mercadolibre.com": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.mercadolibre.com/mcp",
+    "https://mcp.mercadolibre.com/sse",
+    "https://mcp.mercadolibre.com/mcp/",
+    "https://mcp.mercadolibre.com/mcp/sse",
+    "https://mcp.mercadolibre.com/messages",
+    "https://mcp.mercadolibre.com/mcp/server",
+    "https://mcp.mercadolibre.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.mercadolibre.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "mercadopago.cl": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.mercadopago.com/mcp",
+    "https://mcp.mercadopago.com/mcp/"
+   ],
+   "prm": [
+    "https://mcp.mercadopago.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "mercadopago.com": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.mercadopago.com/mcp",
+    "https://mcp.mercadopago.com/sse",
+    "https://mcp.mercadopago.com/mcp/",
+    "https://mcp.mercadopago.com/mcp/sse",
+    "https://mcp.mercadopago.com/messages",
+    "https://mcp.mercadopago.com/mcp/server",
+    "https://mcp.mercadopago.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.mercadopago.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "metronome.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.metronome.com/mcp"
+   ]
+  }
+ },
+ "microsoft.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://learn.microsoft.com/api/mcp",
+    "https://learn.microsoft.com/api/mcp/"
+   ]
+  }
+ },
+ "midtrans.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://docs.midtrans.com/mcp"
+   ]
+  }
+ },
+ "mindnetwork.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.mindnetwork.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "minted.network": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.minted.network/mcp",
+    "https://api.minted.network/v1/mcp",
+    "https://api.minted.network/api/mcp",
+    "https://api.minted.network/mcp/",
+    "https://api.minted.network/sse",
+    "https://api.minted.network/v1/sse",
+    "https://api.minted.network/mcp/sse",
+    "https://api.minted.network/messages",
+    "https://api.minted.network/mcp/server",
+    "https://api.minted.network/mcp/mcp"
+   ]
+  }
+ },
+ "mlife.mo": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://mlife.mo/mcp",
+    "https://mlife.mo/api/mcp"
+   ]
+  }
+ },
+ "mobile.monash": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://mobile.monash/mcp",
+    "https://mobile.monash/api/mcp"
+   ]
+  }
+ },
+ "moderntreasury.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.moderntreasury.com/mcp"
+   ]
+  }
+ },
+ "moengage.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.moengage.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.moengage.com/mcp",
+    "https://mcp.moengage.com/sse",
+    "https://mcp.moengage.com/",
+    "https://mcp.moengage.com/v1/mcp",
+    "https://mcp.moengage.com/api/mcp",
+    "https://mcp.moengage.com/mcp/",
+    "https://mcp.moengage.com/v1/sse",
+    "https://mcp.moengage.com/mcp/sse",
+    "https://mcp.moengage.com/messages",
+    "https://mcp.moengage.com/mcp/server",
+    "https://mcp.moengage.com/mcp/mcp"
+   ]
+  }
+ },
+ "monad.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.monad.xyz/mcp"
+   ]
+  }
+ },
+ "monday.trade": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.monday.trade/~gitbook/mcp"
+   ]
+  }
+ },
+ "mongodb.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.mongodb.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.mongodb.com/mcp",
+    "https://mcp.mongodb.com/sse",
+    "https://mcp.mongodb.com/",
+    "https://mcp.mongodb.com/v1/mcp",
+    "https://mcp.mongodb.com/api/mcp",
+    "https://mcp.mongodb.com/mcp/",
+    "https://mcp.mongodb.com/v1/sse",
+    "https://mcp.mongodb.com/mcp/sse",
+    "https://mcp.mongodb.com/messages",
+    "https://mcp.mongodb.com/mcp/server",
+    "https://mcp.mongodb.com/mcp/mcp"
+   ]
+  }
+ },
+ "moonlander.trade": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.moonlander.trade/~gitbook/mcp"
+   ]
+  }
+ },
+ "moonpay.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://dev.moonpay.com/mcp"
+   ]
+  }
+ },
+ "moonpaycloud.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://dev.moonpay.com/mcp"
+   ]
+  }
+ },
+ "morpho.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.morpho.org/mcp",
+    "https://mcp.morpho.org/",
+    "https://mcp.morpho.org/mcp/",
+    "https://mcp.morpho.org"
+   ]
+  }
+ },
+ "mozilla.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.mdn.mozilla.net",
+    "https://mcp.mdn.mozilla.net/mcp",
+    "https://mcp.mdn.mozilla.net/"
+   ]
+  }
+ },
+ "mrjet.se": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://mrjet.se/mcp"
+   ]
+  }
+ },
+ "multipli.fi": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.multipli.fi/~gitbook/mcp"
+   ]
+  }
+ },
+ "mux.network": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.mux.network/~gitbook/mcp"
+   ]
+  }
+ },
+ "myfitnesspal.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.myfitnesspal.com/mcp",
+    "https://mcp.myfitnesspal.com/sse",
+    "https://mcp.myfitnesspal.com/",
+    "https://mcp.myfitnesspal.com/v1/mcp",
+    "https://mcp.myfitnesspal.com/api/mcp",
+    "https://mcp.myfitnesspal.com/mcp/",
+    "https://mcp.myfitnesspal.com/v1/sse",
+    "https://mcp.myfitnesspal.com/mcp/sse",
+    "https://mcp.myfitnesspal.com/messages",
+    "https://mcp.myfitnesspal.com/mcp/server",
+    "https://mcp.myfitnesspal.com/mcp/mcp"
+   ]
+  }
+ },
+ "myshopify.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://your-store.myshopify.com/api/mcp"
+   ],
+   "prm": [
+    "https://your-store.myshopify.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "nado.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.nado.xyz/~gitbook/mcp"
+   ],
+   "rpcerror": [
+    "https://docs.nado.xyz/~gitbook/mcp/"
+   ]
+  }
+ },
+ "navan.com": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.navan.com/sse",
+    "https://mcp.navan.com/v1/mcp",
+    "https://mcp.navan.com/api/mcp",
+    "https://mcp.navan.com/v1/sse",
+    "https://mcp.navan.com/mcp/sse",
+    "https://mcp.navan.com/messages",
+    "https://mcp.navan.com/mcp/server",
+    "https://mcp.navan.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.navan.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.navan.com/mcp",
+    "https://mcp.navan.com/mcp/"
+   ]
+  }
+ },
+ "naviprotocol.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://open-api.naviprotocol.io/api/mcp"
+   ]
+  }
+ },
+ "nba.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.nba.com/mcp",
+    "https://api.nba.com/v1/mcp",
+    "https://api.nba.com/api/mcp",
+    "https://api.nba.com/mcp/",
+    "https://api.nba.com/sse",
+    "https://api.nba.com/v1/sse",
+    "https://api.nba.com/mcp/sse",
+    "https://api.nba.com/messages",
+    "https://api.nba.com/mcp/server",
+    "https://api.nba.com/mcp/mcp"
+   ]
+  }
+ },
+ "neon.tech": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.neon.tech/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.neon.tech/mcp",
+    "https://mcp.neon.tech/sse",
+    "https://mcp.neon.tech/api/mcp",
+    "https://mcp.neon.tech/mcp/"
+   ]
+  }
+ },
+ "netlify.app": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.netlify.app/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.netlify.app/mcp",
+    "https://mcp.netlify.app/mcp/"
+   ]
+  }
+ },
+ "netlify.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://netlify-mcp.netlify.app/mcp",
+    "https://netlify-mcp.netlify.app/mcp/"
+   ]
+  }
+ },
+ "newegg.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://apis.newegg.com/ex-mcp/endpoint/ext-pc-builder",
+    "https://apis.newegg.com/ex-mcp/endpoint/product-search",
+    "https://apis.newegg.com/ex-mcp/endpoint/pcbuilder",
+    "https://apis.newegg.com/ex-mcp/endpoint/website-www-tool"
+   ],
+   "prm": [
+    "https://apis.newegg.com/ex-mcp/endpoint/ext-pc-builder/.well-known/oauth-protected-resource",
+    "https://apis.newegg.com/ex-mcp/endpoint/product-search/.well-known/oauth-protected-resource",
+    "https://apis.newegg.com/ex-mcp/endpoint/pcbuilder/.well-known/oauth-protected-resource",
+    "https://apis.newegg.com/ex-mcp/endpoint/website-www-tool/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "newrelic.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://newrelic.com/mcp",
+    "https://newrelic.com/api/mcp"
+   ],
+   "authwall": [
+    "https://mcp.newrelic.com/sse",
+    "https://mcp.newrelic.com/",
+    "https://mcp.newrelic.com/v1/mcp",
+    "https://mcp.newrelic.com/api/mcp",
+    "https://mcp.newrelic.com/v1/sse",
+    "https://mcp.newrelic.com/messages"
+   ],
+   "prm": [
+    "https://mcp.newrelic.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.newrelic.com/mcp",
+    "https://mcp.newrelic.com/mcp/",
+    "https://mcp.newrelic.com/mcp/sse",
+    "https://mcp.newrelic.com/mcp/server",
+    "https://mcp.newrelic.com/mcp/mcp",
+    "https://mcp.eu.newrelic.com/mcp/"
+   ]
+  }
+ },
+ "nexuzhealth.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://nexuzhealth.com/mcp",
+    "https://nexuzhealth.com/api/mcp"
+   ]
+  }
+ },
+ "nft.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.nft.io/mcp",
+    "https://api.nft.io/v1/mcp",
+    "https://api.nft.io/api/mcp",
+    "https://api.nft.io/mcp/",
+    "https://api.nft.io/sse",
+    "https://api.nft.io/v1/sse",
+    "https://api.nft.io/mcp/sse",
+    "https://api.nft.io/messages",
+    "https://api.nft.io/mcp/server",
+    "https://api.nft.io/mcp/mcp"
+   ]
+  }
+ },
+ "nonkyc.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://nonkyc.io/mcp",
+    "https://nonkyc.io/api/mcp"
+   ]
+  }
+ },
+ "notion.so": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.notion.com/mcp"
+   ]
+  }
+ },
+ "npmjs.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.npmjs.com/mcp",
+    "https://mcp.npmjs.com/mcp/",
+    "https://mcp.npmjs.com/mcp/sse",
+    "https://mcp.npmjs.com/mcp/server",
+    "https://mcp.npmjs.com/mcp/mcp"
+   ]
+  }
+ },
+ "npmjs.org": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.npmjs.com/mcp"
+   ]
+  }
+ },
+ "octopus.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://octopus.com/mcp",
+    "https://octopus.com/api/mcp",
+    "https://octopus.com/~gitbook/mcp",
+    "https://octopus.com/mcp/mcp"
+   ],
+   "rpcerror": [
+    "https://shop.octopus.com/api/ucp/mcp"
+   ]
+  }
+ },
+ "odkl.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://odkl.ru/api/mcp"
+   ]
+  }
+ },
+ "olympusdao.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.olympusdao.finance/mcp"
+   ]
+  }
+ },
+ "onetrust.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developer.onetrust.com/mcp"
+   ]
+  }
+ },
+ "openai.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.openai.com/mcp"
+   ]
+  }
+ },
+ "opensea.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.opensea.io/mcp"
+   ]
+  }
+ },
+ "oppo.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://oppo.com/mcp",
+    "https://oppo.com/api/mcp"
+   ]
+  }
+ },
+ "opsgenie.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://docs.opsgenie.com/mcp"
+   ]
+  }
+ },
+ "optimism.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.optimism.io/mcp"
+   ]
+  }
+ },
+ "optimizely.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.optimizely.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.optimizely.com/mcp",
+    "https://mcp.optimizely.com/mcp/",
+    "https://exp.mcp.opal.optimizely.com/mcp",
+    "https://analytics.mcp.opal.optimizely.com/mcp"
+   ]
+  }
+ },
+ "orbitz.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://orbitz.com/mcp"
+   ]
+  }
+ },
+ "orderly.network": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.orderly.network/"
+   ]
+  }
+ },
+ "orderly.org": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.orderly.org/mcp",
+    "https://api.orderly.org/v1/mcp",
+    "https://api.orderly.org/api/mcp",
+    "https://api.orderly.org/mcp/",
+    "https://api.orderly.org/sse",
+    "https://api.orderly.org/v1/sse",
+    "https://api.orderly.org/mcp/sse",
+    "https://api.orderly.org/messages",
+    "https://api.orderly.org/mcp/server",
+    "https://api.orderly.org/mcp/mcp"
+   ]
+  }
+ },
+ "originprotocol.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.originprotocol.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "ort-one-pingone.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.ort-one-pingone.com/mcp",
+    "https://api.ort-one-pingone.com/v1/mcp",
+    "https://api.ort-one-pingone.com/api/mcp",
+    "https://api.ort-one-pingone.com/mcp/",
+    "https://api.ort-one-pingone.com/sse",
+    "https://api.ort-one-pingone.com/v1/sse",
+    "https://api.ort-one-pingone.com/mcp/sse",
+    "https://api.ort-one-pingone.com/messages",
+    "https://api.ort-one-pingone.com/mcp/server",
+    "https://api.ort-one-pingone.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.ort-one-pingone.com/mcp",
+    "https://mcp.ort-one-pingone.com/sse",
+    "https://mcp.ort-one-pingone.com/"
+   ]
+  }
+ },
+ "oslo.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://oslo.io/mcp",
+    "https://oslo.io/api/mcp"
+   ]
+  }
+ },
+ "ostium.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.ostium.com/mcp"
+   ]
+  }
+ },
+ "otherside.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.otherside.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "ozon.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ozon.ru/mcp",
+    "https://api.ozon.ru/mcp",
+    "https://ozon.ru/api/mcp",
+    "https://api.ozon.ru/v1/mcp",
+    "https://api.ozon.ru/api/mcp",
+    "https://api.ozon.ru/mcp/",
+    "https://api.ozon.ru/sse",
+    "https://api.ozon.ru/v1/sse",
+    "https://api.ozon.ru/mcp/sse",
+    "https://api.ozon.ru/messages",
+    "https://api.ozon.ru/mcp/server",
+    "https://api.ozon.ru/mcp/mcp"
+   ]
+  }
+ },
+ "p2pb2b.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://p2pb2b.com/api/mcp"
+   ]
+  }
+ },
+ "paddle.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.paddle.com/mcp"
+   ]
+  }
+ },
+ "pancakeswap.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.pancakeswap.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "pantheon.io": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://help.pantheon.io/api/mcp"
+   ],
+   "rpcerror": [
+    "https://swag.pantheon.io/api/ucp/mcp"
+   ]
+  }
+ },
+ "parallel.best": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.parallel.best/mcp",
+    "https://api.parallel.best/v1/mcp",
+    "https://api.parallel.best/api/mcp",
+    "https://api.parallel.best/mcp/",
+    "https://api.parallel.best/sse",
+    "https://api.parallel.best/v1/sse",
+    "https://api.parallel.best/mcp/sse",
+    "https://api.parallel.best/messages",
+    "https://api.parallel.best/mcp/server",
+    "https://api.parallel.best/mcp/mcp"
+   ],
+   "live": [
+    "https://mcp.parallel.best/mcp"
+   ]
+  }
+ },
+ "pareto.credit": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.pareto.credit/~gitbook/mcp"
+   ]
+  }
+ },
+ "paypal.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.paypal.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.paypal.com/mcp",
+    "https://mcp.paypal.com/sse",
+    "https://mcp.paypal.com/mcp/",
+    "https://mcp.paypal.com/mcp/sse",
+    "https://mcp.paypal.com/mcp/server",
+    "https://mcp.paypal.com/mcp/mcp"
+   ]
+  }
+ },
+ "paze.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://developer.paze.com/mcp"
+   ]
+  }
+ },
+ "personio.de": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.personio.de/sse",
+    "https://mcp.personio.de/",
+    "https://mcp.personio.de/v1/mcp",
+    "https://mcp.personio.de/api/mcp",
+    "https://mcp.personio.de/mcp/",
+    "https://mcp.personio.de/v1/sse",
+    "https://mcp.personio.de/mcp/sse",
+    "https://mcp.personio.de/messages",
+    "https://mcp.personio.de/mcp/server",
+    "https://mcp.personio.de/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.personio.de/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.personio.de/mcp"
+   ]
+  }
+ },
+ "phantom.app": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.phantom.app/mcp",
+    "https://api.phantom.app/v1/mcp",
+    "https://api.phantom.app/api/mcp",
+    "https://api.phantom.app/mcp/",
+    "https://api.phantom.app/sse",
+    "https://api.phantom.app/v1/sse",
+    "https://api.phantom.app/mcp/sse",
+    "https://api.phantom.app/messages",
+    "https://api.phantom.app/mcp/server",
+    "https://api.phantom.app/mcp/mcp"
+   ]
+  }
+ },
+ "phantom.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.phantom.com/mcp",
+    "https://docs.phantom.com/mcp/"
+   ]
+  }
+ },
+ "pinelabs.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.pinelabs.com/mcp",
+    "https://mcp.pinelabs.com/mcp/",
+    "https://mcp.pinelabs.com/mcp/sse",
+    "https://mcp.pinelabs.com/mcp/server",
+    "https://mcp.pinelabs.com/mcp/mcp"
+   ]
+  }
+ },
+ "pinepg.in": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://pluralai.v2.pinepg.in/mcp",
+    "https://pluralai.v2.pinepg.in/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.pinelabs.com/mcp"
+   ]
+  }
+ },
+ "pingone.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.pingone.com/mcp",
+    "https://api.pingone.com/v1/mcp",
+    "https://api.pingone.com/api/mcp",
+    "https://api.pingone.com/mcp/",
+    "https://api.pingone.com/sse",
+    "https://api.pingone.com/v1/sse",
+    "https://api.pingone.com/mcp/sse",
+    "https://api.pingone.com/messages",
+    "https://api.pingone.com/mcp/server",
+    "https://api.pingone.com/mcp/mcp"
+   ]
+  }
+ },
+ "pinterest.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.pinterest.com/mcp",
+    "https://api.pinterest.com/mcp/",
+    "https://api.pinterest.com/mcp/sse",
+    "https://api.pinterest.com/mcp/server",
+    "https://api.pinterest.com/mcp/mcp"
+   ]
+  }
+ },
+ "pionex.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://www.pionex.com/docs/~gitbook/mcp",
+    "https://www.pionex.com/docs/~gitbook/mcp/"
+   ]
+  }
+ },
+ "pipopay.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.pipopay.com/mcp",
+    "https://api.pipopay.com/v1/mcp",
+    "https://api.pipopay.com/api/mcp",
+    "https://api.pipopay.com/mcp/",
+    "https://api.pipopay.com/sse",
+    "https://api.pipopay.com/v1/sse",
+    "https://api.pipopay.com/mcp/sse",
+    "https://api.pipopay.com/messages",
+    "https://api.pipopay.com/mcp/server",
+    "https://api.pipopay.com/mcp/mcp"
+   ]
+  }
+ },
+ "pismo.io": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://developers.pismo.io/mcp"
+   ]
+  }
+ },
+ "plaid.com": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://api.dashboard.plaid.com/mcp/"
+   ]
+  }
+ },
+ "plume.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.plume.org/~gitbook/mcp"
+   ]
+  }
+ },
+ "poe.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://poe.com/api/mcp"
+   ]
+  }
+ },
+ "poloniex.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.poloniex.com/mcp",
+    "https://api.poloniex.com/v1/mcp",
+    "https://api.poloniex.com/api/mcp",
+    "https://api.poloniex.com/mcp/",
+    "https://api.poloniex.com/sse",
+    "https://api.poloniex.com/v1/sse",
+    "https://api.poloniex.com/mcp/sse",
+    "https://api.poloniex.com/messages",
+    "https://api.poloniex.com/mcp/server",
+    "https://api.poloniex.com/mcp/mcp"
+   ]
+  }
+ },
+ "polygon.technology": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.polygon.technology/mcp"
+   ]
+  }
+ },
+ "polymarket.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.polymarket.com/mcp"
+   ]
+  }
+ },
+ "pornbox.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://pornbox.com/mcp",
+    "https://pornbox.com/api/mcp"
+   ]
+  }
+ },
+ "priceless.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.priceless.com/mcp",
+    "https://api.priceless.com/v1/mcp",
+    "https://api.priceless.com/mcp/",
+    "https://api.priceless.com/sse",
+    "https://api.priceless.com/v1/sse",
+    "https://api.priceless.com/mcp/sse",
+    "https://api.priceless.com/messages",
+    "https://api.priceless.com/mcp/server",
+    "https://api.priceless.com/mcp/mcp"
+   ]
+  }
+ },
+ "priceline.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.priceline.com/mcp",
+    "https://api.priceline.com/v1/mcp",
+    "https://api.priceline.com/api/mcp",
+    "https://api.priceline.com/mcp/",
+    "https://api.priceline.com/sse",
+    "https://api.priceline.com/v1/sse",
+    "https://api.priceline.com/mcp/sse",
+    "https://api.priceline.com/messages",
+    "https://api.priceline.com/mcp/server",
+    "https://api.priceline.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.priceline.com/mcp",
+    "https://mcp.priceline.com/sse",
+    "https://mcp.priceline.com/",
+    "https://mcp.priceline.com/v1/mcp",
+    "https://mcp.priceline.com/api/mcp",
+    "https://mcp.priceline.com/mcp/",
+    "https://mcp.priceline.com/v1/sse",
+    "https://mcp.priceline.com/mcp/sse",
+    "https://mcp.priceline.com/messages",
+    "https://mcp.priceline.com/mcp/server",
+    "https://mcp.priceline.com/mcp/mcp"
+   ]
+  }
+ },
+ "pricerunner.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.pricerunner.com/mcp",
+    "https://api.pricerunner.com/v1/mcp",
+    "https://api.pricerunner.com/api/mcp",
+    "https://api.pricerunner.com/mcp/",
+    "https://api.pricerunner.com/sse",
+    "https://api.pricerunner.com/v1/sse",
+    "https://api.pricerunner.com/mcp/sse",
+    "https://api.pricerunner.com/messages",
+    "https://api.pricerunner.com/mcp/server",
+    "https://api.pricerunner.com/mcp/mcp"
+   ]
+  }
+ },
+ "privy.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.privy.io/mcp"
+   ]
+  }
+ },
+ "prowly.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.prowly.com/",
+    "https://mcp.prowly.com/mcp/sse",
+    "https://mcp.prowly.com/mcp/server",
+    "https://mcp.prowly.com/mcp/mcp"
+   ]
+  }
+ },
+ "psynet.gg": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.psynet.gg/mcp",
+    "https://api.psynet.gg/v1/mcp",
+    "https://api.psynet.gg/api/mcp",
+    "https://api.psynet.gg/mcp/",
+    "https://api.psynet.gg/sse",
+    "https://api.psynet.gg/v1/sse",
+    "https://api.psynet.gg/mcp/sse",
+    "https://api.psynet.gg/messages",
+    "https://api.psynet.gg/mcp/server",
+    "https://api.psynet.gg/mcp/mcp"
+   ]
+  }
+ },
+ "ptcloud.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ptcloud.ru/mcp",
+    "https://ptcloud.ru/api/mcp"
+   ]
+  }
+ },
+ "pullrequest.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.pullrequest.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "pyth.network": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.pyth.network/mcp"
+   ]
+  }
+ },
+ "quizlet.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://quizlet.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "rapyd.org": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.rapyd.org/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.rapyd.org/mcp",
+    "https://mcp.rapyd.org/sse",
+    "https://mcp.rapyd.org/mcp/",
+    "https://mcp.rapyd.org/mcp/sse",
+    "https://mcp.rapyd.org/messages",
+    "https://mcp.rapyd.org/mcp/server",
+    "https://mcp.rapyd.org/mcp/mcp"
+   ]
+  }
+ },
+ "razorpay.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.razorpay.com/mcp",
+    "https://mcp.razorpay.com/mcp/"
+   ]
+  }
+ },
+ "realm.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.realm.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "reclaim.ai": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.reclaim.ai/mcp",
+    "https://mcp.reclaim.ai/sse",
+    "https://mcp.reclaim.ai/",
+    "https://mcp.reclaim.ai/v1/mcp",
+    "https://mcp.reclaim.ai/api/mcp",
+    "https://mcp.reclaim.ai/mcp/",
+    "https://mcp.reclaim.ai/v1/sse",
+    "https://mcp.reclaim.ai/mcp/sse",
+    "https://mcp.reclaim.ai/messages",
+    "https://mcp.reclaim.ai/mcp/server",
+    "https://mcp.reclaim.ai/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.reclaim.ai/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "recordedfuture.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.recordedfuture.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.recordedfuture.com/mcp",
+    "https://mcp.recordedfuture.com/mcp/",
+    "https://mcp.recordedfuture.com/mcp/sse",
+    "https://mcp.recordedfuture.com/mcp/server",
+    "https://mcp.recordedfuture.com/mcp/mcp"
+   ]
+  }
+ },
+ "reddit.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://reddit.com/api/mcp",
+    "https://reddit.com/mcp",
+    "https://api.reddit.com/mcp",
+    "https://api.reddit.com/v1/mcp",
+    "https://api.reddit.com/api/mcp",
+    "https://api.reddit.com/mcp/",
+    "https://api.reddit.com/sse",
+    "https://api.reddit.com/v1/sse",
+    "https://api.reddit.com/mcp/sse",
+    "https://api.reddit.com/messages",
+    "https://api.reddit.com/mcp/server",
+    "https://api.reddit.com/mcp/mcp"
+   ]
+  }
+ },
+ "reddithelp.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://reddithelp.com/api/mcp"
+   ]
+  }
+ },
+ "redditinc.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://redditinc.com/mcp",
+    "https://redditinc.com/api/mcp"
+   ]
+  }
+ },
+ "redelcom.cl": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://redelcom.cl/api/mcp"
+   ],
+   "prm": [
+    "https://redelcom.cl/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "redoxengine.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.redoxengine.com/mcp/",
+    "https://api.redoxengine.com/mcp/sse",
+    "https://api.redoxengine.com/mcp/server",
+    "https://api.redoxengine.com/mcp/mcp"
+   ],
+   "protected": [
+    "https://api.redoxengine.com/mcp"
+   ]
+  }
+ },
+ "remitly.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.remitly.com/mcp",
+    "https://mcp.remitly.com/sse",
+    "https://mcp.remitly.com/",
+    "https://mcp.remitly.com/v1/mcp",
+    "https://mcp.remitly.com/api/mcp",
+    "https://mcp.remitly.com/mcp/",
+    "https://mcp.remitly.com/v1/sse",
+    "https://mcp.remitly.com/mcp/sse",
+    "https://mcp.remitly.com/messages",
+    "https://mcp.remitly.com/mcp/server",
+    "https://mcp.remitly.com/mcp/mcp"
+   ]
+  }
+ },
+ "republik.ch": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.republik.ch/mcp",
+    "https://api.republik.ch/v1/mcp",
+    "https://api.republik.ch/api/mcp",
+    "https://api.republik.ch/mcp/",
+    "https://api.republik.ch/sse",
+    "https://api.republik.ch/v1/sse",
+    "https://api.republik.ch/mcp/sse",
+    "https://api.republik.ch/messages",
+    "https://api.republik.ch/mcp/server",
+    "https://api.republik.ch/mcp/mcp"
+   ]
+  }
+ },
+ "requirementyogi.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://api.requirementyogi.com/api/mcp"
+   ]
+  }
+ },
+ "rewire.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://rewire.com/mcp",
+    "https://rewire.com/api/mcp"
+   ]
+  }
+ },
+ "ridewithvia.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://ridewithvia.com/mcp",
+    "https://ridewithvia.com/api/mcp"
+   ]
+  }
+ },
+ "ripio.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://api.ripio.com/mcp"
+   ]
+  }
+ },
+ "robinhood.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://agent.robinhood.com/.well-known/oauth-protected-resource",
+    "https://banking-agent.robinhood.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://agent.robinhood.com/mcp/trading",
+    "https://banking-agent.robinhood.com/mcp/banking"
+   ]
+  }
+ },
+ "roblox.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://help.roblox.com/api/mcp"
+   ]
+  }
+ },
+ "rogo.ai": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.rogo.ai/mcp"
+   ]
+  }
+ },
+ "royco.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.royco.org/mcp"
+   ]
+  }
+ },
+ "s-cloud.fi": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.s-cloud.fi/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.s-cloud.fi/mcp",
+    "https://mcp.s-cloud.fi/sse",
+    "https://mcp.s-cloud.fi/",
+    "https://mcp.s-cloud.fi/v1/mcp",
+    "https://mcp.s-cloud.fi/api/mcp",
+    "https://mcp.s-cloud.fi/mcp/",
+    "https://mcp.s-cloud.fi/v1/sse",
+    "https://mcp.s-cloud.fi/mcp/sse",
+    "https://mcp.s-cloud.fi/messages",
+    "https://mcp.s-cloud.fi/mcp/server",
+    "https://mcp.s-cloud.fi/mcp/mcp"
+   ]
+  }
+ },
+ "s-pankki.fi": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.s-pankki.fi/mcp",
+    "https://api.s-pankki.fi/v1/mcp",
+    "https://api.s-pankki.fi/api/mcp",
+    "https://api.s-pankki.fi/mcp/",
+    "https://api.s-pankki.fi/sse",
+    "https://api.s-pankki.fi/v1/sse",
+    "https://api.s-pankki.fi/mcp/sse",
+    "https://api.s-pankki.fi/messages",
+    "https://api.s-pankki.fi/mcp/server",
+    "https://api.s-pankki.fi/mcp/mcp"
+   ]
+  }
+ },
+ "salesforce.com": {
+  "best": "documented",
+  "evidence": {
+   "documented": [
+    "https://api.salesforce.com/platform/mcp/v1/mcp"
+   ]
+  }
+ },
+ "sber.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://developers.sber.ru/api/mcp",
+    "https://developer.sber.ru/api/mcp",
+    "https://app.sber.ru/api/mcp"
+   ]
+  }
+ },
+ "scrollscan.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://scrollscan.com/api/mcp"
+   ]
+  }
+ },
+ "securitytrails.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://api.securitytrails.com/mcp",
+    "https://api.securitytrails.com/v1/mcp",
+    "https://api.securitytrails.com/api/mcp",
+    "https://api.securitytrails.com/mcp/",
+    "https://api.securitytrails.com/sse",
+    "https://api.securitytrails.com/v1/sse",
+    "https://api.securitytrails.com/mcp/sse",
+    "https://api.securitytrails.com/messages",
+    "https://api.securitytrails.com/mcp/server",
+    "https://api.securitytrails.com/mcp/mcp"
+   ],
+   "rpcerror": [
+    "https://docs.securitytrails.com/mcp"
+   ]
+  }
+ },
+ "seitrace.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.seitrace.com/mcp"
+   ]
+  }
+ },
+ "semrush.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://api.semrush.com/mcp",
+    "https://api.semrush.com/v1/mcp",
+    "https://api.semrush.com/api/mcp",
+    "https://api.semrush.com/mcp/",
+    "https://api.semrush.com/sse",
+    "https://api.semrush.com/v1/sse",
+    "https://api.semrush.com/mcp/sse",
+    "https://api.semrush.com/messages",
+    "https://api.semrush.com/mcp/server",
+    "https://api.semrush.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.semrush.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.semrush.com/v1/mcp"
+   ]
+  }
+ },
+ "sendgrid.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://support.sendgrid.com/api/mcp",
+    "https://api.sendgrid.com/v3/mcp"
+   ]
+  }
+ },
+ "seraphicsecurity.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.seraphicsecurity.com/mcp",
+    "https://api.seraphicsecurity.com/api/mcp",
+    "https://api.seraphicsecurity.com/mcp/",
+    "https://api.seraphicsecurity.com/sse",
+    "https://api.seraphicsecurity.com/mcp/sse",
+    "https://api.seraphicsecurity.com/messages",
+    "https://api.seraphicsecurity.com/mcp/server",
+    "https://api.seraphicsecurity.com/mcp/mcp"
+   ]
+  }
+ },
+ "service-now.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://developer.service-now.com/api/mcp",
+    "https://developers.service-now.com/api/mcp",
+    "https://help.service-now.com/api/mcp",
+    "https://support.service-now.com/api/mcp",
+    "https://app.service-now.com/api/mcp",
+    "https://bentleysystems.service-now.com/api/mcp",
+    "https://sas.service-now.com/api/mcp",
+    "https://mcgill.service-now.com/api/mcp",
+    "https://ibmcpsithelpdesk.service-now.com/api/mcp",
+    "https://otuat2.service-now.com/api/mcp"
+   ]
+  }
+ },
+ "sgnl.ai": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://sgnl.ai/mcp",
+    "https://sgnl.ai/api/mcp",
+    "https://sgnl.ai/mcp/",
+    "https://sgnl.ai/~gitbook/mcp",
+    "https://sgnl.ai/mcp/mcp",
+    "https://developer.sgnl.ai/mcp",
+    "https://developer.sgnl.ai/~gitbook/mcp",
+    "https://developer.sgnl.ai/api/mcp",
+    "https://help.sgnl.ai/mcp",
+    "https://help.sgnl.ai/~gitbook/mcp",
+    "https://help.sgnl.ai/api/mcp",
+    "https://sgnl.ai/v1/mcp",
+    "https://sgnl.ai/sse",
+    "https://sgnl.ai/mcp/sse",
+    "https://developer.sgnl.ai/v1/mcp",
+    "https://developer.sgnl.ai/sse",
+    "https://developer.sgnl.ai/mcp/sse",
+    "https://help.sgnl.ai/v1/mcp",
+    "https://help.sgnl.ai/sse",
+    "https://help.sgnl.ai/mcp/sse"
+   ]
+  }
+ },
+ "sharefile.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://sharefile.com/api/mcp",
+    "https://sharefile.com/mcp"
+   ]
+  }
+ },
+ "sharepoint.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.sharepoint.com/mcp",
+    "https://api.sharepoint.com/v1/mcp",
+    "https://api.sharepoint.com/api/mcp",
+    "https://api.sharepoint.com/mcp/",
+    "https://api.sharepoint.com/sse",
+    "https://api.sharepoint.com/v1/sse",
+    "https://api.sharepoint.com/mcp/sse",
+    "https://api.sharepoint.com/messages",
+    "https://api.sharepoint.com/mcp/server",
+    "https://api.sharepoint.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.sharepoint.com/mcp",
+    "https://mcp.sharepoint.com/sse",
+    "https://mcp.sharepoint.com/",
+    "https://mcp.sharepoint.com/v1/mcp",
+    "https://mcp.sharepoint.com/api/mcp",
+    "https://mcp.sharepoint.com/mcp/",
+    "https://mcp.sharepoint.com/v1/sse",
+    "https://mcp.sharepoint.com/mcp/sse",
+    "https://mcp.sharepoint.com/messages",
+    "https://mcp.sharepoint.com/mcp/server",
+    "https://mcp.sharepoint.com/mcp/mcp"
+   ]
+  }
+ },
+ "shop.app": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://shop.app/mcp"
+   ]
+  }
+ },
+ "simplisafe.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.simplisafe.com/mcp",
+    "https://api.simplisafe.com/v1/mcp",
+    "https://api.simplisafe.com/api/mcp",
+    "https://api.simplisafe.com/mcp/",
+    "https://api.simplisafe.com/sse",
+    "https://api.simplisafe.com/v1/sse",
+    "https://api.simplisafe.com/mcp/sse",
+    "https://api.simplisafe.com/messages",
+    "https://api.simplisafe.com/mcp/server",
+    "https://api.simplisafe.com/mcp/mcp"
+   ]
+  }
+ },
+ "skipthedishes.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.skipthedishes.com/mcp",
+    "https://api.skipthedishes.com/v1/mcp",
+    "https://api.skipthedishes.com/api/mcp",
+    "https://api.skipthedishes.com/mcp/",
+    "https://api.skipthedishes.com/sse",
+    "https://api.skipthedishes.com/v1/sse",
+    "https://api.skipthedishes.com/mcp/sse",
+    "https://api.skipthedishes.com/messages",
+    "https://api.skipthedishes.com/mcp/server",
+    "https://api.skipthedishes.com/mcp/mcp"
+   ]
+  }
+ },
+ "skyscanner.net": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://help.skyscanner.net/api/mcp"
+   ]
+  }
+ },
+ "slack.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.slack.com/mcp",
+    "https://slack.com/mcp",
+    "https://api.slack.com/mcp",
+    "https://mcp.slack.com/mcp/",
+    "https://api.slack.com/mcp/"
+   ]
+  }
+ },
+ "slackatwork.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://slackatwork.com/mcp"
+   ]
+  }
+ },
+ "slotomania.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://slotomania.ru/mcp",
+    "https://slotomania.ru/api/mcp"
+   ]
+  }
+ },
+ "smtp2go.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.smtp2go.com/mcp"
+   ]
+  }
+ },
+ "snooguts.net": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.snooguts.net/mcp",
+    "https://mcp.snooguts.net/sse",
+    "https://mcp.snooguts.net/",
+    "https://mcp.snooguts.net/v1/mcp",
+    "https://mcp.snooguts.net/api/mcp",
+    "https://mcp.snooguts.net/mcp/",
+    "https://mcp.snooguts.net/v1/sse",
+    "https://mcp.snooguts.net/mcp/sse",
+    "https://mcp.snooguts.net/messages",
+    "https://mcp.snooguts.net/mcp/server",
+    "https://mcp.snooguts.net/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.snooguts.net/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "sokos.fi": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.sokos.fi/mcp",
+    "https://api.sokos.fi/v1/mcp",
+    "https://api.sokos.fi/api/mcp",
+    "https://api.sokos.fi/mcp/",
+    "https://api.sokos.fi/sse",
+    "https://api.sokos.fi/v1/sse",
+    "https://api.sokos.fi/mcp/sse",
+    "https://api.sokos.fi/messages",
+    "https://api.sokos.fi/mcp/server",
+    "https://api.sokos.fi/mcp/mcp"
+   ]
+  }
+ },
+ "solana.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.solana.com/mcp"
+   ]
+  }
+ },
+ "solscan.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.solscan.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "sophos.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://solam.ai.intelix.sophos.com/mcp"
+   ]
+  }
+ },
+ "soundcloud.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.soundcloud.com/mcp",
+    "https://api.soundcloud.com/v1/mcp",
+    "https://api.soundcloud.com/api/mcp",
+    "https://api.soundcloud.com/mcp/",
+    "https://api.soundcloud.com/sse",
+    "https://api.soundcloud.com/v1/sse",
+    "https://api.soundcloud.com/mcp/sse",
+    "https://api.soundcloud.com/messages",
+    "https://api.soundcloud.com/mcp/server",
+    "https://api.soundcloud.com/mcp/mcp"
+   ]
+  }
+ },
+ "soundcloud.org": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://soundcloud.org/mcp",
+    "https://soundcloud.org/api/mcp"
+   ]
+  }
+ },
+ "soundon.global": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://soundon.global/api/mcp"
+   ]
+  }
+ },
+ "spasibo.digital": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://spasibo.digital/api/mcp"
+   ]
+  }
+ },
+ "spiketrap.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://spiketrap.io/mcp",
+    "https://spiketrap.io/api/mcp"
+   ]
+  }
+ },
+ "spot.cash": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.spot.cash/~gitbook/mcp"
+   ]
+  }
+ },
+ "spotify.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.spotify.com/mcp",
+    "https://api.spotify.com/v1/mcp",
+    "https://api.spotify.com/api/mcp",
+    "https://api.spotify.com/mcp/",
+    "https://api.spotify.com/sse",
+    "https://api.spotify.com/v1/sse",
+    "https://api.spotify.com/mcp/sse",
+    "https://api.spotify.com/messages",
+    "https://api.spotify.com/mcp/server",
+    "https://api.spotify.com/mcp/mcp",
+    "https://api.spotify.com/~gitbook/mcp"
+   ],
+   "protected": [
+    "https://mcp-gateway-external-pilot.spotify.net/mcp"
+   ]
+  }
+ },
+ "spotify.net": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp-gateway-external-pilot.spotify.net/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp-gateway-external-pilot.spotify.net/mcp"
+   ]
+  }
+ },
+ "squareup.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://mcp.squareup.com/mcp",
+    "https://mcp.squareup.com/sse",
+    "https://mcp.squareup.com/mcp/",
+    "https://mcp.squareup.com/mcp/sse",
+    "https://mcp.squareup.com/mcp/server",
+    "https://mcp.squareup.com/mcp/mcp"
+   ]
+  }
+ },
+ "starknet.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.starknet.io/mcp"
+   ]
+  }
+ },
+ "starkscan.co": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://api.starkscan.co/mcp",
+    "https://starkscan.co/mcp"
+   ]
+  }
+ },
+ "statuspage.io": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.statuspage.io/mcp",
+    "https://api.statuspage.io/v1/mcp",
+    "https://api.statuspage.io/api/mcp",
+    "https://api.statuspage.io/mcp/",
+    "https://api.statuspage.io/sse",
+    "https://api.statuspage.io/v1/sse",
+    "https://api.statuspage.io/mcp/sse",
+    "https://api.statuspage.io/messages",
+    "https://api.statuspage.io/mcp/server",
+    "https://api.statuspage.io/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.statuspage.io/"
+   ]
+  }
+ },
+ "stcelo.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.stcelo.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "steamgames.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://steamgames.com/api/mcp"
+   ]
+  }
+ },
+ "steampowered.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://steampowered.com/api/mcp"
+   ]
+  }
+ },
+ "stripe.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.stripe.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.stripe.com/"
+   ]
+  }
+ },
+ "student.monash": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://student.monash/mcp",
+    "https://student.monash/api/mcp",
+    "https://student.monash/v1/mcp",
+    "https://student.monash/sse",
+    "https://student.monash/mcp/sse",
+    "https://student.monash/~gitbook/mcp"
+   ]
+  }
+ },
+ "sumer.money": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.sumer.money/~gitbook/mcp"
+   ]
+  }
+ },
+ "superhuman.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.mail.superhuman.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://docs.superhuman.com/apis/mcp",
+    "https://mcp.mail.superhuman.com/mcp"
+   ]
+  }
+ },
+ "superposition.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.superposition.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "swiftfinancial.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://swiftfinancial.com/mcp",
+    "https://swiftfinancial.com/api/mcp"
+   ]
+  }
+ },
+ "synfutures.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.synfutures.com/mcp",
+    "https://api.synfutures.com/v1/mcp",
+    "https://api.synfutures.com/api/mcp",
+    "https://api.synfutures.com/mcp/",
+    "https://api.synfutures.com/sse",
+    "https://api.synfutures.com/v1/sse",
+    "https://api.synfutures.com/mcp/sse",
+    "https://api.synfutures.com/messages",
+    "https://api.synfutures.com/mcp/server",
+    "https://api.synfutures.com/mcp/mcp"
+   ],
+   "live": [
+    "https://docs.synfutures.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "t.me": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://t.me/api/mcp"
+   ]
+  }
+ },
+ "tac.build": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.tac.build/mcp"
+   ]
+  }
+ },
+ "tbank.ru": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.tbank.ru/mcp",
+    "https://mcp.tbank.ru/sse",
+    "https://mcp.tbank.ru/",
+    "https://mcp.tbank.ru/v1/mcp",
+    "https://mcp.tbank.ru/api/mcp",
+    "https://mcp.tbank.ru/mcp/",
+    "https://mcp.tbank.ru/v1/sse",
+    "https://mcp.tbank.ru/mcp/sse",
+    "https://mcp.tbank.ru/messages",
+    "https://mcp.tbank.ru/mcp/server",
+    "https://mcp.tbank.ru/mcp/mcp"
+   ]
+  }
+ },
+ "temu.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.temu.com/mcp",
+    "https://temu.com/api/mcp",
+    "https://api.temu.com/v1/mcp",
+    "https://api.temu.com/api/mcp",
+    "https://api.temu.com/mcp/",
+    "https://api.temu.com/sse",
+    "https://api.temu.com/v1/sse",
+    "https://api.temu.com/mcp/sse",
+    "https://api.temu.com/messages",
+    "https://api.temu.com/mcp/server",
+    "https://api.temu.com/mcp/mcp"
+   ]
+  }
+ },
+ "thefork.io": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.thefork.io/mcp",
+    "https://api.thefork.io/v1/mcp",
+    "https://api.thefork.io/api/mcp",
+    "https://api.thefork.io/mcp/",
+    "https://api.thefork.io/sse",
+    "https://api.thefork.io/v1/sse",
+    "https://api.thefork.io/mcp/sse",
+    "https://api.thefork.io/messages",
+    "https://api.thefork.io/mcp/server",
+    "https://api.thefork.io/mcp/mcp"
+   ]
+  }
+ },
+ "theforkmanager.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://theforkmanager.com/mcp",
+    "https://theforkmanager.com/api/mcp"
+   ]
+  }
+ },
+ "thetradedesk.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.thetradedesk.com/mcp",
+    "https://api.thetradedesk.com/v1/mcp",
+    "https://api.thetradedesk.com/api/mcp",
+    "https://api.thetradedesk.com/mcp/",
+    "https://api.thetradedesk.com/sse",
+    "https://api.thetradedesk.com/v1/sse",
+    "https://api.thetradedesk.com/mcp/sse",
+    "https://api.thetradedesk.com/messages",
+    "https://api.thetradedesk.com/mcp/server",
+    "https://api.thetradedesk.com/mcp/mcp"
+   ]
+  }
+ },
+ "thousandeyes.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.thousandeyes.com/sse",
+    "https://api.thousandeyes.com/v1/sse",
+    "https://api.thousandeyes.com/messages"
+   ],
+   "protected": [
+    "https://api.thousandeyes.com/mcp",
+    "https://api.thousandeyes.com/v1/mcp",
+    "https://api.thousandeyes.com/api/mcp",
+    "https://api.thousandeyes.com/mcp/",
+    "https://api.thousandeyes.com/mcp/sse",
+    "https://api.thousandeyes.com/mcp/server",
+    "https://api.thousandeyes.com/mcp/mcp"
+   ]
+  }
+ },
+ "threshold.network": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.threshold.network/~gitbook/mcp"
+   ]
+  }
+ },
+ "tidalhifi.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://tidalhifi.com/mcp",
+    "https://tidalhifi.com/api/mcp"
+   ]
+  }
+ },
+ "tiktok.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://support.tiktok.com/mcp",
+    "https://support.tiktok.com/~gitbook/mcp",
+    "https://support.tiktok.com/api/mcp"
+   ],
+   "protected": [
+    "https://ads.tiktok.com/mcp"
+   ]
+  }
+ },
+ "timeweb.cloud": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://timeweb.cloud/api/v1/mcp",
+    "https://timeweb.cloud/api/v1/mcp/"
+   ]
+  }
+ },
+ "tokemak.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.tokemak.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "toolsforhumanity.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.toolsforhumanity.com/mcp"
+   ]
+  }
+ },
+ "tothemoon.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.tothemoon.com/mcp",
+    "https://api.tothemoon.com/api/mcp",
+    "https://api.tothemoon.com/mcp/",
+    "https://api.tothemoon.com/sse",
+    "https://api.tothemoon.com/mcp/sse",
+    "https://api.tothemoon.com/messages",
+    "https://api.tothemoon.com/mcp/server",
+    "https://api.tothemoon.com/mcp/mcp"
+   ]
+  }
+ },
+ "tradepmr.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://tradepmr.com/mcp",
+    "https://api.tradepmr.com/mcp",
+    "https://tradepmr.com/api/mcp",
+    "https://api.tradepmr.com/v1/mcp",
+    "https://api.tradepmr.com/api/mcp",
+    "https://api.tradepmr.com/mcp/",
+    "https://api.tradepmr.com/sse",
+    "https://api.tradepmr.com/v1/sse",
+    "https://api.tradepmr.com/mcp/sse",
+    "https://api.tradepmr.com/messages",
+    "https://api.tradepmr.com/mcp/server",
+    "https://api.tradepmr.com/mcp/mcp"
+   ]
+  }
+ },
+ "travelocity.ca": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://travelocity.ca/mcp"
+   ]
+  }
+ },
+ "travelocity.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://travelocity.com/mcp"
+   ]
+  }
+ },
+ "trello.services": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.trello.services/.well-known/oauth-protected-resource"
+   ],
+   "rpcerror": [
+    "https://mcp.trello.services/mcp",
+    "https://mcp.trello.services/mcp/"
+   ]
+  }
+ },
+ "trendyol.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://trendyol.com/mcp",
+    "https://trendyol.com/api/mcp"
+   ],
+   "rpcerror": [
+    "https://developers.trendyol.com/mcp"
+   ]
+  }
+ },
+ "tria.ge": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://tria.ge/mcp",
+    "https://api.tria.ge/mcp",
+    "https://tria.ge/api/mcp",
+    "https://api.tria.ge/v1/mcp",
+    "https://api.tria.ge/api/mcp",
+    "https://api.tria.ge/mcp/",
+    "https://api.tria.ge/sse",
+    "https://api.tria.ge/v1/sse",
+    "https://api.tria.ge/mcp/sse",
+    "https://api.tria.ge/messages",
+    "https://api.tria.ge/mcp/server",
+    "https://api.tria.ge/mcp/mcp"
+   ]
+  }
+ },
+ "tripadvisor.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.terra.tripadvisor.com/mcp"
+   ]
+  }
+ },
+ "truecaller.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.truecaller.com/~gitbook/mcp"
+   ]
+  }
+ },
+ "ts.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.ts.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "twilio.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.twilio.com/mcp",
+    "https://api.twilio.com/v1/mcp",
+    "https://api.twilio.com/api/mcp",
+    "https://api.twilio.com/mcp/",
+    "https://api.twilio.com/sse",
+    "https://api.twilio.com/v1/sse",
+    "https://api.twilio.com/mcp/sse",
+    "https://api.twilio.com/messages",
+    "https://api.twilio.com/mcp/server",
+    "https://api.twilio.com/mcp/mcp"
+   ],
+   "live": [
+    "https://mcp.twilio.com/docs"
+   ]
+  }
+ },
+ "twitter.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.twitter.com/mcp",
+    "https://api.twitter.com/mcp/"
+   ]
+  }
+ },
+ "uber.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.uber.com/claude/rides-3p/mcp"
+   ]
+  }
+ },
+ "uberinternal.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.uberinternal.com/mcp",
+    "https://api.uberinternal.com/v1/mcp",
+    "https://api.uberinternal.com/api/mcp",
+    "https://api.uberinternal.com/mcp/",
+    "https://api.uberinternal.com/sse",
+    "https://api.uberinternal.com/v1/sse",
+    "https://api.uberinternal.com/mcp/sse",
+    "https://api.uberinternal.com/messages",
+    "https://api.uberinternal.com/mcp/server",
+    "https://api.uberinternal.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.uberinternal.com/mcp",
+    "https://mcp.uberinternal.com/sse",
+    "https://mcp.uberinternal.com/",
+    "https://mcp.uberinternal.com/v1/mcp",
+    "https://mcp.uberinternal.com/api/mcp",
+    "https://mcp.uberinternal.com/mcp/",
+    "https://mcp.uberinternal.com/v1/sse",
+    "https://mcp.uberinternal.com/mcp/sse",
+    "https://mcp.uberinternal.com/messages",
+    "https://mcp.uberinternal.com/mcp/server",
+    "https://mcp.uberinternal.com/mcp/mcp"
+   ]
+  }
+ },
+ "udemy.com": {
+  "best": "protected",
+  "evidence": {
+   "protected": [
+    "https://api.udemy.com/mcp",
+    "https://api.udemy.com/mcp/"
+   ]
+  }
+ },
+ "unbounce.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.unbounce.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.unbounce.com/mcp"
+   ]
+  }
+ },
+ "uniswap.org": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.uniswap.org/mcp",
+    "https://api.uniswap.org/api/mcp",
+    "https://api.uniswap.org/mcp/",
+    "https://api.uniswap.org/sse",
+    "https://api.uniswap.org/mcp/sse",
+    "https://api.uniswap.org/messages",
+    "https://api.uniswap.org/mcp/server",
+    "https://api.uniswap.org/mcp/mcp"
+   ]
+  }
+ },
+ "unity.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://support.unity.com/api/mcp"
+   ]
+  }
+ },
+ "unity3d.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://support.unity3d.com/api/mcp"
+   ]
+  }
+ },
+ "unreal-agents.com": {
+  "best": "prm",
+  "evidence": {
+   "ambiguous": [
+    "https://unreal-agents.com/api/mcp"
+   ],
+   "authwall": [
+    "https://mcp.unreal-agents.com/mcp",
+    "https://mcp.unreal-agents.com/sse",
+    "https://mcp.unreal-agents.com/",
+    "https://mcp.unreal-agents.com/v1/mcp",
+    "https://mcp.unreal-agents.com/api/mcp",
+    "https://mcp.unreal-agents.com/mcp/",
+    "https://mcp.unreal-agents.com/v1/sse",
+    "https://mcp.unreal-agents.com/mcp/sse",
+    "https://mcp.unreal-agents.com/messages",
+    "https://mcp.unreal-agents.com/mcp/server",
+    "https://mcp.unreal-agents.com/mcp/mcp"
+   ],
+   "prm": [
+    "https://mcp.unreal-agents.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "upwork.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.upwork.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.upwork.com/mcp"
+   ]
+  }
+ },
+ "urbancompany.com": {
+  "best": "prm",
+  "evidence": {
+   "authwall": [
+    "https://mcp.urbancompany.com/mcp"
+   ],
+   "prm": [
+    "https://mcp.urbancompany.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "usaainsurance.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.usaainsurance.com/mcp",
+    "https://api.usaainsurance.com/v1/mcp",
+    "https://api.usaainsurance.com/api/mcp",
+    "https://api.usaainsurance.com/mcp/",
+    "https://api.usaainsurance.com/sse",
+    "https://api.usaainsurance.com/v1/sse",
+    "https://api.usaainsurance.com/mcp/sse",
+    "https://api.usaainsurance.com/messages",
+    "https://api.usaainsurance.com/mcp/server",
+    "https://api.usaainsurance.com/mcp/mcp"
+   ]
+  }
+ },
+ "variational.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.variational.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "varonis.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://www.varonis.com/~gitbook/mcp",
+    "https://www.varonis.com/mcp",
+    "https://www.varonis.com/api/mcp",
+    "https://www.varonis.com/mcp/mcp",
+    "https://www.varonis.com/v1/mcp"
+   ],
+   "protected": [
+    "https://dev.varonis.com/mcp"
+   ]
+  }
+ },
+ "vendhq.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.vendhq.com/api/mcp"
+   ]
+  }
+ },
+ "veno.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.veno.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "vesper.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.vesper.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "vfsglobal.by": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://vfsglobal.by/mcp",
+    "https://vfsglobal.by/api/mcp"
+   ]
+  }
+ },
+ "viator.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://exp-app-mcp.prod.ep.viator.com/mcp"
+   ]
+  }
+ },
+ "vimeo.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.vimeo.com/mcp/sse",
+    "https://mcp.vimeo.com/mcp/server"
+   ],
+   "prm": [
+    "https://mcp.vimeo.com/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.vimeo.com/mcp",
+    "https://mcp.vimeo.com/sse",
+    "https://mcp.vimeo.com/v1/mcp",
+    "https://mcp.vimeo.com/api/mcp",
+    "https://mcp.vimeo.com/mcp/",
+    "https://mcp.vimeo.com/mcp/mcp"
+   ]
+  }
+ },
+ "visa.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.visa.com/mcp"
+   ]
+  }
+ },
+ "vismaonline.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://developer.vismaonline.com/mcp"
+   ]
+  }
+ },
+ "vistarmedia.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.vistarmedia.com/mcp"
+   ]
+  }
+ },
+ "vkplay.ru": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://vkplay.ru/mcp",
+    "https://vkplay.ru/api/mcp"
+   ]
+  }
+ },
+ "vvs.finance": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.vvs.finance/~gitbook/mcp"
+   ]
+  }
+ },
+ "web3auth.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://mcp.web3auth.io/"
+   ]
+  }
+ },
+ "weebly.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp.weebly.com/mcp",
+    "https://mcp.weebly.com/sse",
+    "https://mcp.weebly.com/v1/mcp",
+    "https://mcp.weebly.com/api/mcp",
+    "https://mcp.weebly.com/mcp/",
+    "https://mcp.weebly.com/v1/sse",
+    "https://mcp.weebly.com/mcp/sse",
+    "https://mcp.weebly.com/messages",
+    "https://mcp.weebly.com/mcp/server",
+    "https://mcp.weebly.com/mcp/mcp"
+   ]
+  }
+ },
+ "wellsfargo.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://api.wellsfargo.com/mcp",
+    "https://api.wellsfargo.com/v1/mcp",
+    "https://api.wellsfargo.com/api/mcp",
+    "https://api.wellsfargo.com/mcp/",
+    "https://api.wellsfargo.com/sse",
+    "https://api.wellsfargo.com/v1/sse",
+    "https://api.wellsfargo.com/mcp/sse",
+    "https://api.wellsfargo.com/messages",
+    "https://api.wellsfargo.com/mcp/server",
+    "https://api.wellsfargo.com/mcp/mcp"
+   ],
+   "authwall": [
+    "https://mcp.wellsfargo.com/mcp",
+    "https://mcp.wellsfargo.com/sse",
+    "https://mcp.wellsfargo.com/",
+    "https://mcp.wellsfargo.com/v1/mcp",
+    "https://mcp.wellsfargo.com/api/mcp",
+    "https://mcp.wellsfargo.com/mcp/",
+    "https://mcp.wellsfargo.com/v1/sse",
+    "https://mcp.wellsfargo.com/mcp/sse",
+    "https://mcp.wellsfargo.com/messages",
+    "https://mcp.wellsfargo.com/mcp/server",
+    "https://mcp.wellsfargo.com/mcp/mcp"
+   ]
+  }
+ },
+ "whitebit.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.whitebit.com/mcp"
+   ],
+   "prm": [
+    "https://docs.whitebit.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "wise.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.wise.com/mcp"
+   ]
+  }
+ },
+ "withings.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://withings.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "withings.net": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://withings.net/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "wmaudience.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://wmaudience.com/api/mcp"
+   ]
+  }
+ },
+ "wolt.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://wolt.com/mcp",
+    "https://wolt.com/api/mcp"
+   ]
+  }
+ },
+ "workbox.dk": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://mcp.workbox.dk/.well-known/oauth-protected-resource"
+   ],
+   "protected": [
+    "https://mcp.workbox.dk/mcp",
+    "https://mcp.workbox.dk/",
+    "https://mcp.workbox.dk/mcp/"
+   ]
+  }
+ },
+ "world.org": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.world.org/mcp"
+   ],
+   "rpcerror": [
+    "https://developer.world.org/api/mcp"
+   ]
+  }
+ },
+ "worldcoin.org": {
+  "best": "rpcerror",
+  "evidence": {
+   "rpcerror": [
+    "https://docs.worldcoin.org/mcp"
+   ]
+  }
+ },
+ "wotif.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://wotif.com/mcp"
+   ]
+  }
+ },
+ "wyze.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://wyze.com/api/mcp"
+   ],
+   "prm": [
+    "https://wyze.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "wyzecam.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://wyzecam.com/.well-known/oauth-protected-resource"
+   ]
+  }
+ },
+ "x.com": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.x.com/mcp",
+    "https://api.x.com/mcp/"
+   ],
+   "live": [
+    "https://docs.x.com/mcp"
+   ]
+  }
+ },
+ "xadsacademy.com": {
+  "best": "prm",
+  "evidence": {
+   "prm": [
+    "https://xadsacademy.com/.well-known/oauth-protected-resource"
+   ],
+   "rpcerror": [
+    "https://xadsacademy.com/mcp"
+   ]
+  }
+ },
+ "xoom.com": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://xoom.com/api/mcp"
+   ]
+  }
+ },
+ "xter.io": {
+  "best": "live",
+  "evidence": {
+   "ambiguous": [
+    "https://api.xter.io/mcp",
+    "https://api.xter.io/v1/mcp",
+    "https://api.xter.io/api/mcp",
+    "https://api.xter.io/mcp/",
+    "https://api.xter.io/sse",
+    "https://api.xter.io/v1/sse",
+    "https://api.xter.io/mcp/sse",
+    "https://api.xter.io/messages",
+    "https://api.xter.io/mcp/server",
+    "https://api.xter.io/mcp/mcp"
+   ],
+   "live": [
+    "https://docs.xter.io/~gitbook/mcp"
+   ]
+  }
+ },
+ "yelp.com": {
+  "best": "rpcerror",
+  "evidence": {
+   "ambiguous": [
+    "https://yelp.com/api/mcp",
+    "https://www.yelp.com/api/mcp"
+   ],
+   "rpcerror": [
+    "https://docs.developer.yelp.com/mcp"
+   ]
+  }
+ },
+ "ynab.com": {
+  "best": "protected",
+  "evidence": {
+   "ambiguous": [
+    "https://api.ynab.com/v1/mcp",
+    "https://api.ynab.com/api/mcp",
+    "https://api.ynab.com/sse",
+    "https://api.ynab.com/v1/sse",
+    "https://api.ynab.com/mcp/sse",
+    "https://api.ynab.com/messages",
+    "https://api.ynab.com/mcp/server",
+    "https://api.ynab.com/mcp/mcp"
+   ],
+   "protected": [
+    "https://api.ynab.com/mcp",
+    "https://api.ynab.com/mcp/"
+   ]
+  }
+ },
+ "yo.xyz": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://docs.yo.xyz/~gitbook/mcp"
+   ]
+  }
+ },
+ "yoti.com": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.yoti.com/mcp"
+   ]
+  }
+ },
+ "zecible.fr": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.zecible.fr/mcp",
+    "https://api.zecible.fr/v1/mcp",
+    "https://api.zecible.fr/mcp/",
+    "https://api.zecible.fr/sse",
+    "https://api.zecible.fr/v1/sse",
+    "https://api.zecible.fr/mcp/sse",
+    "https://api.zecible.fr/messages",
+    "https://api.zecible.fr/mcp/server",
+    "https://api.zecible.fr/mcp/mcp"
+   ]
+  }
+ },
+ "zendesk.com": {
+  "best": "authwall",
+  "evidence": {
+   "ambiguous": [
+    "https://support.zendesk.com/api/mcp",
+    "https://developers.zendesk.com/api/mcp",
+    "https://help.zendesk.com/api/mcp",
+    "https://learn.zendesk.com/api/mcp",
+    "https://doc.zendesk.com/api/mcp",
+    "https://api-docs.zendesk.com/api/mcp",
+    "https://devdocs.zendesk.com/api/mcp",
+    "https://api.zendesk.com/api/mcp",
+    "https://app.zendesk.com/api/mcp",
+    "https://platform.zendesk.com/api/mcp",
+    "https://cloud.zendesk.com/api/mcp",
+    "https://streamable-support.zendesk.com/api/mcp",
+    "https://devdept.zendesk.com/api/mcp",
+    "https://whistichelp.zendesk.com/api/mcp",
+    "https://mimecastsupport.zendesk.com/api/mcp"
+   ],
+   "authwall": [
+    "https://mcp.zendesk.com/api/mcp"
+   ]
+  }
+ },
+ "zerion.io": {
+  "best": "live",
+  "evidence": {
+   "live": [
+    "https://developers.zerion.io/mcp",
+    "https://developers.zerion.io/mcp/"
+   ]
+  }
+ },
+ "zomato.com": {
+  "best": "authwall",
+  "evidence": {
+   "authwall": [
+    "https://mcp-server.zomato.com/mcp"
+   ]
+  }
+ },
+ "zoop.ws": {
+  "best": "ambiguous",
+  "evidence": {
+   "ambiguous": [
+    "https://api.zoop.ws/v1/mcp",
+    "https://api.zoop.ws/v1/sse"
+   ]
+  }
+ }
+}

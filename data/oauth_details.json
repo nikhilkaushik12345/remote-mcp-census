@@ -1,0 +1,5467 @@
+{
+ "0x.org": {
+  "domain": "0x.org",
+  "endpoint": "https://docs.0x.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "1inch.com": {
+  "domain": "1inch.com",
+  "endpoint": "https://api.1inch.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://api.1inch.com",
+  "as_url": "https://api.1inch.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://api.1inch.com/.well-known/oauth-protected-resource"
+ },
+ "1password.com": {
+  "domain": "1password.com",
+  "endpoint": "https://www.1password.dev/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "8x8.studio": {
+  "domain": "8x8.studio",
+  "endpoint": "https://mcp.8x8.studio/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:*",
+   "mcp:agents:*",
+   "mcp:tools:*",
+   "mcp:read"
+  ],
+  "issuer": "https://mcp.8x8.studio",
+  "as_url": "https://mcp.8x8.studio/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.8x8.studio/.well-known/oauth-protected-resource"
+ },
+ "acronis.com": {
+  "domain": "acronis.com",
+  "endpoint": "https://partner.acronis.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:read",
+   "mcp:write"
+  ],
+  "issuer": "https://partner.acronis.com",
+  "as_url": "https://partner.acronis.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://partner.acronis.com/.well-known/oauth-protected-resource"
+ },
+ "adobe.com": {
+  "domain": "adobe.com",
+  "endpoint": "https://cx-coworker-gateway.adobe.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email"
+  ],
+  "issuer": "https://cx-coworker-gateway.adobe.io",
+  "as_url": "https://cx-coworker-gateway.adobe.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://cx-coworker-gateway.adobe.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "adobe.io": {
+  "domain": "adobe.io",
+  "endpoint": "https://cx-coworker-gateway.adobe.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email"
+  ],
+  "issuer": "https://cx-coworker-gateway.adobe.io",
+  "as_url": "https://cx-coworker-gateway.adobe.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://cx-coworker-gateway.adobe.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "adobeaemcloud.com": {
+  "domain": "adobeaemcloud.com",
+  "endpoint": "https://mcp.adobeaemcloud.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "affirm.com": {
+  "domain": "affirm.com",
+  "endpoint": "https://docs.affirm.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.affirm.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "afterpay.com": {
+  "domain": "afterpay.com",
+  "endpoint": "https://developers.afterpay.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "aikido.dev": {
+  "domain": "aikido.dev",
+  "endpoint": "https://apidocs.aikido.dev/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://apidocs.aikido.dev/.well-known/oauth-protected-resource/mcp"
+ },
+ "airtable.com": {
+  "domain": "airtable.com",
+  "endpoint": "https://mcp.airtable.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "data.records:read",
+   "data.records:write",
+   "schema.bases:read",
+   "schema.bases:write",
+   "data.recordComments:read",
+   "data.recordComments:write",
+   "workspacesAndBases:read"
+  ],
+  "issuer": "https://airtable.com/oauth2/v1",
+  "as_url": "https://airtable.com/.well-known/oauth-authorization-server/oauth2/v1",
+  "auth_note": "",
+  "prm_url": "https://mcp.airtable.com/.well-known/oauth-protected-resource"
+ },
+ "aiven.io": {
+  "domain": "aiven.io",
+  "endpoint": "https://mcp.aiven.live/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "projects",
+   "services",
+   "accounts:read"
+  ],
+  "issuer": "https://api.aiven.io",
+  "as_url": "https://api.aiven.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.aiven.live/.well-known/oauth-protected-resource/mcp"
+ },
+ "alasco.de": {
+  "domain": "alasco.de",
+  "endpoint": "https://mcp.alasco.de/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256",
+   "plain"
+  ],
+  "scopes": [
+   "read",
+   "modify"
+  ],
+  "issuer": "https://mcp.alasco.de",
+  "as_url": "https://mcp.alasco.de/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.alasco.de/.well-known/oauth-protected-resource"
+ },
+ "allbridge.io": {
+  "domain": "allbridge.io",
+  "endpoint": "https://mcp.allbridge.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "allbridge.mcp"
+  ],
+  "issuer": "https://mcp.allbridge.io",
+  "as_url": "https://mcp.allbridge.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.allbridge.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "amazon.com": {
+  "domain": "amazon.com",
+  "endpoint": "https://developer.amazon.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "amazonaws.com": {
+  "domain": "amazonaws.com",
+  "endpoint": "https://aws-mcp.us-east-1.api.aws/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": null,
+  "scopes": [],
+  "issuer": "https://us-east-1.oauth.signin.aws/",
+  "as_url": "https://us-east-1.oauth.signin.aws/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://aws-mcp.us-east-1.api.aws/.well-known/oauth-protected-resource"
+ },
+ "amply.finance": {
+  "domain": "amply.finance",
+  "endpoint": "https://docs.amply.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "android.com": {
+  "domain": "android.com",
+  "endpoint": "https://androidmanagement.googleapis.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "https://www.googleapis.com/auth/androidmanagement"
+  ],
+  "issuer": "https://accounts.google.com/",
+  "as_url": "https://accounts.google.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://androidmanagement.googleapis.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "anduril.com": {
+  "domain": "anduril.com",
+  "endpoint": "https://developer.anduril.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 406)",
+  "prm_url": null
+ },
+ "ankr.com": {
+  "domain": "ankr.com",
+  "endpoint": "https://mcp.ankr.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:tools"
+  ],
+  "issuer": "https://mcp.ankr.com",
+  "as_url": "https://mcp.ankr.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.ankr.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "anome.xyz": {
+  "domain": "anome.xyz",
+  "endpoint": "https://docs.anome.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "arc.network": {
+  "domain": "arc.network",
+  "endpoint": "https://docs.arc.network/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 405)",
+  "prm_url": null
+ },
+ "arkadiko.finance": {
+  "domain": "arkadiko.finance",
+  "endpoint": "https://docs.arkadiko.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "arkoselabs.com": {
+  "domain": "arkoselabs.com",
+  "endpoint": "https://mcp.arkoselabs.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:portal:read",
+   "mcp:portal:write",
+   "offline_access"
+  ],
+  "issuer": "https://mcp.arkoselabs.com",
+  "as_url": "https://mcp.arkoselabs.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.arkoselabs.com/.well-known/oauth-protected-resource"
+ },
+ "arubanetworks.com": {
+  "domain": "arubanetworks.com",
+  "endpoint": "https://developer.arubanetworks.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developer.arubanetworks.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "asana.com": {
+  "domain": "asana.com",
+  "endpoint": "https://mcp.asana.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "default"
+  ],
+  "issuer": "https://mcp.asana.com",
+  "as_url": "https://mcp.asana.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.asana.com/.well-known/oauth-protected-resource"
+ },
+ "aspidanet.com": {
+  "domain": "aspidanet.com",
+  "endpoint": "https://docs.aspidanet.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "asterdex.com": {
+  "domain": "asterdex.com",
+  "endpoint": "https://docs.asterdex.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "ati.su": {
+  "domain": "ati.su",
+  "endpoint": "https://api.ati.su/gw/panda-mcp/public/v1/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "atlassian.com": {
+  "domain": "atlassian.com",
+  "endpoint": "https://mcp.atlassian.com/v1/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "atlassian.net": {
+  "domain": "atlassian.net",
+  "endpoint": "https://mcp.atlassian.com/v1/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "auth0.com": {
+  "domain": "auth0.com",
+  "endpoint": "https://auth0.com/docs/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "auto.finance": {
+  "domain": "auto.finance",
+  "endpoint": "https://docs.auto.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "avax.network": {
+  "domain": "avax.network",
+  "endpoint": "https://build.avax.network/api/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "backstage.io": {
+  "domain": "backstage.io",
+  "endpoint": "https://demo.backstage.io/api/mcp-actions/v1",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256",
+   "plain"
+  ],
+  "scopes": [
+   "openid"
+  ],
+  "issuer": "https://demo.backstage.io/api/auth",
+  "as_url": "https://demo.backstage.io/api/auth/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://demo.backstage.io/.well-known/oauth-protected-resource/api/mcp-actions/v1"
+ },
+ "base.org": {
+  "domain": "base.org",
+  "endpoint": "https://mcp.base.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "basin.exchange": {
+  "domain": "basin.exchange",
+  "endpoint": "https://docs.basin.exchange/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bean.money": {
+  "domain": "bean.money",
+  "endpoint": "https://docs.bean.money/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "beefy.finance": {
+  "domain": "beefy.finance",
+  "endpoint": "https://docs.beefy.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "benqi.fi": {
+  "domain": "benqi.fi",
+  "endpoint": "https://docs.benqi.fi/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "berachain.com": {
+  "domain": "berachain.com",
+  "endpoint": "https://docs.berachain.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "billflow.io": {
+  "domain": "billflow.io",
+  "endpoint": "https://docs.billflow.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bionic.ai": {
+  "domain": "bionic.ai",
+  "endpoint": "https://docs.bionic.ai/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.bionic.ai/.well-known/oauth-protected-resource/mcp"
+ },
+ "bitbucket.org": {
+  "domain": "bitbucket.org",
+  "endpoint": "https://mcp.atlassian.com/v1/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "bitgo.com": {
+  "domain": "bitgo.com",
+  "endpoint": "https://developers.bitgo.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bitkan.com": {
+  "domain": "bitkan.com",
+  "endpoint": "https://mcp.bitkan.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bitkubnft.com": {
+  "domain": "bitkubnft.com",
+  "endpoint": "https://docs.bitkubnft.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bitoasis.net": {
+  "domain": "bitoasis.net",
+  "endpoint": "https://support.bitoasis.net/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "bitpanda.com": {
+  "domain": "bitpanda.com",
+  "endpoint": "https://mcp.bitpanda.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "bitrise.io": {
+  "domain": "bitrise.io",
+  "endpoint": "https://mcp.bitrise.io/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "email",
+   "offline_access",
+   "openid",
+   "profile"
+  ],
+  "issuer": "https://oauth.bitrise.io",
+  "as_url": "https://oauth.bitrise.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.bitrise.io/.well-known/oauth-protected-resource"
+ },
+ "bitso.com": {
+  "domain": "bitso.com",
+  "endpoint": "https://docs.bitso.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.bitso.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "blockchain.com": {
+  "domain": "blockchain.com",
+  "endpoint": "https://docs.blockchain.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "blockpi.io": {
+  "domain": "blockpi.io",
+  "endpoint": "https://docs.blockpi.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bluehost.com": {
+  "domain": "bluehost.com",
+  "endpoint": "https://mcp.bluehost.com/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "domains:read",
+   "hosting:read"
+  ],
+  "issuer": "https://oauth.bluehost.com",
+  "as_url": "https://oauth.bluehost.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.bluehost.com/.well-known/oauth-protected-resource/.well-known/oauth-protected-resource"
+ },
+ "bokundemo.com": {
+  "domain": "bokundemo.com",
+  "endpoint": "https://mcp.bokundemo.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "bokuntest.com": {
+  "domain": "bokuntest.com",
+  "endpoint": "https://mcp.bokuntest.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "booking.com": {
+  "domain": "booking.com",
+  "endpoint": "https://developers.booking.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email",
+   "offline_access"
+  ],
+  "issuer": "https://developers.booking.com",
+  "as_url": "https://developers.booking.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developers.booking.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "box.com": {
+  "domain": "box.com",
+  "endpoint": "https://mcp.box.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://api.box.com/",
+  "as_url": "https://api.box.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.box.com/.well-known/oauth-protected-resource"
+ },
+ "bridge.xyz": {
+  "domain": "bridge.xyz",
+  "endpoint": "https://mcp.bridge.xyz/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "bugcrowd.com": {
+  "domain": "bugcrowd.com",
+  "endpoint": "https://stream.bugcrowd.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "bykea.store": {
+  "domain": "bykea.store",
+  "endpoint": "https://bykea.store/api/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/81469407525",
+  "as_url": "https://shopify.com/authentication/81469407525/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://bykea.store/.well-known/oauth-protected-resource"
+ },
+ "byreal.io": {
+  "domain": "byreal.io",
+  "endpoint": "https://docs.byreal.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "caldera.xyz": {
+  "domain": "caldera.xyz",
+  "endpoint": "https://docs.caldera.xyz/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "callroute.com": {
+  "domain": "callroute.com",
+  "endpoint": "https://callroute.com/.well-known/oauth-protected-resource",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "canva-apps.cn": {
+  "domain": "canva-apps.cn",
+  "endpoint": "https://mcp.canva.cn/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "profile:read",
+   "design:meta:read",
+   "design:content:write",
+   "design:content:read",
+   "folder:read",
+   "folder:write",
+   "brandtemplate:content:read",
+   "brandtemplate:meta:read",
+   "brandtemplate:content:write",
+   "comment:write",
+   "comment:read",
+   "asset:read",
+   "asset:write",
+   "brandkit:read",
+   "help:answers:read",
+   "help:answers:write"
+  ],
+  "issuer": "https://mcp.canva.cn",
+  "as_url": "https://mcp.canva.cn/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.canva.cn/.well-known/oauth-protected-resource/mcp"
+ },
+ "canva-apps.com": {
+  "domain": "canva-apps.com",
+  "endpoint": "https://mcp.canva.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "profile:read",
+   "design:meta:read",
+   "design:content:write",
+   "design:content:read",
+   "folder:read",
+   "folder:write",
+   "brandtemplate:content:read",
+   "brandtemplate:meta:read",
+   "brandtemplate:content:write",
+   "comment:write",
+   "comment:read",
+   "asset:read",
+   "asset:write",
+   "brandkit:read",
+   "help:answers:read",
+   "help:answers:write"
+  ],
+  "issuer": "https://mcp.canva.com",
+  "as_url": "https://mcp.canva.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.canva.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "canva.cn": {
+  "domain": "canva.cn",
+  "endpoint": "https://mcp.canva.cn/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "profile:read",
+   "design:meta:read",
+   "design:content:write",
+   "design:content:read",
+   "folder:read",
+   "folder:write",
+   "brandtemplate:content:read",
+   "brandtemplate:meta:read",
+   "brandtemplate:content:write",
+   "comment:write",
+   "comment:read",
+   "asset:read",
+   "asset:write",
+   "brandkit:read",
+   "help:answers:read",
+   "help:answers:write"
+  ],
+  "issuer": "https://mcp.canva.cn",
+  "as_url": "https://mcp.canva.cn/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.canva.cn/.well-known/oauth-protected-resource/mcp"
+ },
+ "canva.com": {
+  "domain": "canva.com",
+  "endpoint": "https://mcp.canva.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "profile:read",
+   "design:meta:read",
+   "design:content:write",
+   "design:content:read",
+   "folder:read",
+   "folder:write",
+   "brandtemplate:content:read",
+   "brandtemplate:meta:read",
+   "brandtemplate:content:write",
+   "comment:write",
+   "comment:read",
+   "asset:read",
+   "asset:write",
+   "brandkit:read",
+   "help:answers:read",
+   "help:answers:write"
+  ],
+  "issuer": "https://mcp.canva.com",
+  "as_url": "https://mcp.canva.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.canva.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "cash.app": {
+  "domain": "cash.app",
+  "endpoint": "https://developers.cash.app/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "celo.org": {
+  "domain": "celo.org",
+  "endpoint": "https://docs.celo.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "chime.com": {
+  "domain": "chime.com",
+  "endpoint": "https://developer.chime.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developer.chime.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "circle.com": {
+  "domain": "circle.com",
+  "endpoint": "https://api.circle.com/v1/codegen/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "citrea.xyz": {
+  "domain": "citrea.xyz",
+  "endpoint": "https://docs.citrea.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "classdojo.com": {
+  "domain": "classdojo.com",
+  "endpoint": "https://mcp.classdojo.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.classdojo.com",
+  "as_url": "https://mcp.classdojo.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.classdojo.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "clearme.com": {
+  "domain": "clearme.com",
+  "endpoint": "https://docs.clearme.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.clearme.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "cleartrip.com": {
+  "domain": "cleartrip.com",
+  "endpoint": "https://mcp.cleartrip.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.cleartrip.com/",
+  "as_url": "https://mcp.cleartrip.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.cleartrip.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "cloudflare.com": {
+  "domain": "cloudflare.com",
+  "endpoint": "https://docs.mcp.cloudflare.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "cloudinary.com": {
+  "domain": "cloudinary.com",
+  "endpoint": "https://asset-management.mcp.cloudinary.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256",
+   "plain"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email",
+   "offline_access",
+   "asset_management",
+   "upload",
+   "media_generation"
+  ],
+  "issuer": "https://asset-management.mcp.cloudinary.com",
+  "as_url": "https://asset-management.mcp.cloudinary.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://asset-management.mcp.cloudinary.com/.well-known/oauth-protected-resource"
+ },
+ "cm.com": {
+  "domain": "cm.com",
+  "endpoint": "https://api.cm.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "cmtelecom.com": {
+  "domain": "cmtelecom.com",
+  "endpoint": "https://api.cmtelecom.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "coda.io": {
+  "domain": "coda.io",
+  "endpoint": "https://coda.io/apis/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:all"
+  ],
+  "issuer": "https://coda.io",
+  "as_url": "https://coda.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://coda.io/.well-known/oauth-protected-resource/apis/mcp"
+ },
+ "coin98.com": {
+  "domain": "coin98.com",
+  "endpoint": "https://docs.coin98.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "coinbase.com": {
+  "domain": "coinbase.com",
+  "endpoint": "https://docs.cdp.coinbase.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "coindesk.com": {
+  "domain": "coindesk.com",
+  "endpoint": "https://mcp.coindesk.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.coindesk.com",
+  "as_url": "https://mcp.coindesk.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.coindesk.com/.well-known/oauth-protected-resource"
+ },
+ "coinex.com": {
+  "domain": "coinex.com",
+  "endpoint": "https://mcp.coinex.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "coingecko.com": {
+  "domain": "coingecko.com",
+  "endpoint": "https://mcp.coingecko.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "coinmarketcap.com": {
+  "domain": "coinmarketcap.com",
+  "endpoint": "https://mcp.coinmarketcap.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp"
+  ],
+  "issuer": "https://mcp.coinmarketcap.com",
+  "as_url": "https://mcp.coinmarketcap.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.coinmarketcap.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "core.app": {
+  "domain": "core.app",
+  "endpoint": "https://mcp.core.app/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "cronos.org": {
+  "domain": "cronos.org",
+  "endpoint": "https://docs.cronos.org/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "cronosid.xyz": {
+  "domain": "cronosid.xyz",
+  "endpoint": "https://docs.cronosid.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "crypto.com": {
+  "domain": "crypto.com",
+  "endpoint": "https://mcp.crypto.com/market-data/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "cube.exchange": {
+  "domain": "cube.exchange",
+  "endpoint": "https://cube.exchange/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [
+   "mcp.cube"
+  ],
+  "issuer": "https://id.cube.exchange",
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": "https://cube.exchange/.well-known/oauth-protected-resource"
+ },
+ "cybersource.com": {
+  "domain": "cybersource.com",
+  "endpoint": "https://shop-hardware.cybersource.com/api/ucp/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/18758157",
+  "as_url": "https://shopify.com/authentication/18758157/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://shop-hardware.cybersource.com/.well-known/oauth-protected-resource"
+ },
+ "dana.id": {
+  "domain": "dana.id",
+  "endpoint": "https://mcp.dana.id/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read:user",
+   "user:email"
+  ],
+  "issuer": "https://mcp.dana.id",
+  "as_url": "https://mcp.dana.id/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.dana.id/.well-known/oauth-protected-resource"
+ },
+ "databricks.com": {
+  "domain": "databricks.com",
+  "endpoint": "https://api.databricks.com/api/2.0/mcp/functions",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "datacamp.com": {
+  "domain": "datacamp.com",
+  "endpoint": "https://mcp.datacamp.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "datadome.co": {
+  "domain": "datadome.co",
+  "endpoint": "https://mcp.datadome.co/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid"
+  ],
+  "issuer": "https://mcp.datadome.co/",
+  "as_url": "https://mcp.datadome.co/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.datadome.co/.well-known/oauth-protected-resource/mcp"
+ },
+ "decathlon.com": {
+  "domain": "decathlon.com",
+  "endpoint": "https://decathlon.com/api/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/13306287",
+  "as_url": "https://shopify.com/authentication/13306287/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://decathlon.com/.well-known/oauth-protected-resource"
+ },
+ "decentraland.org": {
+  "domain": "decentraland.org",
+  "endpoint": "https://docs.decentraland.org/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "defisaver.com": {
+  "domain": "defisaver.com",
+  "endpoint": "https://docs.defisaver.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "deribit.com": {
+  "domain": "deribit.com",
+  "endpoint": "https://docs.deribit.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "deriv.com": {
+  "domain": "deriv.com",
+  "endpoint": "https://mcp-api.deriv.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "desyn.io": {
+  "domain": "desyn.io",
+  "endpoint": "https://docs.desyn.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "digitalocean.com": {
+  "domain": "digitalocean.com",
+  "endpoint": "https://apps.mcp.digitalocean.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://cloud.digitalocean.com",
+  "as_url": "https://cloud.digitalocean.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://apps.mcp.digitalocean.com/.well-known/oauth-protected-resource"
+ },
+ "district.in": {
+  "domain": "district.in",
+  "endpoint": "https://mcp-server.district.in/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "do-ai.run": {
+  "domain": "do-ai.run",
+  "endpoint": "https://kbaas.do-ai.run/v1/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "docsend.com": {
+  "domain": "docsend.com",
+  "endpoint": "https://mcp.docsend.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "documents:read",
+   "spaces:read",
+   "spaces:write",
+   "analytics:read",
+   "contacts:read"
+  ],
+  "issuer": "https://docsend.com",
+  "as_url": "https://docsend.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docsend.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "doordash.com": {
+  "domain": "doordash.com",
+  "endpoint": "https://openapi.doordash.com/mcp/consumer",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:consumer:write"
+  ],
+  "issuer": "https://identity.doordash.com",
+  "as_url": "https://identity.doordash.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://openapi.doordash.com/.well-known/oauth-protected-resource/mcp/consumer"
+ },
+ "doppler.com": {
+  "domain": "doppler.com",
+  "endpoint": "https://docs.doppler.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.doppler.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "dropbox.com": {
+  "domain": "dropbox.com",
+  "endpoint": "https://mcp.dropbox.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "account_info.read",
+   "file_requests.read",
+   "file_requests.write",
+   "files.content.read",
+   "files.content.write",
+   "files.metadata.read",
+   "sharing.read",
+   "sharing.write"
+  ],
+  "issuer": "https://www.dropbox.com",
+  "as_url": "https://www.dropbox.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.dropbox.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "ean.com": {
+  "domain": "ean.com",
+  "endpoint": "https://api.ean.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "demand-solutions.demand-api-wrappers-prod.all"
+  ],
+  "issuer": "https://api.expediagroup.com/identity/oauth2/v3/oauth2",
+  "as_url": "https://api.expediagroup.com/identity/oauth2/v3/oauth2/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://api.ean.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "ecwid.com": {
+  "domain": "ecwid.com",
+  "endpoint": "https://docs.ecwid.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "elastic.co": {
+  "domain": "elastic.co",
+  "endpoint": "https://learn.elastic.co/v1/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": null,
+  "scopes": [
+   "api"
+  ],
+  "issuer": "https://elastic.docebosaas.com",
+  "as_url": "https://elastic.docebosaas.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://learn.elastic.co/.well-known/oauth-protected-resource/mcp"
+ },
+ "epam.com": {
+  "domain": "epam.com",
+  "endpoint": "https://mcp.epam.com/mcp/",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.epam.com",
+  "as_url": "https://mcp.epam.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.epam.com/.well-known/oauth-protected-resource/mcp/"
+ },
+ "ethena.fi": {
+  "domain": "ethena.fi",
+  "endpoint": "https://docs.ethena.fi/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "etherscan.io": {
+  "domain": "etherscan.io",
+  "endpoint": "https://docs.etherscan.io/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "etoro.com": {
+  "domain": "etoro.com",
+  "endpoint": "https://api-portal.etoro.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "etsy.com": {
+  "domain": "etsy.com",
+  "endpoint": "https://mcp.api.etsycloud.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "evernote.com": {
+  "domain": "evernote.com",
+  "endpoint": "https://mcp.evernote.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read",
+   "create",
+   "write",
+   "delete"
+  ],
+  "issuer": "https://accounts.evernote.com",
+  "as_url": "https://accounts.evernote.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.evernote.com/.well-known/oauth-protected-resource"
+ },
+ "expedia.com": {
+  "domain": "expedia.com",
+  "endpoint": "https://www.expedia.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "facebook.com": {
+  "domain": "facebook.com",
+  "endpoint": "https://mcp.facebook.com/ads",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "ads_management",
+   "ads_read",
+   "catalog_management",
+   "business_management",
+   "pages_show_list",
+   "instagram_basic",
+   "ads_mcp_management"
+  ],
+  "issuer": "https://mcp.facebook.com/ads",
+  "as_url": "https://mcp.facebook.com/.well-known/oauth-authorization-server/ads",
+  "auth_note": "",
+  "prm_url": "https://mcp.facebook.com/.well-known/oauth-protected-resource/ads"
+ },
+ "faraday.ai": {
+  "domain": "faraday.ai",
+  "endpoint": "https://mcp.faraday.ai/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.faraday.ai",
+  "as_url": "https://mcp.faraday.ai/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.faraday.ai/.well-known/oauth-protected-resource/mcp"
+ },
+ "ferroprotocol.com": {
+  "domain": "ferroprotocol.com",
+  "endpoint": "https://docs.ferroprotocol.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "fidentity.ch": {
+  "domain": "fidentity.ch",
+  "endpoint": "https://docs.fidentity.ch/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "figma.com": {
+  "domain": "figma.com",
+  "endpoint": "https://mcp.figma.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:connect"
+  ],
+  "issuer": "https://api.figma.com",
+  "as_url": "https://api.figma.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.figma.com/.well-known/oauth-protected-resource"
+ },
+ "files.com": {
+  "domain": "files.com",
+  "endpoint": "https://mysite.files.com/api/ai/mcp/v1/",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mysite.files.com",
+  "as_url": "https://mysite.files.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mysite.files.com/.well-known/oauth-protected-resource/api/ai/mcp/v1/"
+ },
+ "fin.ai": {
+  "domain": "fin.ai",
+  "endpoint": "https://mcp.intercom.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "fireblocks.io": {
+  "domain": "fireblocks.io",
+  "endpoint": "https://mcp.fireblocks.io/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "fivetran.com": {
+  "domain": "fivetran.com",
+  "endpoint": "https://learn.fivetran.com/v1/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": null,
+  "scopes": [
+   "api"
+  ],
+  "issuer": "https://hvr-software.docebosaas.com",
+  "as_url": "https://hvr-software.docebosaas.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://learn.fivetran.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "flourish.studio": {
+  "domain": "flourish.studio",
+  "endpoint": "https://flourish-mcp-server.prd.k8s.flourishsoftware.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256",
+   "plain"
+  ],
+  "scopes": [],
+  "issuer": "https://flourish-mcp-server.prd.k8s.flourishsoftware.com",
+  "as_url": "https://flourish-mcp-server.prd.k8s.flourishsoftware.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://flourish-mcp-server.prd.k8s.flourishsoftware.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "folks.finance": {
+  "domain": "folks.finance",
+  "endpoint": "https://docs.folks.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "frame.io": {
+  "domain": "frame.io",
+  "endpoint": "https://mcp.frame.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "AdobeID"
+  ],
+  "issuer": "https://mcp.frame.io",
+  "as_url": "https://mcp.frame.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.frame.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "frankencoin.com": {
+  "domain": "frankencoin.com",
+  "endpoint": "https://mcp.frankencoin.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "freshdesk.com": {
+  "domain": "freshdesk.com",
+  "endpoint": "https://mcp.freshdesk.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "freshservice.com": {
+  "domain": "freshservice.com",
+  "endpoint": "https://mcp.freshservice.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "front.com": {
+  "domain": "front.com",
+  "endpoint": "https://dev.frontapp.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://dev.frontapp.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "frontapp.com": {
+  "domain": "frontapp.com",
+  "endpoint": "https://mcp.frontapp.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "feature:mcp"
+  ],
+  "issuer": "https://app.frontapp.com",
+  "as_url": "https://app.frontapp.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.frontapp.com/.well-known/oauth-protected-resource"
+ },
+ "frontegg.com": {
+  "domain": "frontegg.com",
+  "endpoint": "https://mcp.frontegg.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "fulcrom.finance": {
+  "domain": "fulcrom.finance",
+  "endpoint": "https://docs.fulcrom.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "gate.com": {
+  "domain": "gate.com",
+  "endpoint": "https://docs.gate.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "getmoneytree.com": {
+  "domain": "getmoneytree.com",
+  "endpoint": "https://mcp.getmoneytree.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "accounts_read",
+   "transactions_read",
+   "investment_accounts_read",
+   "investment_transactions_read",
+   "points_read"
+  ],
+  "issuer": "https://myaccount.getmoneytree.com",
+  "as_url": "https://myaccount.getmoneytree.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.getmoneytree.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "gitlab.com": {
+  "domain": "gitlab.com",
+  "endpoint": "https://gitlab.com/api/v4/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "mcp"
+  ],
+  "issuer": "https://gitlab.com",
+  "as_url": "https://gitlab.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://gitlab.com/.well-known/oauth-protected-resource/api/v4/mcp"
+ },
+ "glean.com": {
+  "domain": "glean.com",
+  "endpoint": "https://developers.glean.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "globalticket.com": {
+  "domain": "globalticket.com",
+  "endpoint": "https://mcp.globalticket.com/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "gmgn.ai": {
+  "domain": "gmgn.ai",
+  "endpoint": "https://docs.gmgn.ai/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "gobob.xyz": {
+  "domain": "gobob.xyz",
+  "endpoint": "https://gobob.xyz/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": false,
+  "pkce": null,
+  "scopes": [
+   "api:read"
+  ],
+  "issuer": "https://gobob.xyz",
+  "as_url": "https://gobob.xyz/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://gobob.xyz/.well-known/oauth-protected-resource"
+ },
+ "gocardless-staging.io": {
+  "domain": "gocardless-staging.io",
+  "endpoint": "https://mcp.gocardless-staging.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.gocardless-staging.io",
+  "as_url": "https://mcp.gocardless-staging.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.gocardless-staging.io/.well-known/oauth-protected-resource"
+ },
+ "gocardless.com": {
+  "domain": "gocardless.com",
+  "endpoint": "https://mcp.gocardless.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.gocardless.com",
+  "as_url": "https://mcp.gocardless.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.gocardless.com/.well-known/oauth-protected-resource"
+ },
+ "google.com": {
+  "domain": "google.com",
+  "endpoint": "https://agentregistry.googleapis.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "https://www.googleapis.com/auth/agentregistry.read-write"
+  ],
+  "issuer": "https://accounts.google.com/",
+  "as_url": "https://accounts.google.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://agentregistry.googleapis.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "googleapis.com": {
+  "domain": "googleapis.com",
+  "endpoint": "https://bigquery.googleapis.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "https://www.googleapis.com/auth/bigquery"
+  ],
+  "issuer": "https://accounts.google.com/",
+  "as_url": "https://accounts.google.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://bigquery.googleapis.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "gouv.fr": {
+  "domain": "gouv.fr",
+  "endpoint": "https://mcp.data.gouv.fr/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "granite.world": {
+  "domain": "granite.world",
+  "endpoint": "https://docs.granite.world/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "greenhouse.io": {
+  "domain": "greenhouse.io",
+  "endpoint": "https://mcp.us.greenhouse.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "greenhouse:mcp_client"
+  ],
+  "issuer": "https://mcp.us.greenhouse.io",
+  "as_url": "https://mcp.us.greenhouse.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.us.greenhouse.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "h2.finance": {
+  "domain": "h2.finance",
+  "endpoint": "https://docs.h2.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "hacken.io": {
+  "domain": "hacken.io",
+  "endpoint": "https://mcp.hackenproof.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "hackerone.com": {
+  "domain": "hackerone.com",
+  "endpoint": "https://hackerone.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "hacking-lab.com": {
+  "domain": "hacking-lab.com",
+  "endpoint": null,
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": null
+ },
+ "harvest.finance": {
+  "domain": "harvest.finance",
+  "endpoint": "https://docs.harvest.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "hellosign.com": {
+  "domain": "hellosign.com",
+  "endpoint": "https://developers.hellosign.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "here.com": {
+  "domain": "here.com",
+  "endpoint": "https://docs.here.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.here.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "hermetica.fi": {
+  "domain": "hermetica.fi",
+  "endpoint": "https://docs.hermetica.fi/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "hh.ru": {
+  "domain": "hh.ru",
+  "endpoint": "https://mcp.hh.ru/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "hibachi.xyz": {
+  "domain": "hibachi.xyz",
+  "endpoint": "https://docs.hibachi.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "hope.money": {
+  "domain": "hope.money",
+  "endpoint": "https://docs.hope.money/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "hostinger.com": {
+  "domain": "hostinger.com",
+  "endpoint": "https://mcp.hostinger.com/",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:use"
+  ],
+  "issuer": "https://auth.hostinger.com",
+  "as_url": "https://auth.hostinger.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.hostinger.com/.well-known/oauth-protected-resource"
+ },
+ "hotwire.com": {
+  "domain": "hotwire.com",
+  "endpoint": null,
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": null
+ },
+ "hubspot.com": {
+  "domain": "hubspot.com",
+  "endpoint": "https://mcp.hubspot.com/",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.hubspot.com",
+  "as_url": "https://mcp.hubspot.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.hubspot.com/.well-known/oauth-protected-resource"
+ },
+ "hubspotpagebuilder.com": {
+  "domain": "hubspotpagebuilder.com",
+  "endpoint": "https://mcp.hubspotpagebuilder.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "hubspotpagebuilder.eu": {
+  "domain": "hubspotpagebuilder.eu",
+  "endpoint": "https://mcp.hubspotpagebuilder.eu/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "hyperlane.xyz": {
+  "domain": "hyperlane.xyz",
+  "endpoint": "https://docs.hyperlane.xyz/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "ic0.app": {
+  "domain": "ic0.app",
+  "endpoint": "https://mcp.ic0.app/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 400)",
+  "prm_url": null
+ },
+ "immutable.com": {
+  "domain": "immutable.com",
+  "endpoint": "https://docs.immutable.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "indeed.com": {
+  "domain": "indeed.com",
+  "endpoint": "https://mcp.indeed.com/claude/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "job_seeker.company.details.read",
+   "job_seeker.jobs.search",
+   "job_seeker.profile.read",
+   "offline_access"
+  ],
+  "issuer": "https://secure.indeed.com/",
+  "as_url": "https://secure.indeed.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.indeed.com/.well-known/oauth-protected-resource/claude/mcp"
+ },
+ "infinifi.xyz": {
+  "domain": "infinifi.xyz",
+  "endpoint": "https://docs.infinifi.xyz/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "instacart.com": {
+  "domain": "instacart.com",
+  "endpoint": "https://mcp.instacart.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "instacart.tools": {
+  "domain": "instacart.tools",
+  "endpoint": "https://mcp.dev.instacart.tools/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "intercom.com": {
+  "domain": "intercom.com",
+  "endpoint": "https://mcp.eu.intercom.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "internetcomputer.org": {
+  "domain": "internetcomputer.org",
+  "endpoint": "https://mcp.internetcomputer.org/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.internetcomputer.org/mcp",
+  "as_url": "https://mcp.internetcomputer.org/mcp/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.internetcomputer.org/.well-known/oauth-protected-resource/mcp"
+ },
+ "jora.com": {
+  "domain": "jora.com",
+  "endpoint": "https://api.jora.com/.well-known/oauth-protected-resource/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 404)",
+  "prm_url": null
+ },
+ "kartaview.org": {
+  "domain": "kartaview.org",
+  "endpoint": "https://store.kartaview.org/api/ucp/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/83238912303",
+  "as_url": "https://shopify.com/authentication/83238912303/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://store.kartaview.org/.well-known/oauth-protected-resource"
+ },
+ "keeper.io": {
+  "domain": "keeper.io",
+  "endpoint": "https://docs.keeper.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "kiln.fi": {
+  "domain": "kiln.fi",
+  "endpoint": "https://docs.api.kiln.fi/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.api.kiln.fi/.well-known/oauth-protected-resource/mcp"
+ },
+ "kiwi.com": {
+  "domain": "kiwi.com",
+  "endpoint": "https://mcp.kiwi.com/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "klaviyo.com": {
+  "domain": "klaviyo.com",
+  "endpoint": "https://mcp.klaviyo.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.klaviyo.com",
+  "as_url": "https://mcp.klaviyo.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.klaviyo.com/.well-known/oauth-protected-resource"
+ },
+ "komoju.com": {
+  "domain": "komoju.com",
+  "endpoint": "https://doc.komoju.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://doc.komoju.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "konghq.com": {
+  "domain": "konghq.com",
+  "endpoint": "https://au.mcp.konghq.com/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "krisp.ai": {
+  "domain": "krisp.ai",
+  "endpoint": "https://mcp.krisp.ai/mcp",
+  "oauth": true,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [
+   "user::me::read",
+   "user::meetings:metadata::read",
+   "user::meetings:metadata::write",
+   "user::meetings:notes::read",
+   "user::meetings:transcripts::read",
+   "user::meetings::list",
+   "user::activities::list"
+  ],
+  "issuer": "https://mcp.krisp.ai",
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": "https://mcp.krisp.ai/.well-known/oauth-protected-resource"
+ },
+ "kronor.io": {
+  "domain": "kronor.io",
+  "endpoint": "https://mcp.kronor.io/mcp/server",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp",
+   "offline_access"
+  ],
+  "issuer": "https://mcp.kronor.io",
+  "as_url": "https://mcp.kronor.io/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.kronor.io/.well-known/oauth-protected-resource"
+ },
+ "kubchain.com": {
+  "domain": "kubchain.com",
+  "endpoint": "https://docs.kubchain.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "langfuse.com": {
+  "domain": "langfuse.com",
+  "endpoint": "https://langfuse.com/api/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "larksuite.com": {
+  "domain": "larksuite.com",
+  "endpoint": "https://mcp.larksuite.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp-tool:common:fetch-file-v2",
+   "mcp-tool:common:get-user",
+   "mcp-tool:common:search-user",
+   "mcp-tool:docs:search-doc",
+   "mcp-tool:docs:create-doc",
+   "mcp-tool:docs:fetch-doc",
+   "mcp-tool:docs:update-doc",
+   "mcp-tool:docs:get-comments",
+   "mcp-tool:docs:add-comments",
+   "mcp-tool:docs:list-docs-v2",
+   "mcp-tool:im:search-groups",
+   "mcp-tool:im:get-group-members",
+   "mcp-tool:im:get-messages",
+   "mcp-tool:im:get-thread-messages",
+   "mcp-tool:im:search-messages",
+   "mcp-tool:im:get-read-status",
+   "offline_access"
+  ],
+  "issuer": "https://accounts.larksuite.com/mcp",
+  "as_url": "https://accounts.larksuite.com/.well-known/oauth-authorization-server/mcp",
+  "auth_note": "",
+  "prm_url": "https://mcp.larksuite.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "lightspark.com": {
+  "domain": "lightspark.com",
+  "endpoint": "https://docs.lightspark.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "logitechclub.com": {
+  "domain": "logitechclub.com",
+  "endpoint": "https://logitechclub.com/api/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/56775999639",
+  "as_url": "https://shopify.com/authentication/56775999639/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://logitechclub.com/.well-known/oauth-protected-resource"
+ },
+ "magic.link": {
+  "domain": "magic.link",
+  "endpoint": "https://docs.magic.link/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "magiceden.io": {
+  "domain": "magiceden.io",
+  "endpoint": "https://docs.magiceden.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.magiceden.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "mantle.xyz": {
+  "domain": "mantle.xyz",
+  "endpoint": "https://docs.mantle.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "mapbox.com": {
+  "domain": "mapbox.com",
+  "endpoint": "https://mcp.mapbox.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "styles:tiles",
+   "styles:read",
+   "fonts:read",
+   "datasets:read",
+   "tokens:read"
+  ],
+  "issuer": "https://mcp.mapbox.com",
+  "as_url": "https://mcp.mapbox.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.mapbox.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "marsecosystem.com": {
+  "domain": "marsecosystem.com",
+  "endpoint": "https://docs.marsecosystem.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "mastercard.com": {
+  "domain": "mastercard.com",
+  "endpoint": "https://mcdevelop.mcp.mastercard.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcdevelop.mcp.mastercard.com",
+  "as_url": "https://mcdevelop.mcp.mastercard.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcdevelop.mcp.mastercard.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "matomo.org": {
+  "domain": "matomo.org",
+  "endpoint": "https://partners.matomo.org/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:read",
+   "mcp:write"
+  ],
+  "issuer": "https://partners.matomo.org",
+  "as_url": "https://partners.matomo.org/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://partners.matomo.org/.well-known/oauth-protected-resource"
+ },
+ "mediamarkt.es": {
+  "domain": "mediamarkt.es",
+  "endpoint": "https://canarias.mediamarkt.es/api/ucp/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/28537028668",
+  "as_url": "https://shopify.com/authentication/28537028668/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://canarias.mediamarkt.es/.well-known/oauth-protected-resource"
+ },
+ "meesho.com": {
+  "domain": "meesho.com",
+  "endpoint": "https://mcp.meesho.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 400)",
+  "prm_url": null
+ },
+ "mementoblockchain.com": {
+  "domain": "mementoblockchain.com",
+  "endpoint": "https://docs.mementoblockchain.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "meraki.com": {
+  "domain": "meraki.com",
+  "endpoint": "https://mcp.meraki.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "mercadolibre.com": {
+  "domain": "mercadolibre.com",
+  "endpoint": "https://mcp.mercadolibre.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read",
+   "write",
+   "offline_access"
+  ],
+  "issuer": "https://mcp.mercadolibre.com/mcp",
+  "as_url": "https://mcp.mercadolibre.com/.well-known/oauth-authorization-server/mcp",
+  "auth_note": "",
+  "prm_url": "https://mcp.mercadolibre.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "mercadopago.cl": {
+  "domain": "mercadopago.cl",
+  "endpoint": "https://mcp.mercadopago.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "offline_access",
+   "write",
+   "read"
+  ],
+  "issuer": "https://mcp.mercadopago.com/mcp",
+  "as_url": "https://mcp.mercadopago.com/.well-known/oauth-authorization-server/mcp",
+  "auth_note": "",
+  "prm_url": "https://mcp.mercadopago.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "mercadopago.com": {
+  "domain": "mercadopago.com",
+  "endpoint": "https://mcp.mercadopago.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "offline_access",
+   "write",
+   "read"
+  ],
+  "issuer": "https://mcp.mercadopago.com/mcp",
+  "as_url": "https://mcp.mercadopago.com/.well-known/oauth-authorization-server/mcp",
+  "auth_note": "",
+  "prm_url": "https://mcp.mercadopago.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "metronome.com": {
+  "domain": "metronome.com",
+  "endpoint": "https://docs.metronome.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "microsoft.com": {
+  "domain": "microsoft.com",
+  "endpoint": "https://learn.microsoft.com/api/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "midtrans.com": {
+  "domain": "midtrans.com",
+  "endpoint": "https://docs.midtrans.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.midtrans.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "mindnetwork.xyz": {
+  "domain": "mindnetwork.xyz",
+  "endpoint": "https://docs.mindnetwork.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "moderntreasury.com": {
+  "domain": "moderntreasury.com",
+  "endpoint": "https://docs.moderntreasury.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.moderntreasury.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "moengage.com": {
+  "domain": "moengage.com",
+  "endpoint": "https://mcp.moengage.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "profile",
+   "offline_access",
+   "campaigns:read"
+  ],
+  "issuer": "https://moeauth.moengage.com",
+  "as_url": "https://moeauth.moengage.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.moengage.com/.well-known/oauth-protected-resource"
+ },
+ "monad.xyz": {
+  "domain": "monad.xyz",
+  "endpoint": "https://docs.monad.xyz/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "monday.trade": {
+  "domain": "monday.trade",
+  "endpoint": "https://docs.monday.trade/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "mongodb.com": {
+  "domain": "mongodb.com",
+  "endpoint": "https://mcp.mongodb.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://authorize.mongodb.com",
+  "as_url": "https://authorize.mongodb.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.mongodb.com/.well-known/oauth-protected-resource"
+ },
+ "moonlander.trade": {
+  "domain": "moonlander.trade",
+  "endpoint": "https://docs.moonlander.trade/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "moonpay.com": {
+  "domain": "moonpay.com",
+  "endpoint": "https://dev.moonpay.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "moonpaycloud.com": {
+  "domain": "moonpaycloud.com",
+  "endpoint": "https://dev.moonpay.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "morpho.org": {
+  "domain": "morpho.org",
+  "endpoint": "https://mcp.morpho.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "mozilla.org": {
+  "domain": "mozilla.org",
+  "endpoint": "https://mcp.mdn.mozilla.net",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "multipli.fi": {
+  "domain": "multipli.fi",
+  "endpoint": "https://docs.multipli.fi/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "mux.network": {
+  "domain": "mux.network",
+  "endpoint": "https://docs.mux.network/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "myfitnesspal.com": {
+  "domain": "myfitnesspal.com",
+  "endpoint": "https://mcp.myfitnesspal.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "myshopify.com": {
+  "domain": "myshopify.com",
+  "endpoint": "https://your-store.myshopify.com/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/4707582008",
+  "as_url": "https://shopify.com/authentication/4707582008/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://your-store.myshopify.com/.well-known/oauth-protected-resource"
+ },
+ "nado.xyz": {
+  "domain": "nado.xyz",
+  "endpoint": "https://docs.nado.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "navan.com": {
+  "domain": "navan.com",
+  "endpoint": "https://mcp.navan.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256",
+   "plain"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "offline_access",
+   "name",
+   "given_name",
+   "family_name",
+   "nickname",
+   "email",
+   "email_verified",
+   "picture",
+   "created_at",
+   "identities",
+   "phone",
+   "address"
+  ],
+  "issuer": "https://login.navan.com",
+  "as_url": "https://login.navan.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.navan.com/.well-known/oauth-protected-resource"
+ },
+ "naviprotocol.io": {
+  "domain": "naviprotocol.io",
+  "endpoint": "https://open-api.naviprotocol.io/api/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "neon.tech": {
+  "domain": "neon.tech",
+  "endpoint": "https://mcp.neon.tech/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read",
+   "write",
+   "*"
+  ],
+  "issuer": "https://mcp.neon.tech",
+  "as_url": "https://mcp.neon.tech/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.neon.tech/.well-known/oauth-protected-resource/mcp"
+ },
+ "netlify.app": {
+  "domain": "netlify.app",
+  "endpoint": "https://mcp.netlify.app/mcp",
+  "oauth": true,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [
+   "offline_access",
+   "read",
+   "write",
+   "claudeai"
+  ],
+  "issuer": "http://localhost:8888/",
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": "https://mcp.netlify.app/.well-known/oauth-protected-resource/mcp"
+ },
+ "netlify.com": {
+  "domain": "netlify.com",
+  "endpoint": "https://netlify-mcp.netlify.app/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "offline_access",
+   "read",
+   "write",
+   "claudeai"
+  ],
+  "issuer": "https://netlify-mcp.netlify.app/",
+  "as_url": "https://netlify-mcp.netlify.app/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://netlify-mcp.netlify.app/.well-known/oauth-protected-resource/mcp"
+ },
+ "newegg.com": {
+  "domain": "newegg.com",
+  "endpoint": "https://apis.newegg.com/ex-mcp/endpoint/ext-pc-builder",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "newrelic.com": {
+  "domain": "newrelic.com",
+  "endpoint": "https://mcp.newrelic.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email"
+  ],
+  "issuer": "https://mcp.newrelic.com",
+  "as_url": "https://mcp.newrelic.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.newrelic.com/.well-known/oauth-protected-resource"
+ },
+ "notion.so": {
+  "domain": "notion.so",
+  "endpoint": "https://mcp.notion.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [
+   "default"
+  ],
+  "issuer": "https://mcp.notion.com",
+  "as_url": "https://mcp.notion.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.notion.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "npmjs.com": {
+  "domain": "npmjs.com",
+  "endpoint": "https://mcp.npmjs.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "npmjs.org": {
+  "domain": "npmjs.org",
+  "endpoint": "https://mcp.npmjs.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "octopus.com": {
+  "domain": "octopus.com",
+  "endpoint": "https://shop.octopus.com/api/ucp/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/20703901",
+  "as_url": "https://shopify.com/authentication/20703901/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://shop.octopus.com/.well-known/oauth-protected-resource"
+ },
+ "olympusdao.finance": {
+  "domain": "olympusdao.finance",
+  "endpoint": "https://mcp.olympusdao.finance/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "onetrust.com": {
+  "domain": "onetrust.com",
+  "endpoint": "https://developer.onetrust.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developer.onetrust.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "openai.com": {
+  "domain": "openai.com",
+  "endpoint": "https://developers.openai.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "opensea.io": {
+  "domain": "opensea.io",
+  "endpoint": "https://mcp.opensea.io/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "urn:zitadel:iam:org:project:role:read:eligibility",
+   "urn:zitadel:iam:org:project:role:read:favorites",
+   "urn:zitadel:iam:org:project:role:read:social",
+   "urn:zitadel:iam:org:project:role:read:tools",
+   "urn:zitadel:iam:org:project:role:write:favorites",
+   "urn:zitadel:iam:org:project:role:write:social",
+   "urn:zitadel:iam:org:project:role:write:tools",
+   "urn:zitadel:iam:org:project:role:write:orders",
+   "urn:zitadel:iam:org:project:role:write:drops",
+   "urn:zitadel:iam:org:project:role:write:collections",
+   "urn:zitadel:iam:org:project:role:write:profile",
+   "urn:zitadel:iam:org:project:role:write:wallets"
+  ],
+  "issuer": "https://auth.opensea.io",
+  "as_url": "https://auth.opensea.io/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://mcp.opensea.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "opsgenie.com": {
+  "domain": "opsgenie.com",
+  "endpoint": "https://docs.opsgenie.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.opsgenie.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "optimism.io": {
+  "domain": "optimism.io",
+  "endpoint": "https://docs.optimism.io/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "optimizely.com": {
+  "domain": "optimizely.com",
+  "endpoint": "https://mcp.optimizely.com/mcp",
+  "oauth": true,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [
+   "mcp:query",
+   "mcp:manage",
+   "mcp:implement"
+  ],
+  "issuer": "https://event-watch.optimizely.com",
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": "https://mcp.optimizely.com/.well-known/oauth-protected-resource"
+ },
+ "orderly.network": {
+  "domain": "orderly.network",
+  "endpoint": "https://mcp.orderly.network/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "originprotocol.com": {
+  "domain": "originprotocol.com",
+  "endpoint": "https://docs.originprotocol.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "ort-one-pingone.com": {
+  "domain": "ort-one-pingone.com",
+  "endpoint": "https://mcp.ort-one-pingone.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "ostium.com": {
+  "domain": "ostium.com",
+  "endpoint": "https://docs.ostium.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "otherside.xyz": {
+  "domain": "otherside.xyz",
+  "endpoint": "https://docs.otherside.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "paddle.com": {
+  "domain": "paddle.com",
+  "endpoint": "https://mcp.paddle.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "pancakeswap.finance": {
+  "domain": "pancakeswap.finance",
+  "endpoint": "https://docs.pancakeswap.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "pantheon.io": {
+  "domain": "pantheon.io",
+  "endpoint": "https://swag.pantheon.io/api/ucp/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/76856197341",
+  "as_url": "https://shopify.com/authentication/76856197341/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://swag.pantheon.io/.well-known/oauth-protected-resource"
+ },
+ "parallel.best": {
+  "domain": "parallel.best",
+  "endpoint": "https://mcp.parallel.best/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "pareto.credit": {
+  "domain": "pareto.credit",
+  "endpoint": "https://docs.pareto.credit/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "paypal.com": {
+  "domain": "paypal.com",
+  "endpoint": "https://mcp.paypal.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.paypal.com",
+  "as_url": "https://mcp.paypal.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.paypal.com/.well-known/oauth-protected-resource"
+ },
+ "paze.com": {
+  "domain": "paze.com",
+  "endpoint": "https://developer.paze.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developer.paze.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "personio.de": {
+  "domain": "personio.de",
+  "endpoint": "https://mcp.personio.de/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:access"
+  ],
+  "issuer": "https://mcp.app.personio.com/",
+  "as_url": "https://mcp.app.personio.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.personio.de/.well-known/oauth-protected-resource/mcp"
+ },
+ "phantom.com": {
+  "domain": "phantom.com",
+  "endpoint": "https://docs.phantom.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "pinelabs.com": {
+  "domain": "pinelabs.com",
+  "endpoint": "https://mcp.pinelabs.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "pinepg.in": {
+  "domain": "pinepg.in",
+  "endpoint": "https://mcp.pinelabs.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "pinterest.com": {
+  "domain": "pinterest.com",
+  "endpoint": null,
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": null
+ },
+ "pionex.com": {
+  "domain": "pionex.com",
+  "endpoint": "https://www.pionex.com/docs/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "pismo.io": {
+  "domain": "pismo.io",
+  "endpoint": "https://developers.pismo.io/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developers.pismo.io/.well-known/oauth-protected-resource/mcp"
+ },
+ "plaid.com": {
+  "domain": "plaid.com",
+  "endpoint": "https://api.dashboard.plaid.com/mcp/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "plume.org": {
+  "domain": "plume.org",
+  "endpoint": "https://docs.plume.org/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "polygon.technology": {
+  "domain": "polygon.technology",
+  "endpoint": "https://docs.polygon.technology/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "polymarket.com": {
+  "domain": "polymarket.com",
+  "endpoint": "https://docs.polymarket.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "priceline.com": {
+  "domain": "priceline.com",
+  "endpoint": "https://mcp.priceline.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "privy.io": {
+  "domain": "privy.io",
+  "endpoint": "https://docs.privy.io/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "prowly.com": {
+  "domain": "prowly.com",
+  "endpoint": "https://mcp.prowly.com/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "pullrequest.com": {
+  "domain": "pullrequest.com",
+  "endpoint": "https://docs.pullrequest.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "pyth.network": {
+  "domain": "pyth.network",
+  "endpoint": "https://mcp.pyth.network/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "quizlet.com": {
+  "domain": "quizlet.com",
+  "endpoint": "https://quizlet.com/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "write_set"
+  ],
+  "issuer": "https://quizlet.com",
+  "as_url": "https://quizlet.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://quizlet.com/.well-known/oauth-protected-resource"
+ },
+ "rapyd.org": {
+  "domain": "rapyd.org",
+  "endpoint": "https://mcp.rapyd.org/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.rapyd.org",
+  "as_url": "https://mcp.rapyd.org/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.rapyd.org/.well-known/oauth-protected-resource/mcp"
+ },
+ "razorpay.com": {
+  "domain": "razorpay.com",
+  "endpoint": "https://mcp.razorpay.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "realm.io": {
+  "domain": "realm.io",
+  "endpoint": "https://docs.realm.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "reclaim.ai": {
+  "domain": "reclaim.ai",
+  "endpoint": "https://mcp.reclaim.ai/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read",
+   "write",
+   "mcp"
+  ],
+  "issuer": "https://mcp.reclaim.ai",
+  "as_url": "https://mcp.reclaim.ai/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.reclaim.ai/.well-known/oauth-protected-resource"
+ },
+ "recordedfuture.com": {
+  "domain": "recordedfuture.com",
+  "endpoint": "https://mcp.recordedfuture.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "profile",
+   "offline_access"
+  ],
+  "issuer": "https://mcp.recordedfuture.com",
+  "as_url": "https://mcp.recordedfuture.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.recordedfuture.com/.well-known/oauth-protected-resource"
+ },
+ "redelcom.cl": {
+  "domain": "redelcom.cl",
+  "endpoint": "https://redelcom.cl/api/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shopify.com/authentication/51424100527",
+  "as_url": "https://shopify.com/authentication/51424100527/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://redelcom.cl/.well-known/oauth-protected-resource"
+ },
+ "redoxengine.com": {
+  "domain": "redoxengine.com",
+  "endpoint": "https://api.redoxengine.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "platform_access"
+  ],
+  "issuer": "https://api.redoxengine.com",
+  "as_url": "https://api.redoxengine.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://api.redoxengine.com/.well-known/oauth-protected-resource"
+ },
+ "remitly.com": {
+  "domain": "remitly.com",
+  "endpoint": "https://mcp.remitly.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "requirementyogi.com": {
+  "domain": "requirementyogi.com",
+  "endpoint": "https://api.requirementyogi.com/api/mcp",
+  "oauth": true,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": "https://api.requirementyogi.com/api/.well-known/oauth-protected-resource"
+ },
+ "ripio.com": {
+  "domain": "ripio.com",
+  "endpoint": "https://api.ripio.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://api.ripio.com/",
+  "as_url": "https://api.ripio.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://api.ripio.com/.well-known/oauth-protected-resource"
+ },
+ "robinhood.com": {
+  "domain": "robinhood.com",
+  "endpoint": "https://agent.robinhood.com/mcp/trading",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "internal"
+  ],
+  "issuer": "https://agent.robinhood.com/mcp/trading",
+  "as_url": "https://agent.robinhood.com/.well-known/oauth-authorization-server/mcp/trading",
+  "auth_note": "",
+  "prm_url": "https://agent.robinhood.com/.well-known/oauth-protected-resource/mcp/trading"
+ },
+ "rogo.ai": {
+  "domain": "rogo.ai",
+  "endpoint": "https://docs.rogo.ai/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "royco.org": {
+  "domain": "royco.org",
+  "endpoint": "https://docs.royco.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "s-cloud.fi": {
+  "domain": "s-cloud.fi",
+  "endpoint": "https://mcp.s-cloud.fi/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "https://mcp.s-cloud.fi/access"
+  ],
+  "issuer": "https://mcp.s-cloud.fi",
+  "as_url": "https://mcp.s-cloud.fi/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.s-cloud.fi/.well-known/oauth-protected-resource"
+ },
+ "salesforce.com": {
+  "domain": "salesforce.com",
+  "endpoint": "https://api.salesforce.com/platform/mcp/v1/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp_api",
+   "refresh_token"
+  ],
+  "issuer": "https://api.salesforce.com:443/platform/mcp/v1/mcp",
+  "as_url": "https://api.salesforce.com:443/.well-known/oauth-authorization-server/platform/mcp/v1/mcp",
+  "auth_note": "",
+  "prm_url": "https://api.salesforce.com/.well-known/oauth-protected-resource/platform/mcp/v1/mcp"
+ },
+ "securitytrails.com": {
+  "domain": "securitytrails.com",
+  "endpoint": "https://docs.securitytrails.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.securitytrails.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "seitrace.com": {
+  "domain": "seitrace.com",
+  "endpoint": "https://docs.seitrace.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "semrush.com": {
+  "domain": "semrush.com",
+  "endpoint": "https://mcp.semrush.com/v1/mcp",
+  "oauth": true,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [
+   "mcp.access"
+  ],
+  "issuer": "https://oauth.semrush.com",
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": "https://mcp.semrush.com/.well-known/oauth-protected-resource"
+ },
+ "sharepoint.com": {
+  "domain": "sharepoint.com",
+  "endpoint": "https://mcp.sharepoint.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": null,
+  "scopes": [
+   "https://mcp.sharepoint.com/Sites.FullControl.All"
+  ],
+  "issuer": "https://login.microsoftonline.com/69ec38e5-e1fc-41d9-872f-562746431cde/v2.0",
+  "as_url": "https://login.microsoftonline.com/69ec38e5-e1fc-41d9-872f-562746431cde/v2.0/.well-known/openid-configuration",
+  "auth_note": "",
+  "prm_url": "https://mcp.sharepoint.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "shop.app": {
+  "domain": "shop.app",
+  "endpoint": "https://shop.app/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "agent:access"
+  ],
+  "issuer": "https://accounts.shop.app",
+  "as_url": "https://accounts.shop.app/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://shop.app/.well-known/oauth-protected-resource/mcp"
+ },
+ "slack.com": {
+  "domain": "slack.com",
+  "endpoint": "https://mcp.slack.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "search:read.public",
+   "search:read.private",
+   "search:read.mpim",
+   "search:read.im",
+   "search:read.files",
+   "search:read.users",
+   "chat:write",
+   "channels:history",
+   "groups:history",
+   "mpim:history",
+   "im:history",
+   "canvases:read",
+   "canvases:write",
+   "users:read",
+   "users:read.email",
+   "reactions:write",
+   "reactions:read",
+   "emoji:read",
+   "files:read",
+   "channels:write",
+   "groups:write",
+   "im:write",
+   "mpim:write",
+   "channels:read",
+   "groups:read",
+   "mpim:read"
+  ],
+  "issuer": "https://mcp.slack.com",
+  "as_url": "https://mcp.slack.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.slack.com/.well-known/oauth-protected-resource"
+ },
+ "slackatwork.com": {
+  "domain": "slackatwork.com",
+  "endpoint": "https://slackatwork.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "smtp2go.com": {
+  "domain": "smtp2go.com",
+  "endpoint": "https://developers.smtp2go.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developers.smtp2go.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "snooguts.net": {
+  "domain": "snooguts.net",
+  "endpoint": "https://mcp.snooguts.net/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://snooflare.cloudflareaccess.com",
+  "as_url": "https://snooflare.cloudflareaccess.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.snooguts.net/.well-known/oauth-protected-resource/mcp"
+ },
+ "solana.com": {
+  "domain": "solana.com",
+  "endpoint": "https://mcp.solana.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "solscan.io": {
+  "domain": "solscan.io",
+  "endpoint": "https://docs.solscan.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "sophos.com": {
+  "domain": "sophos.com",
+  "endpoint": "https://solam.ai.intelix.sophos.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "spot.cash": {
+  "domain": "spot.cash",
+  "endpoint": "https://docs.spot.cash/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "spotify.com": {
+  "domain": "spotify.com",
+  "endpoint": "https://mcp-gateway-external-pilot.spotify.net/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "user-read-playback-state",
+   "user-library-read",
+   "user-follow-read",
+   "app-remote-control",
+   "user-modify-playback-state",
+   "user-library-modify",
+   "playlist-modify-private",
+   "user-follow-modify"
+  ],
+  "issuer": "https://accounts.spotify.com",
+  "as_url": "https://accounts.spotify.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp-gateway-external-pilot.spotify.net/.well-known/oauth-protected-resource"
+ },
+ "spotify.net": {
+  "domain": "spotify.net",
+  "endpoint": "https://mcp-gateway-external-pilot.spotify.net/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "user-read-playback-state",
+   "user-library-read",
+   "user-follow-read",
+   "app-remote-control",
+   "user-modify-playback-state",
+   "user-library-modify",
+   "playlist-modify-private",
+   "user-follow-modify"
+  ],
+  "issuer": "https://accounts.spotify.com",
+  "as_url": "https://accounts.spotify.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp-gateway-external-pilot.spotify.net/.well-known/oauth-protected-resource"
+ },
+ "squareup.com": {
+  "domain": "squareup.com",
+  "endpoint": "https://mcp.squareup.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "plain",
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.squareup.com",
+  "as_url": "https://mcp.squareup.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.squareup.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "starknet.io": {
+  "domain": "starknet.io",
+  "endpoint": "https://docs.starknet.io/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "starkscan.co": {
+  "domain": "starkscan.co",
+  "endpoint": "https://api.starkscan.co/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ },
+ "statuspage.io": {
+  "domain": "statuspage.io",
+  "endpoint": "https://mcp.statuspage.io/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 400)",
+  "prm_url": null
+ },
+ "stcelo.xyz": {
+  "domain": "stcelo.xyz",
+  "endpoint": "https://docs.stcelo.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "stripe.com": {
+  "domain": "stripe.com",
+  "endpoint": "https://mcp.stripe.com/",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp"
+  ],
+  "issuer": "https://access.stripe.com/mcp",
+  "as_url": "https://access.stripe.com/.well-known/oauth-authorization-server/mcp",
+  "auth_note": "",
+  "prm_url": "https://mcp.stripe.com/.well-known/oauth-protected-resource"
+ },
+ "student.monash": {
+  "domain": "student.monash",
+  "endpoint": null,
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": null
+ },
+ "sumer.money": {
+  "domain": "sumer.money",
+  "endpoint": "https://docs.sumer.money/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "superhuman.com": {
+  "domain": "superhuman.com",
+  "endpoint": "https://docs.superhuman.com/apis/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:all"
+  ],
+  "issuer": "https://id.superhuman.com",
+  "as_url": "https://id.superhuman.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.superhuman.com/.well-known/oauth-protected-resource/apis/mcp"
+ },
+ "superposition.finance": {
+  "domain": "superposition.finance",
+  "endpoint": "https://docs.superposition.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "synfutures.com": {
+  "domain": "synfutures.com",
+  "endpoint": "https://docs.synfutures.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "tac.build": {
+  "domain": "tac.build",
+  "endpoint": "https://docs.tac.build/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "tbank.ru": {
+  "domain": "tbank.ru",
+  "endpoint": "https://mcp.tbank.ru/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "thousandeyes.com": {
+  "domain": "thousandeyes.com",
+  "endpoint": "https://api.thousandeyes.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:manage",
+   "offline_access"
+  ],
+  "issuer": "https://api.thousandeyes.com",
+  "as_url": "https://api.thousandeyes.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://api.thousandeyes.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "threshold.network": {
+  "domain": "threshold.network",
+  "endpoint": "https://docs.threshold.network/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "tiktok.com": {
+  "domain": "tiktok.com",
+  "endpoint": "https://ads.tiktok.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:access"
+  ],
+  "issuer": "https://ads.tiktok.com",
+  "as_url": "https://ads.tiktok.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://ads.tiktok.com/.well-known/oauth-protected-resource"
+ },
+ "timeweb.cloud": {
+  "domain": "timeweb.cloud",
+  "endpoint": "https://timeweb.cloud/api/v1/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "tokemak.xyz": {
+  "domain": "tokemak.xyz",
+  "endpoint": "https://docs.tokemak.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "toolsforhumanity.com": {
+  "domain": "toolsforhumanity.com",
+  "endpoint": "https://docs.toolsforhumanity.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "trello.services": {
+  "domain": "trello.services",
+  "endpoint": "https://mcp.trello.services/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read:board:trello",
+   "read:organization:trello",
+   "read:member:trello",
+   "read:member.inbox:trello",
+   "write:member.inbox:trello",
+   "read:member.planner:trello",
+   "write:member.planner:trello",
+   "read:enterprise:trello",
+   "write:board:trello",
+   "write:organization:trello"
+  ],
+  "issuer": "https://mcp.trello.services/mcp",
+  "as_url": "https://mcp.trello.services/mcp/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.trello.services/.well-known/oauth-protected-resource/mcp"
+ },
+ "trendyol.com": {
+  "domain": "trendyol.com",
+  "endpoint": "https://developers.trendyol.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developers.trendyol.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "tripadvisor.com": {
+  "domain": "tripadvisor.com",
+  "endpoint": "https://docs.terra.tripadvisor.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.terra.tripadvisor.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "truecaller.com": {
+  "domain": "truecaller.com",
+  "endpoint": "https://docs.truecaller.com/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "ts.finance": {
+  "domain": "ts.finance",
+  "endpoint": "https://docs.ts.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "twilio.com": {
+  "domain": "twilio.com",
+  "endpoint": "https://mcp.twilio.com/docs",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "twitter.com": {
+  "domain": "twitter.com",
+  "endpoint": null,
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "",
+  "prm_url": null
+ },
+ "uber.com": {
+  "domain": "uber.com",
+  "endpoint": "https://mcp.uber.com/claude/rides-3p/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "uberinternal.com": {
+  "domain": "uberinternal.com",
+  "endpoint": "https://mcp.uberinternal.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "udemy.com": {
+  "domain": "udemy.com",
+  "endpoint": "https://api.udemy.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "course:read",
+   "mcp:read",
+   "mcp:write",
+   "lab:read",
+   "offline"
+  ],
+  "issuer": "https://api.udemy.com",
+  "as_url": "https://api.udemy.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://api.udemy.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "unbounce.com": {
+  "domain": "unbounce.com",
+  "endpoint": "https://mcp.unbounce.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "unbounce"
+  ],
+  "issuer": "https://mcp.unbounce.com",
+  "as_url": "https://mcp.unbounce.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.unbounce.com/.well-known/oauth-protected-resource"
+ },
+ "unreal-agents.com": {
+  "domain": "unreal-agents.com",
+  "endpoint": "https://mcp.unreal-agents.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:*",
+   "mcp:agents:*",
+   "mcp:tools:*",
+   "mcp:read"
+  ],
+  "issuer": "https://mcp.unreal-agents.com",
+  "as_url": "https://mcp.unreal-agents.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.unreal-agents.com/.well-known/oauth-protected-resource"
+ },
+ "upwork.com": {
+  "domain": "upwork.com",
+  "endpoint": "https://mcp.upwork.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.upwork.com",
+  "as_url": "https://mcp.upwork.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.upwork.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "urbancompany.com": {
+  "domain": "urbancompany.com",
+  "endpoint": "https://mcp.urbancompany.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [],
+  "issuer": "https://mcp.urbancompany.com",
+  "as_url": "https://mcp.urbancompany.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.urbancompany.com/.well-known/oauth-protected-resource"
+ },
+ "variational.io": {
+  "domain": "variational.io",
+  "endpoint": "https://docs.variational.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "varonis.com": {
+  "domain": "varonis.com",
+  "endpoint": "https://dev.varonis.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email",
+   "offline_access"
+  ],
+  "issuer": "https://dev.varonis.com",
+  "as_url": "https://dev.varonis.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://dev.varonis.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "vendhq.com": {
+  "domain": "vendhq.com",
+  "endpoint": "https://mcp.vendhq.com/api/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "veno.finance": {
+  "domain": "veno.finance",
+  "endpoint": "https://docs.veno.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "vesper.finance": {
+  "domain": "vesper.finance",
+  "endpoint": "https://docs.vesper.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "viator.com": {
+  "domain": "viator.com",
+  "endpoint": "https://exp-app-mcp.prod.ep.viator.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "vimeo.com": {
+  "domain": "vimeo.com",
+  "endpoint": "https://mcp.vimeo.com/mcp/sse",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "public",
+   "private",
+   "stats",
+   "upload",
+   "edit",
+   "create"
+  ],
+  "issuer": "https://mcp.vimeo.com/",
+  "as_url": "https://mcp.vimeo.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.vimeo.com/.well-known/oauth-protected-resource"
+ },
+ "visa.com": {
+  "domain": "visa.com",
+  "endpoint": "https://mcp.visa.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 401)",
+  "prm_url": null
+ },
+ "vismaonline.com": {
+  "domain": "vismaonline.com",
+  "endpoint": "https://developer.vismaonline.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developer.vismaonline.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "vistarmedia.com": {
+  "domain": "vistarmedia.com",
+  "endpoint": "https://developers.vistarmedia.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email",
+   "offline_access"
+  ],
+  "issuer": "https://developers.vistarmedia.com",
+  "as_url": "https://developers.vistarmedia.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://developers.vistarmedia.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "vvs.finance": {
+  "domain": "vvs.finance",
+  "endpoint": "https://docs.vvs.finance/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "web3auth.io": {
+  "domain": "web3auth.io",
+  "endpoint": "https://mcp.web3auth.io/",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "weebly.com": {
+  "domain": "weebly.com",
+  "endpoint": "https://mcp.weebly.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 403)",
+  "prm_url": null
+ },
+ "wellsfargo.com": {
+  "domain": "wellsfargo.com",
+  "endpoint": "https://mcp.wellsfargo.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 400)",
+  "prm_url": null
+ },
+ "whitebit.com": {
+  "domain": "whitebit.com",
+  "endpoint": "https://docs.whitebit.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp:search"
+  ],
+  "issuer": "https://docs.whitebit.com/mcp/oauth",
+  "as_url": "https://docs.whitebit.com/.well-known/oauth-authorization-server/mcp/oauth",
+  "auth_note": "",
+  "prm_url": "https://docs.whitebit.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "wise.com": {
+  "domain": "wise.com",
+  "endpoint": "https://docs.wise.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "profile",
+   "email",
+   "offline_access"
+  ],
+  "issuer": "https://docs.wise.com",
+  "as_url": "https://docs.wise.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.wise.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "withings.com": {
+  "domain": "withings.com",
+  "endpoint": "https://withings.com/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shop-account.withings.com",
+  "as_url": "https://shop-account.withings.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://withings.com/.well-known/oauth-protected-resource"
+ },
+ "withings.net": {
+  "domain": "withings.net",
+  "endpoint": "https://withings.net/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://shop-account.withings.com",
+  "as_url": "https://shop-account.withings.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://withings.net/.well-known/oauth-protected-resource"
+ },
+ "workbox.dk": {
+  "domain": "workbox.dk",
+  "endpoint": "https://mcp.workbox.dk/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "dineropublicapi:read",
+   "dineropublicapi:write",
+   "offline_access"
+  ],
+  "issuer": "https://mcp.workbox.dk",
+  "as_url": "https://mcp.workbox.dk/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://mcp.workbox.dk/.well-known/oauth-protected-resource/mcp"
+ },
+ "world.org": {
+  "domain": "world.org",
+  "endpoint": "https://docs.world.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "worldcoin.org": {
+  "domain": "worldcoin.org",
+  "endpoint": "https://docs.worldcoin.org/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "auth unclear (HTTP 405)",
+  "prm_url": null
+ },
+ "wyze.com": {
+  "domain": "wyze.com",
+  "endpoint": "https://wyze.com/api/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://account.wyze.com",
+  "as_url": "https://account.wyze.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://wyze.com/.well-known/oauth-protected-resource"
+ },
+ "wyzecam.com": {
+  "domain": "wyzecam.com",
+  "endpoint": "https://wyzecam.com/.well-known/oauth-protected-resource",
+  "oauth": true,
+  "dcr": false,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "email",
+   "customer-account-api:full",
+   "customer-account-mcp-api:full"
+  ],
+  "issuer": "https://account.wyze.com",
+  "as_url": "https://account.wyze.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://wyzecam.com/.well-known/oauth-protected-resource"
+ },
+ "x.com": {
+  "domain": "x.com",
+  "endpoint": "https://docs.x.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "xadsacademy.com": {
+  "domain": "xadsacademy.com",
+  "endpoint": "https://xadsacademy.com/mcp",
+  "oauth": true,
+  "dcr": false,
+  "pkce": null,
+  "scopes": [
+   "admin",
+   "ai_agent",
+   "openid"
+  ],
+  "issuer": "https://www.xadsacademy.com/oauth2",
+  "as_url": "https://www.xadsacademy.com/.well-known/oauth-authorization-server/oauth2",
+  "auth_note": "",
+  "prm_url": "https://xadsacademy.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "xter.io": {
+  "domain": "xter.io",
+  "endpoint": "https://docs.xter.io/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "yelp.com": {
+  "domain": "yelp.com",
+  "endpoint": "https://docs.developer.yelp.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "openid",
+   "offline_access",
+   "mcp:read",
+   "mcp:write",
+   "email",
+   "profile"
+  ],
+  "issuer": "https://dash.readme.com/oidc",
+  "as_url": "https://dash.readme.com/oidc/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://docs.developer.yelp.com/.well-known/oauth-protected-resource/mcp"
+ },
+ "ynab.com": {
+  "domain": "ynab.com",
+  "endpoint": "https://api.ynab.com/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "mcp"
+  ],
+  "issuer": "https://app.ynab.com",
+  "as_url": "https://app.ynab.com/.well-known/oauth-authorization-server",
+  "auth_note": "",
+  "prm_url": "https://api.ynab.com/.well-known/oauth-protected-resource"
+ },
+ "yo.xyz": {
+  "domain": "yo.xyz",
+  "endpoint": "https://docs.yo.xyz/~gitbook/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "yoti.com": {
+  "domain": "yoti.com",
+  "endpoint": "https://developers.yoti.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "zendesk.com": {
+  "domain": "zendesk.com",
+  "endpoint": "https://mcp.zendesk.com/api/mcp",
+  "oauth": true,
+  "dcr": true,
+  "pkce": [
+   "S256"
+  ],
+  "scopes": [
+   "read",
+   "write"
+  ],
+  "issuer": "https://mcp.zendesk.com/api/mcp/oauth",
+  "as_url": "https://mcp.zendesk.com/.well-known/oauth-authorization-server/api/mcp/oauth",
+  "auth_note": "",
+  "prm_url": "https://mcp.zendesk.com/.well-known/oauth-protected-resource/api/mcp"
+ },
+ "zerion.io": {
+  "domain": "zerion.io",
+  "endpoint": "https://developers.zerion.io/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "no auth required",
+  "prm_url": null
+ },
+ "zomato.com": {
+  "domain": "zomato.com",
+  "endpoint": "https://mcp-server.zomato.com/mcp",
+  "oauth": false,
+  "dcr": null,
+  "pkce": null,
+  "scopes": [],
+  "issuer": null,
+  "as_url": null,
+  "auth_note": "static API key / bearer token",
+  "prm_url": null
+ }
+}
