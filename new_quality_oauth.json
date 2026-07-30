@@ -1,0 +1,5712 @@
+[
+ {
+  "host": "1host.kz",
+  "server_name": "1host.kz WHMCS MCP (one_mcp)",
+  "endpoint": "https://1host.kz/bill/modules/addons/one_mcp/mcp.php"
+ },
+ {
+  "host": "2performant.com",
+  "server_name": "",
+  "endpoint": "https://2performant.com/wp-json/respira/v1/mcp"
+ },
+ {
+  "host": "60sec.site",
+  "server_name": "",
+  "endpoint": "https://60sec.site/v1/mcp"
+ },
+ {
+  "host": "66girls.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://66girls.co.kr/api/mcp"
+ },
+ {
+  "host": "999.md",
+  "server_name": "999-gateway-mcp",
+  "endpoint": "https://999.md/mcp"
+ },
+ {
+  "host": "accounting-mcp.com",
+  "server_name": "",
+  "endpoint": "https://accounting-mcp.com/mcp"
+ },
+ {
+  "host": "achtzehn99.de",
+  "server_name": "",
+  "endpoint": "https://achtzehn99.de/api/mcp"
+ },
+ {
+  "host": "acrelec.com",
+  "server_name": "",
+  "endpoint": "https://acrelec.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "adescargar.net",
+  "server_name": "",
+  "endpoint": "https://adescargar.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "adperfect.shop",
+  "server_name": "",
+  "endpoint": "https://adperfect.shop/mcp"
+ },
+ {
+  "host": "adquick.com",
+  "server_name": "",
+  "endpoint": "https://adquick.com/v1/mcp"
+ },
+ {
+  "host": "aesoo.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://aesoo.co.kr/api/mcp"
+ },
+ {
+  "host": "agent.ai",
+  "server_name": "",
+  "endpoint": "https://agent.ai/mcp"
+ },
+ {
+  "host": "ai-agent.weblisters.com",
+  "server_name": "WebListers MCP",
+  "endpoint": "https://ai-agent.weblisters.com/mcp"
+ },
+ {
+  "host": "aijourn.com",
+  "server_name": "",
+  "endpoint": "https://aijourn.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "airliners.de",
+  "server_name": "",
+  "endpoint": "https://airliners.de/api/mcp"
+ },
+ {
+  "host": "aitinkerers.org",
+  "server_name": "AI Tinkerers Agents MCP",
+  "endpoint": "https://aitinkerers.org/api/agents/mcp/v1"
+ },
+ {
+  "host": "alayacare.com",
+  "server_name": "",
+  "endpoint": "https://alayacare.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "alertee.app",
+  "server_name": "",
+  "endpoint": "https://alertee.app/mcp"
+ },
+ {
+  "host": "ambcrypto.com",
+  "server_name": "",
+  "endpoint": "https://ambcrypto.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "ampcode.com",
+  "server_name": "",
+  "endpoint": "https://ampcode.com/sse"
+ },
+ {
+  "host": "andar01.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://andar01.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "animalwebaction.com",
+  "server_name": "",
+  "endpoint": "https://animalwebaction.com/mcp"
+ },
+ {
+  "host": "api-sandbox.yext.com",
+  "server_name": "Yext MCP",
+  "endpoint": "https://api-sandbox.yext.com/mcp"
+ },
+ {
+  "host": "api-us.senprints.net",
+  "server_name": "",
+  "endpoint": "https://api-us.senprints.net/mcp"
+ },
+ {
+  "host": "api.abby.fr",
+  "server_name": "",
+  "endpoint": "https://api.abby.fr/mcp"
+ },
+ {
+  "host": "api.adorbit.com",
+  "server_name": "Ad Orbit MCP Server",
+  "endpoint": "https://api.adorbit.com/mcp"
+ },
+ {
+  "host": "api.adverfly.com",
+  "server_name": "",
+  "endpoint": "https://api.adverfly.com/mcp"
+ },
+ {
+  "host": "api.affonso.io",
+  "server_name": "",
+  "endpoint": "https://api.affonso.io/mcp"
+ },
+ {
+  "host": "api.alertee.app",
+  "server_name": "",
+  "endpoint": "https://api.alertee.app/mcp"
+ },
+ {
+  "host": "api.alertmedia.com",
+  "server_name": "",
+  "endpoint": "https://api.alertmedia.com/api/mcp"
+ },
+ {
+  "host": "api.altrady.com",
+  "server_name": "",
+  "endpoint": "https://api.altrady.com/mcp"
+ },
+ {
+  "host": "api.andiai.com",
+  "server_name": "",
+  "endpoint": "https://api.andiai.com/mcp"
+ },
+ {
+  "host": "api.appack.de",
+  "server_name": "",
+  "endpoint": "https://api.appack.de/mcp"
+ },
+ {
+  "host": "api.applicaa.com",
+  "server_name": "",
+  "endpoint": "https://api.applicaa.com/mcp"
+ },
+ {
+  "host": "api.artcld.com",
+  "server_name": "",
+  "endpoint": "https://api.artcld.com/mcp"
+ },
+ {
+  "host": "api.astrid.cc",
+  "server_name": "Astrid Tasks MCP",
+  "endpoint": "https://api.astrid.cc/mcp"
+ },
+ {
+  "host": "api.audiorelay.net",
+  "server_name": "",
+  "endpoint": "https://api.audiorelay.net/mcp"
+ },
+ {
+  "host": "api.augmentcode.com",
+  "server_name": "",
+  "endpoint": "https://api.augmentcode.com/mcp"
+ },
+ {
+  "host": "api.authoredup.com",
+  "server_name": "",
+  "endpoint": "https://api.authoredup.com/mcp"
+ },
+ {
+  "host": "api.aventure.vc",
+  "server_name": "",
+  "endpoint": "https://api.aventure.vc/mcp"
+ },
+ {
+  "host": "api.awardco.com",
+  "server_name": "",
+  "endpoint": "https://api.awardco.com/k10/mcp"
+ },
+ {
+  "host": "api.awork.com",
+  "server_name": "",
+  "endpoint": "https://api.awork.com/api/v1/mcp"
+ },
+ {
+  "host": "api.banksync.io",
+  "server_name": "",
+  "endpoint": "https://api.banksync.io/v1/mcp"
+ },
+ {
+  "host": "api.base.cropwise.com",
+  "server_name": "",
+  "endpoint": "https://api.base.cropwise.com/mcp"
+ },
+ {
+  "host": "api.bidprime.com",
+  "server_name": "BidPrime MCP Server",
+  "endpoint": "https://api.bidprime.com/mcp"
+ },
+ {
+  "host": "api.bidsystem.ai",
+  "server_name": "",
+  "endpoint": "https://api.bidsystem.ai/mcp"
+ },
+ {
+  "host": "api.bitrefill.com",
+  "server_name": "Bitrefill",
+  "endpoint": "https://api.bitrefill.com/mcp"
+ },
+ {
+  "host": "api.blaze.ai",
+  "server_name": "",
+  "endpoint": "https://api.blaze.ai/mcp"
+ },
+ {
+  "host": "api.bodenrichtwert.ai",
+  "server_name": "",
+  "endpoint": "https://api.bodenrichtwert.ai/api/mcp"
+ },
+ {
+  "host": "api.botman.pro",
+  "server_name": "",
+  "endpoint": "https://api.botman.pro/mcp"
+ },
+ {
+  "host": "api.boxcn.net",
+  "server_name": "Box Model Context Protocol Server",
+  "endpoint": "https://api.boxcn.net/mcp"
+ },
+ {
+  "host": "api.brandjet.ai",
+  "server_name": "",
+  "endpoint": "https://api.brandjet.ai/mcp"
+ },
+ {
+  "host": "api.btwb.com",
+  "server_name": "",
+  "endpoint": "https://api.btwb.com/mcp/sse"
+ },
+ {
+  "host": "api.callgrid.com",
+  "server_name": "",
+  "endpoint": "https://api.callgrid.com/api/mcp"
+ },
+ {
+  "host": "api.calltrackapi.com",
+  "server_name": "",
+  "endpoint": "https://api.calltrackapi.com/mcp"
+ },
+ {
+  "host": "api.calltrackingmetrics.com",
+  "server_name": "CallTrackingMetrics MCP",
+  "endpoint": "https://api.calltrackingmetrics.com/mcp/ctm-02-2026.json"
+ },
+ {
+  "host": "api.canix.com",
+  "server_name": "",
+  "endpoint": "https://api.canix.com/mcp"
+ },
+ {
+  "host": "api.captivewifi.io",
+  "server_name": "",
+  "endpoint": "https://api.captivewifi.io/api/mcp"
+ },
+ {
+  "host": "api.cardpointers.com",
+  "server_name": "",
+  "endpoint": "https://api.cardpointers.com/mcp"
+ },
+ {
+  "host": "api.catsy.com",
+  "server_name": "",
+  "endpoint": "https://api.catsy.com/sse"
+ },
+ {
+  "host": "api.ccmn.cn",
+  "server_name": "",
+  "endpoint": "https://api.ccmn.cn/mcp"
+ },
+ {
+  "host": "api.challengepost.com",
+  "server_name": "",
+  "endpoint": "https://api.challengepost.com/mcp"
+ },
+ {
+  "host": "api.chub.ai",
+  "server_name": "",
+  "endpoint": "https://api.chub.ai/"
+ },
+ {
+  "host": "api.circlesquare.app",
+  "server_name": "",
+  "endpoint": "https://api.circlesquare.app/mcp"
+ },
+ {
+  "host": "api.cobot.me",
+  "server_name": "",
+  "endpoint": "https://api.cobot.me/mcp"
+ },
+ {
+  "host": "api.communico.co",
+  "server_name": "",
+  "endpoint": "https://api.communico.co/agent/mcp"
+ },
+ {
+  "host": "api.cropwise.com",
+  "server_name": "",
+  "endpoint": "https://api.cropwise.com/mcp"
+ },
+ {
+  "host": "api.cryptorank.io",
+  "server_name": "",
+  "endpoint": "https://api.cryptorank.io/mcp"
+ },
+ {
+  "host": "api.cubbystorage.com",
+  "server_name": "",
+  "endpoint": "https://api.cubbystorage.com/mcp"
+ },
+ {
+  "host": "api.cubepath.com",
+  "server_name": "",
+  "endpoint": "https://api.cubepath.com/mcp"
+ },
+ {
+  "host": "api.custify.com",
+  "server_name": "",
+  "endpoint": "https://api.custify.com"
+ },
+ {
+  "host": "api.databuddy.cc",
+  "server_name": "Databuddy API",
+  "endpoint": "https://api.databuddy.cc/mcp"
+ },
+ {
+  "host": "api.descope.dev",
+  "server_name": "",
+  "endpoint": "https://api.descope.dev/mcp"
+ },
+ {
+  "host": "api.descope.org",
+  "server_name": "",
+  "endpoint": "https://api.descope.org/mcp"
+ },
+ {
+  "host": "api.digitalwallet.cards",
+  "server_name": "",
+  "endpoint": "https://api.digitalwallet.cards/mcp"
+ },
+ {
+  "host": "api.dropinblog.com",
+  "server_name": "",
+  "endpoint": "https://api.dropinblog.com/mcp"
+ },
+ {
+  "host": "api.dune.com",
+  "server_name": "Dune MCP Server",
+  "endpoint": "https://api.dune.com"
+ },
+ {
+  "host": "api.elivaas.com",
+  "server_name": "innsync-mcp-server",
+  "endpoint": "https://api.elivaas.com/mcp"
+ },
+ {
+  "host": "api.employ.remote-sandbox.com",
+  "server_name": "",
+  "endpoint": "https://api.employ.remote-sandbox.com/mcp"
+ },
+ {
+  "host": "api.employ.remote.com",
+  "server_name": "",
+  "endpoint": "https://api.employ.remote.com/mcp"
+ },
+ {
+  "host": "api.esper.io",
+  "server_name": "MCP server",
+  "endpoint": "https://api.esper.io/mcp"
+ },
+ {
+  "host": "api.eulerstream.com",
+  "server_name": "eulerstream-api",
+  "endpoint": "https://api.eulerstream.com/mcp"
+ },
+ {
+  "host": "api.eventdata.uk",
+  "server_name": "",
+  "endpoint": "https://api.eventdata.uk/mcp"
+ },
+ {
+  "host": "api.fidea.ai",
+  "server_name": "",
+  "endpoint": "https://api.fidea.ai/api/mcp"
+ },
+ {
+  "host": "api.figma-gov.com",
+  "server_name": "Figma MCP",
+  "endpoint": "https://api.figma-gov.com/mcp"
+ },
+ {
+  "host": "api.findmyshift.com",
+  "server_name": "Findmyshift",
+  "endpoint": "https://api.findmyshift.com/mcp"
+ },
+ {
+  "host": "api.finmap.online",
+  "server_name": "",
+  "endpoint": "https://api.finmap.online/mcp"
+ },
+ {
+  "host": "api.fixdapp.com",
+  "server_name": "",
+  "endpoint": "https://api.fixdapp.com/api/mcp"
+ },
+ {
+  "host": "api.flowhub.com",
+  "server_name": "Flowhub",
+  "endpoint": "https://api.flowhub.com/mcpserver/mcp"
+ },
+ {
+  "host": "api.flysoar.ai",
+  "server_name": "soar_flights",
+  "endpoint": "https://api.flysoar.ai/mcp"
+ },
+ {
+  "host": "api.formester.com",
+  "server_name": "",
+  "endpoint": "https://api.formester.com/mcp"
+ },
+ {
+  "host": "api.fresedvpn.site",
+  "server_name": "",
+  "endpoint": "https://api.fresedvpn.site/mcp"
+ },
+ {
+  "host": "api.furious-squad.com",
+  "server_name": "",
+  "endpoint": "https://api.furious-squad.com/mcp"
+ },
+ {
+  "host": "api.geocod.io",
+  "server_name": "",
+  "endpoint": "https://api.geocod.io/mcp"
+ },
+ {
+  "host": "api.getgrist.com",
+  "server_name": "",
+  "endpoint": "https://api.getgrist.com/api/mcp"
+ },
+ {
+  "host": "api.givechariot.com",
+  "server_name": "",
+  "endpoint": "https://api.givechariot.com/mcp"
+ },
+ {
+  "host": "api.globalwebindex.com",
+  "server_name": "",
+  "endpoint": "https://api.globalwebindex.com/api/mcp"
+ },
+ {
+  "host": "api.goldbelly.com",
+  "server_name": "Goldbelly MCP Server",
+  "endpoint": "https://api.goldbelly.com/mcp"
+ },
+ {
+  "host": "api.gracehillvision.com",
+  "server_name": "",
+  "endpoint": "https://api.gracehillvision.com/mcp"
+ },
+ {
+  "host": "api.graphed.com",
+  "server_name": "",
+  "endpoint": "https://api.graphed.com/sse"
+ },
+ {
+  "host": "api.gygadmin.com",
+  "server_name": "",
+  "endpoint": "https://api.gygadmin.com/mcp"
+ },
+ {
+  "host": "api.hellodarwin.com",
+  "server_name": "hellodarwin-mcp",
+  "endpoint": "https://api.hellodarwin.com/mcp"
+ },
+ {
+  "host": "api.helpdocs.io",
+  "server_name": "",
+  "endpoint": "https://api.helpdocs.io/v1/mcp"
+ },
+ {
+  "host": "api.homeway.io",
+  "server_name": "Homeway",
+  "endpoint": "https://api.homeway.io/api/mcp"
+ },
+ {
+  "host": "api.honcho.dev",
+  "server_name": "",
+  "endpoint": "https://api.honcho.dev/mcp"
+ },
+ {
+  "host": "api.hooklistener.com",
+  "server_name": "",
+  "endpoint": "https://api.hooklistener.com/api/mcp"
+ },
+ {
+  "host": "api.intentwise.com",
+  "server_name": "",
+  "endpoint": "https://api.intentwise.com/v1/mcp"
+ },
+ {
+  "host": "api.irbank.net",
+  "server_name": "",
+  "endpoint": "https://api.irbank.net/mcp/market"
+ },
+ {
+  "host": "api.jinshuju.com",
+  "server_name": "",
+  "endpoint": "https://api.jinshuju.com/mcp"
+ },
+ {
+  "host": "api.jumpapp.com",
+  "server_name": "",
+  "endpoint": "https://api.jumpapp.com/mcp"
+ },
+ {
+  "host": "api.juniphq.com",
+  "server_name": "",
+  "endpoint": "https://api.juniphq.com/mcp"
+ },
+ {
+  "host": "api.katalon.io",
+  "server_name": "",
+  "endpoint": "https://api.katalon.io/v1/mcp"
+ },
+ {
+  "host": "api.kelsa.io",
+  "server_name": "",
+  "endpoint": "https://api.kelsa.io/mcp"
+ },
+ {
+  "host": "api.kondwit.com",
+  "server_name": "",
+  "endpoint": "https://api.kondwit.com/mcp"
+ },
+ {
+  "host": "api.kontainer.com",
+  "server_name": "",
+  "endpoint": "https://api.kontainer.com/mcp"
+ },
+ {
+  "host": "api.krexin.com",
+  "server_name": "",
+  "endpoint": "https://api.krexin.com/mcp"
+ },
+ {
+  "host": "api.latticehq.com",
+  "server_name": "",
+  "endpoint": "https://api.latticehq.com/mcp"
+ },
+ {
+  "host": "api.learnupon.com",
+  "server_name": "LearnUpon Reporting MCP",
+  "endpoint": "https://api.learnupon.com/reporting/mcp"
+ },
+ {
+  "host": "api.leonardo247.com",
+  "server_name": "",
+  "endpoint": "https://api.leonardo247.com/mcp"
+ },
+ {
+  "host": "api.letterly.app",
+  "server_name": "",
+  "endpoint": "https://api.letterly.app/mcp"
+ },
+ {
+  "host": "api.levels.fyi",
+  "server_name": "Levels.fyi MCP (Benchmark)",
+  "endpoint": "https://api.levels.fyi/v1/mcp"
+ },
+ {
+  "host": "api.localo.com",
+  "server_name": "",
+  "endpoint": "https://api.localo.com/api/mcp"
+ },
+ {
+  "host": "api.luciq.ai",
+  "server_name": "",
+  "endpoint": "https://api.luciq.ai/api/mcp"
+ },
+ {
+  "host": "api.mabl.com",
+  "server_name": "",
+  "endpoint": "https://api.mabl.com/mcp/message"
+ },
+ {
+  "host": "api.machinetranslation.com",
+  "server_name": "MachineTranslation MCP",
+  "endpoint": "https://api.machinetranslation.com/mcp"
+ },
+ {
+  "host": "api.magatron.online",
+  "server_name": "Magatron",
+  "endpoint": "https://api.magatron.online/mcp"
+ },
+ {
+  "host": "api.magellan.ai",
+  "server_name": "",
+  "endpoint": "https://api.magellan.ai/mcp"
+ },
+ {
+  "host": "api.mcpbundles.com",
+  "server_name": "",
+  "endpoint": "https://api.mcpbundles.com/mcp"
+ },
+ {
+  "host": "api.medialyst.ai",
+  "server_name": "Medialyst MCP",
+  "endpoint": "https://api.medialyst.ai/api/mcp"
+ },
+ {
+  "host": "api.mesa.dev",
+  "server_name": "",
+  "endpoint": "https://api.mesa.dev/mcp"
+ },
+ {
+  "host": "api.milacares.com",
+  "server_name": "",
+  "endpoint": "https://api.milacares.com/api/mcp"
+ },
+ {
+  "host": "api.mindomo.com",
+  "server_name": "Mindomo",
+  "endpoint": "https://api.mindomo.com/mcp"
+ },
+ {
+  "host": "api.modernloop.io",
+  "server_name": "",
+  "endpoint": "https://api.modernloop.io/mcp"
+ },
+ {
+  "host": "api.monarch.com",
+  "server_name": "",
+  "endpoint": "https://api.monarch.com/mcp"
+ },
+ {
+  "host": "api.motivosity.com",
+  "server_name": "",
+  "endpoint": "https://api.motivosity.com/mcp"
+ },
+ {
+  "host": "api.neboai.com",
+  "server_name": "",
+  "endpoint": "https://api.neboai.com/mcp"
+ },
+ {
+  "host": "api.neboloop.com",
+  "server_name": "",
+  "endpoint": "https://api.neboloop.com/mcp"
+ },
+ {
+  "host": "api.neo-clinique.com",
+  "server_name": "",
+  "endpoint": "https://api.neo-clinique.com/api/mcp"
+ },
+ {
+  "host": "api.newsblur.com",
+  "server_name": "",
+  "endpoint": "https://api.newsblur.com/mcp"
+ },
+ {
+  "host": "api.nucleusemail.com",
+  "server_name": "",
+  "endpoint": "https://api.nucleusemail.com/mcp"
+ },
+ {
+  "host": "api.onesignal.com",
+  "server_name": "",
+  "endpoint": "https://api.onesignal.com"
+ },
+ {
+  "host": "api.openapply.com",
+  "server_name": "",
+  "endpoint": "https://api.openapply.com/mcp"
+ },
+ {
+  "host": "api.openhexa.org",
+  "server_name": "",
+  "endpoint": "https://api.openhexa.org/mcp"
+ },
+ {
+  "host": "api.openuser.ai",
+  "server_name": "OpenUser MCP",
+  "endpoint": "https://api.openuser.ai/mcp"
+ },
+ {
+  "host": "api.organizze.com.br",
+  "server_name": "",
+  "endpoint": "https://api.organizze.com.br/mcp"
+ },
+ {
+  "host": "api.otsite.com",
+  "server_name": "",
+  "endpoint": "https://api.otsite.com/mcp"
+ },
+ {
+  "host": "api.paperguide.ai",
+  "server_name": "",
+  "endpoint": "https://api.paperguide.ai/mcp"
+ },
+ {
+  "host": "api.peec.ai",
+  "server_name": "Peec MCP Server",
+  "endpoint": "https://api.peec.ai/mcp"
+ },
+ {
+  "host": "api.permisdeconduire.gouv.fr",
+  "server_name": "",
+  "endpoint": "https://api.permisdeconduire.gouv.fr/api/mcp"
+ },
+ {
+  "host": "api.phylo.bio",
+  "server_name": "Biomni",
+  "endpoint": "https://api.phylo.bio/api/v1/mcp"
+ },
+ {
+  "host": "api.planefinder.net",
+  "server_name": "",
+  "endpoint": "https://api.planefinder.net"
+ },
+ {
+  "host": "api.platts.com",
+  "server_name": "Search MCP Server",
+  "endpoint": "https://api.platts.com/agentic-search"
+ },
+ {
+  "host": "api.plumsail.com",
+  "server_name": "Plumsail MCP Server",
+  "endpoint": "https://api.plumsail.com/mcp"
+ },
+ {
+  "host": "api.polza.ai",
+  "server_name": "",
+  "endpoint": "https://api.polza.ai/api/mcp"
+ },
+ {
+  "host": "api.prodpad.com",
+  "server_name": "ProdPad Server",
+  "endpoint": "https://api.prodpad.com/mcp"
+ },
+ {
+  "host": "api.raambekledingnederland.nl",
+  "server_name": "",
+  "endpoint": "https://api.raambekledingnederland.nl/mcp"
+ },
+ {
+  "host": "api.realwave.com",
+  "server_name": "",
+  "endpoint": "https://api.realwave.com/mcp"
+ },
+ {
+  "host": "api.receipt-bank.com",
+  "server_name": "",
+  "endpoint": "https://api.receipt-bank.com/mcp"
+ },
+ {
+  "host": "api.remote-sandbox.com",
+  "server_name": "",
+  "endpoint": "https://api.remote-sandbox.com/mcp"
+ },
+ {
+  "host": "api.requirementyogi.com",
+  "server_name": "",
+  "endpoint": "https://api.requirementyogi.com/api/mcp"
+ },
+ {
+  "host": "api.resolvia.ai",
+  "server_name": "resolvia",
+  "endpoint": "https://api.resolvia.ai/api/mcp"
+ },
+ {
+  "host": "api.retention.com",
+  "server_name": "",
+  "endpoint": "https://api.retention.com/mcp"
+ },
+ {
+  "host": "api.retentionx.com",
+  "server_name": "",
+  "endpoint": "https://api.retentionx.com/mcp"
+ },
+ {
+  "host": "api.retreaver.com",
+  "server_name": "",
+  "endpoint": "https://api.retreaver.com/mcp"
+ },
+ {
+  "host": "api.revenue.io",
+  "server_name": "",
+  "endpoint": "https://api.revenue.io/mcp"
+ },
+ {
+  "host": "api.routetohuman.com",
+  "server_name": "",
+  "endpoint": "https://api.routetohuman.com/mcp"
+ },
+ {
+  "host": "api.scalr.io",
+  "server_name": "",
+  "endpoint": "https://api.scalr.io/mcp"
+ },
+ {
+  "host": "api.scientist.com",
+  "server_name": "",
+  "endpoint": "https://api.scientist.com/mcp"
+ },
+ {
+  "host": "api.score24.com",
+  "server_name": "",
+  "endpoint": "https://api.score24.com/mcp"
+ },
+ {
+  "host": "api.seedlegals.com",
+  "server_name": "",
+  "endpoint": "https://api.seedlegals.com/mcp"
+ },
+ {
+  "host": "api.senprints.net",
+  "server_name": "",
+  "endpoint": "https://api.senprints.net/mcp"
+ },
+ {
+  "host": "api.seucondominio.com.br",
+  "server_name": "SeuCondom\u00ednio",
+  "endpoint": "https://api.seucondominio.com.br/mcp"
+ },
+ {
+  "host": "api.shipbook.io",
+  "server_name": "",
+  "endpoint": "https://api.shipbook.io/mcp"
+ },
+ {
+  "host": "api.snapto.link",
+  "server_name": "",
+  "endpoint": "https://api.snapto.link/api/mcp"
+ },
+ {
+  "host": "api.softr.app",
+  "server_name": "",
+  "endpoint": "https://api.softr.app/v1/mcp"
+ },
+ {
+  "host": "api.stoik.io",
+  "server_name": "",
+  "endpoint": "https://api.stoik.io/mcp"
+ },
+ {
+  "host": "api.supermemory.ai",
+  "server_name": "",
+  "endpoint": "https://api.supermemory.ai/mcp"
+ },
+ {
+  "host": "api.supertutorlc.com",
+  "server_name": "blab-mcp",
+  "endpoint": "https://api.supertutorlc.com/mcp"
+ },
+ {
+  "host": "api.supporthost.net",
+  "server_name": "",
+  "endpoint": "https://api.supporthost.net/mcp"
+ },
+ {
+  "host": "api.tailorhq.ai",
+  "server_name": "",
+  "endpoint": "https://api.tailorhq.ai/v1/mcp"
+ },
+ {
+  "host": "api.teamretro.com",
+  "server_name": "",
+  "endpoint": "https://api.teamretro.com/mcp"
+ },
+ {
+  "host": "api.telli.com",
+  "server_name": "",
+  "endpoint": "https://api.telli.com/mcp"
+ },
+ {
+  "host": "api.temp-mail.io",
+  "server_name": "",
+  "endpoint": "https://api.temp-mail.io/v1/mcp"
+ },
+ {
+  "host": "api.thecloud.so",
+  "server_name": "",
+  "endpoint": "https://api.thecloud.so/mcp"
+ },
+ {
+  "host": "api.thundercompute.com",
+  "server_name": "Thunder Compute MCP",
+  "endpoint": "https://api.thundercompute.com/mcp"
+ },
+ {
+  "host": "api.tp-staging.com",
+  "server_name": "",
+  "endpoint": "https://api.tp-staging.com/v1/mcp"
+ },
+ {
+  "host": "api.trainerday.com",
+  "server_name": "",
+  "endpoint": "https://api.trainerday.com/mcp"
+ },
+ {
+  "host": "api.trex.xyz",
+  "server_name": "",
+  "endpoint": "https://api.trex.xyz/mcp"
+ },
+ {
+  "host": "api.tsg-hoffenheim.de",
+  "server_name": "",
+  "endpoint": "https://api.tsg-hoffenheim.de/v1/mcp"
+ },
+ {
+  "host": "api.turntabletickets.com",
+  "server_name": "",
+  "endpoint": "https://api.turntabletickets.com/mcp"
+ },
+ {
+  "host": "api.twenty.com",
+  "server_name": "",
+  "endpoint": "https://api.twenty.com/mcp"
+ },
+ {
+  "host": "api.upwind.io",
+  "server_name": "",
+  "endpoint": "https://api.upwind.io/mcp"
+ },
+ {
+  "host": "api.useautumn.com",
+  "server_name": "Autumn MCP",
+  "endpoint": "https://api.useautumn.com/mcp"
+ },
+ {
+  "host": "api.usepastel.com",
+  "server_name": "",
+  "endpoint": "https://api.usepastel.com/mcp"
+ },
+ {
+  "host": "api.uzin-utz.com",
+  "server_name": "",
+  "endpoint": "https://api.uzin-utz.com/mcp"
+ },
+ {
+  "host": "api.uzin.com",
+  "server_name": "",
+  "endpoint": "https://api.uzin.com/mcp"
+ },
+ {
+  "host": "api.v0.app",
+  "server_name": "",
+  "endpoint": "https://api.v0.app/api/mcp"
+ },
+ {
+  "host": "api.vidalytics.com",
+  "server_name": "",
+  "endpoint": "https://api.vidalytics.com/public/v1/mcp"
+ },
+ {
+  "host": "api.viniou.com",
+  "server_name": "",
+  "endpoint": "https://api.viniou.com/mcp"
+ },
+ {
+  "host": "api.virginia.revizto.com",
+  "server_name": "",
+  "endpoint": "https://api.virginia.revizto.com/mcp"
+ },
+ {
+  "host": "api.vosfactures.fr",
+  "server_name": "",
+  "endpoint": "https://api.vosfactures.fr/mcp"
+ },
+ {
+  "host": "api.weld.app",
+  "server_name": "Weld MCP Server",
+  "endpoint": "https://api.weld.app/mcp"
+ },
+ {
+  "host": "api.wisesheets.io",
+  "server_name": "Wisesheets Financial Data",
+  "endpoint": "https://api.wisesheets.io/v1/mcp"
+ },
+ {
+  "host": "api.withallo.com",
+  "server_name": "",
+  "endpoint": "https://api.withallo.com/mcp"
+ },
+ {
+  "host": "api.withlanai.com",
+  "server_name": "",
+  "endpoint": "https://api.withlanai.com/api/mcp"
+ },
+ {
+  "host": "api.withmesh.com",
+  "server_name": "",
+  "endpoint": "https://api.withmesh.com/mcp"
+ },
+ {
+  "host": "api.workbooks.com",
+  "server_name": "",
+  "endpoint": "https://api.workbooks.com/mcp"
+ },
+ {
+  "host": "api.writer.com",
+  "server_name": "",
+  "endpoint": "https://api.writer.com/mcp/applications"
+ },
+ {
+  "host": "api.xenia.team",
+  "server_name": "",
+  "endpoint": "https://api.xenia.team/mcp"
+ },
+ {
+  "host": "api.youart.ai",
+  "server_name": "",
+  "endpoint": "https://api.youart.ai/mcp"
+ },
+ {
+  "host": "api.zendrop.com",
+  "server_name": "",
+  "endpoint": "https://api.zendrop.com/mcp"
+ },
+ {
+  "host": "api.ziftone.com",
+  "server_name": "",
+  "endpoint": "https://api.ziftone.com/api/mcp"
+ },
+ {
+  "host": "apid.juniphq.com",
+  "server_name": "",
+  "endpoint": "https://apid.juniphq.com/mcp"
+ },
+ {
+  "host": "apiiro.com",
+  "server_name": "",
+  "endpoint": "https://apiiro.com/sse"
+ },
+ {
+  "host": "aplaneige.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://aplaneige.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "app.alhena.ai",
+  "server_name": "",
+  "endpoint": "https://app.alhena.ai/api/mcp"
+ },
+ {
+  "host": "app.dscout.com",
+  "server_name": "",
+  "endpoint": "https://app.dscout.com/mcp/ops"
+ },
+ {
+  "host": "app.fanpagekarma.com",
+  "server_name": "",
+  "endpoint": "https://app.fanpagekarma.com/api/v2/mcp"
+ },
+ {
+  "host": "app.formester.com",
+  "server_name": "",
+  "endpoint": "https://app.formester.com/mcp"
+ },
+ {
+  "host": "app.mcpmanager.ai",
+  "server_name": "",
+  "endpoint": "https://app.mcpmanager.ai/gateway/v1/mcp"
+ },
+ {
+  "host": "app.motivosity.com",
+  "server_name": "",
+  "endpoint": "https://app.motivosity.com/mcp"
+ },
+ {
+  "host": "app.payouts.com",
+  "server_name": "payouts-tool-api",
+  "endpoint": "https://app.payouts.com/api/mcp"
+ },
+ {
+  "host": "app.pennylane.com",
+  "server_name": "",
+  "endpoint": "https://app.pennylane.com/mcp/messages"
+ },
+ {
+  "host": "app.rytr.me",
+  "server_name": "Rytr Engage MCP",
+  "endpoint": "https://app.rytr.me/api/mcp"
+ },
+ {
+  "host": "app.smartemailing.cz",
+  "server_name": "smartemailing-mcp",
+  "endpoint": "https://app.smartemailing.cz/mcp"
+ },
+ {
+  "host": "app.syntheticbrew.ai",
+  "server_name": "",
+  "endpoint": "https://app.syntheticbrew.ai/api/v1/mcp/rpc"
+ },
+ {
+  "host": "app.traidsoft.net",
+  "server_name": "",
+  "endpoint": "https://app.traidsoft.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "app.turntabletickets.com",
+  "server_name": "",
+  "endpoint": "https://app.turntabletickets.com/mcp"
+ },
+ {
+  "host": "appeltern.nl",
+  "server_name": "",
+  "endpoint": "https://appeltern.nl/mcp"
+ },
+ {
+  "host": "apsulwhasoo.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://apsulwhasoo.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "arena.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://arena.co.kr/api/mcp"
+ },
+ {
+  "host": "asmodeusvinz.com",
+  "server_name": "",
+  "endpoint": "https://asmodeusvinz.com/mcp"
+ },
+ {
+  "host": "aspnix.com",
+  "server_name": "",
+  "endpoint": "https://aspnix.com/_emdash/api/mcp"
+ },
+ {
+  "host": "astrid.cc",
+  "server_name": "Astrid Tasks MCP",
+  "endpoint": "https://astrid.cc/mcp"
+ },
+ {
+  "host": "atom.com",
+  "server_name": "",
+  "endpoint": "https://atom.com/mcp"
+ },
+ {
+  "host": "autokopen.nl",
+  "server_name": "autokopen",
+  "endpoint": "https://autokopen.nl/api/mcp"
+ },
+ {
+  "host": "autouncle.com",
+  "server_name": "",
+  "endpoint": "https://autouncle.com/api/mcp"
+ },
+ {
+  "host": "avhdfi.com",
+  "server_name": "",
+  "endpoint": "https://avhdfi.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "avjapanhdx.com",
+  "server_name": "",
+  "endpoint": "https://avjapanhdx.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "avpox.com",
+  "server_name": "",
+  "endpoint": "https://avpox.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "avxee.com",
+  "server_name": "",
+  "endpoint": "https://avxee.com/sse"
+ },
+ {
+  "host": "avxtha.com",
+  "server_name": "",
+  "endpoint": "https://avxtha.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "awardtravelfinder.com",
+  "server_name": "",
+  "endpoint": "https://awardtravelfinder.com/mcp"
+ },
+ {
+  "host": "aws.dashboard.golfgen.com",
+  "server_name": "",
+  "endpoint": "https://aws.dashboard.golfgen.com/mcp"
+ },
+ {
+  "host": "bankanalysis.ai",
+  "server_name": "BankAnalysis MCP",
+  "endpoint": "https://bankanalysis.ai/mcp"
+ },
+ {
+  "host": "basenet.com",
+  "server_name": "",
+  "endpoint": "https://basenet.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "baxtel.com",
+  "server_name": "",
+  "endpoint": "https://baxtel.com/mcp"
+ },
+ {
+  "host": "bbongbra.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://bbongbra.co.kr/api/mcp"
+ },
+ {
+  "host": "be.exceptionless.io",
+  "server_name": "",
+  "endpoint": "https://be.exceptionless.io/mcp"
+ },
+ {
+  "host": "benchmark-mcp-gateway-1yzx1kmg53.gateway.bedrock-agentcore.eu-west-2.amazonaws.com",
+  "server_name": "",
+  "endpoint": "https://benchmark-mcp-gateway-1yzx1kmg53.gateway.bedrock-agentcore.eu-west-2.amazonaws.com/mcp"
+ },
+ {
+  "host": "benitomaster.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://benitomaster.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "betterstack.dev",
+  "server_name": "",
+  "endpoint": "https://betterstack.dev/mcp"
+ },
+ {
+  "host": "bipartisanpolicy.org",
+  "server_name": "",
+  "endpoint": "https://bipartisanpolicy.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "blueelephant.co",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://blueelephant.co/api/mcp"
+ },
+ {
+  "host": "bogos.io",
+  "server_name": "",
+  "endpoint": "https://bogos.io/wp-json/easy-mcp-ai/v1/mcp"
+ },
+ {
+  "host": "bookfusion.com",
+  "server_name": "",
+  "endpoint": "https://bookfusion.com/mcp"
+ },
+ {
+  "host": "brokerchooser.com",
+  "server_name": "",
+  "endpoint": "https://brokerchooser.com/api/mcp"
+ },
+ {
+  "host": "btwb.com",
+  "server_name": "",
+  "endpoint": "https://btwb.com/mcp/sse"
+ },
+ {
+  "host": "canalrural.com.br",
+  "server_name": "",
+  "endpoint": "https://canalrural.com.br/api/mcp"
+ },
+ {
+  "host": "carrentals.com",
+  "server_name": "MCP Gateway",
+  "endpoint": "https://carrentals.com/mcp"
+ },
+ {
+  "host": "ccbill.com",
+  "server_name": "",
+  "endpoint": "https://ccbill.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "ceenaija.com",
+  "server_name": "",
+  "endpoint": "https://ceenaija.com/api/mcp"
+ },
+ {
+  "host": "censys.com",
+  "server_name": "",
+  "endpoint": "https://censys.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "ceoworld.biz",
+  "server_name": "",
+  "endpoint": "https://ceoworld.biz/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "cgr.dev",
+  "server_name": "",
+  "endpoint": "https://cgr.dev/mcp"
+ },
+ {
+  "host": "ch.mcp.release.art",
+  "server_name": "",
+  "endpoint": "https://ch.mcp.release.art/"
+ },
+ {
+  "host": "challengepost.com",
+  "server_name": "",
+  "endpoint": "https://challengepost.com/mcp"
+ },
+ {
+  "host": "charde.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://charde.co.kr/api/mcp"
+ },
+ {
+  "host": "chelp-cloud.fh27smp92s4soi58ghrf6v24e9kd01j230i6.win",
+  "server_name": "",
+  "endpoint": "https://chelp-cloud.fh27smp92s4soi58ghrf6v24e9kd01j230i6.win"
+ },
+ {
+  "host": "chipp.ai",
+  "server_name": "",
+  "endpoint": "https://chipp.ai/api/mcp"
+ },
+ {
+  "host": "classcentral.com",
+  "server_name": "",
+  "endpoint": "https://classcentral.com/api/mcp"
+ },
+ {
+  "host": "claude.switch-soft.com",
+  "server_name": "",
+  "endpoint": "https://claude.switch-soft.com/mcp"
+ },
+ {
+  "host": "clearlyip.com",
+  "server_name": "",
+  "endpoint": "https://clearlyip.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "click2buy.com",
+  "server_name": "",
+  "endpoint": "https://click2buy.com/wp-json/royal-mcp/v1"
+ },
+ {
+  "host": "clinicalresearch.io",
+  "server_name": "",
+  "endpoint": "https://clinicalresearch.io/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "cloudsecurityalliance.org",
+  "server_name": "csa-mcp-server",
+  "endpoint": "https://cloudsecurityalliance.org/mcp"
+ },
+ {
+  "host": "cncom0812.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://cncom0812.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "cnel.it",
+  "server_name": "",
+  "endpoint": "https://cnel.it/mcp"
+ },
+ {
+  "host": "codeograph.ai",
+  "server_name": "",
+  "endpoint": "https://codeograph.ai/mcp"
+ },
+ {
+  "host": "comos-gateway.com",
+  "server_name": "comos-gateway",
+  "endpoint": "https://comos-gateway.com/mcp"
+ },
+ {
+  "host": "conetix.com.au",
+  "server_name": "",
+  "endpoint": "https://conetix.com.au/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "confilegal.com",
+  "server_name": "",
+  "endpoint": "https://confilegal.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "connect.mcp.marketxls.com",
+  "server_name": "",
+  "endpoint": "https://connect.mcp.marketxls.com"
+ },
+ {
+  "host": "continum.net",
+  "server_name": "",
+  "endpoint": "https://continum.net/api/mcp"
+ },
+ {
+  "host": "contra.com",
+  "server_name": "Contra MCP",
+  "endpoint": "https://contra.com/mcp"
+ },
+ {
+  "host": "convertkit-mail4.com",
+  "server_name": "",
+  "endpoint": "https://convertkit-mail4.com/mcp"
+ },
+ {
+  "host": "coordinadora.com",
+  "server_name": "",
+  "endpoint": "https://coordinadora.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "corbettreport.com",
+  "server_name": "",
+  "endpoint": "https://corbettreport.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "corecommerce.com",
+  "server_name": "",
+  "endpoint": "https://corecommerce.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "coredial.com",
+  "server_name": "",
+  "endpoint": "https://coredial.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "crm.terida.ru",
+  "server_name": "",
+  "endpoint": "https://crm.terida.ru/mcp"
+ },
+ {
+  "host": "customgpt.ai",
+  "server_name": "",
+  "endpoint": "https://customgpt.ai/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "cytracom.net",
+  "server_name": "",
+  "endpoint": "https://cytracom.net/api/mcp"
+ },
+ {
+  "host": "dabagirl.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://dabagirl.co.kr/api/mcp"
+ },
+ {
+  "host": "dailypay.com",
+  "server_name": "",
+  "endpoint": "https://dailypay.com/mcp"
+ },
+ {
+  "host": "dailysignal.com",
+  "server_name": "",
+  "endpoint": "https://dailysignal.com/v1/mcp"
+ },
+ {
+  "host": "dashboard.alertmedia.com",
+  "server_name": "",
+  "endpoint": "https://dashboard.alertmedia.com/api/mcp"
+ },
+ {
+  "host": "data.lakidata.fi",
+  "server_name": "Lakidata Finnish legislation",
+  "endpoint": "https://data.lakidata.fi/mcp"
+ },
+ {
+  "host": "data.nasdaq.com",
+  "server_name": "",
+  "endpoint": "https://data.nasdaq.com/mcp"
+ },
+ {
+  "host": "deals.intralinks.com",
+  "server_name": "",
+  "endpoint": "https://deals.intralinks.com/mcp"
+ },
+ {
+  "host": "decodethis.com",
+  "server_name": "",
+  "endpoint": "https://decodethis.com/v1/mcp"
+ },
+ {
+  "host": "definicion.de",
+  "server_name": "",
+  "endpoint": "https://definicion.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "demo.remote-mcp.com",
+  "server_name": "",
+  "endpoint": "https://demo.remote-mcp.com/mcp"
+ },
+ {
+  "host": "deunoposte.online",
+  "server_name": "",
+  "endpoint": "https://deunoposte.online/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "dev.admin.tachiiri.com",
+  "server_name": "front",
+  "endpoint": "https://dev.admin.tachiiri.com/mcp"
+ },
+ {
+  "host": "dev.mcp-gateway.relay.nexigroup.com",
+  "server_name": "Nexi MCP Gateway",
+  "endpoint": "https://dev.mcp-gateway.relay.nexigroup.com/mcp"
+ },
+ {
+  "host": "dexpaprika.com",
+  "server_name": "DexPaprika Public API",
+  "endpoint": "https://dexpaprika.com/api/mcp"
+ },
+ {
+  "host": "dinero.dk",
+  "server_name": "",
+  "endpoint": "https://dinero.dk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "docs.lusha.com",
+  "server_name": "MCP server",
+  "endpoint": "https://docs.lusha.com/mcp"
+ },
+ {
+  "host": "dongma.club",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://dongma.club/api/mcp"
+ },
+ {
+  "host": "dooray.com",
+  "server_name": "",
+  "endpoint": "https://dooray.com/mcp"
+ },
+ {
+  "host": "duocast.nl",
+  "server_name": "",
+  "endpoint": "https://duocast.nl/mcp/statamic"
+ },
+ {
+  "host": "eat.de",
+  "server_name": "",
+  "endpoint": "https://eat.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "edkshop.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://edkshop.com/api/mcp"
+ },
+ {
+  "host": "emaillove.com",
+  "server_name": "",
+  "endpoint": "https://emaillove.com/v1/mcp"
+ },
+ {
+  "host": "enalyzer.com",
+  "server_name": "",
+  "endpoint": "https://enalyzer.com/mcp"
+ },
+ {
+  "host": "envysion.com",
+  "server_name": "",
+  "endpoint": "https://envysion.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "esports-news.co.uk",
+  "server_name": "",
+  "endpoint": "https://esports-news.co.uk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "esw-public-mcp-app.azurewebsites.net",
+  "server_name": "",
+  "endpoint": "https://esw-public-mcp-app.azurewebsites.net/mcp"
+ },
+ {
+  "host": "eurweb.com",
+  "server_name": "",
+  "endpoint": "https://eurweb.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "expensify.com",
+  "server_name": "",
+  "endpoint": "https://expensify.com/api/mcp"
+ },
+ {
+  "host": "eyecloudpro.com",
+  "server_name": "",
+  "endpoint": "https://eyecloudpro.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "ezhomesearch.com",
+  "server_name": "",
+  "endpoint": "https://ezhomesearch.com/sse"
+ },
+ {
+  "host": "famsf.org",
+  "server_name": "",
+  "endpoint": "https://famsf.org/mcp"
+ },
+ {
+  "host": "fantasticfiction.com",
+  "server_name": "",
+  "endpoint": "https://fantasticfiction.com/api/mcp"
+ },
+ {
+  "host": "fashionunited.de",
+  "server_name": "",
+  "endpoint": "https://fashionunited.de/mcp"
+ },
+ {
+  "host": "fatima.edu.ph",
+  "server_name": "",
+  "endpoint": "https://fatima.edu.ph/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "fdd.org",
+  "server_name": "",
+  "endpoint": "https://fdd.org/api/mcp"
+ },
+ {
+  "host": "fi.co",
+  "server_name": "FI Platform MCP",
+  "endpoint": "https://fi.co/api/v1/mcp"
+ },
+ {
+  "host": "financialmodelingprep.com",
+  "server_name": "",
+  "endpoint": "https://financialmodelingprep.com"
+ },
+ {
+  "host": "findmyshift.com",
+  "server_name": "Findmyshift",
+  "endpoint": "https://findmyshift.com/mcp"
+ },
+ {
+  "host": "fingercheck.com",
+  "server_name": "",
+  "endpoint": "https://fingercheck.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "fitbod.me",
+  "server_name": "",
+  "endpoint": "https://fitbod.me/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "fiveable.me",
+  "server_name": "fiveable",
+  "endpoint": "https://fiveable.me/api/mcp/mcp"
+ },
+ {
+  "host": "flexlaw.co",
+  "server_name": "",
+  "endpoint": "https://flexlaw.co/sse"
+ },
+ {
+  "host": "flomoapp.com",
+  "server_name": "",
+  "endpoint": "https://flomoapp.com/mcp"
+ },
+ {
+  "host": "folhavitoria.com.br",
+  "server_name": "",
+  "endpoint": "https://folhavitoria.com.br/v1/mcp"
+ },
+ {
+  "host": "folkd.com",
+  "server_name": "",
+  "endpoint": "https://folkd.com/api/mcp"
+ },
+ {
+  "host": "forevita.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://forevita.co.kr/api/mcp"
+ },
+ {
+  "host": "fragrances.bg",
+  "server_name": "merchantpro",
+  "endpoint": "https://fragrances.bg/mcp"
+ },
+ {
+  "host": "fraudblocker.com",
+  "server_name": "",
+  "endpoint": "https://fraudblocker.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "freee-accounting.mcp.samuraix.ai",
+  "server_name": "",
+  "endpoint": "https://freee-accounting.mcp.samuraix.ai/mcp"
+ },
+ {
+  "host": "friendempire.com",
+  "server_name": "",
+  "endpoint": "https://friendempire.com/wp-json/mcp/novamira-oauth"
+ },
+ {
+  "host": "friendlycaptcha.com",
+  "server_name": "",
+  "endpoint": "https://friendlycaptcha.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "frugalusenet.com",
+  "server_name": "",
+  "endpoint": "https://frugalusenet.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "fullfocus.co",
+  "server_name": "",
+  "endpoint": "https://fullfocus.co/wp-json/easy-mcp-ai/v1/mcp"
+ },
+ {
+  "host": "gaceta.es",
+  "server_name": "",
+  "endpoint": "https://gaceta.es/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "gameboost.com",
+  "server_name": "",
+  "endpoint": "https://gameboost.com/sse"
+ },
+ {
+  "host": "gamer.now",
+  "server_name": "Gamer API MCP gateway",
+  "endpoint": "https://gamer.now/mcp"
+ },
+ {
+  "host": "gamma.decodethis.com",
+  "server_name": "",
+  "endpoint": "https://gamma.decodethis.com/mcp"
+ },
+ {
+  "host": "gastro.org",
+  "server_name": "",
+  "endpoint": "https://gastro.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "geneticliteracyproject.org",
+  "server_name": "",
+  "endpoint": "https://geneticliteracyproject.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "geocod.io",
+  "server_name": "",
+  "endpoint": "https://geocod.io/v1/mcp"
+ },
+ {
+  "host": "getflywheel.com",
+  "server_name": "",
+  "endpoint": "https://getflywheel.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "getjoan.com",
+  "server_name": "",
+  "endpoint": "https://getjoan.com/wp-json/easy-mcp-ai/v1/mcp"
+ },
+ {
+  "host": "getmonroe.com",
+  "server_name": "Monroe Brain",
+  "endpoint": "https://getmonroe.com/mcp"
+ },
+ {
+  "host": "gitgud.io",
+  "server_name": "",
+  "endpoint": "https://gitgud.io/v1/mcp"
+ },
+ {
+  "host": "gogstbill.com",
+  "server_name": "",
+  "endpoint": "https://gogstbill.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "goldbelly.com",
+  "server_name": "Goldbelly MCP Server",
+  "endpoint": "https://goldbelly.com/mcp"
+ },
+ {
+  "host": "gopeople.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://gopeople.co.kr/api/mcp"
+ },
+ {
+  "host": "gracehill.com",
+  "server_name": "",
+  "endpoint": "https://gracehill.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "gracehillvision.com",
+  "server_name": "",
+  "endpoint": "https://gracehillvision.com/mcp"
+ },
+ {
+  "host": "gw.useinsider.com",
+  "server_name": "",
+  "endpoint": "https://gw.useinsider.com/api/mcp"
+ },
+ {
+  "host": "gymbeam.bg",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://gymbeam.bg/mcp"
+ },
+ {
+  "host": "gymbeam.de",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://gymbeam.de/mcp"
+ },
+ {
+  "host": "hapara.com",
+  "server_name": "",
+  "endpoint": "https://hapara.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "happyscribe.com",
+  "server_name": "",
+  "endpoint": "https://happyscribe.com/v1/mcp"
+ },
+ {
+  "host": "hazelcast.com",
+  "server_name": "",
+  "endpoint": "https://hazelcast.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "heights-store.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://heights-store.com/api/mcp"
+ },
+ {
+  "host": "herculeshealth.co.nz",
+  "server_name": "",
+  "endpoint": "https://herculeshealth.co.nz/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "hetras.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://hetras.co.kr/api/mcp"
+ },
+ {
+  "host": "hichee.com",
+  "server_name": "",
+  "endpoint": "https://hichee.com/api/v1/mcp"
+ },
+ {
+  "host": "highthc.shop",
+  "server_name": "",
+  "endpoint": "https://highthc.shop/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "hiiker.app",
+  "server_name": "",
+  "endpoint": "https://hiiker.app/mcp"
+ },
+ {
+  "host": "hiverhq.com",
+  "server_name": "",
+  "endpoint": "https://hiverhq.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "home-mcp.thebwt.com",
+  "server_name": "",
+  "endpoint": "https://home-mcp.thebwt.com"
+ },
+ {
+  "host": "hostex.io",
+  "server_name": "",
+  "endpoint": "https://hostex.io/mcp"
+ },
+ {
+  "host": "hostingb2b.com",
+  "server_name": "",
+  "endpoint": "https://hostingb2b.com/v1/mcp"
+ },
+ {
+  "host": "howoge.de",
+  "server_name": "",
+  "endpoint": "https://howoge.de/mcp"
+ },
+ {
+  "host": "htmlpub.com",
+  "server_name": "",
+  "endpoint": "https://htmlpub.com/mcp"
+ },
+ {
+  "host": "hub.enpass.io",
+  "server_name": "",
+  "endpoint": "https://hub.enpass.io/mcp"
+ },
+ {
+  "host": "hub420.shop",
+  "server_name": "",
+  "endpoint": "https://hub420.shop/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "ignav.com",
+  "server_name": "Ignav",
+  "endpoint": "https://ignav.com/mcp"
+ },
+ {
+  "host": "imagino.com",
+  "server_name": "",
+  "endpoint": "https://imagino.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "impactradius-go.com",
+  "server_name": "",
+  "endpoint": "https://impactradius-go.com/mcp"
+ },
+ {
+  "host": "impreza.host",
+  "server_name": "",
+  "endpoint": "https://impreza.host/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "insidebitcoins.com",
+  "server_name": "",
+  "endpoint": "https://insidebitcoins.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "involve.me",
+  "server_name": "",
+  "endpoint": "https://involve.me/api/mcp"
+ },
+ {
+  "host": "j-meeshop.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://j-meeshop.com/api/mcp"
+ },
+ {
+  "host": "jangsinmall.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://jangsinmall.co.kr/api/mcp"
+ },
+ {
+  "host": "jedfoundation.org",
+  "server_name": "",
+  "endpoint": "https://jedfoundation.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "jeito.nl",
+  "server_name": "",
+  "endpoint": "https://jeito.nl/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "jinshuju.com",
+  "server_name": "",
+  "endpoint": "https://jinshuju.com/mcp"
+ },
+ {
+  "host": "johal.in",
+  "server_name": "",
+  "endpoint": "https://johal.in/mcp"
+ },
+ {
+  "host": "jolsejolse.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://jolsejolse.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "joongangart.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://joongangart.kr/api/mcp"
+ },
+ {
+  "host": "kaldata.com",
+  "server_name": "",
+  "endpoint": "https://kaldata.com/api/mcp"
+ },
+ {
+  "host": "kangkd78910.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://kangkd78910.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "kelsa.io",
+  "server_name": "",
+  "endpoint": "https://kelsa.io/mcp"
+ },
+ {
+  "host": "khafan.net",
+  "server_name": "",
+  "endpoint": "https://khafan.net/mcp"
+ },
+ {
+  "host": "kimootoko.net",
+  "server_name": "",
+  "endpoint": "https://kimootoko.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "kitunghii.ro",
+  "server_name": "",
+  "endpoint": "https://kitunghii.ro/mcp"
+ },
+ {
+  "host": "knackvideos.com",
+  "server_name": "",
+  "endpoint": "https://knackvideos.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "kpopmerch.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://kpopmerch.co.kr/api/mcp"
+ },
+ {
+  "host": "kraess.dk",
+  "server_name": "",
+  "endpoint": "https://kraess.dk/v1/mcp"
+ },
+ {
+  "host": "ksr8569.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://ksr8569.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "leanlabs.com",
+  "server_name": "LeanLabs website agent APIs",
+  "endpoint": "https://leanlabs.com/v1/mcp"
+ },
+ {
+  "host": "leapevent.tech",
+  "server_name": "",
+  "endpoint": "https://leapevent.tech/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "lemonery.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://lemonery.co.kr/api/mcp"
+ },
+ {
+  "host": "leonardo247.com",
+  "server_name": "",
+  "endpoint": "https://leonardo247.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "lessentieldeleco.fr",
+  "server_name": "",
+  "endpoint": "https://lessentieldeleco.fr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "librarything.com",
+  "server_name": "",
+  "endpoint": "https://librarything.com/mcp"
+ },
+ {
+  "host": "libreriamo.it",
+  "server_name": "",
+  "endpoint": "https://libreriamo.it/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "listenlabs.ai",
+  "server_name": "",
+  "endpoint": "https://listenlabs.ai/mcp"
+ },
+ {
+  "host": "litfl.com",
+  "server_name": "",
+  "endpoint": "https://litfl.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "localwp.com",
+  "server_name": "",
+  "endpoint": "https://localwp.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "logo.com",
+  "server_name": "",
+  "endpoint": "https://logo.com/mcp/admin"
+ },
+ {
+  "host": "lyricsraag.com",
+  "server_name": "",
+  "endpoint": "https://lyricsraag.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "machinetranslation.com",
+  "server_name": "MachineTranslation MCP",
+  "endpoint": "https://machinetranslation.com/mcp"
+ },
+ {
+  "host": "magatron-trello-bot-production.up.railway.app",
+  "server_name": "Magatron",
+  "endpoint": "https://magatron-trello-bot-production.up.railway.app/mcp"
+ },
+ {
+  "host": "magatron.online",
+  "server_name": "Magatron",
+  "endpoint": "https://magatron.online/mcp"
+ },
+ {
+  "host": "maja.cloud",
+  "server_name": "",
+  "endpoint": "https://maja.cloud/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "mangastep.com",
+  "server_name": "",
+  "endpoint": "https://mangastep.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "marketb.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://marketb.kr/api/mcp"
+ },
+ {
+  "host": "maximumfun.org",
+  "server_name": "",
+  "endpoint": "https://maximumfun.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "mcp-data.inwink.com",
+  "server_name": "",
+  "endpoint": "https://mcp-data.inwink.com/mcp"
+ },
+ {
+  "host": "mcp-dev.clootrack.com",
+  "server_name": "",
+  "endpoint": "https://mcp-dev.clootrack.com/mcp"
+ },
+ {
+  "host": "mcp-gateway-cira.creditas.com",
+  "server_name": "",
+  "endpoint": "https://mcp-gateway-cira.creditas.com/mcp"
+ },
+ {
+  "host": "mcp-gateway-prod.creditas.com",
+  "server_name": "",
+  "endpoint": "https://mcp-gateway-prod.creditas.com/mcp"
+ },
+ {
+  "host": "mcp-gateway-stg.creditas.com",
+  "server_name": "",
+  "endpoint": "https://mcp-gateway-stg.creditas.com/mcp"
+ },
+ {
+  "host": "mcp-gateway.creditas.io",
+  "server_name": "",
+  "endpoint": "https://mcp-gateway.creditas.io/mcp"
+ },
+ {
+  "host": "mcp-gateway.govradar-services.net",
+  "server_name": "GovRadar MCP Gateway",
+  "endpoint": "https://mcp-gateway.govradar-services.net/mcp"
+ },
+ {
+  "host": "mcp-gateway.net",
+  "server_name": "",
+  "endpoint": "https://mcp-gateway.net/mcp"
+ },
+ {
+  "host": "mcp-policy-engine-mx.dev.data.xepelin.com",
+  "server_name": "",
+  "endpoint": "https://mcp-policy-engine-mx.dev.data.xepelin.com/mcp"
+ },
+ {
+  "host": "mcp-server.15five.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.15five.com/mcp"
+ },
+ {
+  "host": "mcp-server.21st.dev",
+  "server_name": "",
+  "endpoint": "https://mcp-server.21st.dev/api/mcp"
+ },
+ {
+  "host": "mcp-server.appsignal.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.appsignal.com/api/mcp"
+ },
+ {
+  "host": "mcp-server.baltocloud.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.baltocloud.com/mcp"
+ },
+ {
+  "host": "mcp-server.base44-preview.app",
+  "server_name": "",
+  "endpoint": "https://mcp-server.base44-preview.app/mcp/"
+ },
+ {
+  "host": "mcp-server.canto.global",
+  "server_name": "",
+  "endpoint": "https://mcp-server.canto.global/api/mcp"
+ },
+ {
+  "host": "mcp-server.capsulecrm.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.capsulecrm.com/mcp"
+ },
+ {
+  "host": "mcp-server.cartx.cloud",
+  "server_name": "",
+  "endpoint": "https://mcp-server.cartx.cloud/mcp"
+ },
+ {
+  "host": "mcp-server.decodethis.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.decodethis.com/mcp"
+ },
+ {
+  "host": "mcp-server.dovetail.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.dovetail.com/api/mcp"
+ },
+ {
+  "host": "mcp-server.facebookblueprint.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.facebookblueprint.com/mcp"
+ },
+ {
+  "host": "mcp-server.fakturownia.pl",
+  "server_name": "",
+  "endpoint": "https://mcp-server.fakturownia.pl/mcp"
+ },
+ {
+  "host": "mcp-server.fashionunited.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.fashionunited.com/mcp"
+ },
+ {
+  "host": "mcp-server.getoutline.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.getoutline.com/mcp"
+ },
+ {
+  "host": "mcp-server.goacoustic.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.goacoustic.com/mcp"
+ },
+ {
+  "host": "mcp-server.haloservicedesk.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.haloservicedesk.com/api/mcp"
+ },
+ {
+  "host": "mcp-server.impactradius-go.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.impactradius-go.com/mcp"
+ },
+ {
+  "host": "mcp-server.jsj.top",
+  "server_name": "",
+  "endpoint": "https://mcp-server.jsj.top/mcp"
+ },
+ {
+  "host": "mcp-server.kinde.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.kinde.com/mcp"
+ },
+ {
+  "host": "mcp-server.maestroqa.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.maestroqa.com/api/mcp"
+ },
+ {
+  "host": "mcp-server.massive.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.massive.com/mcp"
+ },
+ {
+  "host": "mcp-server.myconvermax.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.myconvermax.com/mcp"
+ },
+ {
+  "host": "mcp-server.newsblur.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.newsblur.com/mcp"
+ },
+ {
+  "host": "mcp-server.octoeverywhere.com",
+  "server_name": "Homeway",
+  "endpoint": "https://mcp-server.octoeverywhere.com/api/mcp"
+ },
+ {
+  "host": "mcp-server.optimalworkshop.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.optimalworkshop.com/mcp"
+ },
+ {
+  "host": "mcp-server.peopleforce.io",
+  "server_name": "PeopleForce MCP",
+  "endpoint": "https://mcp-server.peopleforce.io/mcp"
+ },
+ {
+  "host": "mcp-server.quikly.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.quikly.com/mcp"
+ },
+ {
+  "host": "mcp-server.qwilr.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.qwilr.com/api/mcp"
+ },
+ {
+  "host": "mcp-server.rmmservice.eu",
+  "server_name": "",
+  "endpoint": "https://mcp-server.rmmservice.eu/mcp"
+ },
+ {
+  "host": "mcp-server.supporthost.net",
+  "server_name": "",
+  "endpoint": "https://mcp-server.supporthost.net/mcp"
+ },
+ {
+  "host": "mcp-server.techplanet.today",
+  "server_name": "",
+  "endpoint": "https://mcp-server.techplanet.today/api/mcp"
+ },
+ {
+  "host": "mcp-server.trendemon.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.trendemon.com/mcp"
+ },
+ {
+  "host": "mcp-server.tryretool.com",
+  "server_name": "",
+  "endpoint": "https://mcp-server.tryretool.com/mcp"
+ },
+ {
+  "host": "mcp-server.tsg-hoffenheim.de",
+  "server_name": "",
+  "endpoint": "https://mcp-server.tsg-hoffenheim.de/mcp"
+ },
+ {
+  "host": "mcp-server.vas-hosting.cz",
+  "server_name": "",
+  "endpoint": "https://mcp-server.vas-hosting.cz/mcp"
+ },
+ {
+  "host": "mcp-server.wistia.st",
+  "server_name": "Wistia",
+  "endpoint": "https://mcp-server.wistia.st/mcp"
+ },
+ {
+  "host": "mcp.21st.dev",
+  "server_name": "",
+  "endpoint": "https://mcp.21st.dev/api/mcp"
+ },
+ {
+  "host": "mcp.ada.support",
+  "server_name": "Ada MCP Server",
+  "endpoint": "https://mcp.ada.support/api/mcp"
+ },
+ {
+  "host": "mcp.adform.com",
+  "server_name": "",
+  "endpoint": "https://mcp.adform.com/mcp"
+ },
+ {
+  "host": "mcp.alegra.com",
+  "server_name": "",
+  "endpoint": "https://mcp.alegra.com/"
+ },
+ {
+  "host": "mcp.alertee.app",
+  "server_name": "",
+  "endpoint": "https://mcp.alertee.app/mcp"
+ },
+ {
+  "host": "mcp.alertmedia.com",
+  "server_name": "",
+  "endpoint": "https://mcp.alertmedia.com/api/mcp"
+ },
+ {
+  "host": "mcp.alien.club",
+  "server_name": "",
+  "endpoint": "https://mcp.alien.club/mcp"
+ },
+ {
+  "host": "mcp.apphud.com",
+  "server_name": "",
+  "endpoint": "https://mcp.apphud.com/mcp"
+ },
+ {
+  "host": "mcp.appsignal.com",
+  "server_name": "",
+  "endpoint": "https://mcp.appsignal.com/api/mcp"
+ },
+ {
+  "host": "mcp.astrid.cc",
+  "server_name": "Astrid Tasks MCP",
+  "endpoint": "https://mcp.astrid.cc/mcp"
+ },
+ {
+  "host": "mcp.athom.com",
+  "server_name": "",
+  "endpoint": "https://mcp.athom.com"
+ },
+ {
+  "host": "mcp.bamboostage.com",
+  "server_name": "",
+  "endpoint": "https://mcp.bamboostage.com/api/mcp"
+ },
+ {
+  "host": "mcp.bettermode.com",
+  "server_name": "",
+  "endpoint": "https://mcp.bettermode.com/mcp"
+ },
+ {
+  "host": "mcp.bfl.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.bfl.ai"
+ },
+ {
+  "host": "mcp.billygrace.com",
+  "server_name": "Billy Grace Insights MCP",
+  "endpoint": "https://mcp.billygrace.com"
+ },
+ {
+  "host": "mcp.brafton.com",
+  "server_name": "",
+  "endpoint": "https://mcp.brafton.com"
+ },
+ {
+  "host": "mcp.brainfi.sh",
+  "server_name": "",
+  "endpoint": "https://mcp.brainfi.sh"
+ },
+ {
+  "host": "mcp.brand24.com",
+  "server_name": "",
+  "endpoint": "https://mcp.brand24.com/v1/mcp"
+ },
+ {
+  "host": "mcp.buildin.ai",
+  "server_name": "Buildin MCP",
+  "endpoint": "https://mcp.buildin.ai/message"
+ },
+ {
+  "host": "mcp.buzzfeed.io",
+  "server_name": "",
+  "endpoint": "https://mcp.buzzfeed.io/api/mcp"
+ },
+ {
+  "host": "mcp.caast.tv",
+  "server_name": "",
+  "endpoint": "https://mcp.caast.tv"
+ },
+ {
+  "host": "mcp.caau.online",
+  "server_name": "",
+  "endpoint": "https://mcp.caau.online/api/mcp"
+ },
+ {
+  "host": "mcp.cepr.org",
+  "server_name": "",
+  "endpoint": "https://mcp.cepr.org/mcp"
+ },
+ {
+  "host": "mcp.checkr.com",
+  "server_name": "",
+  "endpoint": "https://mcp.checkr.com"
+ },
+ {
+  "host": "mcp.circle.so",
+  "server_name": "",
+  "endpoint": "https://mcp.circle.so/api/mcp"
+ },
+ {
+  "host": "mcp.clicksign.com",
+  "server_name": "clicksign-mcp",
+  "endpoint": "https://mcp.clicksign.com/mcp/oauth2"
+ },
+ {
+  "host": "mcp.codat.io",
+  "server_name": "",
+  "endpoint": "https://mcp.codat.io"
+ },
+ {
+  "host": "mcp.codehs.com",
+  "server_name": "",
+  "endpoint": "https://mcp.codehs.com/mcp"
+ },
+ {
+  "host": "mcp.cuebiq.com",
+  "server_name": "",
+  "endpoint": "https://mcp.cuebiq.com"
+ },
+ {
+  "host": "mcp.dcap.com",
+  "server_name": "",
+  "endpoint": "https://mcp.dcap.com/api/mcp"
+ },
+ {
+  "host": "mcp.dida365.com",
+  "server_name": "",
+  "endpoint": "https://mcp.dida365.com"
+ },
+ {
+  "host": "mcp.dovetail.com",
+  "server_name": "",
+  "endpoint": "https://mcp.dovetail.com/api/mcp"
+ },
+ {
+  "host": "mcp.dsers.com",
+  "server_name": "DSers MCP Product Import",
+  "endpoint": "https://mcp.dsers.com/dropshipping/mcp"
+ },
+ {
+  "host": "mcp.duel.me",
+  "server_name": "",
+  "endpoint": "https://mcp.duel.me"
+ },
+ {
+  "host": "mcp.edgedrive.com",
+  "server_name": "",
+  "endpoint": "https://mcp.edgedrive.com/s3"
+ },
+ {
+  "host": "mcp.eduverse.com",
+  "server_name": "",
+  "endpoint": "https://mcp.eduverse.com/mcp"
+ },
+ {
+  "host": "mcp.expensify.com",
+  "server_name": "",
+  "endpoint": "https://mcp.expensify.com/api/mcp"
+ },
+ {
+  "host": "mcp.ezeep.com",
+  "server_name": "",
+  "endpoint": "https://mcp.ezeep.com/functions/v1/ezeep-mcp/oauth"
+ },
+ {
+  "host": "mcp.fleks.works",
+  "server_name": "Fleks External Planning API",
+  "endpoint": "https://mcp.fleks.works/mcp"
+ },
+ {
+  "host": "mcp.frsport.com",
+  "server_name": "",
+  "endpoint": "https://mcp.frsport.com"
+ },
+ {
+  "host": "mcp.gensdeconfiance.com",
+  "server_name": "",
+  "endpoint": "https://mcp.gensdeconfiance.com/sse"
+ },
+ {
+  "host": "mcp.get-ryze.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.get-ryze.ai/mcp"
+ },
+ {
+  "host": "mcp.getresponse.com",
+  "server_name": "",
+  "endpoint": "https://mcp.getresponse.com/"
+ },
+ {
+  "host": "mcp.globalstrategic.tech",
+  "server_name": "",
+  "endpoint": "https://mcp.globalstrategic.tech/mcp"
+ },
+ {
+  "host": "mcp.go1.com",
+  "server_name": "Go1 Learning Platform MCP Server",
+  "endpoint": "https://mcp.go1.com/mcp"
+ },
+ {
+  "host": "mcp.habuild.in",
+  "server_name": "",
+  "endpoint": "https://mcp.habuild.in"
+ },
+ {
+  "host": "mcp.haloitsm.com",
+  "server_name": "",
+  "endpoint": "https://mcp.haloitsm.com/api/mcp"
+ },
+ {
+  "host": "mcp.halopsa.com",
+  "server_name": "",
+  "endpoint": "https://mcp.halopsa.com/api/mcp"
+ },
+ {
+  "host": "mcp.haloservicedesk.com",
+  "server_name": "",
+  "endpoint": "https://mcp.haloservicedesk.com/api/mcp"
+ },
+ {
+  "host": "mcp.homeway.io",
+  "server_name": "Homeway",
+  "endpoint": "https://mcp.homeway.io/api/mcp"
+ },
+ {
+  "host": "mcp.idrivee2.com",
+  "server_name": "",
+  "endpoint": "https://mcp.idrivee2.com/s3"
+ },
+ {
+  "host": "mcp.impel.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.impel.ai"
+ },
+ {
+  "host": "mcp.insportline.cz",
+  "server_name": "Insportline E-shop",
+  "endpoint": "https://mcp.insportline.cz"
+ },
+ {
+  "host": "mcp.instrumentl.com",
+  "server_name": "",
+  "endpoint": "https://mcp.instrumentl.com"
+ },
+ {
+  "host": "mcp.interdiscount.ch",
+  "server_name": "",
+  "endpoint": "https://mcp.interdiscount.ch/api/mcp"
+ },
+ {
+  "host": "mcp.jumpseller.com",
+  "server_name": "",
+  "endpoint": "https://mcp.jumpseller.com"
+ },
+ {
+  "host": "mcp.kanna.de",
+  "server_name": "",
+  "endpoint": "https://mcp.kanna.de/mcp"
+ },
+ {
+  "host": "mcp.katanamrp.com",
+  "server_name": "",
+  "endpoint": "https://mcp.katanamrp.com"
+ },
+ {
+  "host": "mcp.klipfolio.com",
+  "server_name": "",
+  "endpoint": "https://mcp.klipfolio.com/api/v1/stream"
+ },
+ {
+  "host": "mcp.klsescreener.com",
+  "server_name": "KLSE Screener MCP",
+  "endpoint": "https://mcp.klsescreener.com/api/mcp"
+ },
+ {
+  "host": "mcp.krexin.com",
+  "server_name": "",
+  "endpoint": "https://mcp.krexin.com/mcp"
+ },
+ {
+  "host": "mcp.krisp.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.krisp.ai/mcp"
+ },
+ {
+  "host": "mcp.mee6.xyz",
+  "server_name": "",
+  "endpoint": "https://mcp.mee6.xyz"
+ },
+ {
+  "host": "mcp.mfitpersonal.com.br",
+  "server_name": "",
+  "endpoint": "https://mcp.mfitpersonal.com.br/mcp"
+ },
+ {
+  "host": "mcp.mindomo.com",
+  "server_name": "Mindomo",
+  "endpoint": "https://mcp.mindomo.com/mcp"
+ },
+ {
+  "host": "mcp.modelml.com",
+  "server_name": "Model ML MCP",
+  "endpoint": "https://mcp.modelml.com/mcp"
+ },
+ {
+  "host": "mcp.monocl.com",
+  "server_name": "",
+  "endpoint": "https://mcp.monocl.com/mcp"
+ },
+ {
+  "host": "mcp.nemu.com.br",
+  "server_name": "",
+  "endpoint": "https://mcp.nemu.com.br"
+ },
+ {
+  "host": "mcp.northwestregisteredagent.com",
+  "server_name": "",
+  "endpoint": "https://mcp.northwestregisteredagent.com"
+ },
+ {
+  "host": "mcp.novu.co",
+  "server_name": "",
+  "endpoint": "https://mcp.novu.co"
+ },
+ {
+  "host": "mcp.ntplat.com",
+  "server_name": "mcp-oauth-server",
+  "endpoint": "https://mcp.ntplat.com/mcp"
+ },
+ {
+  "host": "mcp.observeinc.com",
+  "server_name": "",
+  "endpoint": "https://mcp.observeinc.com/v1/ai/mcp"
+ },
+ {
+  "host": "mcp.octoeverywhere.com",
+  "server_name": "Homeway",
+  "endpoint": "https://mcp.octoeverywhere.com/api/mcp"
+ },
+ {
+  "host": "mcp.oktopost.com",
+  "server_name": "",
+  "endpoint": "https://mcp.oktopost.com"
+ },
+ {
+  "host": "mcp.onepage.io",
+  "server_name": "",
+  "endpoint": "https://mcp.onepage.io"
+ },
+ {
+  "host": "mcp.ontraport.com",
+  "server_name": "",
+  "endpoint": "https://mcp.ontraport.com"
+ },
+ {
+  "host": "mcp.pax8.com",
+  "server_name": "",
+  "endpoint": "https://mcp.pax8.com/v1/mcp"
+ },
+ {
+  "host": "mcp.pelcro.com",
+  "server_name": "Pelcro MCP",
+  "endpoint": "https://mcp.pelcro.com"
+ },
+ {
+  "host": "mcp.personizely.net",
+  "server_name": "",
+  "endpoint": "https://mcp.personizely.net"
+ },
+ {
+  "host": "mcp.pixara.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.pixara.ai/mcp"
+ },
+ {
+  "host": "mcp.privacy.com",
+  "server_name": "Privacy MCP Server",
+  "endpoint": "https://mcp.privacy.com"
+ },
+ {
+  "host": "mcp.prod.glade.ai",
+  "server_name": "Glade MCP Server",
+  "endpoint": "https://mcp.prod.glade.ai/mcp"
+ },
+ {
+  "host": "mcp.prospeo.io",
+  "server_name": "",
+  "endpoint": "https://mcp.prospeo.io"
+ },
+ {
+  "host": "mcp.questrade.com",
+  "server_name": "",
+  "endpoint": "https://mcp.questrade.com/v1/brokerage/mcp"
+ },
+ {
+  "host": "mcp.quiverquant.com",
+  "server_name": "",
+  "endpoint": "https://mcp.quiverquant.com"
+ },
+ {
+  "host": "mcp.reply.io",
+  "server_name": "",
+  "endpoint": "https://mcp.reply.io"
+ },
+ {
+  "host": "mcp.reteno.com",
+  "server_name": "",
+  "endpoint": "https://mcp.reteno.com"
+ },
+ {
+  "host": "mcp.reve.com",
+  "server_name": "",
+  "endpoint": "https://mcp.reve.com/oauth2/sse"
+ },
+ {
+  "host": "mcp.riskspan-support.com",
+  "server_name": "",
+  "endpoint": "https://mcp.riskspan-support.com/mcp"
+ },
+ {
+  "host": "mcp.romain.siit.dev",
+  "server_name": "",
+  "endpoint": "https://mcp.romain.siit.dev/mcp"
+ },
+ {
+  "host": "mcp.roymorgan.com",
+  "server_name": "",
+  "endpoint": "https://mcp.roymorgan.com"
+ },
+ {
+  "host": "mcp.rstr.co",
+  "server_name": "",
+  "endpoint": "https://mcp.rstr.co/mcp"
+ },
+ {
+  "host": "mcp.runware.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.runware.ai"
+ },
+ {
+  "host": "mcp.sartortech.com",
+  "server_name": "",
+  "endpoint": "https://mcp.sartortech.com/v1/mcp"
+ },
+ {
+  "host": "mcp.sellerboard.com",
+  "server_name": "Sellerboard",
+  "endpoint": "https://mcp.sellerboard.com/mcp"
+ },
+ {
+  "host": "mcp.senja.io",
+  "server_name": "",
+  "endpoint": "https://mcp.senja.io"
+ },
+ {
+  "host": "mcp.sketchup.com",
+  "server_name": "",
+  "endpoint": "https://mcp.sketchup.com/v1/mcp"
+ },
+ {
+  "host": "mcp.skilldb.dev",
+  "server_name": "SkillDB",
+  "endpoint": "https://mcp.skilldb.dev/mcp"
+ },
+ {
+  "host": "mcp.skydropx.com",
+  "server_name": "",
+  "endpoint": "https://mcp.skydropx.com"
+ },
+ {
+  "host": "mcp.smarts.bio",
+  "server_name": "smarts.bio",
+  "endpoint": "https://mcp.smarts.bio/mcp"
+ },
+ {
+  "host": "mcp.snap.land",
+  "server_name": "Snapland MCP",
+  "endpoint": "https://mcp.snap.land/mcp"
+ },
+ {
+  "host": "mcp.sparkloop.app",
+  "server_name": "",
+  "endpoint": "https://mcp.sparkloop.app"
+ },
+ {
+  "host": "mcp.spigen.com",
+  "server_name": "",
+  "endpoint": "https://mcp.spigen.com"
+ },
+ {
+  "host": "mcp.stackone.com",
+  "server_name": "",
+  "endpoint": "https://mcp.stackone.com/sse"
+ },
+ {
+  "host": "mcp.supercast.com",
+  "server_name": "",
+  "endpoint": "https://mcp.supercast.com"
+ },
+ {
+  "host": "mcp.syncstack.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.syncstack.ai"
+ },
+ {
+  "host": "mcp.talproindia.com",
+  "server_name": "",
+  "endpoint": "https://mcp.talproindia.com/mcp"
+ },
+ {
+  "host": "mcp.tessie.com",
+  "server_name": "Tessie MCP",
+  "endpoint": "https://mcp.tessie.com"
+ },
+ {
+  "host": "mcp.textmagic.com",
+  "server_name": "",
+  "endpoint": "https://mcp.textmagic.com"
+ },
+ {
+  "host": "mcp.tha.run",
+  "server_name": "",
+  "endpoint": "https://mcp.tha.run/mcp"
+ },
+ {
+  "host": "mcp.theymes.com",
+  "server_name": "",
+  "endpoint": "https://mcp.theymes.com"
+ },
+ {
+  "host": "mcp.together.agency",
+  "server_name": "",
+  "endpoint": "https://mcp.together.agency/mcp"
+ },
+ {
+  "host": "mcp.traveltech.one",
+  "server_name": "",
+  "endpoint": "https://mcp.traveltech.one/mcp"
+ },
+ {
+  "host": "mcp.turso.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.turso.ai/mcp"
+ },
+ {
+  "host": "mcp.unifyr.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.unifyr.ai/mcp"
+ },
+ {
+  "host": "mcp.us1.getmontecarlo.com",
+  "server_name": "",
+  "endpoint": "https://mcp.us1.getmontecarlo.com/mcp"
+ },
+ {
+  "host": "mcp.vercel.sh",
+  "server_name": "Vercel MCP",
+  "endpoint": "https://mcp.vercel.sh"
+ },
+ {
+  "host": "mcp.website-inspector.portal.one",
+  "server_name": "website-inspector",
+  "endpoint": "https://mcp.website-inspector.portal.one/mcp"
+ },
+ {
+  "host": "mcp.wenjuan.com",
+  "server_name": "",
+  "endpoint": "https://mcp.wenjuan.com/"
+ },
+ {
+  "host": "mcp.windowsforum.com",
+  "server_name": "Universal MCP Server",
+  "endpoint": "https://mcp.windowsforum.com"
+ },
+ {
+  "host": "mcp.wingify.ai",
+  "server_name": "",
+  "endpoint": "https://mcp.wingify.ai/mcp"
+ },
+ {
+  "host": "mcp.woobox.com",
+  "server_name": "woobox",
+  "endpoint": "https://mcp.woobox.com"
+ },
+ {
+  "host": "mcp.yespo.io",
+  "server_name": "",
+  "endpoint": "https://mcp.yespo.io"
+ },
+ {
+  "host": "mcp.younium.com",
+  "server_name": "",
+  "endpoint": "https://mcp.younium.com/"
+ },
+ {
+  "host": "mcp.younium.net",
+  "server_name": "",
+  "endpoint": "https://mcp.younium.net/"
+ },
+ {
+  "host": "mcp.ytel.com",
+  "server_name": "",
+  "endpoint": "https://mcp.ytel.com/mcp"
+ },
+ {
+  "host": "mcp.zaptec.com",
+  "server_name": "",
+  "endpoint": "https://mcp.zaptec.com"
+ },
+ {
+  "host": "mcp2.querylab.dev",
+  "server_name": "",
+  "endpoint": "https://mcp2.querylab.dev/mcp"
+ },
+ {
+  "host": "mcphub.royli.dev",
+  "server_name": "",
+  "endpoint": "https://mcphub.royli.dev/mcp"
+ },
+ {
+  "host": "media24.fr",
+  "server_name": "",
+  "endpoint": "https://media24.fr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "merryaround.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://merryaround.co.kr/api/mcp"
+ },
+ {
+  "host": "mfr-mcp.delightfulsky-06abcb55.northeurope.azurecontainerapps.io",
+  "server_name": "mfr\u00ae MCP server",
+  "endpoint": "https://mfr-mcp.delightfulsky-06abcb55.northeurope.azurecontainerapps.io/mcp"
+ },
+ {
+  "host": "militarnyi.com",
+  "server_name": "",
+  "endpoint": "https://militarnyi.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "milled.com",
+  "server_name": "",
+  "endpoint": "https://milled.com/api/mcp"
+ },
+ {
+  "host": "milstenco.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://milstenco.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "mindomo.com",
+  "server_name": "Mindomo",
+  "endpoint": "https://mindomo.com/mcp"
+ },
+ {
+  "host": "mobiltna.com",
+  "server_name": "",
+  "endpoint": "https://mobiltna.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "mockups-design.com",
+  "server_name": "",
+  "endpoint": "https://mockups-design.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "moderndiplomacy.eu",
+  "server_name": "",
+  "endpoint": "https://moderndiplomacy.eu/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "moneyinc.com",
+  "server_name": "",
+  "endpoint": "https://moneyinc.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "mubu.com",
+  "server_name": "",
+  "endpoint": "https://mubu.com/mcp/server"
+ },
+ {
+  "host": "my.jumpapp.com",
+  "server_name": "",
+  "endpoint": "https://my.jumpapp.com/mcp"
+ },
+ {
+  "host": "myflixbd.to",
+  "server_name": "",
+  "endpoint": "https://myflixbd.to/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "neboai.com",
+  "server_name": "",
+  "endpoint": "https://neboai.com/mcp"
+ },
+ {
+  "host": "neboloop.com",
+  "server_name": "",
+  "endpoint": "https://neboloop.com/mcp"
+ },
+ {
+  "host": "nemphosbraue.com",
+  "server_name": "",
+  "endpoint": "https://nemphosbraue.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "netavisengrindsted.dk",
+  "server_name": "",
+  "endpoint": "https://netavisengrindsted.dk/v1/mcp"
+ },
+ {
+  "host": "nexicom.net",
+  "server_name": "",
+  "endpoint": "https://nexicom.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "nextdoor.co.uk",
+  "server_name": "",
+  "endpoint": "https://nextdoor.co.uk/"
+ },
+ {
+  "host": "nicely.asknice.ly",
+  "server_name": "",
+  "endpoint": "https://nicely.asknice.ly/mcp"
+ },
+ {
+  "host": "nifgen.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://nifgen.kr/api/mcp"
+ },
+ {
+  "host": "nonohumble.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://nonohumble.com/api/mcp"
+ },
+ {
+  "host": "notcve.org",
+  "server_name": "",
+  "endpoint": "https://notcve.org/mcp"
+ },
+ {
+  "host": "note.jp",
+  "server_name": "",
+  "endpoint": "https://note.jp/api/mcp"
+ },
+ {
+  "host": "novopsych.com",
+  "server_name": "",
+  "endpoint": "https://novopsych.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "nscstaffing.com",
+  "server_name": "",
+  "endpoint": "https://nscstaffing.com/mcp"
+ },
+ {
+  "host": "oceanstatejoblot.com",
+  "server_name": "",
+  "endpoint": "https://oceanstatejoblot.com/mcp"
+ },
+ {
+  "host": "ochnik.com",
+  "server_name": "",
+  "endpoint": "https://ochnik.com/api/admin/mcp"
+ },
+ {
+  "host": "oehv.at",
+  "server_name": "",
+  "endpoint": "https://oehv.at/mcp"
+ },
+ {
+  "host": "ogerio.com",
+  "server_name": "",
+  "endpoint": "https://ogerio.com/sse"
+ },
+ {
+  "host": "ollocdam.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://ollocdam.com/api/mcp"
+ },
+ {
+  "host": "ooopenlab.cc",
+  "server_name": "ooopenlab",
+  "endpoint": "https://ooopenlab.cc/api/mcp"
+ },
+ {
+  "host": "openhours.co.uk",
+  "server_name": "",
+  "endpoint": "https://openhours.co.uk/mcp"
+ },
+ {
+  "host": "opoint.com",
+  "server_name": "",
+  "endpoint": "https://opoint.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "otsite.com",
+  "server_name": "otsite",
+  "endpoint": "https://otsite.com/mcp"
+ },
+ {
+  "host": "overshoot.footprintnetwork.org",
+  "server_name": "",
+  "endpoint": "https://overshoot.footprintnetwork.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "owncloud.com",
+  "server_name": "",
+  "endpoint": "https://owncloud.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "parabola.io",
+  "server_name": "",
+  "endpoint": "https://parabola.io/api/mcp"
+ },
+ {
+  "host": "partybungbung.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://partybungbung.com/api/mcp"
+ },
+ {
+  "host": "payproglobal.com",
+  "server_name": "",
+  "endpoint": "https://payproglobal.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "pcalm.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://pcalm.co.kr/api/mcp"
+ },
+ {
+  "host": "pelop.gr",
+  "server_name": "",
+  "endpoint": "https://pelop.gr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "pensso.com",
+  "server_name": "",
+  "endpoint": "https://pensso.com/api/mcp"
+ },
+ {
+  "host": "peta.de",
+  "server_name": "",
+  "endpoint": "https://peta.de/sse"
+ },
+ {
+  "host": "pictureserver.net",
+  "server_name": "",
+  "endpoint": "https://pictureserver.net/mcp/beliani-db-schema"
+ },
+ {
+  "host": "pinkheartmovies.xyz",
+  "server_name": "",
+  "endpoint": "https://pinkheartmovies.xyz/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "pipeboard.co",
+  "server_name": "",
+  "endpoint": "https://pipeboard.co/api/mcp"
+ },
+ {
+  "host": "pixeldojo.ai",
+  "server_name": "PixelDojo MCP",
+  "endpoint": "https://pixeldojo.ai/mcp"
+ },
+ {
+  "host": "playable.com",
+  "server_name": "",
+  "endpoint": "https://playable.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "poetsandquants.com",
+  "server_name": "",
+  "endpoint": "https://poetsandquants.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "pokemania.ro",
+  "server_name": "merchantpro",
+  "endpoint": "https://pokemania.ro/mcp"
+ },
+ {
+  "host": "pokemongohub.net",
+  "server_name": "",
+  "endpoint": "https://pokemongohub.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "poprostupycha.com.pl",
+  "server_name": "",
+  "endpoint": "https://poprostupycha.com.pl/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "pornjapanxx.net",
+  "server_name": "",
+  "endpoint": "https://pornjapanxx.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "portail-autoentrepreneur.fr",
+  "server_name": "",
+  "endpoint": "https://portail-autoentrepreneur.fr/mcp"
+ },
+ {
+  "host": "portal.vas-hosting.cz",
+  "server_name": "",
+  "endpoint": "https://portal.vas-hosting.cz/mcp"
+ },
+ {
+  "host": "portugalresident.com",
+  "server_name": "",
+  "endpoint": "https://portugalresident.com/v1/mcp"
+ },
+ {
+  "host": "postgrad.io",
+  "server_name": "PostGrad MCP",
+  "endpoint": "https://postgrad.io/api/mcp"
+ },
+ {
+  "host": "powerdmarc.com",
+  "server_name": "",
+  "endpoint": "https://powerdmarc.com/mcp"
+ },
+ {
+  "host": "pressable.com",
+  "server_name": "",
+  "endpoint": "https://pressable.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "prod-api-elb.sequelvideo.com",
+  "server_name": "",
+  "endpoint": "https://prod-api-elb.sequelvideo.com/api/mcp"
+ },
+ {
+  "host": "prod-mcp.rach.io",
+  "server_name": "",
+  "endpoint": "https://prod-mcp.rach.io/mcp"
+ },
+ {
+  "host": "productivity.com",
+  "server_name": "",
+  "endpoint": "https://productivity.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "pureprescriptions.com",
+  "server_name": "",
+  "endpoint": "https://pureprescriptions.com/v1/mcp"
+ },
+ {
+  "host": "qatarairwaysholidays.com",
+  "server_name": "",
+  "endpoint": "https://qatarairwaysholidays.com/mcp"
+ },
+ {
+  "host": "qombol.com",
+  "server_name": "",
+  "endpoint": "https://qombol.com/v1/mcp"
+ },
+ {
+  "host": "quikly.com",
+  "server_name": "",
+  "endpoint": "https://quikly.com/mcp"
+ },
+ {
+  "host": "quotewise.io",
+  "server_name": "Quotewise.io Quote Server",
+  "endpoint": "https://quotewise.io/mcp"
+ },
+ {
+  "host": "raambekledingnederland.nl",
+  "server_name": "",
+  "endpoint": "https://raambekledingnederland.nl/mcp"
+ },
+ {
+  "host": "racelturn.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://racelturn.co.kr/api/mcp"
+ },
+ {
+  "host": "ragic.com",
+  "server_name": "",
+  "endpoint": "https://ragic.com/api/mcp"
+ },
+ {
+  "host": "razorpay.com",
+  "server_name": "",
+  "endpoint": "https://razorpay.com/mcp"
+ },
+ {
+  "host": "realwave.com",
+  "server_name": "",
+  "endpoint": "https://realwave.com/mcp"
+ },
+ {
+  "host": "reddit.zendesk.com",
+  "server_name": "",
+  "endpoint": "https://reddit.zendesk.com/api/mcp"
+ },
+ {
+  "host": "reddithelp.com",
+  "server_name": "",
+  "endpoint": "https://reddithelp.com/api/mcp"
+ },
+ {
+  "host": "redill.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://redill.co.kr/api/mcp"
+ },
+ {
+  "host": "resolvia.ai",
+  "server_name": "resolvia",
+  "endpoint": "https://resolvia.ai/api/mcp"
+ },
+ {
+  "host": "retreaver.com",
+  "server_name": "",
+  "endpoint": "https://retreaver.com/mcp"
+ },
+ {
+  "host": "revendamais.com.br",
+  "server_name": "",
+  "endpoint": "https://revendamais.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "risepeople.com",
+  "server_name": "",
+  "endpoint": "https://risepeople.com/wp-json/moserver/mcp"
+ },
+ {
+  "host": "romistory.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://romistory.com/api/mcp"
+ },
+ {
+  "host": "runrun.it",
+  "server_name": "",
+  "endpoint": "https://runrun.it/mcp"
+ },
+ {
+  "host": "saitama-city-marathon.jp",
+  "server_name": "",
+  "endpoint": "https://saitama-city-marathon.jp/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "salescrm.ninjavan.co",
+  "server_name": "",
+  "endpoint": "https://salescrm.ninjavan.co/mcp"
+ },
+ {
+  "host": "scalr.io",
+  "server_name": "",
+  "endpoint": "https://scalr.io/mcp"
+ },
+ {
+  "host": "scoutapp.com",
+  "server_name": "",
+  "endpoint": "https://scoutapp.com/mcp"
+ },
+ {
+  "host": "seojuice.com",
+  "server_name": "SEOJuice Intelligence",
+  "endpoint": "https://seojuice.com/mcp"
+ },
+ {
+  "host": "seucondominio.com.br",
+  "server_name": "",
+  "endpoint": "https://seucondominio.com.br/mcp"
+ },
+ {
+  "host": "shelterluv.com",
+  "server_name": "",
+  "endpoint": "https://shelterluv.com/mcp"
+ },
+ {
+  "host": "shiftcare.com",
+  "server_name": "",
+  "endpoint": "https://shiftcare.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "shop.app",
+  "server_name": "shopify-mcp-server",
+  "endpoint": "https://shop.app/mcp"
+ },
+ {
+  "host": "siatka.org",
+  "server_name": "",
+  "endpoint": "https://siatka.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "signagelive.com",
+  "server_name": "",
+  "endpoint": "https://signagelive.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "sitegpt.ai",
+  "server_name": "SiteGPT MCP Server",
+  "endpoint": "https://sitegpt.ai/mcp"
+ },
+ {
+  "host": "sjinn.ai",
+  "server_name": "SJinn",
+  "endpoint": "https://sjinn.ai/mcp"
+ },
+ {
+  "host": "skfo900815.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://skfo900815.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "skillboxes.com",
+  "server_name": "",
+  "endpoint": "https://skillboxes.com/mcp"
+ },
+ {
+  "host": "slantmagazine.com",
+  "server_name": "",
+  "endpoint": "https://slantmagazine.com/api/mcp"
+ },
+ {
+  "host": "sleephq.com",
+  "server_name": "",
+  "endpoint": "https://sleephq.com/api/v1/mcp"
+ },
+ {
+  "host": "slowfood.com",
+  "server_name": "",
+  "endpoint": "https://slowfood.com/v1/mcp"
+ },
+ {
+  "host": "smallman.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://smallman.co.kr/api/mcp"
+ },
+ {
+  "host": "snacknation.com",
+  "server_name": "",
+  "endpoint": "https://snacknation.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "snapto.link",
+  "server_name": "",
+  "endpoint": "https://snapto.link/api/mcp"
+ },
+ {
+  "host": "socialcrosspromo.com",
+  "server_name": "",
+  "endpoint": "https://socialcrosspromo.com/mcp"
+ },
+ {
+  "host": "soolakhi.com",
+  "server_name": "",
+  "endpoint": "https://soolakhi.com/mcp"
+ },
+ {
+  "host": "sooma.com",
+  "server_name": "",
+  "endpoint": "https://sooma.com/en/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "sosinventory.com",
+  "server_name": "",
+  "endpoint": "https://sosinventory.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "sporttiuutiset.fi",
+  "server_name": "",
+  "endpoint": "https://sporttiuutiset.fi/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "squadhelp.com",
+  "server_name": "",
+  "endpoint": "https://squadhelp.com/mcp"
+ },
+ {
+  "host": "sr9008.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://sr9008.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "ssgbio.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://ssgbio.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "staging.mcp.kanban.youcodetech.com",
+  "server_name": "",
+  "endpoint": "https://staging.mcp.kanban.youcodetech.com/mcp"
+ },
+ {
+  "host": "staging.phoenixcloud.io",
+  "server_name": "Phoenix Redshift MCP",
+  "endpoint": "https://staging.phoenixcloud.io/mcp"
+ },
+ {
+  "host": "storeleads.app",
+  "server_name": "",
+  "endpoint": "https://storeleads.app/mcp"
+ },
+ {
+  "host": "stoxray.com",
+  "server_name": "",
+  "endpoint": "https://stoxray.com/mcp"
+ },
+ {
+  "host": "stwaykar.in",
+  "server_name": "",
+  "endpoint": "https://stwaykar.in/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "stylehomme.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://stylehomme.com/api/mcp"
+ },
+ {
+  "host": "styletiba3.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://styletiba3.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "summit-broadband.com",
+  "server_name": "",
+  "endpoint": "https://summit-broadband.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "suncomet.fi",
+  "server_name": "",
+  "endpoint": "https://suncomet.fi/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "supercut.ai",
+  "server_name": "",
+  "endpoint": "https://supercut.ai/"
+ },
+ {
+  "host": "superhq.net",
+  "server_name": "",
+  "endpoint": "https://superhq.net/v1/mcp"
+ },
+ {
+  "host": "syncvet-api.azurewebsites.net",
+  "server_name": "",
+  "endpoint": "https://syncvet-api.azurewebsites.net/mcp"
+ },
+ {
+  "host": "sys.akia.ai",
+  "server_name": "",
+  "endpoint": "https://sys.akia.ai/mcp"
+ },
+ {
+  "host": "tabnine.com",
+  "server_name": "",
+  "endpoint": "https://tabnine.com/api/mcp"
+ },
+ {
+  "host": "taggrs.io",
+  "server_name": "",
+  "endpoint": "https://taggrs.io/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "techreport.com",
+  "server_name": "",
+  "endpoint": "https://techreport.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "tecnobits.com",
+  "server_name": "",
+  "endpoint": "https://tecnobits.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "tecnospeed.com.br",
+  "server_name": "",
+  "endpoint": "https://tecnospeed.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "tekira.co.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://tekira.co.kr/api/mcp"
+ },
+ {
+  "host": "theaviationist.com",
+  "server_name": "",
+  "endpoint": "https://theaviationist.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "thecanary.co",
+  "server_name": "",
+  "endpoint": "https://thecanary.co/mcp"
+ },
+ {
+  "host": "thecountrycook.net",
+  "server_name": "",
+  "endpoint": "https://thecountrycook.net/api/mcp"
+ },
+ {
+  "host": "themepalace.com",
+  "server_name": "",
+  "endpoint": "https://themepalace.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "theminimalists.com",
+  "server_name": "",
+  "endpoint": "https://theminimalists.com/v1/mcp"
+ },
+ {
+  "host": "thenarwhal.ca",
+  "server_name": "",
+  "endpoint": "https://thenarwhal.ca/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "thequantuminsider.com",
+  "server_name": "",
+  "endpoint": "https://thequantuminsider.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "tica.org",
+  "server_name": "",
+  "endpoint": "https://tica.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "tiktokacademy.com",
+  "server_name": "",
+  "endpoint": "https://tiktokacademy.com/mcp"
+ },
+ {
+  "host": "titration.dev",
+  "server_name": "",
+  "endpoint": "https://titration.dev/mcp/v1"
+ },
+ {
+  "host": "tlpzypccrec2a7vttm5m3lmb7u0iyagf.lambda-url.us-east-1.on.aws",
+  "server_name": "utmsimple-mcp",
+  "endpoint": "https://tlpzypccrec2a7vttm5m3lmb7u0iyagf.lambda-url.us-east-1.on.aws"
+ },
+ {
+  "host": "top-rated.online",
+  "server_name": "",
+  "endpoint": "https://top-rated.online/sse"
+ },
+ {
+  "host": "totdop.top",
+  "server_name": "",
+  "endpoint": "https://totdop.top/mcp"
+ },
+ {
+  "host": "trackier.com",
+  "server_name": "",
+  "endpoint": "https://trackier.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "traidmod.com",
+  "server_name": "",
+  "endpoint": "https://traidmod.com/api/mcp"
+ },
+ {
+  "host": "traidmod.net",
+  "server_name": "",
+  "endpoint": "https://traidmod.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "traidsoft.net",
+  "server_name": "",
+  "endpoint": "https://traidsoft.net/mcp"
+ },
+ {
+  "host": "trainingzone.co.uk",
+  "server_name": "",
+  "endpoint": "https://trainingzone.co.uk/wp-json/mcp/novamira-oauth"
+ },
+ {
+  "host": "translifeline.org",
+  "server_name": "",
+  "endpoint": "https://translifeline.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "traumasoft.com",
+  "server_name": "",
+  "endpoint": "https://traumasoft.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "tribuneonlineng.com",
+  "server_name": "",
+  "endpoint": "https://tribuneonlineng.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "trustedparts.com",
+  "server_name": "",
+  "endpoint": "https://trustedparts.com/.mcp"
+ },
+ {
+  "host": "tubepull.com",
+  "server_name": "tubepull",
+  "endpoint": "https://tubepull.com/mcp"
+ },
+ {
+  "host": "understandingwar.org",
+  "server_name": "",
+  "endpoint": "https://understandingwar.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "unnes.ac.id",
+  "server_name": "",
+  "endpoint": "https://unnes.ac.id/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "uptain.de",
+  "server_name": "",
+  "endpoint": "https://uptain.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "us.uzin-utz.com",
+  "server_name": "",
+  "endpoint": "https://us.uzin-utz.com/mcp"
+ },
+ {
+  "host": "usertold.ai",
+  "server_name": "UserTold",
+  "endpoint": "https://usertold.ai/mcp"
+ },
+ {
+  "host": "uzin-utz.com",
+  "server_name": "",
+  "endpoint": "https://uzin-utz.com/mcp"
+ },
+ {
+  "host": "uzin.com",
+  "server_name": "",
+  "endpoint": "https://uzin.com/mcp"
+ },
+ {
+  "host": "vanharen.net",
+  "server_name": "",
+  "endpoint": "https://vanharen.net/sse"
+ },
+ {
+  "host": "vetter.store",
+  "server_name": "merchantpro",
+  "endpoint": "https://vetter.store/mcp"
+ },
+ {
+  "host": "visitcloud.com",
+  "server_name": "",
+  "endpoint": "https://visitcloud.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "vistasocial.com",
+  "server_name": "",
+  "endpoint": "https://vistasocial.com/api/integration/mcp"
+ },
+ {
+  "host": "vivien-mall.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://vivien-mall.com/api/mcp"
+ },
+ {
+  "host": "vlastshop.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://vlastshop.com/api/mcp"
+ },
+ {
+  "host": "web.geosurge.ai",
+  "server_name": "",
+  "endpoint": "https://web.geosurge.ai/_emdash/api/mcp"
+ },
+ {
+  "host": "webedia-group.com",
+  "server_name": "",
+  "endpoint": "https://webedia-group.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "webwiki.de",
+  "server_name": "",
+  "endpoint": "https://webwiki.de/wp-json/mcp/novamira-oauth"
+ },
+ {
+  "host": "wevideo.com",
+  "server_name": "",
+  "endpoint": "https://wevideo.com/mcp"
+ },
+ {
+  "host": "whplanet.com",
+  "server_name": "",
+  "endpoint": "https://whplanet.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "wiggle-wiggle.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://wiggle-wiggle.com/api/mcp"
+ },
+ {
+  "host": "wpbrigade.com",
+  "server_name": "",
+  "endpoint": "https://wpbrigade.com/wpb-api/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www-cdn.involve.me",
+  "server_name": "",
+  "endpoint": "https://www-cdn.involve.me/mcp/statamic"
+ },
+ {
+  "host": "www.10dakot.co.il",
+  "server_name": "",
+  "endpoint": "https://www.10dakot.co.il/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.24metrics.com",
+  "server_name": "",
+  "endpoint": "https://www.24metrics.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.420magazine.com",
+  "server_name": "",
+  "endpoint": "https://www.420magazine.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.aacr.org",
+  "server_name": "",
+  "endpoint": "https://www.aacr.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.abendzeitung-nuernberg.com",
+  "server_name": "",
+  "endpoint": "https://www.abendzeitung-nuernberg.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.acordacidade.com.br",
+  "server_name": "",
+  "endpoint": "https://www.acordacidade.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.acumbamail.com",
+  "server_name": "",
+  "endpoint": "https://www.acumbamail.com/mcp"
+ },
+ {
+  "host": "www.addrevenue.io",
+  "server_name": "",
+  "endpoint": "https://www.addrevenue.io/mcp"
+ },
+ {
+  "host": "www.adquick.com",
+  "server_name": "",
+  "endpoint": "https://www.adquick.com/mcp"
+ },
+ {
+  "host": "www.adsimple.de",
+  "server_name": "",
+  "endpoint": "https://www.adsimple.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.agilitypr.com",
+  "server_name": "",
+  "endpoint": "https://www.agilitypr.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.agrotypos.gr",
+  "server_name": "",
+  "endpoint": "https://www.agrotypos.gr/mcp"
+ },
+ {
+  "host": "www.aident.ai",
+  "server_name": "Aident MCP Server",
+  "endpoint": "https://www.aident.ai/api/mcp"
+ },
+ {
+  "host": "www.airliners.de",
+  "server_name": "",
+  "endpoint": "https://www.airliners.de"
+ },
+ {
+  "host": "www.airportthai.co.th",
+  "server_name": "",
+  "endpoint": "https://www.airportthai.co.th/wp-json/royal-mcp/v1"
+ },
+ {
+  "host": "www.akeyless.io",
+  "server_name": "",
+  "endpoint": "https://www.akeyless.io/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.alphasights.com",
+  "server_name": "",
+  "endpoint": "https://www.alphasights.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ammoland.com",
+  "server_name": "",
+  "endpoint": "https://www.ammoland.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.animalwebaction.com",
+  "server_name": "",
+  "endpoint": "https://www.animalwebaction.com/mcp"
+ },
+ {
+  "host": "www.anotepad.com",
+  "server_name": "",
+  "endpoint": "https://www.anotepad.com/mcp"
+ },
+ {
+  "host": "www.apollotechnical.com",
+  "server_name": "",
+  "endpoint": "https://www.apollotechnical.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.appinn.com",
+  "server_name": "",
+  "endpoint": "https://www.appinn.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.appsumo.com",
+  "server_name": "",
+  "endpoint": "https://www.appsumo.com/mcp"
+ },
+ {
+  "host": "www.aquasec.com",
+  "server_name": "",
+  "endpoint": "https://www.aquasec.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.arvato.com",
+  "server_name": "",
+  "endpoint": "https://www.arvato.com/mcp"
+ },
+ {
+  "host": "www.athlyai.com",
+  "server_name": "",
+  "endpoint": "https://www.athlyai.com/api/mcp"
+ },
+ {
+  "host": "www.atsu.moe",
+  "server_name": "",
+  "endpoint": "https://www.atsu.moe/mcp"
+ },
+ {
+  "host": "www.attomdata.com",
+  "server_name": "",
+  "endpoint": "https://www.attomdata.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.autonocion.com",
+  "server_name": "",
+  "endpoint": "https://www.autonocion.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.autouncle.com",
+  "server_name": "",
+  "endpoint": "https://www.autouncle.com/admin/mcp"
+ },
+ {
+  "host": "www.babyboom.pl",
+  "server_name": "",
+  "endpoint": "https://www.babyboom.pl/mcp"
+ },
+ {
+  "host": "www.backenmachtgluecklich.de",
+  "server_name": "",
+  "endpoint": "https://www.backenmachtgluecklich.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.bakingmon.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.bakingmon.com/api/mcp"
+ },
+ {
+  "host": "www.balpumnews.com",
+  "server_name": "",
+  "endpoint": "https://www.balpumnews.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.betterbaseball.com",
+  "server_name": "",
+  "endpoint": "https://www.betterbaseball.com/mcp"
+ },
+ {
+  "host": "www.biometricupdate.com",
+  "server_name": "",
+  "endpoint": "https://www.biometricupdate.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.blackup.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.blackup.kr/api/mcp"
+ },
+ {
+  "host": "www.bobswatches.com",
+  "server_name": "",
+  "endpoint": "https://www.bobswatches.com/cirkuit/mcp"
+ },
+ {
+  "host": "www.bookfusion.com",
+  "server_name": "",
+  "endpoint": "https://www.bookfusion.com/mcp"
+ },
+ {
+  "host": "www.broadpeak.io",
+  "server_name": "",
+  "endpoint": "https://www.broadpeak.io/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.buf.build",
+  "server_name": "",
+  "endpoint": "https://www.buf.build/mcp"
+ },
+ {
+  "host": "www.bugnet.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.bugnet.kr/api/mcp"
+ },
+ {
+  "host": "www.cafe24.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.cafe24.com/api/mcp"
+ },
+ {
+  "host": "www.cafepedagogique.net",
+  "server_name": "",
+  "endpoint": "https://www.cafepedagogique.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.canalrural.com.br",
+  "server_name": "",
+  "endpoint": "https://www.canalrural.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.cap.org",
+  "server_name": "",
+  "endpoint": "https://www.cap.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.caritas.org",
+  "server_name": "",
+  "endpoint": "https://www.caritas.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.centraldegruposwhats.com.br",
+  "server_name": "",
+  "endpoint": "https://www.centraldegruposwhats.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.challengergray.com",
+  "server_name": "",
+  "endpoint": "https://www.challengergray.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.chordindonesia.com",
+  "server_name": "",
+  "endpoint": "https://www.chordindonesia.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.citimuzik.com",
+  "server_name": "",
+  "endpoint": "https://www.citimuzik.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ciudadredonda.org",
+  "server_name": "",
+  "endpoint": "https://www.ciudadredonda.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.clark.ed.jp",
+  "server_name": "",
+  "endpoint": "https://www.clark.ed.jp/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.cloze.com",
+  "server_name": "",
+  "endpoint": "https://www.cloze.com/mcp"
+ },
+ {
+  "host": "www.codeograph.ai",
+  "server_name": "",
+  "endpoint": "https://www.codeograph.ai/mcp"
+ },
+ {
+  "host": "www.codescombineinnerwear.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.codescombineinnerwear.com/api/mcp"
+ },
+ {
+  "host": "www.comet.com",
+  "server_name": "",
+  "endpoint": "https://www.comet.com/opik/api/v1/mcp"
+ },
+ {
+  "host": "www.condocontrol.com",
+  "server_name": "",
+  "endpoint": "https://www.condocontrol.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.consensus.com",
+  "server_name": "",
+  "endpoint": "https://www.consensus.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.construction.com",
+  "server_name": "",
+  "endpoint": "https://www.construction.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.continum.net",
+  "server_name": "",
+  "endpoint": "https://www.continum.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.cyclable.com",
+  "server_name": "https://www.cyclable.com/ - MCP powered by PrestaShop",
+  "endpoint": "https://www.cyclable.com/mcp"
+ },
+ {
+  "host": "www.d-id.com",
+  "server_name": "",
+  "endpoint": "https://www.d-id.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.dana.com",
+  "server_name": "",
+  "endpoint": "https://www.dana.com/mcp"
+ },
+ {
+  "host": "www.darwin.so",
+  "server_name": "",
+  "endpoint": "https://www.darwin.so/mcp"
+ },
+ {
+  "host": "www.dbsalliance.org",
+  "server_name": "",
+  "endpoint": "https://www.dbsalliance.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.debt.org",
+  "server_name": "",
+  "endpoint": "https://www.debt.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.demodesk.com",
+  "server_name": "",
+  "endpoint": "https://www.demodesk.com/mcp"
+ },
+ {
+  "host": "www.devx.com",
+  "server_name": "",
+  "endpoint": "https://www.devx.com/wp-json/mcp/v1/http"
+ },
+ {
+  "host": "www.diken.com.tr",
+  "server_name": "",
+  "endpoint": "https://www.diken.com.tr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.docketly.com",
+  "server_name": "",
+  "endpoint": "https://www.docketly.com/mcp"
+ },
+ {
+  "host": "www.domains.lk",
+  "server_name": "",
+  "endpoint": "https://www.domains.lk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.driversupport.com",
+  "server_name": "",
+  "endpoint": "https://www.driversupport.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.dust.tt",
+  "server_name": "",
+  "endpoint": "https://www.dust.tt/mcp"
+ },
+ {
+  "host": "www.ecomailapp.cz",
+  "server_name": "",
+  "endpoint": "https://www.ecomailapp.cz/mcp"
+ },
+ {
+  "host": "www.ecuhealth.org",
+  "server_name": "",
+  "endpoint": "https://www.ecuhealth.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.edgecdnplus.com",
+  "server_name": "Hitsteps Analytics MCP",
+  "endpoint": "https://www.edgecdnplus.com/mcp"
+ },
+ {
+  "host": "www.educationconnection.com",
+  "server_name": "",
+  "endpoint": "https://www.educationconnection.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.efax.com",
+  "server_name": "",
+  "endpoint": "https://www.efax.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.entia.systems",
+  "server_name": "ENTIA \u2014 verified business entity intelligence (MCP)",
+  "endpoint": "https://www.entia.systems/mcp"
+ },
+ {
+  "host": "www.esf.org",
+  "server_name": "",
+  "endpoint": "https://www.esf.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.eulerpool.com",
+  "server_name": "",
+  "endpoint": "https://www.eulerpool.com/mcp"
+ },
+ {
+  "host": "www.everestgrp.com",
+  "server_name": "Everest Reports MCP",
+  "endpoint": "https://www.everestgrp.com/wp-json/everest/v1/mcp"
+ },
+ {
+  "host": "www.evomap.ai",
+  "server_name": "",
+  "endpoint": "https://www.evomap.ai/mcp"
+ },
+ {
+  "host": "www.evozen.fr",
+  "server_name": "",
+  "endpoint": "https://www.evozen.fr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.exonet.nl",
+  "server_name": "",
+  "endpoint": "https://www.exonet.nl/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.experityhealth.com",
+  "server_name": "",
+  "endpoint": "https://www.experityhealth.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.expresscomputer.in",
+  "server_name": "",
+  "endpoint": "https://www.expresscomputer.in/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ezhomesearch.com",
+  "server_name": "",
+  "endpoint": "https://www.ezhomesearch.com/mcp"
+ },
+ {
+  "host": "www.famsf.org",
+  "server_name": "",
+  "endpoint": "https://www.famsf.org/mcp/famsf"
+ },
+ {
+  "host": "www.fantasticfiction.com",
+  "server_name": "",
+  "endpoint": "https://www.fantasticfiction.com/mcp"
+ },
+ {
+  "host": "www.farmersalmanac.com",
+  "server_name": "",
+  "endpoint": "https://www.farmersalmanac.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.fashionunited.uk",
+  "server_name": "",
+  "endpoint": "https://www.fashionunited.uk/mcp"
+ },
+ {
+  "host": "www.fathom.video",
+  "server_name": "",
+  "endpoint": "https://www.fathom.video/mcp"
+ },
+ {
+  "host": "www.fdd.org",
+  "server_name": "",
+  "endpoint": "https://www.fdd.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.fellow.app",
+  "server_name": "",
+  "endpoint": "https://www.fellow.app/mcp"
+ },
+ {
+  "host": "www.fgo.ro",
+  "server_name": "FGO-MCP-Connector",
+  "endpoint": "https://www.fgo.ro/ai-api/mcp"
+ },
+ {
+  "host": "www.filmac.com",
+  "server_name": "",
+  "endpoint": "https://www.filmac.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.firstcomm.com",
+  "server_name": "",
+  "endpoint": "https://www.firstcomm.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.fixdapp.com",
+  "server_name": "",
+  "endpoint": "https://www.fixdapp.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.fleetq.net",
+  "server_name": "",
+  "endpoint": "https://www.fleetq.net/mcp"
+ },
+ {
+  "host": "www.folhabv.com.br",
+  "server_name": "",
+  "endpoint": "https://www.folhabv.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.folhavitoria.com.br",
+  "server_name": "",
+  "endpoint": "https://www.folhavitoria.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.foodiecrush.com",
+  "server_name": "",
+  "endpoint": "https://www.foodiecrush.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.forum-militaire.fr",
+  "server_name": "",
+  "endpoint": "https://www.forum-militaire.fr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.franchise.org",
+  "server_name": "",
+  "endpoint": "https://www.franchise.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.fresedvpn.site",
+  "server_name": "",
+  "endpoint": "https://www.fresedvpn.site/mcp"
+ },
+ {
+  "host": "www.frost.com",
+  "server_name": "",
+  "endpoint": "https://www.frost.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.gamblingnews.com",
+  "server_name": "",
+  "endpoint": "https://www.gamblingnews.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.gearheart.com",
+  "server_name": "",
+  "endpoint": "https://www.gearheart.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.geocod.io",
+  "server_name": "",
+  "endpoint": "https://www.geocod.io/mcp/statamic"
+ },
+ {
+  "host": "www.getabstract.com",
+  "server_name": "",
+  "endpoint": "https://www.getabstract.com/mcp"
+ },
+ {
+  "host": "www.getallmylinks.com",
+  "server_name": "",
+  "endpoint": "https://www.getallmylinks.com/mcp"
+ },
+ {
+  "host": "www.getdialer.app",
+  "server_name": "",
+  "endpoint": "https://www.getdialer.app/mcp"
+ },
+ {
+  "host": "www.getdrip.com",
+  "server_name": "",
+  "endpoint": "https://www.getdrip.com/mcp"
+ },
+ {
+  "host": "www.getmonroe.com",
+  "server_name": "Monroe Brain",
+  "endpoint": "https://www.getmonroe.com/mcp"
+ },
+ {
+  "host": "www.giatecscientific.com",
+  "server_name": "",
+  "endpoint": "https://www.giatecscientific.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.gib-solutions.ch",
+  "server_name": "",
+  "endpoint": "https://www.gib-solutions.ch/wp-json/mcp/emcp-tools-server"
+ },
+ {
+  "host": "www.givingtuesday.org",
+  "server_name": "",
+  "endpoint": "https://www.givingtuesday.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.glance.com",
+  "server_name": "Glance MCP (Beta)",
+  "endpoint": "https://www.glance.com/mcp"
+ },
+ {
+  "host": "www.goldbelly.com",
+  "server_name": "Goldbelly MCP Server",
+  "endpoint": "https://www.goldbelly.com/mcp"
+ },
+ {
+  "host": "www.gracehillvision.com",
+  "server_name": "",
+  "endpoint": "https://www.gracehillvision.com/mcp"
+ },
+ {
+  "host": "www.gymbeam.com",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.com/mcp"
+ },
+ {
+  "host": "www.gymbeam.cz",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.cz/mcp"
+ },
+ {
+  "host": "www.gymbeam.gr",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.gr/mcp"
+ },
+ {
+  "host": "www.gymbeam.hr",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.hr/mcp"
+ },
+ {
+  "host": "www.gymbeam.hu",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.hu/mcp"
+ },
+ {
+  "host": "www.gymbeam.it",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.it/mcp"
+ },
+ {
+  "host": "www.gymbeam.pl",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.pl/mcp"
+ },
+ {
+  "host": "www.gymbeam.ro",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.ro/mcp"
+ },
+ {
+  "host": "www.gymbeam.sk",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.sk/mcp"
+ },
+ {
+  "host": "www.gymbeam.ua",
+  "server_name": "gymbeam-mcp",
+  "endpoint": "https://www.gymbeam.ua/mcp"
+ },
+ {
+  "host": "www.handwrytten.com",
+  "server_name": "",
+  "endpoint": "https://www.handwrytten.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.happyfox.com",
+  "server_name": "",
+  "endpoint": "https://www.happyfox.com/_internal/cms-admin/mcp"
+ },
+ {
+  "host": "www.happyscribe.com",
+  "server_name": "",
+  "endpoint": "https://www.happyscribe.com/mcp"
+ },
+ {
+  "host": "www.hercules.app",
+  "server_name": "Hercules App Builder",
+  "endpoint": "https://www.hercules.app/mcp"
+ },
+ {
+  "host": "www.hhaexchange.com",
+  "server_name": "",
+  "endpoint": "https://www.hhaexchange.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.hitsteps.com",
+  "server_name": "Hitsteps Analytics MCP",
+  "endpoint": "https://www.hitsteps.com/mcp"
+ },
+ {
+  "host": "www.hoermann.de",
+  "server_name": "",
+  "endpoint": "https://www.hoermann.de/mcp"
+ },
+ {
+  "host": "www.hostex.io",
+  "server_name": "",
+  "endpoint": "https://www.hostex.io/mcp"
+ },
+ {
+  "host": "www.hostpress.de",
+  "server_name": "",
+  "endpoint": "https://www.hostpress.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.htmlpub.com",
+  "server_name": "",
+  "endpoint": "https://www.htmlpub.com/mcp"
+ },
+ {
+  "host": "www.hwabang.net",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.hwabang.net/api/mcp"
+ },
+ {
+  "host": "www.iacd.net",
+  "server_name": "",
+  "endpoint": "https://www.iacd.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.idera.com",
+  "server_name": "",
+  "endpoint": "https://www.idera.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.idomoo.com",
+  "server_name": "",
+  "endpoint": "https://www.idomoo.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ih8mud.com",
+  "server_name": "",
+  "endpoint": "https://www.ih8mud.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ihmc.us",
+  "server_name": "",
+  "endpoint": "https://www.ihmc.us/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ineedinvoice.com",
+  "server_name": "I Need Invoice",
+  "endpoint": "https://www.ineedinvoice.com/api/mcp"
+ },
+ {
+  "host": "www.inside-digital.de",
+  "server_name": "",
+  "endpoint": "https://www.inside-digital.de/wp-json/bbm-mcp/mcp"
+ },
+ {
+  "host": "www.insuit.net",
+  "server_name": "",
+  "endpoint": "https://www.insuit.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.intelex.com",
+  "server_name": "",
+  "endpoint": "https://www.intelex.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.interviewlm.com",
+  "server_name": "interviewlm",
+  "endpoint": "https://www.interviewlm.com/api/mcp"
+ },
+ {
+  "host": "www.ints.com",
+  "server_name": "",
+  "endpoint": "https://www.ints.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.investireoggi.it",
+  "server_name": "",
+  "endpoint": "https://www.investireoggi.it/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.iorad.com",
+  "server_name": "",
+  "endpoint": "https://www.iorad.com/api/mcp"
+ },
+ {
+  "host": "www.italpassion.fr",
+  "server_name": "",
+  "endpoint": "https://www.italpassion.fr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.iteratehq.com",
+  "server_name": "",
+  "endpoint": "https://www.iteratehq.com/mcp"
+ },
+ {
+  "host": "www.ivisa.com",
+  "server_name": "iVisa",
+  "endpoint": "https://www.ivisa.com/mcp"
+ },
+ {
+  "host": "www.jackpotbetonline.com",
+  "server_name": "",
+  "endpoint": "https://www.jackpotbetonline.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.jinshuju.net",
+  "server_name": "",
+  "endpoint": "https://www.jinshuju.net/mcp"
+ },
+ {
+  "host": "www.johal.in",
+  "server_name": "",
+  "endpoint": "https://www.johal.in/mcp"
+ },
+ {
+  "host": "www.johnhartrealestate.com",
+  "server_name": "",
+  "endpoint": "https://www.johnhartrealestate.com/mcp"
+ },
+ {
+  "host": "www.johor.gov.my",
+  "server_name": "",
+  "endpoint": "https://www.johor.gov.my/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.jolse.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.jolse.com/api/mcp"
+ },
+ {
+  "host": "www.kalanda.net",
+  "server_name": "",
+  "endpoint": "https://www.kalanda.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.kaldata.com",
+  "server_name": "",
+  "endpoint": "https://www.kaldata.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.karnatakacareers.org",
+  "server_name": "",
+  "endpoint": "https://www.karnatakacareers.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.katalon.io",
+  "server_name": "",
+  "endpoint": "https://www.katalon.io/mcp"
+ },
+ {
+  "host": "www.kechuangai.com",
+  "server_name": "Spring MCP Resource Server",
+  "endpoint": "https://www.kechuangai.com/mcp"
+ },
+ {
+  "host": "www.keka.com",
+  "server_name": "",
+  "endpoint": "https://www.keka.com/wp-json/mcp/v1/http"
+ },
+ {
+  "host": "www.kentcdodds.com",
+  "server_name": "KCD MCP server",
+  "endpoint": "https://www.kentcdodds.com/mcp"
+ },
+ {
+  "host": "www.khafan.net",
+  "server_name": "",
+  "endpoint": "https://www.khafan.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.kitware.com",
+  "server_name": "",
+  "endpoint": "https://www.kitware.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.kling.ai",
+  "server_name": "Spring MCP Resource Server",
+  "endpoint": "https://www.kling.ai/mcp"
+ },
+ {
+  "host": "www.klingai.com",
+  "server_name": "Spring MCP Resource Server",
+  "endpoint": "https://www.klingai.com/mcp"
+ },
+ {
+  "host": "www.klinikare.com",
+  "server_name": "klinikare-mcp",
+  "endpoint": "https://www.klinikare.com/mcp"
+ },
+ {
+  "host": "www.klsescreener.com",
+  "server_name": "KLSE Screener MCP",
+  "endpoint": "https://www.klsescreener.com/api/mcp"
+ },
+ {
+  "host": "www.koimoi.com",
+  "server_name": "",
+  "endpoint": "https://www.koimoi.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.koop.cz",
+  "server_name": "Kooperativa",
+  "endpoint": "https://www.koop.cz/api/mcp"
+ },
+ {
+  "host": "www.labrujulaverde.com",
+  "server_name": "",
+  "endpoint": "https://www.labrujulaverde.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.lamapoll.de",
+  "server_name": "",
+  "endpoint": "https://www.lamapoll.de/mcp"
+ },
+ {
+  "host": "www.laneige.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.laneige.com/api/mcp"
+ },
+ {
+  "host": "www.langue-au-chat.fr",
+  "server_name": "",
+  "endpoint": "https://www.langue-au-chat.fr/wp-json/loc-mcp/v1/rpc"
+ },
+ {
+  "host": "www.lapresse.tn",
+  "server_name": "",
+  "endpoint": "https://www.lapresse.tn/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.leadpages.com",
+  "server_name": "",
+  "endpoint": "https://www.leadpages.com/mcp"
+ },
+ {
+  "host": "www.leanlabs.com",
+  "server_name": "leanlabs.com",
+  "endpoint": "https://www.leanlabs.com/mcp"
+ },
+ {
+  "host": "www.legitscript.com",
+  "server_name": "",
+  "endpoint": "https://www.legitscript.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.lensculture.com",
+  "server_name": "",
+  "endpoint": "https://www.lensculture.com/mcp"
+ },
+ {
+  "host": "www.les-transferts.com",
+  "server_name": "",
+  "endpoint": "https://www.les-transferts.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.lodige.com",
+  "server_name": "",
+  "endpoint": "https://www.lodige.com/mcp"
+ },
+ {
+  "host": "www.lpcontent.net",
+  "server_name": "",
+  "endpoint": "https://www.lpcontent.net/mcp"
+ },
+ {
+  "host": "www.lpi.org",
+  "server_name": "",
+  "endpoint": "https://www.lpi.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.lunomeal.com",
+  "server_name": "luno-mcp",
+  "endpoint": "https://www.lunomeal.com/api/mcp"
+ },
+ {
+  "host": "www.mailinator.com",
+  "server_name": "",
+  "endpoint": "https://www.mailinator.com/wp-json/royal-mcp/v1"
+ },
+ {
+  "host": "www.mainstreethost.com",
+  "server_name": "",
+  "endpoint": "https://www.mainstreethost.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.malteskitchen.de",
+  "server_name": "",
+  "endpoint": "https://www.malteskitchen.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.mapify.so",
+  "server_name": "",
+  "endpoint": "https://www.mapify.so/mcp"
+ },
+ {
+  "host": "www.mapquestapi.com",
+  "server_name": "",
+  "endpoint": "https://www.mapquestapi.com/mcp"
+ },
+ {
+  "host": "www.marineinsight.com",
+  "server_name": "",
+  "endpoint": "https://www.marineinsight.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.mbari.org",
+  "server_name": "",
+  "endpoint": "https://www.mbari.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.metatrader.com",
+  "server_name": "",
+  "endpoint": "https://www.metatrader.com/mcp"
+ },
+ {
+  "host": "www.milkroad.com",
+  "server_name": "Milk Road analyst data",
+  "endpoint": "https://www.milkroad.com/api/mcp"
+ },
+ {
+  "host": "www.mindomo.com",
+  "server_name": "Mindomo",
+  "endpoint": "https://www.mindomo.com/mcp"
+ },
+ {
+  "host": "www.mintlify.com",
+  "server_name": "",
+  "endpoint": "https://www.mintlify.com/mcp"
+ },
+ {
+  "host": "www.mirasvit.com",
+  "server_name": "",
+  "endpoint": "https://www.mirasvit.com/agent/mcp"
+ },
+ {
+  "host": "www.mixputaria.com",
+  "server_name": "",
+  "endpoint": "https://www.mixputaria.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.mixvale.com.br",
+  "server_name": "",
+  "endpoint": "https://www.mixvale.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.mlsend.com",
+  "server_name": "",
+  "endpoint": "https://www.mlsend.com/mcp"
+ },
+ {
+  "host": "www.modekoninginmaxima.nl",
+  "server_name": "",
+  "endpoint": "https://www.modekoninginmaxima.nl/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.modrykonik.sk",
+  "server_name": "",
+  "endpoint": "https://www.modrykonik.sk/mcp"
+ },
+ {
+  "host": "www.myconvermax.com",
+  "server_name": "",
+  "endpoint": "https://www.myconvermax.com/mcp"
+ },
+ {
+  "host": "www.mystore.in",
+  "server_name": "",
+  "endpoint": "https://www.mystore.in/api/mcp"
+ },
+ {
+  "host": "www.nametests.com",
+  "server_name": "",
+  "endpoint": "https://www.nametests.com/mcp"
+ },
+ {
+  "host": "www.neboai.com",
+  "server_name": "",
+  "endpoint": "https://www.neboai.com/mcp"
+ },
+ {
+  "host": "www.neboloop.com",
+  "server_name": "",
+  "endpoint": "https://www.neboloop.com/mcp"
+ },
+ {
+  "host": "www.neighborhoodscout.com",
+  "server_name": "",
+  "endpoint": "https://www.neighborhoodscout.com/mcp"
+ },
+ {
+  "host": "www.netavisengrindsted.dk",
+  "server_name": "",
+  "endpoint": "https://www.netavisengrindsted.dk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.nethealth.com",
+  "server_name": "",
+  "endpoint": "https://www.nethealth.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.netsuite.com",
+  "server_name": "",
+  "endpoint": "https://www.netsuite.com/v1/mcp"
+ },
+ {
+  "host": "www.newbook.cloud",
+  "server_name": "",
+  "endpoint": "https://www.newbook.cloud/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.nghs.com",
+  "server_name": "",
+  "endpoint": "https://www.nghs.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ngram.com",
+  "server_name": "ngram MCP",
+  "endpoint": "https://www.ngram.com/mcp"
+ },
+ {
+  "host": "www.nhl-data.dk",
+  "server_name": "",
+  "endpoint": "https://www.nhl-data.dk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ninedegrees.nl",
+  "server_name": "",
+  "endpoint": "https://www.ninedegrees.nl/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.nomadicmatt.com",
+  "server_name": "",
+  "endpoint": "https://www.nomadicmatt.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.nuorder.com",
+  "server_name": "",
+  "endpoint": "https://www.nuorder.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.nws-inc.com",
+  "server_name": "",
+  "endpoint": "https://www.nws-inc.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.octonomy.ai",
+  "server_name": "",
+  "endpoint": "https://www.octonomy.ai/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.odrive.com",
+  "server_name": "",
+  "endpoint": "https://www.odrive.com/mcp"
+ },
+ {
+  "host": "www.oehv.at",
+  "server_name": "",
+  "endpoint": "https://www.oehv.at/mcp"
+ },
+ {
+  "host": "www.ogerio.com",
+  "server_name": "",
+  "endpoint": "https://www.ogerio.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ola.cv",
+  "server_name": "",
+  "endpoint": "https://www.ola.cv/mcp"
+ },
+ {
+  "host": "www.openuser.ai",
+  "server_name": "OpenUser MCP",
+  "endpoint": "https://www.openuser.ai/mcp"
+ },
+ {
+  "host": "www.orbitmedia.com",
+  "server_name": "",
+  "endpoint": "https://www.orbitmedia.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.passionandcar.fr",
+  "server_name": "",
+  "endpoint": "https://www.passionandcar.fr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.peta.de",
+  "server_name": "",
+  "endpoint": "https://www.peta.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.phoenixcloud.io",
+  "server_name": "Phoenix Redshift MCP",
+  "endpoint": "https://www.phoenixcloud.io/mcp"
+ },
+ {
+  "host": "www.pierre.finance",
+  "server_name": "",
+  "endpoint": "https://www.pierre.finance/mcp"
+ },
+ {
+  "host": "www.planradar.com",
+  "server_name": "",
+  "endpoint": "https://www.planradar.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.play3.de",
+  "server_name": "",
+  "endpoint": "https://www.play3.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.podscan.fm",
+  "server_name": "",
+  "endpoint": "https://www.podscan.fm/mcp"
+ },
+ {
+  "host": "www.portugalresident.com",
+  "server_name": "",
+  "endpoint": "https://www.portugalresident.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.postgrad.io",
+  "server_name": "PostGrad MCP",
+  "endpoint": "https://www.postgrad.io/api/mcp"
+ },
+ {
+  "host": "www.predictiveindex.com",
+  "server_name": "",
+  "endpoint": "https://www.predictiveindex.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.protocols.io",
+  "server_name": "Protocols.io App MCP Server",
+  "endpoint": "https://www.protocols.io/mcp"
+ },
+ {
+  "host": "www.pugetsystems.com",
+  "server_name": "",
+  "endpoint": "https://www.pugetsystems.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.purchasely.io",
+  "server_name": "",
+  "endpoint": "https://www.purchasely.io/mcp"
+ },
+ {
+  "host": "www.quandl.com",
+  "server_name": "",
+  "endpoint": "https://www.quandl.com/mcp"
+ },
+ {
+  "host": "www.quikly.com",
+  "server_name": "",
+  "endpoint": "https://www.quikly.com/mcp"
+ },
+ {
+  "host": "www.raambekledingnederland.nl",
+  "server_name": "",
+  "endpoint": "https://www.raambekledingnederland.nl/mcp"
+ },
+ {
+  "host": "www.rb-com.com",
+  "server_name": "",
+  "endpoint": "https://www.rb-com.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.realclimate.org",
+  "server_name": "",
+  "endpoint": "https://www.realclimate.org/index.php/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.rentometer.com",
+  "server_name": "",
+  "endpoint": "https://www.rentometer.com/mcp"
+ },
+ {
+  "host": "www.resmio.com",
+  "server_name": "",
+  "endpoint": "https://www.resmio.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.resonate.com",
+  "server_name": "",
+  "endpoint": "https://www.resonate.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.revid.ai",
+  "server_name": "",
+  "endpoint": "https://www.revid.ai/api/mcp"
+ },
+ {
+  "host": "www.revolutionai.io",
+  "server_name": "",
+  "endpoint": "https://www.revolutionai.io/api/mcp"
+ },
+ {
+  "host": "www.rib-software.com",
+  "server_name": "",
+  "endpoint": "https://www.rib-software.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ririnco.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.ririnco.com/api/mcp"
+ },
+ {
+  "host": "www.ruhrnachrichten.de",
+  "server_name": "",
+  "endpoint": "https://www.ruhrnachrichten.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.runalyze.com",
+  "server_name": "",
+  "endpoint": "https://www.runalyze.com/mcp"
+ },
+ {
+  "host": "www.sastaticket.pk",
+  "server_name": "",
+  "endpoint": "https://www.sastaticket.pk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.saucepan.ai",
+  "server_name": "",
+  "endpoint": "https://www.saucepan.ai/mcp"
+ },
+ {
+  "host": "www.savvycal.com",
+  "server_name": "SavvyCal MCP",
+  "endpoint": "https://www.savvycal.com/mcp"
+ },
+ {
+  "host": "www.searchstax.com",
+  "server_name": "",
+  "endpoint": "https://www.searchstax.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.segger.com",
+  "server_name": "",
+  "endpoint": "https://www.segger.com/mcp"
+ },
+ {
+  "host": "www.sendhey.app",
+  "server_name": "",
+  "endpoint": "https://www.sendhey.app/mcp"
+ },
+ {
+  "host": "www.sendtric.com",
+  "server_name": "",
+  "endpoint": "https://www.sendtric.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.sephora.com",
+  "server_name": "",
+  "endpoint": "https://www.sephora.com/mcp"
+ },
+ {
+  "host": "www.servereye.de",
+  "server_name": "",
+  "endpoint": "https://www.servereye.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.servicefusion.com",
+  "server_name": "",
+  "endpoint": "https://www.servicefusion.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.servicem8.com",
+  "server_name": "",
+  "endpoint": "https://www.servicem8.com/mcp"
+ },
+ {
+  "host": "www.sharkscope.com",
+  "server_name": "",
+  "endpoint": "https://www.sharkscope.com/mcp"
+ },
+ {
+  "host": "www.shelterluv.com",
+  "server_name": "",
+  "endpoint": "https://www.shelterluv.com/mcp"
+ },
+ {
+  "host": "www.sheppardizeos.com",
+  "server_name": "",
+  "endpoint": "https://www.sheppardizeos.com/mcp"
+ },
+ {
+  "host": "www.shluchimexchange.ai",
+  "server_name": "",
+  "endpoint": "https://www.shluchimexchange.ai/api/mcp"
+ },
+ {
+  "host": "www.signaturit.com",
+  "server_name": "",
+  "endpoint": "https://www.signaturit.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.silentpush.com",
+  "server_name": "",
+  "endpoint": "https://www.silentpush.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.slantmagazine.com",
+  "server_name": "",
+  "endpoint": "https://www.slantmagazine.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.slowfood.com",
+  "server_name": "",
+  "endpoint": "https://www.slowfood.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.soapoperanetwork.com",
+  "server_name": "",
+  "endpoint": "https://www.soapoperanetwork.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.softr.io",
+  "server_name": "",
+  "endpoint": "https://www.softr.io/v1/mcp"
+ },
+ {
+  "host": "www.soltice.kr",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.soltice.kr/api/mcp"
+ },
+ {
+  "host": "www.soverin.net",
+  "server_name": "soverin_mcp",
+  "endpoint": "https://www.soverin.net/mcp"
+ },
+ {
+  "host": "www.spectrio.com",
+  "server_name": "",
+  "endpoint": "https://www.spectrio.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.stackct.com",
+  "server_name": "",
+  "endpoint": "https://www.stackct.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.streak.com",
+  "server_name": "Streak MCP Server",
+  "endpoint": "https://www.streak.com/mcp"
+ },
+ {
+  "host": "www.styletiba.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.styletiba.com/api/mcp"
+ },
+ {
+  "host": "www.sulwhasoo.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.sulwhasoo.com/api/mcp"
+ },
+ {
+  "host": "www.superfaktura.sk",
+  "server_name": "",
+  "endpoint": "https://www.superfaktura.sk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.superhq.net",
+  "server_name": "",
+  "endpoint": "https://www.superhq.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.supersaas.com",
+  "server_name": "",
+  "endpoint": "https://www.supersaas.com/mcp"
+ },
+ {
+  "host": "www.supersaas.de",
+  "server_name": "",
+  "endpoint": "https://www.supersaas.de/mcp"
+ },
+ {
+  "host": "www.supersaas.net",
+  "server_name": "",
+  "endpoint": "https://www.supersaas.net/mcp"
+ },
+ {
+  "host": "www.supertutorlc.com",
+  "server_name": "blab-mcp",
+  "endpoint": "https://www.supertutorlc.com/mcp"
+ },
+ {
+  "host": "www.syscom.mx",
+  "server_name": "",
+  "endpoint": "https://www.syscom.mx/api/mcp"
+ },
+ {
+  "host": "www.tablotv.com",
+  "server_name": "",
+  "endpoint": "https://www.tablotv.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.talkable.com",
+  "server_name": "",
+  "endpoint": "https://www.talkable.com/mcp"
+ },
+ {
+  "host": "www.teachtci.com",
+  "server_name": "",
+  "endpoint": "https://www.teachtci.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.techeblog.com",
+  "server_name": "",
+  "endpoint": "https://www.techeblog.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.telematica.at",
+  "server_name": "",
+  "endpoint": "https://www.telematica.at/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.telesign.com",
+  "server_name": "",
+  "endpoint": "https://www.telesign.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.telit.com",
+  "server_name": "",
+  "endpoint": "https://www.telit.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.termometropolitico.it",
+  "server_name": "",
+  "endpoint": "https://www.termometropolitico.it/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.thecanary.co",
+  "server_name": "",
+  "endpoint": "https://www.thecanary.co/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.thecountrycook.net",
+  "server_name": "",
+  "endpoint": "https://www.thecountrycook.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.themanufacturer.com",
+  "server_name": "",
+  "endpoint": "https://www.themanufacturer.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.theminimalists.com",
+  "server_name": "",
+  "endpoint": "https://www.theminimalists.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.therecoveryvillage.com",
+  "server_name": "",
+  "endpoint": "https://www.therecoveryvillage.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.thestudiodirector.com",
+  "server_name": "",
+  "endpoint": "https://www.thestudiodirector.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.thorne.com",
+  "server_name": "",
+  "endpoint": "https://www.thorne.com/mcp"
+ },
+ {
+  "host": "www.ticketpay.de",
+  "server_name": "",
+  "endpoint": "https://www.ticketpay.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.titration.dev",
+  "server_name": "",
+  "endpoint": "https://www.titration.dev/mcp/v1"
+ },
+ {
+  "host": "www.top-rated.online",
+  "server_name": "",
+  "endpoint": "https://www.top-rated.online"
+ },
+ {
+  "host": "www.topendsports.com",
+  "server_name": "",
+  "endpoint": "https://www.topendsports.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.topline.com",
+  "server_name": "",
+  "endpoint": "https://www.topline.com/mcp"
+ },
+ {
+  "host": "www.toysfortots.org",
+  "server_name": "",
+  "endpoint": "https://www.toysfortots.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.trustedparts.com",
+  "server_name": "",
+  "endpoint": "https://www.trustedparts.com/.mcp"
+ },
+ {
+  "host": "www.trustservers.gr",
+  "server_name": "",
+  "endpoint": "https://www.trustservers.gr/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.tveyes.com",
+  "server_name": "",
+  "endpoint": "https://www.tveyes.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.twipemobile.com",
+  "server_name": "",
+  "endpoint": "https://www.twipemobile.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.twitterperlen.de",
+  "server_name": "",
+  "endpoint": "https://www.twitterperlen.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.ug.edu.ec",
+  "server_name": "",
+  "endpoint": "https://www.ug.edu.ec/wp-json/royal-mcp/v1"
+ },
+ {
+  "host": "www.ultraedit.com",
+  "server_name": "",
+  "endpoint": "https://www.ultraedit.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.unhas.ac.id",
+  "server_name": "",
+  "endpoint": "https://www.unhas.ac.id/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.uopeople.edu",
+  "server_name": "",
+  "endpoint": "https://www.uopeople.edu/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.upjs.sk",
+  "server_name": "",
+  "endpoint": "https://www.upjs.sk/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.uptime.com",
+  "server_name": "",
+  "endpoint": "https://www.uptime.com/api/v1/mcp"
+ },
+ {
+  "host": "www.urvann.com",
+  "server_name": "",
+  "endpoint": "https://www.urvann.com/api/mcp"
+ },
+ {
+  "host": "www.uscreen.io",
+  "server_name": "",
+  "endpoint": "https://www.uscreen.io/mcp"
+ },
+ {
+  "host": "www.userinterviews.com",
+  "server_name": "",
+  "endpoint": "https://www.userinterviews.com/mcp"
+ },
+ {
+  "host": "www.usertold.ai",
+  "server_name": "UserTold",
+  "endpoint": "https://www.usertold.ai/mcp"
+ },
+ {
+  "host": "www.vanharen.net",
+  "server_name": "",
+  "endpoint": "https://www.vanharen.net/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.vas-hosting.com",
+  "server_name": "",
+  "endpoint": "https://www.vas-hosting.com/mcp"
+ },
+ {
+  "host": "www.vas-hosting.cz",
+  "server_name": "",
+  "endpoint": "https://www.vas-hosting.cz/mcp"
+ },
+ {
+  "host": "www.visionofhumanity.org",
+  "server_name": "",
+  "endpoint": "https://www.visionofhumanity.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.vvs.de",
+  "server_name": "",
+  "endpoint": "https://www.vvs.de/mcp"
+ },
+ {
+  "host": "www.weareeves.com",
+  "server_name": "",
+  "endpoint": "https://www.weareeves.com/api/mcp"
+ },
+ {
+  "host": "www.webmonkey.com",
+  "server_name": "",
+  "endpoint": "https://www.webmonkey.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.webspace-verkauf.de",
+  "server_name": "",
+  "endpoint": "https://www.webspace-verkauf.de/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.weclapp.com",
+  "server_name": "",
+  "endpoint": "https://www.weclapp.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.westonaprice.org",
+  "server_name": "",
+  "endpoint": "https://www.westonaprice.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.wevideo.com",
+  "server_name": "",
+  "endpoint": "https://www.wevideo.com/mcp"
+ },
+ {
+  "host": "www.wifeed.com.br",
+  "server_name": "",
+  "endpoint": "https://www.wifeed.com.br/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.wochenblitz.com",
+  "server_name": "",
+  "endpoint": "https://www.wochenblitz.com/wp-json/mcp/v1/http"
+ },
+ {
+  "host": "www.worldmonitor.app",
+  "server_name": "worldmonitor",
+  "endpoint": "https://www.worldmonitor.app/mcp"
+ },
+ {
+  "host": "www.xcopter.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://www.xcopter.com/api/mcp"
+ },
+ {
+  "host": "www.xrpl.org",
+  "server_name": "",
+  "endpoint": "https://www.xrpl.org/mcp"
+ },
+ {
+  "host": "www.xxx.xxx",
+  "server_name": "",
+  "endpoint": "https://www.xxx.xxx/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.yesasia.ru",
+  "server_name": "",
+  "endpoint": "https://www.yesasia.ru/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.yvision.kz",
+  "server_name": "Yvision.kz Discovery",
+  "endpoint": "https://www.yvision.kz/api/mcp"
+ },
+ {
+  "host": "www.zinnedproject.org",
+  "server_name": "",
+  "endpoint": "https://www.zinnedproject.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "www.zuora.com",
+  "server_name": "",
+  "endpoint": "https://www.zuora.com/mcp"
+ },
+ {
+  "host": "wyzowl.com",
+  "server_name": "",
+  "endpoint": "https://wyzowl.com/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "xcoptershop.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://xcoptershop.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "xmplaylist.com",
+  "server_name": "XMPlaylist MCP",
+  "endpoint": "https://xmplaylist.com/api/mcp"
+ },
+ {
+  "host": "xobin-mcp-t56bdatuyq-uc.a.run.app",
+  "server_name": "",
+  "endpoint": "https://xobin-mcp-t56bdatuyq-uc.a.run.app/mcp"
+ },
+ {
+  "host": "xvideosincesto.com",
+  "server_name": "",
+  "endpoint": "https://xvideosincesto.com/v1/mcp"
+ },
+ {
+  "host": "yespark.fr",
+  "server_name": "",
+  "endpoint": "https://yespark.fr/mcp"
+ },
+ {
+  "host": "ygselect.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://ygselect.com/api/mcp"
+ },
+ {
+  "host": "yhchoiiishop.cafe24api.com",
+  "server_name": "cafe24-mcp-server",
+  "endpoint": "https://yhchoiiishop.cafe24api.com/api/mcp"
+ },
+ {
+  "host": "zedwap.co",
+  "server_name": "",
+  "endpoint": "https://zedwap.co/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "zentriqsoftware.com",
+  "server_name": "",
+  "endpoint": "https://zentriqsoftware.com/api/mcp"
+ },
+ {
+  "host": "zinnedproject.org",
+  "server_name": "",
+  "endpoint": "https://zinnedproject.org/api/mcp"
+ },
+ {
+  "host": "zooatlanta.org",
+  "server_name": "",
+  "endpoint": "https://zooatlanta.org/wp-json/mcp/mcp-oauth-server"
+ },
+ {
+  "host": "zozothemes.com",
+  "server_name": "",
+  "endpoint": "https://zozothemes.com/wp-json/mcp/mcp-oauth-server"
+ }
+]

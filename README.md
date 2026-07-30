@@ -1,14 +1,12 @@
 # Remote MCP Server Census
 
-**16450 verified** · **11671 OAuth** · **8369 OAuth root domains** · **4691 DCR**
+**13216 verified** · **7874 OAuth** · **4114 OAuth root domains**
 
-Live protocol verification only (MCP `initialize` + RFC 9728/8414).
+Live protocol verification only. Platform auth filtered (Shopify / Cloudflare Access / ReadMe).
 
 ## Files
-- `remote_mcp_servers.csv` / `.json` — full verified set
-- `remote_mcp_oauth.csv` — OAuth-confirmed hosts
-- `remote_mcp_oauth_root_domains.csv` — one host per company root
-- `index.html` · `evidence/` · `scripts/`
+- `remote_mcp_servers.csv` / `.json`
+- `remote_mcp_oauth.csv` · `remote_mcp_oauth_root_domains.csv`
+- `index.html` · `removed_platform_auth.csv`
 
-Latest drain: Tranco 100k–350k apex + PRM + alt-prefix DoH.
-+4065 hosts (+3350 OAuth, 288 non-Shopify quality).
+Latest: brand PRM + path spray + quality probe — +1765 hosts (+1142 OAuth).
