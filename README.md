@@ -15,3 +15,7 @@ Live MCP `initialize` + RFC 9728/8414 verification. No directories, no guesses.
 - `remote_mcp_servers.csv` — full unique set
 - `remote_mcp_oauth.csv` — OAuth-only cut
 - `scripts/` — pipeline
+
+## Root-domain OAuth cut
+
+`remote_mcp_oauth_root_domains.csv` — **2,881** unique root domains from the OAuth set (noise removed, one host per company domain).
