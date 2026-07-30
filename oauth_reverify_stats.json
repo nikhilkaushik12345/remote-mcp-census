@@ -1,0 +1,15 @@
+{
+ "total_checked": 11671,
+ "oauth_ok": 11655,
+ "oauth_weak": 0,
+ "not_oauth": 1,
+ "not_mcp": 11,
+ "dead": 4,
+ "pass_rate": 99.86,
+ "removed_from_census": 15,
+ "census_verified": 16435,
+ "census_oauth": 11655,
+ "census_roots": 8358,
+ "oauth_with_authz": 11513,
+ "oauth_with_prm": 11077
+}
