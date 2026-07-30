@@ -1,17 +1,15 @@
 # Remote MCP Server Census
 
-**16,435 verified** · **11,655 OAuth** · **8,358 OAuth root domains**
+**11,451 verified** · **6,731 OAuth** · **3,494 OAuth root domains**
 
 Live protocol verification only (MCP `initialize` + RFC 9728/8414).
 
-## OAuth re-verification (2026-07-30)
-All 11,671 previously OAuth-confirmed hosts rechecked live.
-- **99.86% pass** (11,655 still OAuth-ok with live PRM/AS)
-- **16 removed** (dead, not MCP-shaped, or OAuth metadata only on non-MCP paths)
-- Artifacts: `remote_mcp_oauth_reverified.csv`, `oauth_reverify_failures.csv`, `oauth_reverify_stats.json`
+## Filtered out (platform auth noise)
+Removed **4,984** hosts whose authorization is **Shopify** (storefront-renderer / customer-account), **Cloudflare Access**, or **ReadMe** (`dash.readme.com` OIDC) — not first-party product OAuth.
+See `removed_platform_auth.csv`.
 
 ## Files
 - `remote_mcp_servers.csv` / `.json` — full verified set
 - `remote_mcp_oauth.csv` — OAuth-confirmed hosts
 - `remote_mcp_oauth_root_domains.csv` — one host per company root
-- `index.html` · `evidence/` · `scripts/`
+- `index.html` · `removed_platform_auth.csv` · `evidence/` · `scripts/`
