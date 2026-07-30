@@ -1,6 +1,6 @@
 # Remote MCP Server Census
 
-**13216 verified** · **7874 OAuth** · **4114 OAuth root domains**
+**13,216 verified** · **7,874 OAuth** · **4,114 OAuth root domains**
 
 Live protocol verification only. Platform auth filtered (Shopify / Cloudflare Access / ReadMe).
 
@@ -9,4 +9,4 @@ Live protocol verification only. Platform auth filtered (Shopify / Cloudflare Ac
 - `remote_mcp_oauth.csv` · `remote_mcp_oauth_root_domains.csv`
 - `index.html` · `removed_platform_auth.csv`
 
-Latest: brand PRM + path spray + quality probe — +1765 hosts (+1142 OAuth).
+Latest quality pass merged brand PRM/path + filtered probes.
