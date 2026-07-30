@@ -1168,6 +1168,22 @@
   "doc_source_page": ""
  },
  {
+  "root_domain": "aident.ai",
+  "host": "aident.ai",
+  "endpoint": "https://aident.ai/api/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "Aident MCP Server",
+  "authorization_endpoint": "https://aident.ai/api/mcp/oauth/authorize",
+  "token_endpoint": "https://aident.ai/api/mcp/oauth/token",
+  "registration_endpoint": "https://aident.ai/api/mcp/oauth/register",
+  "dynamic_client_registration": "True",
+  "scopes": "auth:login,auth:logout,capabilities:read,capabilities:search,capabilities:execute,integrations:read,integrations:connect,playbooks:read,playbooks:create,playbooks:execute,playbooks:manage,templates:read",
+  "issuer": "https://aident.ai",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
   "root_domain": "aiesec-alumni.de",
   "host": "mcp.hq.aiesec-alumni.de",
   "endpoint": "https://mcp.hq.aiesec-alumni.de/mcp",
@@ -1628,6 +1644,22 @@
   "dynamic_client_registration": "True",
   "scopes": "openid,profile,email,offline_access",
   "issuer": "https://tixmltest.mcp.alpha.alien.club/",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
+  "root_domain": "allaboard.eu",
+  "host": "mcp.allaboard.eu",
+  "endpoint": "https://mcp.allaboard.eu/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://mcp.allaboard.eu/authorize",
+  "token_endpoint": "https://mcp.allaboard.eu/token",
+  "registration_endpoint": "https://mcp.allaboard.eu/register",
+  "dynamic_client_registration": "True",
+  "scopes": "",
+  "issuer": "https://mcp.allaboard.eu",
   "confidence": "A_verified_mcp",
   "doc_source_page": ""
  },
@@ -10912,6 +10944,22 @@
   "doc_source_page": ""
  },
  {
+  "root_domain": "drata.com",
+  "host": "mcp.drata.com",
+  "endpoint": "https://mcp.drata.com/mcp/",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://mcp.drata.com/auth0-proxy/authorize",
+  "token_endpoint": "https://drata-prod.us.auth0.com/oauth/token",
+  "registration_endpoint": "https://drata-prod.us.auth0.com/oidc/register",
+  "dynamic_client_registration": "True",
+  "scopes": "openid,profile,email,offline_access,read:controls,read:monitor-test,read:policy,read:assigned-policies,read:risk,read:risk-registers,create:risk,update:risk",
+  "issuer": "https://drata-prod.us.auth0.com/",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
   "root_domain": "dreambound.com",
   "host": "mcp.dreambound.com",
   "endpoint": "https://mcp.dreambound.com/mcp",
@@ -11820,6 +11868,22 @@
   "dynamic_client_registration": "True",
   "scopes": "services:read,services:write,services:delete,billing:read,admin:full",
   "issuer": "https://mcp.elest.io",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
+  "root_domain": "elevenlabs.io",
+  "host": "api.elevenlabs.io",
+  "endpoint": "https://api.elevenlabs.io/v1/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://elevenlabs.io/app/oauth/authorize",
+  "token_endpoint": "https://api.us.elevenlabs.io/v1/oauth/token",
+  "registration_endpoint": "",
+  "dynamic_client_registration": "False",
+  "scopes": "convai_read,convai_write,text_to_speech,speech_history_read",
+  "issuer": "https://api.us.elevenlabs.io",
   "confidence": "A_verified_mcp",
   "doc_source_page": ""
  },
@@ -12940,6 +13004,22 @@
   "dynamic_client_registration": "False",
   "scopes": "admin,ai_agent,openid",
   "issuer": "https://mcp.facebookblueprint.com/oauth2",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
+  "root_domain": "faces.app",
+  "host": "mcp.faces.app",
+  "endpoint": "https://mcp.faces.app/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://mcp.faces.app/oauth/authorize",
+  "token_endpoint": "https://mcp.faces.app/oauth/token",
+  "registration_endpoint": "https://mcp.faces.app/oauth/register",
+  "dynamic_client_registration": "True",
+  "scopes": "profile,email,offline_access",
+  "issuer": "https://mcp.faces.app",
   "confidence": "A_verified_mcp",
   "doc_source_page": ""
  },
@@ -20492,6 +20572,22 @@
   "dynamic_client_registration": "True",
   "scopes": "",
   "issuer": "https://mcp.justpark.com",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
+  "root_domain": "kadoa.com",
+  "host": "mcp.kadoa.com",
+  "endpoint": "https://mcp.kadoa.com/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://mcp.kadoa.com/authorize",
+  "token_endpoint": "https://mcp.kadoa.com/token",
+  "registration_endpoint": "https://mcp.kadoa.com/register",
+  "dynamic_client_registration": "True",
+  "scopes": "",
+  "issuer": "https://mcp.kadoa.com/",
   "confidence": "A_verified_mcp",
   "doc_source_page": ""
  },
@@ -33408,6 +33504,22 @@
   "doc_source_page": ""
  },
  {
+  "root_domain": "rememberthemilk.com",
+  "host": "www.rememberthemilk.com",
+  "endpoint": "https://www.rememberthemilk.com/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://www.rememberthemilk.com/oauth/authorize.rtm",
+  "token_endpoint": "https://www.rememberthemilk.com/oauth/token.rtm",
+  "registration_endpoint": "https://www.rememberthemilk.com/oauth/register.rtm",
+  "dynamic_client_registration": "True",
+  "scopes": "read,write,delete",
+  "issuer": "https://www.rememberthemilk.com",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
   "root_domain": "remote-sandbox.com",
   "host": "mcp.remote-sandbox.com",
   "endpoint": "https://mcp.remote-sandbox.com/mcp",
@@ -38080,6 +38192,22 @@
   "doc_source_page": ""
  },
  {
+  "root_domain": "sportradar.com",
+  "host": "developer.sportradar.com",
+  "endpoint": "https://developer.sportradar.com/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "Sportradar Dev Portal",
+  "authorization_endpoint": "https://dash.readme.com/oidc/auth",
+  "token_endpoint": "https://dash.readme.com/oidc/token",
+  "registration_endpoint": "https://dash.readme.com/oidc/reg",
+  "dynamic_client_registration": "True",
+  "scopes": "openid,offline_access,mcp:read,mcp:write,email,profile",
+  "issuer": "https://dash.readme.com/oidc",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
   "root_domain": "spot.ai",
   "host": "mcp.spot.ai",
   "endpoint": "https://mcp.spot.ai/mcp",
@@ -40190,6 +40318,22 @@
   "issuer": "https://mcp.tavily.com/",
   "confidence": "A_verified_mcp",
   "doc_source_page": "https://docs.tavily.com/documentation/mcp"
+ },
+ {
+  "root_domain": "tavus-preview.io",
+  "host": "mcp.tavus-preview.io",
+  "endpoint": "https://mcp.tavus-preview.io/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "Tavus MCP Server",
+  "authorization_endpoint": "https://mcp.tavus-preview.io/authorize",
+  "token_endpoint": "https://mcp.tavus-preview.io/token",
+  "registration_endpoint": "https://mcp.tavus-preview.io/register",
+  "dynamic_client_registration": "True",
+  "scopes": "tavus,tavus.personas.read,tavus.personas.write,tavus.conversations.read,tavus.conversations.write,tavus.resources.read",
+  "issuer": "https://mcp.tavus-preview.io/",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
  },
  {
   "root_domain": "tax1099.com",
@@ -42720,6 +42864,22 @@
   "doc_source_page": ""
  },
  {
+  "root_domain": "useanvil.com",
+  "host": "mcp.useanvil.com",
+  "endpoint": "https://mcp.useanvil.com",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "Anvil MCP Server",
+  "authorization_endpoint": "https://app.useanvil.com/oauth/authorize",
+  "token_endpoint": "https://app.useanvil.com/oauth/token",
+  "registration_endpoint": "https://mcp.useanvil.com/oauth/register",
+  "dynamic_client_registration": "True",
+  "scopes": "pdf:fill,pdf:generate,cast:write,weld:write,mcp:full,offline_access",
+  "issuer": "https://mcp.useanvil.com",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
+ },
+ {
   "root_domain": "useautumn.com",
   "host": "mcp.useautumn.com",
   "endpoint": "https://mcp.useautumn.com/mcp",
@@ -43102,6 +43262,22 @@
   "issuer": "https://v0.app",
   "confidence": "A_verified_mcp",
   "doc_source_page": "https://linear.app/docs/mcp"
+ },
+ {
+  "root_domain": "v2c.cloud",
+  "host": "v2c.cloud",
+  "endpoint": "https://v2c.cloud/mcp",
+  "auth": "oauth",
+  "oauth_confirmed": "True",
+  "server_name": "",
+  "authorization_endpoint": "https://v2c.cloud/mcp/oauth/authorize",
+  "token_endpoint": "https://v2c.cloud/mcp/oauth/token",
+  "registration_endpoint": "https://v2c.cloud/mcp/oauth/register",
+  "dynamic_client_registration": "True",
+  "scopes": "",
+  "issuer": "https://v2c.cloud/mcp",
+  "confidence": "A_verified_mcp",
+  "doc_source_page": ""
  },
  {
   "root_domain": "vacationtracker.io",
