@@ -1,11 +1,13 @@
 {
- "probed_hosts_total": 38420,
- "kept_servers": 8870,
- "tier_A": 7977,
+ "kept_servers": 8867,
+ "unique_hosts": 8866,
+ "unique_endpoints": 8867,
+ "tier_A": 7974,
  "tier_B": 893,
- "oauth_confirmed": 6048,
- "with_dcr": 4125,
- "public_no_auth": 1232,
+ "oauth_confirmed": 6046,
+ "with_dcr": 4124,
+ "public_no_auth": 1231,
  "bearer_or_apikey": 706,
- "with_doc_citation": 489
+ "with_doc_citation": 488,
+ "probed_hosts_total": 38420
 }
