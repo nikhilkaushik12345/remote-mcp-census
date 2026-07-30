@@ -1,13 +1,11 @@
 {
- "kept_servers": 8867,
- "unique_hosts": 8866,
- "unique_endpoints": 8867,
- "tier_A": 7974,
- "tier_B": 893,
- "oauth_confirmed": 6046,
- "with_dcr": 4124,
- "public_no_auth": 1231,
- "bearer_or_apikey": 706,
- "with_doc_citation": 488,
- "probed_hosts_total": 38420
+ "probed_hosts_total": 70,
+ "kept_servers": 41,
+ "tier_A": 35,
+ "tier_B": 6,
+ "oauth_confirmed": 23,
+ "with_dcr": 20,
+ "public_no_auth": 7,
+ "bearer_or_apikey": 6,
+ "with_doc_citation": 0
 }

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Remote MCP Server Census - OAuth &amp; Auth Verified</title>
+<style>
+ *{box-sizing:border-box}
+ body{background:#07090d;color:#dbe2ea;margin:0;padding:22px;
+   font:14px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+ .mono,code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+ .wrap{max-width:1800px;margin:0 auto}
+ h1{font-size:30px;font-weight:700;letter-spacing:-.4px;margin:0}
+ .sub{color:#94a3b8;font-size:13px;margin:6px 0 0}
+ .muted{color:#64748b}.dim{color:#94a3b8}
+ .card{background:linear-gradient(160deg,#0e131b,#0a0e14);border:1px solid #1b2432;border-radius:12px;padding:16px}
+ .row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between}
+ .grid{display:grid;gap:12px;margin:20px 0}
+ .g6{grid-template-columns:repeat(6,1fr)}
+ .g5{grid-template-columns:repeat(5,1fr)}
+ .g3{grid-template-columns:repeat(3,1fr)}
+ @media(max-width:1200px){.g6{grid-template-columns:repeat(3,1fr)}.g5,.g3{grid-template-columns:1fr 1fr}}
+ @media(max-width:700px){.g6{grid-template-columns:1fr 1fr}.g5,.g3{grid-template-columns:1fr}}
+ .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:#64748b}
+ .big{font-size:29px;font-weight:600;margin-top:4px;line-height:1.1}
+ .sm{font-size:10.5px;color:#64748b;margin-top:4px}
+ .em{color:#5ef2a3}.sky{color:#6fd2f5}.amb{color:#f5d472}.vio{color:#d0a9f5}.cy{color:#67e8f9}
+ table{border-collapse:collapse;width:100%;font-size:11px}
+ th{position:sticky;top:0;background:#0d131c;text-align:left;padding:8px 10px 8px 0;color:#94a3b8;
+   border-bottom:1px solid #1e2937;z-index:2;font-weight:500}
+ td{padding:6px 10px 6px 0;border-bottom:1px solid #141c27;vertical-align:top;word-break:break-word}
+ table{table-layout:fixed}
+ th:nth-child(1),td:nth-child(1){width:38px}
+ th:nth-child(3),td:nth-child(3){width:64px}
+ th:nth-child(4),td:nth-child(4){width:38px}
+ th:nth-child(7),td:nth-child(7){width:42px}
+ th:nth-child(9),td:nth-child(9){width:26%}
+ tbody tr:nth-child(even){background:#0b1017}
+ tbody tr:hover{background:#141d29}
+ .pill{font-size:10px;padding:1px 7px;border-radius:99px;white-space:nowrap;display:inline-block}
+ .oauth{background:#052e1a;color:#5ef2a3;border:1px solid #135c37}
+ .bear{background:#2a220a;color:#f5d472;border:1px solid #5c4a13}
+ .pub{background:#0a2233;color:#6fd2f5;border:1px solid #14506e}
+ .unk{background:#241726;color:#d69bdb;border:1px solid #55265c}
+ .tierA{color:#5ef2a3}.tierB{color:#f5d472}
+ a{color:#7db8ff;text-decoration:none}a:hover{text-decoration:underline}
+ input,select{background:#0a0f16;border:1px solid #1e2937;border-radius:6px;color:#dbe2ea;
+   padding:7px 10px;font-size:11.5px;outline:none;font-family:inherit}
+ input:focus,select:focus{border-color:#135c37}
+ .bar{height:6px;background:#161f2b;border-radius:99px;overflow:hidden}
+ .bar>i{display:block;height:6px;border-radius:99px}
+ .barlbl{display:flex;justify-content:space-between;font-size:10.5px;color:#94a3b8;margin-bottom:3px}
+ .scroll{overflow:auto;max-height:70vh;margin-top:4px}
+ .scroll::-webkit-scrollbar{height:9px;width:9px}
+ .scroll::-webkit-scrollbar-thumb{background:#22303f;border-radius:9px}
+ .ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+ .chk{font-size:11.5px;color:#94a3b8;display:flex;align-items:center;gap:5px}
+ .foot{font-size:11px;color:#64748b;margin:16px 0 30px}
+ .meth{font-size:12px;color:#cbd5e1}.meth b{color:#f1f5f9}
+</style></head><body><div class="wrap">
+
+<div class="row">
+  <div>
+    <h1>Remote MCP Server Census</h1>
+    <p class="sub">Open-web discovery &rarr; <span style="color:#e2e8f0">live protocol verification</span>.
+    No directories, no GitHub, no guessed entries: every row answered an MCP <code>initialize</code> call
+    or published OAuth metadata at probe time.</p>
+  </div>
+  <div class="sm" style="text-align:right">
+    generated 2026-07-30 03:29 UTC<br>
+    probes: 70 hosts contacted
+  </div>
+</div>
+
+<div class="grid g6">
+  <div class="card"><div class="lbl">Verified MCP servers</div>
+      <div class="big em">41</div><div class="sm">tier A + B</div></div>
+  <div class="card"><div class="lbl">OAuth confirmed</div>
+      <div class="big em">23</div><div class="sm">RFC 9728 / 8414 metadata</div></div>
+  <div class="card"><div class="lbl">Dynamic client reg.</div>
+      <div class="big sky">20</div><div class="sm">registration_endpoint present</div></div>
+  <div class="card"><div class="lbl">Public (no auth)</div>
+      <div class="big cy">7</div><div class="sm">initialize succeeded open</div></div>
+  <div class="card"><div class="lbl">Token / API-key gated</div>
+      <div class="big amb">6</div><div class="sm">bearer or unnamed scheme</div></div>
+  <div class="card"><div class="lbl">With doc citation</div>
+      <div class="big vio">0</div><div class="sm">official page evidence</div></div>
+</div>
+
+<div class="card" style="margin-bottom:18px">
+<div class="lbl" style="margin-bottom:10px">How these were found (5 independent channels)</div>
+<div class="grid g5 meth" style="margin:0">
+  <div><b>1. Dorked search</b><br>342 queries across Startpage / Ecosia / Brave: CLI snippets
+  (<code>claude mcp add</code>, <code>mcp-remote</code>), config shapes, endpoint shapes, and <em>loose</em> auth
+  phrasing ("a browser window will open", "connect your account", "approve the connection") &mdash; not just the word oauth.</div>
+  <div><b>2. Official page mining</b><br>1,594 vendor/doc pages fetched and parsed for
+  endpoint URLs plus the sentence around them, kept as citable evidence.</div>
+  <div><b>3. Crawl-corpus census</b><br>urlscan.io queried 67 ways
+  (<code>domain:mcp.*</code>, <code>/mcp</code> paths, 401 pages, oauth URLs) for hostnames seen in the wild.</div>
+  <div><b>4. DNS census</b><br><code>mcp.&lt;domain&gt;</code> resolved over
+  DNS-over-HTTPS for the top 1,000,000 domains on the internet &mdash; 189,530 live hostnames found and screened.</div>
+  <div><b>5. Live verification</b><br>Every candidate got a real MCP
+  <code>initialize</code> POST, then <code>/.well-known/oauth-protected-resource</code> and authorization-server
+  metadata discovery to extract authorize/token/registration endpoints and scopes.</div>
+</div>
+<div class="sm" style="margin-top:12px">
+ <span class="tierA">Tier A</span> = answered MCP protocol or published OAuth metadata for the endpoint &nbsp;&middot;&nbsp;
+ <span class="tierB">Tier B</span> = auth wall with a Bearer challenge, MCP-shaped but not fully confirmable without credentials &nbsp;&middot;&nbsp;
+ hosts behind a generic non-MCP auth wall were dropped, not counted.
+</div>
+</div>
+
+<div class="card" style="margin-bottom:12px">
+  <div class="lbl" style="margin-bottom:12px">Coverage funnel &mdash; how 41 verified servers were distilled from a whole-internet sweep</div>
+  <div style="margin-bottom:9px"><div class="barlbl"><span>Domains DNS-scanned (mcp.&lt;domain&gt;)</span><span class="mono">1,000,000</span></div>
+    <div class="bar"><i style="width:100.00%;background:linear-gradient(90deg,#0e7490,#34d399)"></i></div></div><div style="margin-bottom:9px"><div class="barlbl"><span>Live mcp.* hostnames found</span><span class="mono">189,530</span></div>
+    <div class="bar"><i style="width:18.95%;background:linear-gradient(90deg,#0e7490,#34d399)"></i></div></div><div style="margin-bottom:9px"><div class="barlbl"><span>Hostnames screened for MCP</span><span class="mono">198,308</span></div>
+    <div class="bar"><i style="width:19.83%;background:linear-gradient(90deg,#0e7490,#34d399)"></i></div></div><div style="margin-bottom:9px"><div class="barlbl"><span>Endpoints fully probed</span><span class="mono">37,480</span></div>
+    <div class="bar"><i style="width:3.75%;background:linear-gradient(90deg,#0e7490,#34d399)"></i></div></div><div style="margin-bottom:9px"><div class="barlbl"><span>Verified MCP servers</span><span class="mono">41</span></div>
+    <div class="bar"><i style="width:0.40%;background:linear-gradient(90deg,#0e7490,#34d399)"></i></div></div><div style="margin-bottom:9px"><div class="barlbl"><span>OAuth-confirmed</span><span class="mono">23</span></div>
+    <div class="bar"><i style="width:0.40%;background:linear-gradient(90deg,#0e7490,#34d399)"></i></div></div>
+  <div class="sm" style="margin-top:10px">Log scale would flatter these numbers; bars are linear so the filtering is visible.
+  Every step after "live hostnames" is a live network measurement, not an estimate.</div>
+</div>
+
+<div class="grid g3">
+  <div class="card"><div class="lbl" style="margin-bottom:12px">Auth scheme (verified)</div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>oauth</span><span>23</span></div>
+      <div class="bar"><i style="width:56.1%;background:#34d399"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>none_public</span><span>7</span></div>
+      <div class="bar"><i style="width:17.1%;background:#fbbf24"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>bearer_token</span><span>6</span></div>
+      <div class="bar"><i style="width:14.6%;background:#38bdf8"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>unknown</span><span>5</span></div>
+      <div class="bar"><i style="width:12.2%;background:#c084fc"></i></div></div></div>
+  <div class="card"><div class="lbl" style="margin-bottom:12px">Top TLDs</div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.com</span><span>30</span></div>
+      <div class="bar"><i style="width:73.2%;background:#60a5fa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.io</span><span>4</span></div>
+      <div class="bar"><i style="width:9.8%;background:#60a5fa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.so</span><span>3</span></div>
+      <div class="bar"><i style="width:7.3%;background:#60a5fa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.app</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#60a5fa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.dev</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#60a5fa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.co</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#60a5fa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>.chat</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#60a5fa"></i></div></div></div>
+  <div class="card"><div class="lbl" style="margin-bottom:12px">Top OAuth issuers / auth hosts</div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>dash.readme.com</span><span>5</span></div>
+      <div class="bar"><i style="width:12.2%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>auth.cloud.eu.redocly.com</span><span>2</span></div>
+      <div class="bar"><i style="width:4.9%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>api.tally.so</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>auth.tray.io</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>app.retool.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>developer.retool.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>developers.retool.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>google-workspace.mcp.intercom.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>auth.missiveapp.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>auth.mux.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>backboard.railway.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>api.socket.dev</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>sso.online.tableau.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>staging.google-workspace.mcp.inter</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div><div style="margin-bottom:7px">
+      <div class="barlbl"><code>staging.mcp.intercom.com</span><span>1</span></div>
+      <div class="bar"><i style="width:2.4%;background:#a78bfa"></i></div></div></div>
+</div>
+
+<div class="card">
+ <div class="ctl">
+   <input id="q" placeholder="search host, endpoint, scope, evidence..." class="mono" style="width:330px">
+   <select id="fauth" >
+     <option value="">all auth schemes</option>
+     <option value="oauth">oauth only</option>
+     <option value="bearer_token">bearer token</option>
+     <option value="none_public">public / no auth</option>
+     <option value="auth_required_scheme_unknown">auth, scheme unknown</option>
+   </select>
+   <select id="ftier" >
+     <option value="">all tiers</option><option value="A_verified_mcp">tier A</option><option value="B_probable_mcp">tier B</option>
+   </select>
+   <label class="chk"><input type="checkbox" id="fdcr"> DCR only</label>
+   <label class="chk"><input type="checkbox" id="fdoc"> has doc citation</label>
+   <span id="count" class="sm" style="margin-left:auto"></span>
+ </div>
+ <div class="scroll" id="scroll">
+  <table>
+   <thead><tr>
+     <th>#</th><th>endpoint</th><th>auth</th>
+     <th>tier</th><th>name</th><th>authorize / token</th>
+     <th>DCR</th><th>scopes</th><th>evidence</th>
+   </tr></thead>
+   <tbody id="tb"></tbody>
+  </table>
+ </div>
+</div>
+
+<div class="foot">
+ Downloads: <code>remote_mcp_servers.csv</code> (all verified) &middot;
+ <code>remote_mcp_oauth.csv</code> (OAuth-confirmed only) &middot;
+ <code>remote_mcp_servers.json</code> (full evidence records).
+ Probe artifacts and the reusable scripts live in the workspace.
+</div>
+</div>
+
+<script>
+const DATA = [{"host":"api.nvidia.com","endpoint":"https://api.nvidia.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://api.nvidia.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"api.tally.so","endpoint":"https://api.tally.so/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://api.tally.so/oauth/authorize","token_endpoint":"https://api.tally.so/oauth/token","registration_endpoint":"https://api.tally.so/oauth/register/mcp","dynamic_client_registration":true,"scopes":"mcp","issuer":"https://api.tally.so/mcp","www_authenticate":"Bearer resource_metadata=\"https://api.tally.so/.well-known/oauth-protected-resource/mcp\", scope=\"mcp\"","doc_source_page":"","doc_evidence":""},{"host":"api.tray.io","endpoint":"https://api.tray.io/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"Tray MCP Server","authorization_endpoint":"https://auth.tray.io/server/oauth2/authorize","token_endpoint":"https://auth.tray.io/server/oauth2/token","registration_endpoint":"https://auth.tray.io/server/oauth2/register","dynamic_client_registration":true,"scopes":"mcp:list_tools,mcp:call_tools","issuer":"https://auth.tray.io","www_authenticate":"Bearer error=\"invalid_token\", error_description=\"Missing Authorization header\", scope=\"mcp:list_tools mcp:call_tools\", resource_metadata=\"ht","doc_source_page":"","doc_evidence":""},{"host":"app.retool.com","endpoint":"https://app.retool.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://app.retool.com/auth/oauth2/authorize","token_endpoint":"https://app.retool.com/api/oauth2/token","registration_endpoint":"https://app.retool.com/api/oauth2/register","dynamic_client_registration":true,"scopes":"mcp:read,mcp:write,mcp:admin","issuer":"https://app.retool.com","www_authenticate":"Bearer realm=\"mcp\", resource_metadata=\"https://app.retool.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"developer.booking.com","endpoint":"https://developer.booking.com/api/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":403,"server_name":"","authorization_endpoint":"https://developers.booking.com:443/_mcp/oauth2/auth","token_endpoint":"https://developers.booking.com:443/_mcp/oauth2/token-portal","registration_endpoint":"https://developers.booking.com:443/_mcp/register","dynamic_client_registration":true,"scopes":"openid,profile,email,offline_access","issuer":"https://auth.cloud.eu.redocly.com","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developer.monday.com","endpoint":"https://developer.monday.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":200,"server_name":"monday.com Developer Documentation","authorization_endpoint":"https://dash.readme.com/oidc/auth","token_endpoint":"https://dash.readme.com/oidc/token","registration_endpoint":"https://dash.readme.com/oidc/reg","dynamic_client_registration":true,"scopes":"openid,offline_access,mcp:read,mcp:write,email,profile","issuer":"https://dash.readme.com/oidc","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developer.productboard.com","endpoint":"https://developer.productboard.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":200,"server_name":"Productboard Public API","authorization_endpoint":"https://dash.readme.com/oidc/auth","token_endpoint":"https://dash.readme.com/oidc/token","registration_endpoint":"https://dash.readme.com/oidc/reg","dynamic_client_registration":true,"scopes":"openid,offline_access,mcp:read,mcp:write,email,profile","issuer":"https://dash.readme.com/oidc","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developer.retool.com","endpoint":"https://developer.retool.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://developer.retool.com/auth/oauth2/authorize","token_endpoint":"https://developer.retool.com/api/oauth2/token","registration_endpoint":"https://developer.retool.com/api/oauth2/register","dynamic_client_registration":true,"scopes":"mcp:read,mcp:write,mcp:admin","issuer":"https://developer.retool.com","www_authenticate":"Bearer realm=\"mcp\", resource_metadata=\"https://developer.retool.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"developer.withairbnb.com","endpoint":"https://developer.withairbnb.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://dash.readme.com/oidc/auth","token_endpoint":"https://dash.readme.com/oidc/token","registration_endpoint":"https://dash.readme.com/oidc/reg","dynamic_client_registration":true,"scopes":"openid,offline_access,mcp:read,mcp:write,email,profile","issuer":"https://dash.readme.com/oidc","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.booking.com","endpoint":"https://developers.booking.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":200,"server_name":"MCP server","authorization_endpoint":"https://developers.booking.com/_mcp/oauth2/auth","token_endpoint":"https://developers.booking.com/_mcp/oauth2/token-portal","registration_endpoint":"https://developers.booking.com/_mcp/register","dynamic_client_registration":true,"scopes":"openid,profile,email,offline_access","issuer":"https://auth.cloud.eu.redocly.com","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.heap.io","endpoint":"https://developers.heap.io/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://dash.readme.com/oidc/auth","token_endpoint":"https://dash.readme.com/oidc/token","registration_endpoint":"https://dash.readme.com/oidc/reg","dynamic_client_registration":true,"scopes":"openid,offline_access,mcp:read,mcp:write,email,profile","issuer":"https://dash.readme.com/oidc","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.klaviyo.com","endpoint":"https://developers.klaviyo.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://dash.readme.com/oidc/auth","token_endpoint":"https://dash.readme.com/oidc/token","registration_endpoint":"https://dash.readme.com/oidc/reg","dynamic_client_registration":true,"scopes":"openid,offline_access,mcp:read,mcp:write,email,profile","issuer":"https://dash.readme.com/oidc","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.retool.com","endpoint":"https://developers.retool.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://developers.retool.com/auth/oauth2/authorize","token_endpoint":"https://developers.retool.com/api/oauth2/token","registration_endpoint":"https://developers.retool.com/api/oauth2/register","dynamic_client_registration":true,"scopes":"mcp:read,mcp:write,mcp:admin","issuer":"https://developers.retool.com","www_authenticate":"Bearer realm=\"mcp\", resource_metadata=\"https://developers.retool.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"google-workspace.mcp.intercom.com","endpoint":"https://google-workspace.mcp.intercom.com/sse","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://google-workspace.mcp.intercom.com/authorize","token_endpoint":"https://google-workspace.mcp.intercom.com/token","registration_endpoint":"https://google-workspace.mcp.intercom.com/register","dynamic_client_registration":true,"scopes":"","issuer":"https://google-workspace.mcp.intercom.com","www_authenticate":"Bearer realm=\"OAuth\", error=\"invalid_token\", error_description=\"Missing or invalid access token\"","doc_source_page":"","doc_evidence":""},{"host":"mcp.missiveapp.com","endpoint":"https://mcp.missiveapp.com","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://auth.missiveapp.com/oauth/authorize","token_endpoint":"https://auth.missiveapp.com/oauth/token","registration_endpoint":"https://auth.missiveapp.com/oauth/register","dynamic_client_registration":true,"scopes":"conversations:read,conversations:write,contacts:read,organizations:read,drafts:write,drafts:deliver,calendars:read,calendars:write","issuer":"https://auth.missiveapp.com","www_authenticate":"Bearer realm=\"Missive\", resource_metadata=\"https://mcp.missiveapp.com/.well-known/oauth-protected-resource\", scope=\"conversations:read conve","doc_source_page":"","doc_evidence":""},{"host":"mcp.mux.com","endpoint":"https://mcp.mux.com","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":200,"server_name":"mux","authorization_endpoint":"https://auth.mux.com/oauth2/authorize","token_endpoint":"https://auth.mux.com/oauth2/token","registration_endpoint":"https://auth.mux.com/oauth2/register","dynamic_client_registration":true,"scopes":"email,offline_access,openid,profile","issuer":"https://auth.mux.com","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"mcp.railway.app","endpoint":"https://mcp.railway.app","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://backboard.railway.com/oauth/auth?resource=https%3A%2F%2Fbackboard.railway.com","token_endpoint":"https://backboard.railway.com/oauth/token","registration_endpoint":"https://backboard.railway.com/oauth/register","dynamic_client_registration":true,"scopes":"openid,profile,email,offline_access,workspace:member","issuer":"https://backboard.railway.com","www_authenticate":"Bearer realm=\"mcp\", resource_metadata=\"https://mcp.railway.app/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"mcp.socket.dev","endpoint":"https://mcp.socket.dev/","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":200,"server_name":"socket","authorization_endpoint":"https://api.socket.dev/v1/oauth2/authorize","token_endpoint":"https://api.socket.dev/v1/oauth2/token","registration_endpoint":"https://api.socket.dev/v1/oauth2/register","dynamic_client_registration":true,"scopes":"packages:list,alerts:list,threat-feed:list","issuer":"https://api.socket.dev","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"mcp.tableau.com","endpoint":"https://mcp.tableau.com","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://sso.online.tableau.com/oauth2/authorize","token_endpoint":"https://sso.online.tableau.com/oauth2/token","registration_endpoint":"","dynamic_client_registration":false,"scopes":"tableau:mcp:datasource:read,tableau:mcp:workbook:read,tableau:mcp:view:read,tableau:mcp:view:download,tableau:mcp:pulse:read,tableau:mcp:insight:create,tableau:mcp:content:read,tableau:content:read,tableau:mcp_site_settings:read,tableau:viz_data_service:read,tableau:views:download,tableau:insight_definitions_metrics:read","issuer":"https://sso.online.tableau.com","www_authenticate":"Bearer realm=\"MCP\", resource_metadata=\"https://mcp.tableau.com/.well-known/oauth-protected-resource\", scope=\"tableau:mcp:datasource:read tab","doc_source_page":"","doc_evidence":""},{"host":"staging.google-workspace.mcp.intercom.com","endpoint":"https://staging.google-workspace.mcp.intercom.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://staging.google-workspace.mcp.intercom.com/authorize","token_endpoint":"https://staging.google-workspace.mcp.intercom.com/token","registration_endpoint":"https://staging.google-workspace.mcp.intercom.com/register","dynamic_client_registration":true,"scopes":"","issuer":"https://staging.google-workspace.mcp.intercom.com","www_authenticate":"Bearer realm=\"OAuth\", error=\"invalid_token\", error_description=\"Missing or invalid access token\"","doc_source_page":"","doc_evidence":""},{"host":"staging.mcp.intercom.com","endpoint":"https://staging.mcp.intercom.com/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://staging.mcp.intercom.com/authorize","token_endpoint":"https://staging.mcp.intercom.com/token","registration_endpoint":"https://staging.mcp.intercom.com/register","dynamic_client_registration":true,"scopes":"","issuer":"https://staging.mcp.intercom.com","www_authenticate":"Bearer realm=\"OAuth\", error=\"invalid_token\", error_description=\"Missing or invalid access token\"","doc_source_page":"","doc_evidence":""},{"host":"tally.so","endpoint":"https://tally.so/api/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"mcp","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://api.tally.so/.well-known/oauth-protected-resource/mcp\", scope=\"mcp\"","doc_source_page":"","doc_evidence":""},{"host":"www.huggingface.co","endpoint":"https://www.huggingface.co/v1/mcp","confidence":"A_verified_mcp","auth":"oauth","oauth_confirmed":true,"http_status":401,"server_name":"","authorization_endpoint":"https://huggingface.co/oauth/authorize","token_endpoint":"https://huggingface.co/oauth/token","registration_endpoint":"https://huggingface.co/oauth/register","dynamic_client_registration":true,"scopes":"openid,profile,read-mcp,read-repos,jobs,contribute-repos,inference-api","issuer":"https://huggingface.co","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"api.crisp.chat","endpoint":"https://api.crisp.chat/mcp/","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"crisp-mcp/api","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"app.slack.com","endpoint":"https://app.slack.com/mcp","confidence":"A_verified_mcp","auth":"bearer_token","oauth_confirmed":false,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://app.slack.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"developer.amazon.com","endpoint":"https://developer.amazon.com/mcp","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"DevPortalSearchMCPServer","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developer.box.com","endpoint":"https://developer.box.com/mcp","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"Box Dev Docs","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developer.mixpanel.com","endpoint":"https://developer.mixpanel.com/mcp","confidence":"A_verified_mcp","auth":"unknown","oauth_confirmed":false,"http_status":405,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developer.slack.com","endpoint":"https://developer.slack.com/mcp","confidence":"A_verified_mcp","auth":"bearer_token","oauth_confirmed":false,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://developer.slack.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"developers.databricks.com","endpoint":"https://developers.databricks.com/api/mcp","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"devhub-docs","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.slack.com","endpoint":"https://developers.slack.com/mcp","confidence":"A_verified_mcp","auth":"bearer_token","oauth_confirmed":false,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://developers.slack.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"developers.tally.so","endpoint":"https://developers.tally.so/mcp","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"Tally Developer Docs","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.webflow.com","endpoint":"https://developers.webflow.com/mcp","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"fern-docs-mcp-server","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"www.pinecone.io","endpoint":"https://www.pinecone.io/mcp/","confidence":"A_verified_mcp","auth":"none_public","oauth_confirmed":false,"http_status":200,"server_name":"pinecone-marketing","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"www.slack.com","endpoint":"https://www.slack.com/mcp","confidence":"A_verified_mcp","auth":"bearer_token","oauth_confirmed":false,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://www.slack.com/.well-known/oauth-protected-resource\"","doc_source_page":"","doc_evidence":""},{"host":"api.imgix.com","endpoint":"https://api.imgix.com/mcp","confidence":"B_probable_mcp","auth":"unknown","oauth_confirmed":false,"http_status":400,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"api.split.io","endpoint":"https://api.split.io/mcp","confidence":"B_probable_mcp","auth":"unknown","oauth_confirmed":false,"http_status":405,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"app.freshdesk.com","endpoint":"https://app.freshdesk.com/mcp","confidence":"B_probable_mcp","auth":"bearer_token","oauth_confirmed":false,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer resource_metadata=\"https://app.freshdesk.com/.well-known/oauth-protected-resource/mcp\"","doc_source_page":"","doc_evidence":""},{"host":"bitwarden.com","endpoint":"https://bitwarden.com/mcp","confidence":"B_probable_mcp","auth":"unknown","oauth_confirmed":false,"http_status":405,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"developers.pipedrive.com","endpoint":"https://developers.pipedrive.com/mcp","confidence":"B_probable_mcp","auth":"unknown","oauth_confirmed":false,"http_status":405,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"","doc_source_page":"","doc_evidence":""},{"host":"mcp.akamai.com","endpoint":"https://mcp.akamai.com/mcp/","confidence":"B_probable_mcp","auth":"bearer_token","oauth_confirmed":false,"http_status":401,"server_name":"","authorization_endpoint":"","token_endpoint":"","registration_endpoint":"","dynamic_client_registration":false,"scopes":"","issuer":"","www_authenticate":"Bearer error=\"invalid_request\", error_description=\"Authentication token is required.\"","doc_source_page":"","doc_evidence":""}];
+const pillFor = a => a==='oauth' ? '<span class="pill oauth">oauth</span>'
+  : a==='bearer_token' ? '<span class="pill bear">bearer</span>'
+  : a==='none_public' ? '<span class="pill pub">public</span>'
+  : '<span class="pill unk">'+(a||'?').replace('auth_required_scheme_unknown','auth?')+'</span>';
+const esc = s => (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let view = DATA, shown = 0;
+const tb = document.getElementById('tb'), scroll = document.getElementById('scroll');
+
+function rowHtml(r, i) {
+  const auth = r.authorization_endpoint ? esc(r.authorization_endpoint.slice(0,52)) : '';
+  const tok = r.token_endpoint ? esc(r.token_endpoint.slice(0,52)) : '';
+  const ev = r.doc_evidence ? esc(r.doc_evidence) : esc(r.www_authenticate);
+  const doc = r.doc_source_page ? `<a href="${esc(r.doc_source_page)}" target="_blank" rel="noopener">src</a>` : '';
+  return `<tr>
+    <td class="muted">${i+1}</td>
+    <td class="mono" style="color:#e2e8f0">${esc(r.endpoint)}</td>
+    <td>${pillFor(r.auth)}</td>
+    <td class="${r.confidence==='A_verified_mcp'?'tierA':'tierB'}">${r.confidence==='A_verified_mcp'?'A':'B'}</td>
+    <td class="dim">${esc(r.server_name)}</td>
+    <td class="mono muted">${auth}${tok?'<br>'+tok:''}</td>
+    <td>${r.dynamic_client_registration?'<span class="em">yes</span>':''}</td>
+    <td class="mono muted">${esc((r.scopes||'').slice(0,40))}</td>
+    <td class="muted">${ev} ${doc}</td></tr>`;
+}
+
+function render(reset) {
+  if (reset) { tb.innerHTML=''; shown=0; scroll.scrollTop=0; }
+  const next = view.slice(shown, shown+300);
+  tb.insertAdjacentHTML('beforeend', next.map((r,k)=>rowHtml(r, shown+k)).join(''));
+  shown += next.length;
+  document.getElementById('count').textContent = view.length.toLocaleString()+' servers match \u00b7 showing '+shown.toLocaleString();
+}
+scroll.addEventListener('scroll', () => {
+  if (scroll.scrollTop + scroll.clientHeight > scroll.scrollHeight - 300 && shown < view.length) render(false);
+});
+function applyFilters() {
+  const q = document.getElementById('q').value.toLowerCase().trim();
+  const fa = document.getElementById('fauth').value, ft = document.getElementById('ftier').value;
+  const dcr = document.getElementById('fdcr').checked, doc = document.getElementById('fdoc').checked;
+  view = DATA.filter(r =>
+    (!fa || r.auth===fa) && (!ft || r.confidence===ft) &&
+    (!dcr || r.dynamic_client_registration) && (!doc || r.doc_source_page) &&
+    (!q || (r.endpoint+' '+r.server_name+' '+r.scopes+' '+r.doc_evidence+' '+r.www_authenticate+' '+r.issuer).toLowerCase().includes(q)));
+  render(true);
+}
+['q','fauth','ftier','fdcr','fdoc'].forEach(id =>
+  document.getElementById(id).addEventListener(id==='q'?'input':'change', applyFilters));
+render(true);
+</script>
+</body></html>

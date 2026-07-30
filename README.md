@@ -1,21 +1,16 @@
 # Remote MCP Server Census
 
-**8,867 unique remote MCP servers verified live** · **6,046 OAuth** · **4,124 DCR**
+**41 verified** · **23 OAuth** · **20 DCR**
 
-Every row is a **unique normalized endpoint** (`https://host/path`).
-Unique hosts: 8,866. No duplicate endpoints.
-
-| Tier A | Tier B | Public | Bearer |
-|---:|---:|---:|---:|
-| 7,974 | 893 | 1,231 | 706 |
-
-Live MCP `initialize` + RFC 9728/8414 verification. No directories, no guesses.
+Live MCP initialize + RFC 9728/8414 only.
 
 ## Files
-- `remote_mcp_servers.csv` — full unique set
-- `remote_mcp_oauth.csv` — OAuth-only cut
+- `remote_mcp_servers.csv` — all verified
+- `remote_mcp_oauth.csv` — OAuth confirmed
+- `remote_mcp_oauth_root_domains.csv` — unique company domains (OAuth)
+- `index.html` — report
+- `evidence/` — raw probes
 - `scripts/` — pipeline
 
-## Root-domain OAuth cut
-
-`remote_mcp_oauth_root_domains.csv` — **2,881** unique root domains from the OAuth set (noise removed, one host per company domain).
+## Channels
+Search · docs · urlscan · Tranco DNS · Chaos PD · brand matrix · HN · **Method Z (PRM spray + apex /mcp)** · live probe
