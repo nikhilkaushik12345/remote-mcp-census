@@ -1,11 +1,12 @@
 {
- "probed_hosts_total": 70,
- "kept_servers": 41,
- "tier_A": 35,
- "tier_B": 6,
- "oauth_confirmed": 23,
- "with_dcr": 20,
- "public_no_auth": 7,
- "bearer_or_apikey": 6,
- "with_doc_citation": 0
+ "probed_hosts_total": 38490,
+ "kept_servers": 8907,
+ "tier_A": 8008,
+ "tier_B": 899,
+ "oauth_confirmed": 6068,
+ "with_dcr": 4144,
+ "public_no_auth": 1238,
+ "bearer_or_apikey": 717,
+ "with_doc_citation": 488,
+ "method_z_new_hosts": 41
 }
